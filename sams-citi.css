@@ -2251,13 +2251,13 @@ footer .footer-container p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #page-top:not(.single-post) .featured-category .column-view-item > .post {
     height: 100% !important;
   }
 }
 
-@media (min-width: 752px) and (max-width: 768px) {
+@media (min-width: 752px) and (max-width: 992px) {
   #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-wrapper {
     margin-bottom: 0;
     border-right: 1px solid #002E72;

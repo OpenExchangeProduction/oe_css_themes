@@ -2235,11 +2235,11 @@ footer {
 }
 
 #page-top:not(.single-post) .featured-category .column-view-item > .post {
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     height: 100% !important;
   }
 
-  @media (min-width: 752px) and (max-width: 768px) {
+  @media (min-width: 752px) and (max-width: 992px) {
     .thumb-wrapper {
       margin-bottom: 0;
       border-right: 1px solid #002E72;
