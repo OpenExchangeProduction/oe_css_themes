@@ -2228,7 +2228,20 @@ footer {
 }
 
 #page-top:not(.single-post) .featured-category .column-view-item > .post {
-  height: 100% !important;
+  @media (min-width: 768px) {
+    height: 100% !important;
+  }
+
+  @media (min-width: 752px) and (max-width: 768px) {
+    .thumb-wrapper {
+      margin-bottom: 0;
+      border-right: 1px solid #002E72;
+    }
+    
+    .thumb-meta-wrapper {
+      margin: auto 0;
+    }
+  }
 
   .thumb-meta-wrapper {
     height: 100% !important;

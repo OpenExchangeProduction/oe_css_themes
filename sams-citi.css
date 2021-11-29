@@ -2244,8 +2244,20 @@ footer .footer-container p {
   }
 }
 
-#page-top:not(.single-post) .featured-category .column-view-item > .post {
-  height: 100% !important;
+@media (min-width: 768px) {
+  #page-top:not(.single-post) .featured-category .column-view-item > .post {
+    height: 100% !important;
+  }
+}
+
+@media (min-width: 752px) and (max-width: 768px) {
+  #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-wrapper {
+    margin-bottom: 0;
+    border-right: 1px solid #002E72;
+  }
+  #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper {
+    margin: auto 0;
+  }
 }
 
 #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper {
