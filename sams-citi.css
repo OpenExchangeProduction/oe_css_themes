@@ -781,6 +781,10 @@ html {
   opacity: 1;
 }
 
+#page-top .featured-category .featured-category-path:hover {
+  background-color: var(--header-button-hover);
+}
+
 #page-top .featured-category .showcase-description {
   display: none !important;
 }

@@ -892,6 +892,10 @@ html {
 
     .featured-category-path {
       @include button;
+
+      &:hover {
+        background-color: var(--header-button-hover);
+      }
     }
 
     .showcase-description {
