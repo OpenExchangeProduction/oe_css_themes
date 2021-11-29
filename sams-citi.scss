@@ -82,7 +82,7 @@
   background-color: $background-color;
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -1062,6 +1062,7 @@ html {
 
                 &:hover {
                   padding: .6rem 3rem .6rem 1rem;
+                  background-color: var(--header-button-hover);
                 }
               }
             }
@@ -1284,6 +1285,7 @@ html {
 
                     &:hover {
                       padding: .6rem 3rem .6rem 1rem;
+                      background-color: var(--header-button-hover);
                     }
                   }
                 }
@@ -1545,6 +1547,7 @@ html {
 
                   &:hover {
                     padding: .6rem 3rem .6rem 1rem;
+                    background-color: var(--header-button-hover);
                   }
                 }
               }
@@ -2237,7 +2240,7 @@ footer {
       margin-bottom: 0;
       border-right: 1px solid #002E72;
     }
-    
+
     .thumb-meta-wrapper {
       margin: auto 0;
     }

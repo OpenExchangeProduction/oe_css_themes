@@ -758,7 +758,7 @@ html {
   background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -891,7 +891,7 @@ html {
   background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -982,7 +982,7 @@ html {
   background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -1018,6 +1018,7 @@ html {
 
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:hover {
   padding: .6rem 3rem .6rem 1rem;
+  background-color: var(--header-button-hover);
 }
 
 #page-top .featured-category .carousel .carousel-control {
@@ -1212,7 +1213,7 @@ html {
   background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -1262,7 +1263,7 @@ html {
   background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -1297,6 +1298,7 @@ html {
 
 #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:hover {
   padding: .6rem 3rem .6rem 1rem;
+  background-color: var(--header-button-hover);
 }
 
 @media (max-width: 767px) {
@@ -1570,7 +1572,7 @@ html {
   background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
-  transition: filter .2s ease, padding .2s ease;
+  transition: all .2s ease-in-out;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
@@ -1606,6 +1608,7 @@ html {
 
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .post-details-icon:hover {
   padding: .6rem 3rem .6rem 1rem;
+  background-color: var(--header-button-hover);
 }
 
 @media (max-width: 1050px) {
