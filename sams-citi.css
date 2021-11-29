@@ -2257,6 +2257,10 @@ footer .footer-container p {
   height: 100%;
 }
 
+#page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-title {
+  width: 100%;
+}
+
 #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper .tile-text-area h4 {
   display: flex;
   flex-wrap: wrap;

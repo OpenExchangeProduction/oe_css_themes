@@ -2237,6 +2237,10 @@ footer {
     .tile-text-area {
       height: 100%;
 
+      .tile-title {
+        width: 100%;
+      }
+
       h4 {
         display: flex;
         flex-wrap: wrap;
