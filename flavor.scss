@@ -289,6 +289,7 @@
           height: 100%;
 
           &::before {
+            display: block;
             width: 100%;
             height: 100%;
             content: '';
@@ -595,20 +596,6 @@
        }
      }
    }
-}
-
-header:after {
-  display: block;
-  content: "Welcome to Flavor! #FillYourCraving today.";
-  background-color: #2e2e2e;
-  margin: 0 auto;
-  color: #fefefe;
-  padding: 2rem;
-  text-align: center;
-  font-family: "Poppins", arial, sans-serif;
-  line-height: 1.7;
-  font-size: 2rem;
-  margin-bottom: 3rem;
 }
 
 #main_navigation .nav > li > a {
