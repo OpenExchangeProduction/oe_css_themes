@@ -283,7 +283,7 @@
 
       .showcase-description {
         display: block;
-        width: 100vw;
+        width: 100%;
         background-color: #2e2e2e;
         color: #fefefe;
         padding: 2rem !important;
@@ -291,7 +291,8 @@
         font-family: "Poppins", arial, sans-serif;
         line-height: 1.7;
         font-size: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 0;
+        z-index: 3;
 
         p {
           color: #f2f2f2;
