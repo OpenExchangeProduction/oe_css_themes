@@ -243,7 +243,7 @@
 
       .video-container {
         position: absolute;;
-        
+
         video {
           width: 100%;
           height: 100%;
@@ -269,24 +269,17 @@
       }
 
       .showcase-description {
-        z-index: 1;
-        margin: 0;
-        height: 50vh;
-        width: 100%;
-        position: absolute;
-        padding-top: 0 !important;
-
-        &::before {
-          width: 100%;
-          height: 100%;
-          content: '';
-          background: linear-gradient(to bottom right,#a0163d,#f58220);
-          position: absolute;
-          z-index: 2;
-          top: 0;
-          left: 0;
-          opacity: .5;
-        }
+        display: block;
+        width: 100vw;
+        background-color: #2e2e2e;
+        margin: 0 auto;
+        color: #fefefe;
+        padding: 2rem;
+        text-align: center;
+        font-family: "Poppins", arial, sans-serif;
+        line-height: 1.7;
+        font-size: 2rem;
+        margin-bottom: 3rem;
 
         .video-container {
           max-height: 100%;
@@ -294,6 +287,18 @@
           justify-content: center;
           display: flex;
           height: 100%;
+
+          &::before {
+            width: 100%;
+            height: 100%;
+            content: '';
+            background: linear-gradient(to bottom right,#a0163d,#f58220);
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            opacity: .5;
+          }
 
           video {
             width: 100%;
