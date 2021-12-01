@@ -2227,8 +2227,8 @@ footer .footer-container p {
 }
 
 #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description p:first-child {
-  padding-bottom: 1rem;
-  font-weight: 600;
+  padding-bottom: 1.5rem;
+  font-weight: 500;
 }
 
 #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description ul li {
