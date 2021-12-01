@@ -232,12 +232,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 50vh;
   padding: 0;
-}
-
-#page-top .header-container .col-xs-12 .video-container {
-  position: absolute;
 }
 
 #page-top .header-container .col-xs-12 .video-container video {
@@ -253,10 +248,12 @@
   max-height: unset;
   width: 100%;
   z-index: 2;
+  object-fit: contain;
+  padding-bottom: 62px;
 }
 
 #page-top .header-container .col-xs-12 .showcase-title {
-  position: relative;
+  position: absolute;
   z-index: 3;
   color: white !important;
   font-family: cinzel, serif;
@@ -267,9 +264,8 @@
   display: block;
   width: 100vw;
   background-color: #2e2e2e;
-  margin: 0 auto;
   color: #fefefe;
-  padding: 2rem;
+  padding: 2rem !important;
   text-align: center;
   font-family: "Poppins", arial, sans-serif;
   line-height: 1.7;
