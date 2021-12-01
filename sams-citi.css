@@ -2289,3 +2289,276 @@ footer .footer-container p {
 #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper .tile-text-area h4 .post-details-icon {
   margin-top: auto;
 }
+
+/* modal */
+#page-top #postDetailsModal.in {
+  padding: 0 !important;
+  display: flex !important;
+}
+
+#page-top #postDetailsModal.in .modal-dialog {
+  margin: auto;
+  width: 75%;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader {
+  grid-column: auto / span 4;
+  display: flex;
+  flex-wrap: wrap;
+  height: max-content;
+  padding: 3rem 0 2rem;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader {
+    grid-column: auto / span 12;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .details-image-container {
+  order: 2;
+  width: 100%;
+  height: auto;
+  padding-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .details-image-container:after {
+  content: 'Join Now';
+  display: flex;
+  align-items: center;
+  padding: .6rem 1.25rem;
+  max-width: max-content;
+  right: unset;
+  top: unset;
+  font-size: 1.25rem;
+  order: 3;
+  color: #fff !important;
+  background-color: #005aa1;
+  padding: .5rem 2rem;
+  filter: brightness(1);
+  transition: filter .2s ease;
+  text-decoration: none;
+  position: relative;
+  margin: 2rem 2rem 1rem 0;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .details-image-container:hover:after {
+  filter: brightness(0.7);
+}
+
+@media (max-width: 768px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .details-image-container {
+    padding: 0 3rem;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .details-image-container #postDetailsImage {
+  height: auto;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component {
+  order: 1;
+  width: 100%;
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component #postMetadataTitle {
+  max-height: unset;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component .post-details-title {
+  padding: 0;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component .post-metadata-modal-close {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 75vw;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component .post-metadata-modal-close button {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1.5rem;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component .post-metadata-modal-close button:hover {
+  opacity: 1;
+  background: #ab0202;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component .post-metadata-modal-close button span {
+  color: #fff;
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/GettyImages_498122776_2_png_1632350582449/GettyImages_498122776_2_a663b627-2282-419f-8796-a37073635bbd.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=pFfnOD2J2G9qFrNiuGCcql7ybKM%3D");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsHeader .post-metadata-component #postDetailsMetadata {
+  display: none;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody {
+  display: block;
+  padding: 3rem 0 2rem;
+  grid-column: auto / span 8;
+}
+
+@media (max-width: 768px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody {
+    grid-column: auto / span 12;
+    padding-top: 0;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #postDetailsDescription {
+  display: none;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #postDetailsDescription .post-details-description-button {
+  color: #000 !important;
+  pointer-events: none;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER {
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .post-details-caret {
+  display: none !important;
+}
+
+@media (max-width: 450px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .content-metadata-details-list {
+    padding: 0;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container {
+  height: max-content;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+@media (max-width: 450px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container {
+    display: block;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
+  max-height: 100px;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description a {
+  color: #002D72 !important;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper {
+  box-shadow: none;
+  grid-row: 1 / span 2 !important;
+  padding-bottom: 150%;
+  width: 100%;
+  height: 0 !important;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 450px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper {
+    position: absolute;
+    width: 90px;
+  }
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper .details-speaker-image {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper img,
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper iframe,
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  object-position: center;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata,
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
+  margin-left: 1rem;
+}
+
+@media (max-width: 450px) {
+  #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata {
+    margin-left: 3rem;
+  }
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .post-details-description-button {
+  color: #000 !important;
+  pointer-events: none;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .content-metadata-details-list {
+  display: block;
+  height: 100%;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataCOMPANY {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataMODERATOR {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postMetadataProgressContainer {
+  display: none;
+}
+
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper img {
+  width: 5.625rem;
+  height: 5.625rem;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 2.625rem;
+  flex: 0 0 2.625rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  max-width: 100%;
+}
