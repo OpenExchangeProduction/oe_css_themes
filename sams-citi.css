@@ -2561,3 +2561,46 @@ footer .footer-container p {
   object-position: 50% 50%;
   max-width: 100%;
 }
+
+/* Add to calendar in moderator section */
+#contentMetadataMODERATOR .content-metadata-details-button {
+  display: none !important;
+}
+
+#contentMetadataMODERATOR .content-metadata-details-list {
+  display: block !important;
+}
+
+#contentMetadataMODERATOR .content-metadata-details-list .details-speaker-image-wrapper,
+#contentMetadataMODERATOR .content-metadata-details-list .details-speaker-metadata {
+  display: none;
+}
+
+#contentMetadataMODERATOR .content-metadata-details-list .details-speaker-description {
+  margin-left: 0;
+}
+
+#contentMetadataMODERATOR .content-metadata-details-list .details-speaker-description p a {
+  display: flex;
+  align-items: center;
+  padding: .6rem 1.25rem;
+  max-width: max-content;
+  right: unset;
+  top: unset;
+  font-size: 1.25rem;
+  order: 3;
+  color: #fff !important;
+  background-color: #005aa1;
+  padding: .5rem 2rem;
+  filter: brightness(1);
+  transition: filter .2s ease;
+  text-decoration: none;
+  position: relative;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+#contentMetadataMODERATOR .content-metadata-details-list .details-speaker-description p a:hover {
+  filter: brightness(0.8);
+}
