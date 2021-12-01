@@ -1207,6 +1207,7 @@ html {
   flex-wrap: wrap;
   position: relative;
   padding-bottom: 0;
+  line-height: 1.2;
 }
 
 #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a:before {
@@ -1256,7 +1257,6 @@ html {
 
 #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a:hover:before {
   filter: brightness(0.8);
-  padding: .5rem 1.5rem 0.5rem 1.5rem;
   content: "Go Now >";
 }
 

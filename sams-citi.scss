@@ -1239,6 +1239,7 @@ html {
                       flex-wrap: wrap;
                       position: relative;
                       padding-bottom: 0;
+                      line-height: 1.2;
 
                       &:before {
                         order: 2;
@@ -1262,7 +1263,6 @@ html {
 
                         &:before {
                           filter: brightness(0.8);
-                          padding: .5rem 1.5rem 0.5rem 1.5rem;
                           content: "Go Now >";
                         }
                       }
