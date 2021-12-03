@@ -13,15 +13,17 @@
   }
 }
 
-#showcase_category {
-  .container {
-    .row {
-      @include grid(2, 1fr, 1rem);
-      margin: 0;
-      width: 100%;
+#page-top {
+  #url-auth-suffix ~ #showcase_category {
+    .container {
+      .row {
+        @include grid(2, 1fr, 1rem);
+        margin: 0;
+        width: 100%;
 
-      @media (max-width: 767px) {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        @media (max-width: 767px) {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
       }
     }
   }
