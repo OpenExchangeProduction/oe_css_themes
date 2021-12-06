@@ -2581,3 +2581,13 @@ footer {
     }
   }
 }
+
+@media not all and (min-resolution:.001dpcm) {
+    #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper {
+      max-height: max-content;
+    }
+
+    #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper {
+      height: auto !important;
+    }
+}

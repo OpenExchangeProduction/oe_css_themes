@@ -2604,3 +2604,12 @@ footer .footer-container p {
 #contentMetadataMODERATOR .content-metadata-details-list .details-speaker-description p a:hover {
   filter: brightness(0.8);
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper {
+    max-height: max-content;
+  }
+  #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper {
+    height: auto !important;
+  }
+}
