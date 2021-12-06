@@ -422,6 +422,7 @@ body#page-top {
 
 #page-top .header-container .col-xs-12 .video-container {
   height: 50vh;
+  width: 100%;
 }
 
 #page-top .header-container .col-xs-12 .video-container::before {
