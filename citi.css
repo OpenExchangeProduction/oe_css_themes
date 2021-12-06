@@ -2233,4 +2233,8 @@ footer .footer-container p {
   margin-bottom: 1rem;
 }
 
+.search-title {
+  color: #000000 !important;
+}
+
 /* Styles for header on safari */
