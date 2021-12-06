@@ -1310,7 +1310,9 @@ html {
                 .thumb-link {
 
                   .thumb {
-                    height: auto !important;
+                    height: 100% !important;
+                    width: 100%;
+                    object-fit: contain;
                   }
                 }
               }
