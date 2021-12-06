@@ -576,7 +576,7 @@ html {
     }
   }
 
-  header:nth-child(3) {
+  header:nth-child(4) {
 
     .header-container {
       overflow: visible;
@@ -2182,7 +2182,7 @@ footer {
 }
 
 /* Styles for sub page only */
-#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description {
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description {
   p {
     color: $black !important;
     font-size: unset;
