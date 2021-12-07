@@ -269,11 +269,15 @@ body#page-top {
   text-shadow: 5px 5px 5px #2a2a2a;
   font-size: 6rem;
   margin-bottom: .66667rem;
-  border-top: 2px solid #fefefe;
-  border-bottom: 2px solid #fefefe;
   padding: .25rem 0;
   font-family: 'Cinzel';
   line-height: 1.7;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a,
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a {
+  border-top: 2px solid #fefefe;
+  border-bottom: 2px solid #fefefe;
 }
 
 #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate {
