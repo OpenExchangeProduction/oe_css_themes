@@ -68,7 +68,7 @@ body#page-top {
   @include grid(12, 1fr, 0);
   margin: 0;
   padding: 0;
-  background-color: #2e2e2e;
+  background-color: #1a1a1a;
   border: 1px solid #000;
   margin-bottom: 4rem;
 
@@ -110,7 +110,7 @@ body#page-top {
       text-align: center;
       margin: 0;
       padding: 16px 0;
-      background-image: linear-gradient(to bottom, transparent, #2e2e2e);
+      background-image: linear-gradient(to bottom, transparent, #1a1a1a);
       z-index: 1;
     }
 
@@ -217,7 +217,7 @@ body#page-top {
       .showcase-description {
         display: block;
         width: 100%;
-        background-color: #2e2e2e;
+        background-color: #1a1a1a;
         color: #fefefe;
         padding: 2rem !important;
         text-align: center;
@@ -517,6 +517,10 @@ body#page-top {
     opacity: 0.8;
   }
 }
+
+/* footer styles */
+
+
 
 /* featured cat grid */
 #page-top:not(.single-post) {
