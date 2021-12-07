@@ -5,6 +5,11 @@
   --primary-font: 'Poppins', arial, sans-serif;
   --gradient: linear-gradient(to bottom, #064346, #488380);
   --border-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/9f4f9167-a580-4799-a037-60298a8295fb/subaccount/baea42b6-c330-4cf4-83a5-2f19da7f90f3/content/assets/templates/template_background/border_image_png_1634077199075/border_image_bc619407-3f92-4b67-895a-0f321e152c8b.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=pr0Kcb2tz3IYiSsbvG9nIXv6wwM%3D');
+  --navbar-dbd: url("https://s3.amazonaws.com/present.knowledgevision.com/account/56d5b5f3-63c4-4e8a-a795-b911e52ec088/subaccount/7fd09f30-2400-4c9c-89e8-e548073258ec/content/assets/templates/template_background/Navbar_DBD_logo_1627404178385/Navbar_DBD_logo_a462f55e-f921-46da-8634-f267245e2aab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=S91YM6QiDqN%2FnryzMqxRfspPndw%3D");
+  --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/56d5b5f3-63c4-4e8a-a795-b911e52ec088/subaccount/7fd09f30-2400-4c9c-89e8-e548073258ec/content/assets/templates/template_background/690202_1920x1080_jpg_1631041517848/690202_1920x1080_56fa32b4-c8ff-4f86-9a38-172cd8170442.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=jHaBBKjC6QxAx0jjWsas8CN33Tk%3D");
+  --bkg-color: #282828;
+  --card-color: #1A1A1A;
+  --card-text-color: #ffffff;
 }
 
 html {
