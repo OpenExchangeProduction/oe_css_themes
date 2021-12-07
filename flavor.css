@@ -484,12 +484,6 @@ body#page-top {
   grid-column: auto / span 4;
 }
 
-#page-top:not(.single-post) > .container:not(.login-container) {
-  -webkit-box-ordinal-group: 0;
-  -ms-flex-order: -1;
-  order: -1;
-}
-
 #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio {
   display: -ms-grid;
   display: grid;

@@ -541,9 +541,6 @@ body#page-top {
   }
 
   > .container:not(.login-container) {
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
-    order: -1;
 
     .featured-knovio {
       display: -ms-grid;
