@@ -542,6 +542,10 @@ body#page-top {
   padding-top: 4rem;
   padding-bottom: 0;
 
+  header {
+    padding: 0;
+  }
+
   > * {
     grid-column: auto / span 4;
   }
