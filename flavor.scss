@@ -10,7 +10,7 @@
 $white: #fff;
 $black: #000;
 $off-white: #fafafa;
-$off-black: #0a0a0a;
+$off-black: #1a1a1a;
 $grey: #bfbfbf;
 $light-grey: #e2e2e2;
 $dark-grey: #707070;
@@ -442,11 +442,6 @@ body#page-top {
      }
    }
 
-   #page-top #showcase_category .container.posts .column-view-item {
-     display: block;
-     height: 350px;
-   }
-
    #page-top .header-container .col-xs-12 {
      padding: 0;
    }
@@ -501,22 +496,6 @@ body#page-top {
        .glyphicon {
          position: unset;
          top: unset;
-       }
-     }
-   }
-
-   #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper {
-     height: unset;
-     width: unset;
-     max-width: 75%;
-     text-align: center;
-
-     .tile-text-area .tile-header-ellipsis.link-header .tile-title {
-       border: none;
-
-       a {
-         display: block;
-         font-size: 4rem;
        }
      }
    }
