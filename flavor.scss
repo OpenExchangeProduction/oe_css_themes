@@ -10,7 +10,7 @@
 $white: #fff;
 $black: #000;
 $off-white: #fafafa;
-$off-black: #333333;
+$off-black: #0a0a0a;
 $grey: #bfbfbf;
 $light-grey: #e2e2e2;
 $dark-grey: #707070;
@@ -699,97 +699,204 @@ body#page-top {
         }
       }
     }
-  }
 
-  .column-view-item {
-    position: static;
-    float: none;
-    width: 100%;
-    height: unset;
-    padding: 0;
-    margin: 0;
-
-    > .post {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-      gap: 0.5rem;
+    .column-view-item {
+      position: static;
+      float: none;
       width: 100%;
       height: unset;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease;
+      padding: 0;
+      margin: 0;
 
-      @media screen and (min-width: 768px) {
-        -webkit-box-orient: vertical;
+      > .post {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-      }
-
-      &:hover {
-        .thumb-meta-wrapper .tile-text-area .post-details-activate {
-          .tile-title {
-            height: unset !important;
-          }
-
-          .post-details-icon {
-            display: block;
-          }
-        }
-      }
-
-      .thumb-wrapper {
-        position: relative;
-        float: none;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        gap: 0.5rem;
         width: 100%;
-        height: 100%;
-        border: none;
-        background: unset;
-
-        .thumb-link {
-          padding-bottom: 75%;
-          width: 100%;
-          height: 0;
-          overflow: hidden;
-          position: relative;
-
-          img:not(.play-hover-button),
-          iframe,
-          video {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            object-fit: contain;
-            object-position: center;
-            background: $white;
-          }
-        }
-      }
-
-      .thumb-meta-wrapper {
-        position: relative;
-        float: none;
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
-        padding: 0.5rem 0 0;
+        height: unset;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        row-gap: 0;
+        background-color: $off-black;
+        box-shadow: none;
 
         @media screen and (min-width: 768px) {
-          padding: 0.5rem;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
         }
 
-        .tile-text-area {
-          margin: 0 1rem 0 0;
-          padding: 0;
+        &:hover {
+          .thumb-meta-wrapper .tile-text-area .post-details-activate {
+            .tile-title {
+              height: unset !important;
+            }
 
-          .post-details-activate .tile-title {
-            height: unset !important;
+            .post-details-icon {
+              display: block;
+            }
+          }
+        }
+
+        .thumb-wrapper {
+          position: relative;
+          float: none;
+          width: 100%;
+          height: 100%;
+          border: none;
+          background: unset;
+
+          .thumb-link {
+            padding-bottom: 75%;
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            position: relative;
+
+            img:not(.play-hover-button),
+            iframe,
+            video {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              left: 0;
+              top: 0;
+              object-fit: contain;
+              object-position: center;
+              background: $white;
+              max-height: unset;
+              max-width: unset;
+            }
+          }
+        }
+
+        .thumb-meta-wrapper {
+          position: relative;
+          float: none;
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+          padding: 0.5rem 0 0;
+
+          @media screen and (min-width: 768px) {
+            padding: 0.5rem;
+          }
+
+          .tile-text-area {
+            margin: 0 1rem 0 0;
+            padding: 0;
+
+            .post-details-activate .tile-title {
+              height: unset !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #url-auth-suffix ~ #showcase_category {
+    .column-view-item {
+      position: static;
+      float: none;
+      width: 100%;
+      height: unset;
+      padding: 0;
+      margin: 0;
+
+      > .post {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        gap: 0.5rem;
+        width: 100%;
+        height: unset;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        row-gap: 0;
+        background-color: $off-black;
+        box-shadow: none;
+
+        @media screen and (min-width: 768px) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+        }
+
+        &:hover {
+          .thumb-meta-wrapper .tile-text-area .post-details-activate {
+            .tile-title {
+              height: unset !important;
+            }
+
+            .post-details-icon {
+              display: block;
+            }
+          }
+        }
+
+        .thumb-wrapper {
+          position: relative;
+          float: none;
+          width: 100%;
+          height: 100%;
+          border: none;
+          background: unset;
+
+          .thumb-link {
+            padding-bottom: 75%;
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            position: relative;
+
+            img:not(.play-hover-button),
+            iframe,
+            video {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              left: 0;
+              top: 0;
+              object-fit: contain;
+              object-position: center;
+              background: $white;
+              max-height: unset;
+              max-width: unset;
+            }
+          }
+        }
+
+        .thumb-meta-wrapper {
+          position: relative;
+          float: none;
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+          padding: 0.5rem 0 0;
+
+          @media screen and (min-width: 768px) {
+            padding: 0.5rem;
+          }
+
+          .tile-text-area {
+            margin: 0 1rem 0 0;
+            padding: 0;
+
+            .post-details-activate .tile-title {
+              height: unset !important;
+            }
           }
         }
       }
