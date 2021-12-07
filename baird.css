@@ -914,16 +914,16 @@ body {
 }
 
 /* sub page styles */
-#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header {
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header {
   background-color: transparent;
   padding-top: 0;
 }
 
-#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .showcase-title {
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .showcase-title {
   font-weight: 500;
 }
 
-#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row {
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(0, 1fr);
@@ -932,33 +932,33 @@ body {
   padding: 0.5rem 0.9375rem;
 }
 
-#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row script, #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row:after, #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row:before {
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row script, #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row:after, #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row:before {
   display: none;
 }
 
 @media screen and (min-width: 992px) {
-  #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row {
+  #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row {
     -ms-grid-columns: minmax(0, 1fr) [3];
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 @media all and (min-width: 1200px) {
-  #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row {
+  #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row {
     -ms-grid-columns: minmax(0, 1fr) [4];
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 @media all and (min-width: 1500px) {
-  #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row {
+  #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row {
     -ms-grid-columns: minmax(0, 1fr) [5];
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
 @media all and (min-width: 1800px) {
-  #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ #showcase_category .container.posts > .row {
+  #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row {
     -ms-grid-columns: minmax(0, 1fr) [6];
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
