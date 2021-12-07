@@ -664,6 +664,7 @@ body#page-top {
           border-radius: 6px;
           filter: brightness(1);
           transition: filter .2s ease-in-out;
+          color: $white !important;
 
           &:hover {
             filter: brightness(.8);
