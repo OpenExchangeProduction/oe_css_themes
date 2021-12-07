@@ -639,7 +639,7 @@ body#page-top {
           .showcase-title {
             margin-bottom: 0;
             font-weight: 500;
-            color: $white;
+            color: $white !important;
             text-decoration: none;
             filter: brightness(1);
             transition: filter .2s ease-in-out;
