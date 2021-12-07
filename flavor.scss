@@ -1,6 +1,6 @@
 /* Variable setup */
 :root {
-  --primary-color: #064346;
+  --primary-color: rgba(160,22,61,1);
   --secondary-color: #488380;
   --primary-font: 'Poppins', arial, sans-serif;
   --gradient: linear-gradient(to bottom, #064346, #488380);
@@ -777,7 +777,7 @@ body#page-top {
         }
 
         .thumb-meta-wrapper {
-          padding: 1rem 1.5rem;
+          padding: 1rem;
 
           .tile-text-area {
             height: 100%;
@@ -827,7 +827,7 @@ body#page-top {
                 content: '';
                 width: 100%;
                 height: 2px;
-                background: transparent;
+                background: var(--primary-color);
                 align-self: flex-end;
                 margin: 1.25rem 0;
                 transform: scaleX(1.25);
@@ -839,7 +839,7 @@ body#page-top {
                 width: 100%;
                 right: unset;
                 top: unset;
-                font-size: 1.3rem;
+                font-size: 1.15rem;
                 order: 3;
                 color: var(--card-text-color) !important;
                 margin-top: 0;
@@ -864,6 +864,7 @@ body#page-top {
                 &:before {
                   content: "More Details";
                   font-family: var(--primary-font);
+                  font-weight: 400;
                 }
               }
             }
