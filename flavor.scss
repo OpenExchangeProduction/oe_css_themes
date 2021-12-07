@@ -70,7 +70,7 @@ body#page-top {
   padding: 0;
   background-color: #2e2e2e;
   border: 1px solid #000;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 
   @media (max-width: 767px) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -551,7 +551,6 @@ body#page-top {
       -ms-flex-align: start;
       align-items: flex-start;
       gap: 1rem;
-      margin: 0;
       padding: 0;
 
       &::before,
