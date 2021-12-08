@@ -466,6 +466,10 @@ footer {
   background-color: #1a1a1a;
 }
 
+footer .footer-container {
+  padding: 1rem 0 1.5rem;
+}
+
 footer .footer-container p {
   color: #fff;
 }
