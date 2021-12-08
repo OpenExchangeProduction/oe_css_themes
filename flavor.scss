@@ -520,7 +520,15 @@ body#page-top {
 
 /* footer styles */
 
+footer {
+  background-color: #1a1a1a;
 
+  .footer-container {
+    p {
+      color: $white;
+    }
+  }
+}
 
 /* featured cat grid */
 #page-top:not(.single-post) {
@@ -615,6 +623,10 @@ body#page-top {
     margin: 0 auto;
     padding: 0;
 
+    @media (max-width: 768px) {
+      margin: unset;
+    }
+
     .container:not(.posts) > .row {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -638,7 +650,7 @@ body#page-top {
         a {
           .showcase-title {
             margin-bottom: 0;
-            font-weight: 500;
+            font-weight: 600;
             color: $white !important;
             text-decoration: none;
             filter: brightness(1);
