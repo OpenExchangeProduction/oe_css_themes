@@ -967,4 +967,17 @@ footer {
       }
     }
   }
+
+  #custom-fields-data + #main_navigation ~ #showcase_category {
+    @media (max-width: 768px) {
+      .column-view-item {
+        display: block;
+        min-height: 350px;
+      }
+
+      .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a {
+        font-size: 4rem;
+      }
+    }
+  }
 }

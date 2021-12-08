@@ -941,3 +941,13 @@ footer .footer-container p {
 #page-top:not(.single-post) .featured-category .column-view-item > .post .thumb-meta-wrapper .post-icons-grid .fa-star {
   margin: 0 !important;
 }
+
+@media (max-width: 768px) {
+  #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .column-view-item {
+    display: block;
+    min-height: 350px;
+  }
+  #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a {
+    font-size: 4rem;
+  }
+}
