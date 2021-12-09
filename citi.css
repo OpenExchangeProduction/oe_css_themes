@@ -1972,6 +1972,10 @@ footer .footer-container p {
   color: #000 !important;
 }
 
+.modal #postDetailsMetadata {
+  display: none !important;
+}
+
 .newLabel,
 .upcomingLabel {
   z-index: 3;
