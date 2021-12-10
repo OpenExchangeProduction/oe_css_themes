@@ -999,27 +999,13 @@ html {
                     font-size: 1.25rem;
                   }
 
-                  &:after {
-                    transition: opacity .2s ease;
-                    opacity: 0;
-                    content: '\276F'; // right chevron
-                    position: absolute;
-                    left: 6rem;
-                    top: 4.1rem;
-                    color: $white;
-                    font-size: 1.5rem;
-                  }
-
                   &:hover {
                     filter: brightness(0.8);
 
                     &:before {
                       filter: brightness(0.8);
-                      padding: .5rem 3rem .5rem 1rem;
-                    }
-
-                    &:after {
-                      opacity: 1;
+                      padding: .5rem 1.5rem 0.5rem 1.5rem;
+                      content: "Go Now >";
                     }
                   }
                 }
