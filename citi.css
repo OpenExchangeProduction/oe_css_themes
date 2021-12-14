@@ -2221,7 +2221,7 @@ footer .footer-container p {
   color: #000000 !important;
 }
 
-.modal .postDetailsMetadata {
+.modal #postDetailsMetadata {
   display: none !important;
 }
 
