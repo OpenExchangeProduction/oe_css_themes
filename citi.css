@@ -2225,4 +2225,8 @@ footer .footer-container p {
   display: none !important;
 }
 
+.modal #postMetadataTitle {
+  max-height: unset !important;
+}
+
 /* Styles for header on safari */

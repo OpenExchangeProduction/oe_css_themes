@@ -2188,8 +2188,14 @@ footer {
   color: #000000 !important;
 }
 
-.modal #postDetailsMetadata {
-  display: none !important;
+.modal {
+  #postDetailsMetadata {
+    display: none !important;
+  }
+
+  #postMetadataTitle {
+    max-height: unset !important;
+  }
 }
 
 /* Styles for header on safari */
