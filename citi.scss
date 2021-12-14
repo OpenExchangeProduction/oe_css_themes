@@ -2188,6 +2188,10 @@ footer {
   color: #000000 !important;
 }
 
+.modal .postDetailsMetadata {
+  display: none !important;
+}
+
 /* Styles for header on safari */
 @media not all and (min-resolution:.001dpcm) {
     @media (min-width: 873px) {
