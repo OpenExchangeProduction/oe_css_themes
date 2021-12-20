@@ -1,0 +1,9 @@
+/* Interstate Type Kit */
+@import url("https://use.typekit.net/zke5hab.css");
+@import url("https://openexchangeproduction.github.io/oe_css_themes/passport-themes/citi-theme-one.css");
+
+:root {
+    --img-logo: url("https://storage.open-exchange.net/account/71/event/2798/38cba8da-7473-411f-8b4d-d5b12cd1c4e6");
+    --clr-nav-bg: rgb(255, 255, 255);
+    --clr-nav-text: #002d72;
+}
