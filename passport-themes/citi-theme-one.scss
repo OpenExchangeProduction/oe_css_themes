@@ -356,13 +356,17 @@ div[class*='event-details'] > .items-start {
           color: $blue;
         }
 
-        &[name="backToList"] {
-          color: $blue;
+        svg {
+          fill: #ffffff;
         }
       }
 
+      .common-btn[name="backToList"] {
+        color: $blue;
+      }
+
       svg {
-        fill: #ffffff;
+        fill: $blue;
       }
 
       p {
