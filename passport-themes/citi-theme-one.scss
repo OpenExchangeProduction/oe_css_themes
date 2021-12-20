@@ -355,6 +355,10 @@ div[class*='event-details'] > .items-start {
         &.add-to-calendar-btn {
           color: $blue;
         }
+
+        &[name="backToList"] {
+          color: $blue;
+        }
       }
 
       svg {
