@@ -554,7 +554,7 @@ div[class*='event-details'] > .items-start {
   color: #002D72;
 }
 
-#meeting-details-page .main-content-wrapper .shadow-gray svg {
+#meeting-details-page .main-content-wrapper .shadow-gray .common-btn[name="backToList"] svg {
   fill: #002D72;
 }
 
