@@ -361,7 +361,7 @@ div[class*='event-details'] > .items-start {
         }
       }
 
-      .common-btn[name="backToList"] {
+      button[name="backToList"] {
         color: $blue;
 
         svg {

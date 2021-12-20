@@ -550,11 +550,11 @@ div[class*='event-details'] > .items-start {
   fill: #ffffff;
 }
 
-#meeting-details-page .main-content-wrapper .shadow-gray .common-btn[name="backToList"] {
+#meeting-details-page .main-content-wrapper .shadow-gray button[name="backToList"] {
   color: #002D72;
 }
 
-#meeting-details-page .main-content-wrapper .shadow-gray .common-btn[name="backToList"] svg {
+#meeting-details-page .main-content-wrapper .shadow-gray button[name="backToList"] svg {
   fill: #002D72;
 }
 
