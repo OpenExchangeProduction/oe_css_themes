@@ -1195,3 +1195,7 @@ footer .footer-container {
 footer .footer-container p {
   margin: 0;
 }
+
+#page-top .tile-title {
+  word-break: break-word;
+}
