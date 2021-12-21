@@ -973,6 +973,7 @@ html {
                   line-height: 1.3;
                   filter: brightness(1);
                   transition: filter .2s ease;
+                  word-break: break-word;
 
                   &:hover {
                     filter: brightness(0.6);
@@ -1205,6 +1206,7 @@ html {
                   .tile-title, .tile-title a {
                     @include heading($color: $off-black, $size: 2rem, $weight: 500);
                     height: unset !important;
+                    word-break: break-word;
                   }
                 }
 
@@ -1220,6 +1222,7 @@ html {
                       flex-wrap: wrap;
                       position: relative;
                       padding-bottom: 0;
+                      word-break: break-word;
 
                       &:before {
                         order: 2;
@@ -1453,12 +1456,14 @@ html {
                   padding: unset;
                   width: 100%;
                   height: unset !important;
+                  word-break: break-word;
                 }
 
                 .tile-title a {
                   display: flex;
                   flex-direction: column;
                   flex-wrap: wrap;
+                  word-break: break-word;
 
                   &:hover {
                     filter: brightness(0.8);

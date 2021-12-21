@@ -867,6 +867,7 @@ html {
   line-height: 1.3;
   filter: brightness(1);
   transition: filter .2s ease;
+  word-break: break-word;
 }
 
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:hover, #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title div:hover,
@@ -1173,6 +1174,7 @@ html {
   padding-bottom: 1.5rem;
   font-weight: 500;
   height: unset !important;
+  word-break: break-word;
 }
 
 #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title {
@@ -1186,6 +1188,7 @@ html {
   flex-wrap: wrap;
   position: relative;
   padding-bottom: 0;
+  word-break: break-word;
 }
 
 #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a:before {
@@ -1472,6 +1475,7 @@ html {
   padding: unset;
   width: 100%;
   height: unset !important;
+  word-break: break-word;
 }
 
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .tile-title a,
@@ -1479,6 +1483,7 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  word-break: break-word;
 }
 
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .tile-title a:hover,
