@@ -1024,6 +1024,7 @@ html {
                 line-height: 1.3;
                 filter: brightness(1);
                 transition: filter .2s ease;
+                word-break: break-word !important;
 
                 &:hover {
                   filter: brightness(0.6);
