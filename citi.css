@@ -755,7 +755,7 @@ html {
 
 #page-top .featured-category .featured-category-path {
   color: #fafafa !important;
-  background-color: var(--header-button-color);
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -889,7 +889,7 @@ html {
   order: 2;
   display: block;
   color: #fafafa !important;
-  background-color: var(--header-button-color);
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -964,7 +964,7 @@ html {
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
   color: #fafafa !important;
-  background-color: var(--header-button-color);
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1196,7 +1196,7 @@ html {
   display: block;
   position: relative;
   color: #fafafa !important;
-  background-color: var(--header-button-color);
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1245,7 +1245,7 @@ html {
   display: block;
   position: relative;
   color: #fafafa !important;
-  background-color: var(--header-button-color);
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1557,7 +1557,7 @@ html {
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
   color: #fafafa !important;
-  background-color: var(--header-button-color);
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;

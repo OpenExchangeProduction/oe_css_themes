@@ -77,7 +77,7 @@
 }
 
 // global button styles
-@mixin button($color: $off-white, $background-color: var(--header-button-color), $radius: 6px){
+@mixin button($color: $off-white, $background-color: #005aa1, $radius: 6px){
   color: $color !important;
   background-color: $background-color;
   padding: .5rem 2rem;
