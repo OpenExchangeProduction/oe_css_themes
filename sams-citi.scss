@@ -2589,6 +2589,10 @@ footer {
   }
 }
 
+.search-title.showcase-title {
+  color: #000000 !important;
+}
+
 @media not all and (min-resolution:.001dpcm) {
   #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper {
     max-height: max-content;
