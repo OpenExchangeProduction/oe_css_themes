@@ -383,7 +383,8 @@ html {
       .navbar-collapse {
         padding: 0;
         margin: 0;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
         max-height: 90vh !important;
 
         &::-webkit-scrollbar,

@@ -222,7 +222,8 @@ html {
   #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse {
     padding: 0;
     margin: 0;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     max-height: 90vh !important;
   }
   #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse::-webkit-scrollbar, #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse::-moz-scrollbar {
