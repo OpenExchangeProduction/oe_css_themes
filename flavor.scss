@@ -74,6 +74,7 @@ body#page-top {
 
   @media (max-width: 767px) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    max-height: none;
   }
 
   .featured-knovio-post {
@@ -984,6 +985,44 @@ footer {
       .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a {
         font-size: 4rem;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #page-top:not(.single-post) {
+    .featured-category .carousel-inner .item {
+      .column-view-item > .post {
+        flex: 1 1;
+
+        > .thumb-meta-wrapper {
+          height: auto;
+          flex: 1;
+        }
+        > .thumb-wrapper {
+          flex: 1;
+
+          img:not(.play-hover-button) {
+            height: 100% !important;
+          }
+        }
+      }
+    }
+  }
+
+  .featured-category .carousel-control .glyphicon {
+    display: none !important;
+  }
+
+  .column-view-item>.post>.thumb-wrapper img {
+    height: 100% !important;
+  }
+
+  #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post {
+    margin-bottom: 2rem;
+
+    .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a {
+      font-size: 3rem;
     }
   }
 }
