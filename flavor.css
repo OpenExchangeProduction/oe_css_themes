@@ -982,8 +982,12 @@ footer .footer-container p {
   }
   #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post {
     margin-bottom: 2rem;
+    min-height: 200px;
   }
   #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a {
     font-size: 3rem;
+  }
+  #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title {
+    border: none !important;
   }
 }

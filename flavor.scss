@@ -1020,9 +1020,14 @@ footer {
 
   #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category .container.posts .row .column-view-item .post {
     margin-bottom: 2rem;
+    min-height: 200px;
 
     .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a {
       font-size: 3rem;
+    }
+
+    .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title {
+      border: none !important;
     }
   }
 }
