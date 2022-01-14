@@ -2583,3 +2583,7 @@ footer {
     height: auto !important;
   }
 }
+
+#showcase_category_post ~ footer {
+  display: none;
+}
