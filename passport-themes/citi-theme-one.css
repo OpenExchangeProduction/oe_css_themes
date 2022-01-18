@@ -457,7 +457,7 @@ div[class*='event-details'] > .items-start {
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div img,
 #registration-page .main-content-wrapper .editable-sign-in div > div img,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div img {
-  text-align: center;
+  margin: 0 auto;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div,
