@@ -18,7 +18,7 @@ div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
   * OE BRANDING SWAP
   * REACH OUT TO zachary.rosfjord@openexc.com WITH QUESTIONS
 */
-.main-content-wrapper .background-img {
+.main-content-wrapper .background-img, .rich-text-content-wrapper .background-img {
   object-position: top right;
   object-fit: cover;
   position: fixed;
@@ -1028,13 +1028,13 @@ footer a.text-primary:nth-of-type(3):before {
   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/faf6459d-3aa9-4914-9bde-7a8631398a5e/content/assets/templates/template_background/youtube_icon_png_1633535364679/youtube_icon_737184d8-0c12-4adc-83a3-c7babf4c9223.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=xPJKQIrP1rJaSLWLguhzC3OjEdM%3D");
 }
 
-.main-content-wrapper .editable-agenda--wrapper > h1, .main-content-wrapper .editable-agenda--wrapper > h2, .main-content-wrapper .editable-session--header > h1, .main-content-wrapper .editable-session--header > h2 {
+.main-content-wrapper .editable-agenda--wrapper > h1, .main-content-wrapper .editable-agenda--wrapper > h2, .main-content-wrapper .editable-session--header > h1, .main-content-wrapper .editable-session--header > h2, .rich-text-content-wrapper .editable-agenda--wrapper > h1, .rich-text-content-wrapper .editable-agenda--wrapper > h2, .rich-text-content-wrapper .editable-session--header > h1, .rich-text-content-wrapper .editable-session--header > h2 {
   color: #002D72;
   padding: 0;
   font-weight: 500;
 }
 
-.main-content-wrapper .editable-support--wrapper h1 {
+.main-content-wrapper .editable-support--wrapper h1, .main-content-wrapper .editable-rich-text--wrapper h1, .rich-text-content-wrapper .editable-support--wrapper h1, .rich-text-content-wrapper .editable-rich-text--wrapper h1 {
   color: #002D72;
   padding: 0;
   font-weight: 500;

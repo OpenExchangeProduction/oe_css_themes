@@ -33,7 +33,7 @@ $black: #000000;
   gap: $gap;
 }
 
-.main-content-wrapper  .background-img {
+.main-content-wrapper .background-img, .rich-text-content-wrapper .background-img {
  object-position: top right;
  object-fit: cover;
  position: fixed;
@@ -898,7 +898,7 @@ footer {
   }
 }
 
-.main-content-wrapper {
+.main-content-wrapper, .rich-text-content-wrapper {
   .editable-agenda--wrapper, .editable-session--header {
     > h1, > h2 {
       color: #002D72;
@@ -907,7 +907,7 @@ footer {
     }
   }
 
-  .editable-support--wrapper {
+  .editable-support--wrapper, .editable-rich-text--wrapper {
     h1 {
       color: #002D72;
       padding: 0;
