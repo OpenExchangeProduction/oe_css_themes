@@ -837,9 +837,9 @@ div[class*='event-details'] > .items-start {
   }
 }
 
-#support-page {
+#support-page, #custom-rich-text-page {
 
-  .editable-support--description {
+  div[class*='--description'] {
     margin: 0;
     margin-top: 1rem;
     color: $black;
