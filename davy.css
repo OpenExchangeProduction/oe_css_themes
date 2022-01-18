@@ -387,32 +387,22 @@ html {
   #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
     display: block;
     content: '';
-    background: linear-gradient(90deg, #282828 45%, transparent);
+    background: linear-gradient(-90deg, #ffffff 45%, transparent);
     height: 100%;
     width: 70%;
     position: absolute;
     z-index: 0;
+    right: 0;
   }
   span.showcase-description p {
     max-width: 50%;
     font-size: 3rem;
+    margin-left: auto;
   }
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12 {
   overflow: hidden;
-}
-
-#page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:after {
-  display: block;
-  content: '';
-  background: linear-gradient(270deg, #282828 45%, transparent);
-  height: 100%;
-  width: 10%;
-  position: absolute;
-  z-index: 0;
-  right: 0;
-  top: 0;
 }
 
 /* all pages  */
@@ -882,6 +872,7 @@ html {
   margin: 0 auto;
   min-height: 300px;
   z-index: 2;
+  text-align: right;
 }
 
 @media (min-width: 768px) {
