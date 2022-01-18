@@ -8,7 +8,7 @@
   --navigation-color: rgba(255, 255, 255, 1);
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
-  --bkg-color: linear-gradient(270deg, #F5F5F5, #ffffff);
+  --bkg-color: linear-gradient(-270deg, #F5F5F5, #ffffff);
   --card-color: #006A84;
   --card-text-color: #ffffff;
 }
