@@ -265,6 +265,10 @@ div[class*='event-details'] > .items-start {
        background-color: transparent;
        border: none;
        color: #000000;
+
+       img {
+         text-align: center;
+       }
      }
 
       div > .editable-sign-in--wrapper ~ div {
@@ -288,7 +292,7 @@ div[class*='event-details'] > .items-start {
       text-align: center;
     }
 
-    .editable-registration--left-content-date {
+    .editable-registration--left-content-date .flex {
       justify-content: center;
     }
   }
