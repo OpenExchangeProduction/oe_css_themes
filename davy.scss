@@ -5,11 +5,11 @@
 /* =================================== */
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/2_03Davy_100Archive_1642524524613/2_03Davy_100Archive_2090cd78-857f-48f5-beaf-bff321342127.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=obh4j0pdEvV8yd9HwoV3hsVEzLo%3D");
-  --primary-color: rgba(64, 172, 72, 1);
-  --navigation-color: rgba(64, 172, 72, 1);
+  --primary-color: rgba(185, 0, 47, 1);
+  --navigation-color: rgba(255, 255, 255, 1);
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
-  --bkg-color: linear-gradient(#F5F5F5, #ffffff, to right);
+  --bkg-color: linear-gradient(270deg, #F5F5F5, #ffffff);
   --card-color: #006A84;
   --card-text-color: #ffffff;
 }
@@ -84,6 +84,11 @@ html {
 #page-top .row {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
+}
+
+#page-top .header-container .row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 /* Init grid */
@@ -304,7 +309,7 @@ html {
           display: block;
           width: 100%;
           height: 100%;
-          background: unset !important;
+          background: $white !important;
           padding-bottom: unquote( ( 3 / 4 ) * 100 + '%' );
           width: 100%;
           height: 0;
@@ -402,7 +407,7 @@ html {
       position: absolute;
       z-index: -1;
       object-fit: cover;
-      object-position: right;
+      object-position: left;
       width: 70%;
       height: 100%;
       right: 0;
@@ -869,20 +874,6 @@ html {
       margin-top: 0;
       width: 100%;
       position: relative;
-
-      &::before {
-        display: block;
-        content: '';
-        width: 100px;
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-        background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/56d5b5f3-63c4-4e8a-a795-b911e52ec088/subaccount/7fd09f30-2400-4c9c-89e8-e548073258ec/content/assets/templates/template_source/logo_1631051762470/logo_185825eb-d198-49de-8542-47c1d9a186cd.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=i3c0r1TdsowMGaTvIvBOukxJsj0%3D');
-        z-index: 3;
-        height: 100px;
-        background-size: contain;
-        background-repeat: no-repeat;
-      }
 
       .row {
         border-bottom: 10px solid var(--primary-color);
