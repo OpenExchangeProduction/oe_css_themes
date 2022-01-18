@@ -493,24 +493,24 @@ div[class*='event-details'] > .items-start {
   justify-content: center;
 }
 
-.main-content-wrapper > div[class*="-wrapper"].shadow-gray {
+.main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
   background: #ffffff;
   border-radius: 6px;
   background-clip: padding-box;
 }
 
 @media (max-width: 768px) {
-  .main-content-wrapper > div[class*="-wrapper"].shadow-gray {
+  .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
     padding: 2rem .5rem;
   }
 }
 
-.main-content-wrapper > div[class*="event-details"] {
+.main-content-wrapper > div[class*="event-details"], .rich-text-content-wrapper > div[class*="event-details"] {
   background-color: #ffffff;
   width: 100%;
 }
 
-.main-content-wrapper > div[class*="event-details"] .items-start {
+.main-content-wrapper > div[class*="event-details"] .items-start, .rich-text-content-wrapper > div[class*="event-details"] .items-start {
   display: grid;
   grid-template-columns: 80% 20%;
   padding: 1rem;
@@ -519,7 +519,7 @@ div[class*='event-details'] > .items-start {
   background-clip: padding-box;
 }
 
-.main-content-wrapper > div[class*="event-details"] .items-start > img {
+.main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
   grid-column: 2 / span 1;
   max-width: 150px;
   order: 2;
@@ -527,29 +527,30 @@ div[class*='event-details'] > .items-start {
   margin-right: 1.5rem;
 }
 
-.main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] {
+.main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"], .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] {
   grid-column: 1 / span 1;
 }
 
-.main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] * {
+.main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] *, .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] * {
   color: #002D72;
   text-align: left;
   justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
-  .main-content-wrapper > div[class*="event-details"] .items-start {
+  .main-content-wrapper > div[class*="event-details"] .items-start, .rich-text-content-wrapper > div[class*="event-details"] .items-start {
     display: flex;
   }
   .main-content-wrapper > div[class*="event-details"] .items-start img,
-  .main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] {
+  .main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"], .rich-text-content-wrapper > div[class*="event-details"] .items-start img,
+  .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] {
     order: unset;
     margin-left: 0;
     margin-right: auto;
   }
 }
 
-.main-content-wrapper > div {
+.main-content-wrapper > div, .rich-text-content-wrapper > div {
   width: 100%;
   max-width: 80rem;
 }
