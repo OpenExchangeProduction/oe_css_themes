@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--bkg-color);
+  background: var(--bkg-color);
   color: #ffffff;
 }
 
