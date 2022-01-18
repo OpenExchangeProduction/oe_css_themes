@@ -17,7 +17,7 @@ div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
 /**
   * OE BRANDING SWAP
   * REACH OUT TO zachary.rosfjord@openexc.com WITH QUESTIONS
-  */
+*/
 .main-content-wrapper .background-img {
   object-position: top right;
   object-fit: cover;
@@ -469,6 +469,21 @@ div[class*='event-details'] > .items-start {
   justify-content: flex-start;
   gap: 1rem;
   padding: 2rem 0;
+}
+
+#sign-in-page .main-content-wrapper div[class*="-error-margin"],
+#registration-page .main-content-wrapper div[class*="-error-margin"] {
+  position: unset;
+}
+
+#sign-in-page .main-content-wrapper .editable-registration--left-content-title,
+#registration-page .main-content-wrapper .editable-registration--left-content-title {
+  text-align: center;
+}
+
+#sign-in-page .main-content-wrapper .editable-registration--left-content-date,
+#registration-page .main-content-wrapper .editable-registration--left-content-date {
+  justify-content: center;
 }
 
 .main-content-wrapper > div[class*="-wrapper"].shadow-gray {

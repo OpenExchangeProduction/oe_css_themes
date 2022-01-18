@@ -18,7 +18,7 @@ div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
 /**
   * OE BRANDING SWAP
   * REACH OUT TO zachary.rosfjord@openexc.com WITH QUESTIONS
-  */
+*/
 
 $blue: #002D72;
 $light-blue: #005aa1;
@@ -278,6 +278,18 @@ div[class*='event-details'] > .items-start {
         gap: 1rem;
         padding: 2rem 0;
       }
+    }
+
+    div[class*="-error-margin"] {
+      position: unset;
+    }
+
+    .editable-registration--left-content-title {
+      text-align: center;
+    }
+
+    .editable-registration--left-content-date {
+      justify-content: center;
     }
   }
 }
