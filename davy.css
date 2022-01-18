@@ -1,15 +1,15 @@
-@import url("https://use.typekit.net/dpf3pdg.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 /* =================================== */
 /* = Overall Settings ================ */
 /* =================================== */
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/2_03Davy_100Archive_1642524524613/2_03Davy_100Archive_2090cd78-857f-48f5-beaf-bff321342127.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=obh4j0pdEvV8yd9HwoV3hsVEzLo%3D");
   --primary-color: rgba(64, 172, 72, 1);
-  --secondary-color: rgba(64, 172, 72, 1);
-  --primary-font: "myriad-pro", sans-serif;
-  --secondary-font: "myriad-pro-condensed", sans-serif;
-  --bkg-color: #282828;
-  --card-color: #1A1A1A;
+  --navigation-color: rgba(64, 172, 72, 1);
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+  --bkg-color: linear-gradient(#F5F5F5, #ffffff, to right);
+  --card-color: #006A84;
   --card-text-color: #ffffff;
 }
 
@@ -286,13 +286,24 @@ html {
   width: 100%;
   height: 100%;
   background: unset !important;
+  padding-bottom: 75%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper .thumb-link .thumb {
   max-width: 100%;
-  width: 100%;
   max-height: none;
   background: transparent !important;
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  object-position: center;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper {
@@ -321,12 +332,12 @@ html {
 
 /* navbar */
 #page-top #main_navigation {
-  background-color: var(--secondary-color) !important;
-  border-color: #ffffff;
+  background-color: var(--navigation-color) !important;
+  border-color: var(--primary-color);
 }
 
 #page-top #main_navigation .dropdown-menu {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--navigation-color) !important;
 }
 
 #page-top #main_navigation .navbar-brand {
@@ -908,7 +919,7 @@ html {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p span {
-  font-family: "myriad-pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   display: block;
   margin-bottom: .5rem;
@@ -920,7 +931,7 @@ html {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(1) span {
-  font-family: "myriad-pro-condensed", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
   font-size: 3.5rem;
   margin-bottom: 0;
 }
@@ -1029,7 +1040,7 @@ html {
   filter: brightness(1);
   width: 100%;
   text-transform: uppercase;
-  font-family: 'myriad-pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #page-top .login-container .btn-primary:hover {
@@ -1076,7 +1087,7 @@ html {
 }
 
 #page-top .login-container > .row > div h3 {
-  font-family: "myriad-pro", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   text-align: left;
   color: #fff;
   font-size: 2.5rem;
@@ -1089,7 +1100,7 @@ html {
   font-weight: 300;
   line-height: 1.7;
   color: #ffffff !important;
-  font-family: "myriad-pro", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 #page-top .login-container > .row > div p br {
@@ -1101,7 +1112,7 @@ html {
 }
 
 #page-top .login-container > .row > div span, #page-top .login-container > .row > div a {
-  font-family: "myriad-pro", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #ffffff;
 }
 
@@ -1135,7 +1146,7 @@ html {
 #page-top .login-container > .row > div form .form-group {
   grid-column: auto / span 2;
   position: relative;
-  font-family: "myriad-pro", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #fff;
   grid-column: 1 / span 4;
 }
@@ -1160,7 +1171,7 @@ html {
   align-items: center;
   margin-bottom: .25rem;
   color: #fff;
-  font-family: "myriad-pro", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
 }
 
