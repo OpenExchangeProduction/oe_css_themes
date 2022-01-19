@@ -926,16 +926,16 @@ html {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(3) {
-  font-size: 3rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
 
-#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(3) {
-  margin-bottom: .5rem;
+#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4) {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
-  color: var(--header-button-color);
+  color: var(--header-button-color) !important;
   border: 1px solid var(--header-button-color);
 }
 
