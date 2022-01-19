@@ -11,7 +11,7 @@
   --bkg-color: linear-gradient(-270deg, #F5F5F5, #ffffff);
   --card-color: #006A84;
   --card-text-color: #ffffff;
-  --header-button-color: #0e0e0e;
+  --header-button-color: #474747;
 }
 
 body, div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
@@ -937,6 +937,16 @@ html {
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
   color: var(--header-button-color) !important;
   border: 1px solid var(--header-button-color);
+  font-size: 1.5rem;
+  padding: 5rem .75rem;
+  text-decoration: none !important;
+}
+
+#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover {
+  -webkit-transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0);
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* sub page styles */
