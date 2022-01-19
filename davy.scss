@@ -12,6 +12,7 @@
   --bkg-color: linear-gradient(-270deg, #F5F5F5, #ffffff);
   --card-color: #006A84;
   --card-text-color: #ffffff;
+  --header-button-color: #0e0e0e;
 }
 
 body, div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
@@ -913,24 +914,19 @@ html {
           }
 
           p {
-            font-size: 3rem;
+            font-size: 2rem;
 
             span {
-                font-family: "Open Sans", sans-serif;
-                font-weight: 300;
-                display: block;
-                margin-bottom: .5rem;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 300;
+              display: block;
+              margin-bottom: .5rem;
             }
           }
 
-          p:nth-child(1) span,
-          p:nth-child(4) span {
-            color: var(--primary-color)!important;
-          }
-
-          p:nth-child(1) span {
+          p:first-child {
             font-family: "Open Sans", sans-serif !important;
-            font-size: 3.5rem;
+            font-size: 1rem;
             margin-bottom: 0;
           }
 
@@ -941,9 +937,18 @@ html {
             padding-bottom: .5rem;
           }
 
-          p:nth-child(5) {
-            font-size: 1.75rem;
-            line-height: 1.7;
+          p:nth-child(3) {
+            font-size: 3rem;
+            margin-bottom: .5rem;
+          }
+
+          p:nth-child(3) {
+            margin-bottom: .5rem;
+          }
+
+          p:last-child a {
+            color: var(--header-button-color);
+            border: 1px solid var(--header-button-color);
           }
         }
       }
