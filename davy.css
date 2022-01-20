@@ -157,6 +157,35 @@ html {
   margin: 0;
 }
 
+@media screen and (max-width: 991px) {
+  #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info {
+    max-height: none;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info {
+    max-height: 13.5rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info {
+    max-height: 17.71875rem;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info {
+    max-height: 22.5rem;
+  }
+}
+
 #page-top:not(.single-post) .featured-category {
   border: none;
   margin: 0 auto;
