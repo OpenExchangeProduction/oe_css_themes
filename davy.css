@@ -298,6 +298,7 @@ html {
   animation: cubic-bezier(0, 0.3, 0.25, 1.5);
   white-space: normal;
   will-change: transform;
+  box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
 }
 
 #page-top:not(.single-post) .column-view-item > .post {
