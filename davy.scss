@@ -238,7 +238,6 @@ html {
         margin-right: 4rem;
 
         a {
-
           .showcase-title {
             margin-bottom: 0;
           }
@@ -899,7 +898,7 @@ html {
           a {
             .showcase-title {
               font-weight: 500;
-              color: $black;
+              color: $black !important;
             }
           }
         }
@@ -928,6 +927,10 @@ html {
               box-shadow: 0 4px 20px rgba(0,0,0,.25);
             }
           }
+
+          @media screen and (max-width: 976px) {
+            display: none !important;
+          }
         }
       }
     }
@@ -939,8 +942,8 @@ html {
             color: var(--primary-color) !important;
           }
 
-          @media (max-width: 768px) {
-            display: none;
+          @media screen and (max-width: 976px) {
+            display: none !important;
           }
         }
       }
