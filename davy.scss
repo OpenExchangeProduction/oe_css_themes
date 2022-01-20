@@ -167,7 +167,7 @@ html {
         &:after {
           content: '';
           display: block;
-          background: #e31837;
+          background: var(--play-button-color);
           border-radius: 50%;
         }
       }
@@ -275,6 +275,12 @@ html {
     height: unset;
     padding: 0;
     margin: 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+    -webkit-animation: cubic-bezier(0,.3,.25,1.5);
+    animation: cubic-bezier(0,.3,.25,1.5);
+    white-space: normal;
+    will-change: transform;
 
     > .post {
       display: -webkit-box;
@@ -345,7 +351,7 @@ html {
 
           .play-hover-button {
             pointer-events: none;
-            background: #e31837;
+            background: var(--play-button-color);
             border-radius: 50%;
             filter: brightness(1.75);
           }
@@ -379,6 +385,18 @@ html {
           }
         }
       }
+    }
+
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,.25);
+      -webkit-transform: translate3d(0, -3px, 0);
+      transform: translate3d(0, -3px, 0);
+      -webkit-transition: .2s;
+      transition: .2s;
+      -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+      animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+      white-space: normal;
+      will-change: transform;
     }
   }
 }
@@ -476,7 +494,7 @@ html {
       background-color: $white;
       margin-bottom: 3rem;
       max-height: unset;
-      box-shadow: 0 4px 20px rgba(0,0,0,.25);
+      box-shadow: 1.70454px 1.70454px 51.1362px rgba(0, 0, 0,.12);
 
       .featured-knovio-post {
         height: 100%;
@@ -720,7 +738,7 @@ html {
 
           .play-hover-button {
             pointer-events: none;
-            background: #e31837;
+            background: var(--play-button-color);
             border-radius: 50%;
             filter: brightness(1.75);
           }
