@@ -893,24 +893,20 @@ html {
           z-index: 2;
           text-align: right;
 
-          @media (min-width: 768px) {
-            max-width: 750px;
+          @media screen and (min-width: 992px) {
+            max-width: 50rem;
           }
 
-          @media (min-width: 992px) {
-            max-width: 970px;
+          @media all and (min-width: 1200px) {
+            max-width: 65rem;
           }
 
-          @media (min-width: 1200px) {
-            max-width: 1170px;
+          @media all and (min-width: 1500px) {
+            max-width: 82rem;
           }
 
-          @media (min-width: 1500px) {
-            max-width: 1380px;
-          }
-
-          @media (min-width: 1800px) {
-            max-width: 1680px;
+          @media all and (min-width: 1800px) {
+            max-width: 98rem;
           }
 
           p {
@@ -962,6 +958,7 @@ html {
             font-weight: 400;
             line-height: 1.33333;
             will-change: transform;
+            display: inline-block;
 
             &:hover {
               -webkit-transform: translate3d(0,-3px,0);

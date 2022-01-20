@@ -871,33 +871,27 @@ html {
   text-align: right;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 992px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 750px;
+    max-width: 50rem;
   }
 }
 
-@media (min-width: 992px) {
+@media all and (min-width: 1200px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 970px;
+    max-width: 65rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media all and (min-width: 1500px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 1170px;
+    max-width: 82rem;
   }
 }
 
-@media (min-width: 1500px) {
+@media all and (min-width: 1800px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 1380px;
-  }
-}
-
-@media (min-width: 1800px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 1680px;
+    max-width: 98rem;
   }
 }
 
@@ -950,6 +944,7 @@ html {
   font-weight: 400;
   line-height: 1.33333;
   will-change: transform;
+  display: inline-block;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover {
