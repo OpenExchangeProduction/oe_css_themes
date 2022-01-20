@@ -458,7 +458,7 @@ html {
 #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-post {
   height: 100%;
   align-items: center;
-  background-color: #405A58;
+  background-color: #4A5058;
 }
 
 #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info {
@@ -469,6 +469,7 @@ html {
 #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info .featured-knovio-title,
 #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info .featured-knovio-description {
   font-family: var(--primary-font);
+  color: #000000;
 }
 
 #page-top:not(.single-post) > .container:not(.login-container) .featured-knovio .featured-knovio-info .featured-knovio-description {
