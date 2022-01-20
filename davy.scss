@@ -28,6 +28,8 @@ $grey: #bfbfbf;
 $light-grey: #e2e2e2;
 $dark-grey: #707070;
 
+$play-button-color: var(--play-button-color);
+
 // aspect ratio box
 @mixin aspect-ratio-image($x, $y) {
   padding-bottom: unquote( ( $y / $x ) * 100 + '%' );
@@ -168,7 +170,7 @@ html {
         &:after {
           content: '';
           display: block;
-          background: var(--play-button-color);
+          background: $play-button-color;
           border-radius: 50%;
         }
       }
