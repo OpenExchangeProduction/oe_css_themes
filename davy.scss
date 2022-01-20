@@ -163,6 +163,13 @@ html {
             height: 100%;
           }
         }
+
+        &:after {
+          content: '';
+          display: block;
+          background: #e31837;
+          border-radius: 50%;
+        }
       }
 
       .featured-knovio-info {
@@ -320,6 +327,8 @@ html {
           height: 0;
           overflow: hidden;
           position: relative;
+          border: 1px solid $light-grey;
+          border-bottom: none;
 
           .thumb {
             max-width: 100%;
@@ -332,6 +341,19 @@ html {
             top: 0;
             object-fit: contain;
             object-position: center;
+          }
+
+          .play-hover-button {
+            pointer-events: none;
+            background: #e31837;
+            border-radius: 50%;
+            filter: brightness(1.75);
+          }
+
+          &:hover {
+            .play-hover-button {
+              opacity: .7 !important;
+            }
           }
         }
       }
@@ -451,14 +473,15 @@ html {
   /* featured knovio styles */
   > .container:not(.login-container) {
     .featured-knovio {
-      background-color: var(--card-color);
+      background-color: $white;
       margin-bottom: 3rem;
       max-height: unset;
+      box-shadow: 0 4px 20px rgba(0,0,0,.25);
 
       .featured-knovio-post {
         height: 100%;
         align-items: center;
-        background-color: $black;
+        background-color: #405A58;
       }
 
       .featured-knovio-info {
@@ -503,7 +526,6 @@ html {
           .tile-header-ellipsis {
             height: 100%;
             display: flex;
-            flex-wrap: wrap;
             flex-direction: column;
             align-content: flex-end;
             column-gap: 0;
@@ -693,6 +715,19 @@ html {
           .thumb {
             max-width: unset;
             max-height: unset;
+          }
+
+          .play-hover-button {
+            pointer-events: none;
+            background: #e31837;
+            border-radius: 50%;
+            filter: brightness(1.75);
+          }
+
+          &:hover {
+            .play-hover-button {
+              opacity: .7 !important;
+            }
           }
         }
       }
@@ -931,6 +966,7 @@ html {
             border-bottom: 3px solid var(--primary-color);
             margin-bottom: .5rem;
             padding-bottom: .5rem;
+            font-weight: 500;
           }
 
           p:nth-child(3) {
