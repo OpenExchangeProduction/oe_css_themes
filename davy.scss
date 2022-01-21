@@ -343,7 +343,7 @@ html {
         animation: cubic-bezier(0, 0.3, 0.25, 1.5);
         white-space: normal;
         will-change: transform;
-        
+
         .thumb-meta-wrapper .tile-text-area .post-details-activate {
           .tile-title {
             height: unset !important;
@@ -547,7 +547,6 @@ html {
   .column-view-item {
     > .post {
       height: 100%;
-      box-shadow: none;
 
       @media (max-width: 768px) {
         padding: 0 1.5rem;
@@ -572,7 +571,7 @@ html {
             align-content: flex-end;
             column-gap: 0;
 
-            @media screen and (max-width: 768px) and (min-width: 550px) {
+            @media screen and (max-width: 976px) and (min-width: 550px) {
               justify-content: center;
             }
 
@@ -618,7 +617,7 @@ html {
               margin: 1.25rem 0;
               transform: scaleX(1.25);
 
-              @media screen and (max-width: 768px) and (min-width: 550px) {
+              @media screen and (max-width: 976px) and (min-width: 550px) {
                 margin: .5rem 0;
               }
             }
@@ -690,7 +689,7 @@ html {
                   margin-top: auto;
                   order: 2;
 
-                  @media screen and (max-width: 768px) and (min-width: 550px) {
+                  @media screen and (max-width: 976px) and (min-width: 550px) {
                     display: none;
                   }
                 }
@@ -718,7 +717,7 @@ html {
                   filter: brightness(0.8);
                 }
 
-                @media screen and (max-width: 768px) and (min-width: 550px) {
+                @media screen and (max-width: 976px) and (min-width: 550px) {
                   justify-content: center;
                 }
               }
