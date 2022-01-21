@@ -314,8 +314,8 @@ html {
     will-change: transform;
 
     &:hover {
-      -webkit-transform: translate3d(0, -3px, 0);
-      transform: translate3d(0, -3px, 0);
+      -webkit-transform: translate3d(0, -6px, 0);
+      transform: translate3d(0, -6px, 0);
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
