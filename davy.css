@@ -470,7 +470,7 @@ html {
     border: none;
     border-radius: 0;
   }
-  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) li:first-of-type #search-btn .fa-search {
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) li:first-of-type #search-btn .fal.fa-search {
     color: #ffffff !important;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) #user-options-dropdown {
@@ -644,6 +644,21 @@ html {
     max-width: 50%;
     font-size: 3rem;
     margin-left: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-responsive.showcase-banner {
+    left: -3rem;
+  }
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
+    font-size: 3rem;
+  }
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p {
+    font-size: 1.25rem;
+  }
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
+    font-size: 1rem;
   }
 }
 

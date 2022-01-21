@@ -491,7 +491,7 @@ html {
                 border: none;
                 border-radius: 0;
 
-                .fa-search {
+                .fal.fa-search {
                   color: #ffffff !important;
                 }
               }
@@ -702,6 +702,24 @@ html {
       font-size: 3rem;
       margin-left: auto;
     }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-responsive.showcase-banner {
+    left: -3rem;
+  }
+
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
+    font-size: 3rem;
+  }
+
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p {
+    font-size: 1.25rem;
+  }
+
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
+    font-size: 1rem;
+  }
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12 {
