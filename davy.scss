@@ -306,6 +306,23 @@ html {
     height: unset;
     padding: 0;
     margin: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-animation: cubic-bezier(0,.3,.25,1.5);
+    animation: cubic-bezier(0,.3,.25,1.5);
+    white-space: normal;
+    will-change: transform;
+
+    &:hover {
+      -webkit-transform: translate3d(0, -3px, 0);
+      transform: translate3d(0, -3px, 0);
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+      animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+      white-space: normal;
+      will-change: transform;
+    }
 
     > .post {
       display: -webkit-box;
@@ -318,13 +335,9 @@ html {
       gap: 0;
       width: 100%;
       height: unset;
+      box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      -webkit-animation: cubic-bezier(0,.3,.25,1.5);
-      animation: cubic-bezier(0,.3,.25,1.5);
-      white-space: normal;
-      will-change: transform;
-      box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
 
       @media (max-width: 976px) {
         -webkit-box-orient: horizontal;
@@ -335,14 +348,6 @@ html {
 
       &:hover {
         box-shadow: 0 4px 20px rgba(0,0,0,.25);
-        -webkit-transform: translate3d(0, -3px, 0);
-        transform: translate3d(0, -3px, 0);
-        -webkit-transition: .2s;
-        transition: .2s;
-        -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-        animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-        white-space: normal;
-        will-change: transform;
 
         .thumb-meta-wrapper .tile-text-area .post-details-activate {
           .tile-title {
