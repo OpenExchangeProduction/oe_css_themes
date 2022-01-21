@@ -422,9 +422,14 @@ html {
 }
 
 /* navbar */
+#page-top {
+  position: relative;
+}
+
 #page-top #main_navigation {
   background-color: var(--navigation-color) !important;
   border-color: var(--primary-color);
+  z-index: 3;
 }
 
 @media (min-width: 769px) {
@@ -1352,6 +1357,8 @@ html {
   bottom: 0;
   left: 0;
   max-width: unset;
+  position: absolute;
+  z-index: 10;
 }
 
 @media (max-width: 350px) and (max-width: 350px) {
