@@ -9,8 +9,8 @@
   --card-color: #4A5058;
   --card-text-color: #ffffff;
   --header-button-color: #474747;
-  --header-gradient: linear-gradient(-90deg, #ffffff 45%, transparent);
-  --anchor-position: left;
+  --header-gradient: linear-gradient(-90deg, #5a1262 45%, transparent);
+  --anchor-position: center;
   --play-button-color: rgba(185, 0, 47, 1);
   --view-all-button-color: #005383;
   --bkg-color: linear-gradient(-270deg, #F5F5F5, #ffffff);
@@ -137,6 +137,7 @@ html {
       gap: 1rem;
       margin: 0;
       padding: 0;
+      background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/greysihpurple_png_1642800865170/greysihpurple_352beffb-22ae-4e38-917b-f8132543cb53.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=XRGCTyjg47vckwuebYOkc28YnlY%3D');
 
       &::before,
       &::after {
@@ -442,8 +443,8 @@ html {
   position: relative;
 
   #main_navigation {
-    background-color: var(--navigation-color) !important;
-    border-color: var(--primary-color);
+    background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/greysihpurple_png_1642800865170/greysihpurple_352beffb-22ae-4e38-917b-f8132543cb53.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=XRGCTyjg47vckwuebYOkc28YnlY%3D');
+    border-color: rgba(185, 0, 47, 1);
     z-index: 3;
 
     @media (min-width: 769px) {
@@ -1262,7 +1263,7 @@ html {
       position: absolute;
       z-index: -1;
       object-fit: cover;
-      object-position: left;
+      object-position: var(--anchor-position);
       width: 70%;
       height: 100%;
       left: 0;
@@ -1617,7 +1618,7 @@ html {
 
 footer {
   border-top: 6px solid var(--primary-color);
-  background: #f2f2f2;
+  background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/greysihpurple_png_1642800865170/greysihpurple_352beffb-22ae-4e38-917b-f8132543cb53.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=XRGCTyjg47vckwuebYOkc28YnlY%3D');
 
   .footer-container {
     padding: 2rem 0;
