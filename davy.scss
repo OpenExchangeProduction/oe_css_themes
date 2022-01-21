@@ -514,9 +514,21 @@ html {
           }
 
           ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            float: none !important;
+
             .dropdown {
+              height: 100%;
+
               .btn-group {
+                height: 100%;
+
                 .btn.ellipsis {
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
                   text-decoration: none;
                   letter-spacing: .02em;
                   text-transform: uppercase;
@@ -527,6 +539,7 @@ html {
                 }
 
                 .btn.dropdown-toggle {
+                  height: 100%;
                   color: #333 !important;
                 }
 

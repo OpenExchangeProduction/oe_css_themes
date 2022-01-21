@@ -490,7 +490,22 @@ html {
     font-size: 1.25rem;
     font-weight: 500;
   }
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: none !important;
+  }
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown {
+    height: 100%;
+  }
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group {
+    height: 100%;
+  }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.ellipsis {
+    height: 100%;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     letter-spacing: .02em;
     text-transform: uppercase;
@@ -500,6 +515,7 @@ html {
     line-height: 1.8rem;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
+    height: 100%;
     color: #333 !important;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu {
