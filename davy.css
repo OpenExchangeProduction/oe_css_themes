@@ -1547,12 +1547,6 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1135px) {
-  body#page-top {
-    padding-top: 61px !important;
-  }
-}
-
 footer {
   border-top: 6px solid var(--primary-color);
   background: #f2f2f2;
