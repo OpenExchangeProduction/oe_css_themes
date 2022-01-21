@@ -428,6 +428,10 @@ html {
   float: none;
 }
 
+#page-top #main_navigation .container-fluid .navbar-header .navbar-brand {
+  height: 100%;
+}
+
 #page-top #main_navigation .container-fluid .navbar-header .navbar-brand .showcase-logo {
   max-height: 65px;
 }
@@ -466,14 +470,15 @@ html {
   text-decoration: none;
   letter-spacing: .02em;
   text-transform: uppercase;
-  color: #333;
-  font-size: 1.1rem;
+  color: #333 !important;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.8rem;
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
   height: 100%;
+  color: #333 !important;
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu {
@@ -483,8 +488,8 @@ html {
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu > li > a {
   letter-spacing: .02em;
   text-transform: uppercase;
-  color: #333;
-  font-size: 1rem;
+  color: #333 !important;
+  font-size: .9rem;
   font-weight: 600;
   line-height: 1.8rem;
 }

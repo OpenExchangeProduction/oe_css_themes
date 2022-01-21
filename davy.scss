@@ -442,8 +442,12 @@ html {
       .navbar-header {
         float: none;
 
-        .navbar-brand .showcase-logo {
-          max-height: 65px;
+        .navbar-brand {
+          height: 100%;
+
+          .showcase-logo {
+            max-height: 65px;
+          }
         }
       }
 
@@ -477,14 +481,15 @@ html {
                 text-decoration: none;
                 letter-spacing: .02em;
                 text-transform: uppercase;
-                color: #333;
-                font-size: 1.1rem;
+                color: #333 !important;
+                font-size: 1rem;
                 font-weight: 600;
                 line-height: 1.8rem;
               }
 
               .btn.dropdown-toggle {
                 height: 100%;
+                color: #333 !important;
               }
 
               .dropdown-menu {
@@ -493,8 +498,8 @@ html {
                 > li > a {
                   letter-spacing: .02em;
                   text-transform: uppercase;
-                  color: #333;
-                  font-size: 1rem;
+                  color: #333 !important;
+                  font-size: .9rem;
                   font-weight: 600;
                   line-height: 1.8rem;
                 }
