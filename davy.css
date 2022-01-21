@@ -35,18 +35,12 @@ html {
   #page-top .container-fluid {
     max-width: 50rem;
   }
-  footer .footer-container p:last-child {
-    margin: 0 -13rem;
-  }
 }
 
 @media all and (min-width: 1200px) {
   #page-top .container,
   #page-top .container-fluid {
     max-width: 65rem;
-  }
-  footer .footer-container p:last-child {
-    margin: 0 -13rem;
   }
 }
 
@@ -55,18 +49,12 @@ html {
   #page-top .container-fluid {
     max-width: 82rem;
   }
-  footer .footer-container p:last-child {
-    margin: 0 -13rem;
-  }
 }
 
 @media all and (min-width: 1800px) {
   #page-top .container,
   #page-top .container-fluid {
     max-width: 98rem;
-  }
-  footer .footer-container p:last-child {
-    margin: 0 -13rem;
   }
 }
 
