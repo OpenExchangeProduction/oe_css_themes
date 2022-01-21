@@ -1285,8 +1285,11 @@ html {
 @media (min-width: 769px) and (max-width: 1200px) {
   .img-responsive.showcase-banner {
     left: -3rem;
+    width: 100%;
   }
+}
 
+@media (max-width: 1200px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
     font-size: 3rem;
   }
@@ -1297,6 +1300,15 @@ html {
 
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p,
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
+    text-align: left;
+    margin-left: 0;
+    max-width: 100%;
   }
 }
 
