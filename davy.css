@@ -420,12 +420,73 @@ html {
   border-color: var(--primary-color);
 }
 
-#page-top #main_navigation .dropdown-menu {
+#page-top #main_navigation .container-fluid {
+  display: flex;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header {
+  float: none;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse {
+  width: 100%;
+  position: relative;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: none;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: none;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown {
+  height: 100%;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group {
+  height: 100%;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.ellipsis {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
+  height: 100%;
+}
+
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu {
   background-color: var(--navigation-color) !important;
 }
 
-#page-top #main_navigation .navbar-brand {
-  margin-right: 250px;
+#page-top #main_navigation .container-fluid .navbar-header #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu > li > a {
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+#page-top #main_navigation .navbar-default .showcase-logo {
+  max-height: 65px;
 }
 
 /* modal */

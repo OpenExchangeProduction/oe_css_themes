@@ -436,12 +436,73 @@ html {
     background-color: var(--navigation-color) !important;
     border-color: var(--primary-color);
 
-    .dropdown-menu {
-      background-color: var(--navigation-color) !important;
+    .container-fluid {
+      display: flex;
+
+      .navbar-header {
+        float: none;
+
+        #main_navigation_collapse {
+          width: 100%;
+          position: relative;
+
+          ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
+            position: absolute;
+            top: 0;
+            right: 0;
+            float: none;
+          }
+
+          ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            float: none;
+
+            .dropdown {
+              height: 100%;
+
+              .btn-group {
+                height: 100%;
+
+                .btn.ellipsis {
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  text-decoration: none;
+                  letter-spacing: .02em;
+                  text-transform: uppercase;
+                  color: #333;
+                  font-size: 1.1rem;
+                  font-weight: 600;
+                  line-height: 1.8rem;
+                }
+
+                .btn.dropdown-toggle {
+                  height: 100%;
+                }
+
+                .dropdown-menu {
+                  background-color: var(--navigation-color) !important;
+
+                  > li > a {
+                    letter-spacing: .02em;
+                    text-transform: uppercase;
+                    color: #333;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    line-height: 1.8rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
 
-    .navbar-brand {
-      margin-right: 250px;
+    .navbar-default .showcase-logo {
+      max-height: 65px;
     }
   }
 }
