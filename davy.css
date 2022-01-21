@@ -293,13 +293,6 @@ html {
   height: unset;
   padding: 0;
   margin: 0;
-  -webkit-transition: .2s;
-  transition: .2s;
-  -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-  animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-  white-space: normal;
-  will-change: transform;
-  box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
 }
 
 #page-top:not(.single-post) .column-view-item > .post {
@@ -313,8 +306,13 @@ html {
   gap: 0;
   width: 100%;
   height: unset;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+  animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+  white-space: normal;
+  will-change: transform;
+  box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
 }
 
 @media (max-width: 976px) {
@@ -324,6 +322,18 @@ html {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
   }
+}
+
+#page-top:not(.single-post) .column-view-item > .post:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  -webkit-transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0);
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+  animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+  white-space: normal;
+  will-change: transform;
 }
 
 #page-top:not(.single-post) .column-view-item > .post:hover .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title {
@@ -397,18 +407,6 @@ html {
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title {
   height: unset !important;
-}
-
-#page-top:not(.single-post) .column-view-item:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-  -webkit-transform: translate3d(0, -3px, 0);
-  transform: translate3d(0, -3px, 0);
-  -webkit-transition: .2s;
-  transition: .2s;
-  -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-  animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-  white-space: normal;
-  will-change: transform;
 }
 
 /* navbar */
@@ -561,6 +559,12 @@ html {
   column-gap: 0;
 }
 
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis {
+    justify-content: center;
+  }
+}
+
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis .tile-title {
   color: var(--card-text-color) !important;
   font-size: 1.25rem;
@@ -578,7 +582,7 @@ html {
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis .tile-title a {
   color: var(--card-text-color) !important;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.35;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -599,6 +603,12 @@ html {
   align-self: flex-end;
   margin: 1.25rem 0;
   transform: scaleX(1.25);
+}
+
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header)::after {
+    margin: .5rem 0;
+  }
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon {
@@ -670,6 +680,12 @@ html {
   order: 2;
 }
 
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
+    display: none;
+  }
+}
+
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a::after {
   display: block;
   padding: 0;
@@ -691,6 +707,12 @@ html {
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover {
   filter: brightness(0.8);
+}
+
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
+    justify-content: center;
+  }
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .post-icons-grid {

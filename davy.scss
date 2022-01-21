@@ -306,13 +306,6 @@ html {
     height: unset;
     padding: 0;
     margin: 0;
-    -webkit-transition: .2s;
-    transition: .2s;
-    -webkit-animation: cubic-bezier(0,.3,.25,1.5);
-    animation: cubic-bezier(0,.3,.25,1.5);
-    white-space: normal;
-    will-change: transform;
-    box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
 
     > .post {
       display: -webkit-box;
@@ -325,8 +318,13 @@ html {
       gap: 0;
       width: 100%;
       height: unset;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      -webkit-animation: cubic-bezier(0,.3,.25,1.5);
+      animation: cubic-bezier(0,.3,.25,1.5);
+      white-space: normal;
+      will-change: transform;
+      box-shadow: rgba(0, 0, 0, 0.13) 2px 3px 7px 0px;
 
       @media (max-width: 976px) {
         -webkit-box-orient: horizontal;
@@ -336,6 +334,16 @@ html {
       }
 
       &:hover {
+        box-shadow: 0 4px 20px rgba(0,0,0,.25);
+        -webkit-transform: translate3d(0, -3px, 0);
+        transform: translate3d(0, -3px, 0);
+        -webkit-transition: .2s;
+        transition: .2s;
+        -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+        animation: cubic-bezier(0, 0.3, 0.25, 1.5);
+        white-space: normal;
+        will-change: transform;
+        
         .thumb-meta-wrapper .tile-text-area .post-details-activate {
           .tile-title {
             height: unset !important;
@@ -413,18 +421,6 @@ html {
           }
         }
       }
-    }
-
-    &:hover {
-      box-shadow: 0 4px 20px rgba(0,0,0,.25);
-      -webkit-transform: translate3d(0, -3px, 0);
-      transform: translate3d(0, -3px, 0);
-      -webkit-transition: .2s;
-      transition: .2s;
-      -webkit-animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-      animation: cubic-bezier(0, 0.3, 0.25, 1.5);
-      white-space: normal;
-      will-change: transform;
     }
   }
 }
@@ -576,6 +572,10 @@ html {
             align-content: flex-end;
             column-gap: 0;
 
+            @media screen and (max-width: 768px) and (min-width: 550px) {
+              justify-content: center;
+            }
+
             .tile-title {
               color: var(--card-text-color) !important;
               font-size: 1.25rem;
@@ -592,7 +592,7 @@ html {
 
               a {
                 color: var(--card-text-color) !important;
-                font-size: 1.5rem;
+                font-size: 1.25rem;
                 line-height: 1.35;
                 filter: brightness(1);
                 transition: filter .2s ease, padding .2s ease;
@@ -617,6 +617,10 @@ html {
               align-self: flex-end;
               margin: 1.25rem 0;
               transform: scaleX(1.25);
+
+              @media screen and (max-width: 768px) and (min-width: 550px) {
+                margin: .5rem 0;
+              }
             }
 
             .post-details-icon {
@@ -685,6 +689,10 @@ html {
                   transform: scaleX(1.25);
                   margin-top: auto;
                   order: 2;
+
+                  @media screen and (max-width: 768px) and (min-width: 550px) {
+                    display: none;
+                  }
                 }
 
                 &::after {
@@ -708,6 +716,10 @@ html {
 
                 &:hover {
                   filter: brightness(0.8);
+                }
+
+                @media screen and (max-width: 768px) and (min-width: 550px) {
+                  justify-content: center;
                 }
               }
             }
