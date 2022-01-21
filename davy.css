@@ -35,12 +35,18 @@ html {
   #page-top .container-fluid {
     max-width: 50rem;
   }
+  footer .footer-container p:last-child {
+    margin: 0 -13rem;
+  }
 }
 
 @media all and (min-width: 1200px) {
   #page-top .container,
   #page-top .container-fluid {
     max-width: 65rem;
+  }
+  footer .footer-container p:last-child {
+    margin: 0 -13rem;
   }
 }
 
@@ -49,12 +55,18 @@ html {
   #page-top .container-fluid {
     max-width: 82rem;
   }
+  footer .footer-container p:last-child {
+    margin: 0 -13rem;
+  }
 }
 
 @media all and (min-width: 1800px) {
   #page-top .container,
   #page-top .container-fluid {
     max-width: 98rem;
+  }
+  footer .footer-container p:last-child {
+    margin: 0 -13rem;
   }
 }
 
@@ -1335,6 +1347,13 @@ html {
   }
 }
 
+#page-top .login-container > .row > div form::after {
+  content: 'Your data will only be processed for the purposes for which it was collected in accordance with the applicable Data Protection legislation. Information you provide when registering will be shared with our presenting company for the purpose of this event. You have other rights in relation to your personal data which apply in certain circumstances and are described in more detail in the Davy Group Policy, available on Davy official website. To make communications more relevant to you, Davy may analyse the information they hold about you. You have the right at any time to change your mind regarding how Davy uses your information and can opt out of marketing by emailing optout@davy.ie, or writing to FREEPOST, Head of Data Protection, Group Risk, Davy, 49 Dawson Street, Dublin 2. Davy will never share your details with third parties for marketing purposes.';
+  font-size: 8px;
+  font-family: var(--primary-font);
+  color: #000000;
+}
+
 @media (max-width: 450px) {
   #page-top .login-container {
     height: calc(100vh - 121px);
@@ -1352,16 +1371,21 @@ html {
 }
 
 footer {
-  border-top: 1px solid #ffffff;
-  background: #4A5058;
+  border-top: 6px solid var(--primary-color);
+  background: #f2f2f2;
 }
 
 footer .footer-container {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 footer .footer-container p {
   margin: 0;
+  color: #000000;
+}
+
+footer .footer-container p:last-child {
+  text-align: center;
 }
 
 #page-top .tile-title {
