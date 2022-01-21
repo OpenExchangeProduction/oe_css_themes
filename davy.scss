@@ -55,6 +55,7 @@ $play-button-color: var(--play-button-color);
 body {
   background: var(--bkg-color);
   color: $white;
+  padding-top: 130px !important;
 }
 
 html {
@@ -464,12 +465,89 @@ html {
         width: 100%;
         position: relative;
 
+        @media (min-width: 769px) {
+          ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
+            position: absolute;
+            top: -3rem;
+            right: 0;
+            float: none;
+            display: flex;
+
+            li:first-of-type {
+              #search-btn {
+                margin: 0;
+                width: 38px;
+                height: 38px;
+                background: #606060;
+                border: none;
+                border-radius: 0;
+
+                .fa-search {
+                  color: #ffffff !important;
+                }
+              }
+            }
+
+            #user-options-dropdown {
+              height: 38px;
+              display: flex;
+              align-items: center;
+              padding: 6px;
+              margin-left: 2px;
+              background: #606060;
+
+              .dropdown-toggle {
+                padding: 0;
+
+                .user-options-icon {
+                  color: #ffffff !important;
+
+                  &:before {
+                    content: 'LOG OUT';
+                    font-family: var(--primary-font);
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                  }
+                }
+              }
+            }
+          }
+
+          ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+            .dropdown {
+              .btn-group {
+                .btn.ellipsis {
+                  text-decoration: none;
+                  letter-spacing: .02em;
+                  text-transform: uppercase;
+                  color: #333 !important;
+                  font-size: 1rem;
+                  font-weight: 600;
+                  line-height: 1.8rem;
+                }
+
+                .btn.dropdown-toggle {
+                  color: #333 !important;
+                }
+
+                .dropdown-menu {
+                  background-color: var(--navigation-color) !important;
+
+                  > li > a {
+                    letter-spacing: .02em;
+                    text-transform: uppercase;
+                    color: #333 !important;
+                    font-size: .9rem;
+                    font-weight: 600;
+                    line-height: 1.8rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+
         ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
-          position: absolute;
-          top: -3rem;
-          right: 0;
-          float: none;
-          display: flex;
 
           li:first-of-type {
             #search-btn {
@@ -498,11 +576,13 @@ html {
               padding: 0;
 
               .user-options-icon {
-                color: #ffffff;
+                color: #ffffff !important;
 
                 &:before {
                   content: 'LOG OUT';
                   font-family: var(--primary-font);
+                  font-size: 1.25rem;
+                  font-weight: 500;
                 }
               }
             }
@@ -510,21 +590,9 @@ html {
         }
 
         ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
-          height: 100%;
-          display: flex;
-          align-items: center;
-          float: none !important;
-
           .dropdown {
-            height: 100%;
-
             .btn-group {
-              height: 100%;
-
               .btn.ellipsis {
-                height: 100%;
-                display: flex;
-                align-items: center;
                 text-decoration: none;
                 letter-spacing: .02em;
                 text-transform: uppercase;
@@ -535,7 +603,6 @@ html {
               }
 
               .btn.dropdown-toggle {
-                height: 100%;
                 color: #333 !important;
               }
 
