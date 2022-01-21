@@ -421,37 +421,34 @@ html {
   border-color: var(--primary-color);
 }
 
-#page-top #main_navigation:before {
-  display: block;
-  height: 38px;
-  background: #f2f2f2;
-  content: '';
-  width: 100%;
-}
-
-#page-top #main_navigation .container-fluid {
-  display: flex;
-  padding: .5rem;
-}
-
-#page-top #main_navigation .container-fluid .navbar-header {
-  float: none;
-}
-
-#page-top #main_navigation .container-fluid .navbar-header .navbar-brand {
-  height: 100%;
-}
-
-#page-top #main_navigation .container-fluid .navbar-header .navbar-brand .showcase-logo {
-  max-height: 65px;
-}
-
-#page-top #main_navigation .container-fluid #main_navigation_collapse {
-  width: 100%;
-  position: relative;
+@media (min-width: 769px) {
+  #page-top #main_navigation .container-fluid {
+    display: flex;
+    padding: .5rem;
+  }
+  #page-top #main_navigation .container-fluid .navbar-header {
+    float: none;
+  }
+  #page-top #main_navigation .container-fluid .navbar-header .navbar-brand {
+    height: 100%;
+  }
+  #page-top #main_navigation .container-fluid .navbar-header .navbar-brand .showcase-logo {
+    max-height: 65px;
+  }
+  #page-top #main_navigation:before {
+    display: block;
+    height: 38px;
+    background: #f2f2f2;
+    content: '';
+    width: 100%;
+  }
 }
 
 @media (min-width: 769px) {
+  #page-top #main_navigation .container-fluid #main_navigation_collapse {
+    width: 100%;
+    position: relative;
+  }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
     position: absolute;
     top: -3rem;
@@ -483,6 +480,7 @@ html {
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) #user-options-dropdown .dropdown-toggle .user-options-icon {
     color: #ffffff !important;
+    display: flex;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) #user-options-dropdown .dropdown-toggle .user-options-icon:before {
     content: 'LOG OUT';

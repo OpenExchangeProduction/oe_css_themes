@@ -437,35 +437,40 @@ html {
     background-color: var(--navigation-color) !important;
     border-color: var(--primary-color);
 
-    &:before {
-      display: block;
-      height: 38px;
-      background: #f2f2f2;
-      content: '';
-      width: 100%;
-    }
+    @media (min-width: 769px) {
+      .container-fluid {
+        display: flex;
+        padding: .5rem;
 
-    .container-fluid {
-      display: flex;
-      padding: .5rem;
+        .navbar-header {
+          float: none;
 
-      .navbar-header {
-        float: none;
+          .navbar-brand {
+            height: 100%;
 
-        .navbar-brand {
-          height: 100%;
-
-          .showcase-logo {
-            max-height: 65px;
+            .showcase-logo {
+              max-height: 65px;
+            }
           }
         }
       }
 
-      #main_navigation_collapse {
+      &:before {
+        display: block;
+        height: 38px;
+        background: #f2f2f2;
+        content: '';
         width: 100%;
-        position: relative;
+      }
+    }
 
+    .container-fluid {
+
+      #main_navigation_collapse {
         @media (min-width: 769px) {
+          width: 100%;
+          position: relative;
+
           ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
             position: absolute;
             top: -3rem;
@@ -501,6 +506,7 @@ html {
 
                 .user-options-icon {
                   color: #ffffff !important;
+                  display: flex;
 
                   &:before {
                     content: 'LOG OUT';
