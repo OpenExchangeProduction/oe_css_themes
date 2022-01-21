@@ -1471,7 +1471,7 @@ html {
 #page-top .login-container > .row > div form {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
+  gap: .75rem;
   order: 2;
   width: 100%;
   padding-bottom: 3rem;
@@ -1542,6 +1542,13 @@ html {
   font-size: 8px;
   font-family: var(--primary-font);
   color: #000000;
+  grid-column: 1 / span 4;
+}
+
+@media (max-width: 768px) {
+  #page-top .login-container > .row > div form::after {
+    grid-column: auto/span 1 !important;
+  }
 }
 
 @media (max-width: 450px) {
