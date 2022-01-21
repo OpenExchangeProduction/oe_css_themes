@@ -617,7 +617,7 @@ html {
 }
 
 /* styles for header */
-@media (min-width: 550px) {
+@media (min-width: 768px) {
   .img-responsive.showcase-banner {
     margin: 0;
     position: absolute;
