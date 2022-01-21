@@ -556,7 +556,8 @@ html {
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) #main-search-form {
-  display: none !important;
+  border: none;
+  padding: 0;
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) #user-options-dropdown .user-options-mobile li {
