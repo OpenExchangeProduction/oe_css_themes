@@ -1466,8 +1466,13 @@ html {
         text-align: left;
         color: #fff;
         font-size: 2.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
         order: 1;
+        width: 75%;
+        padding-left: .5rem;
+        display: flex;
+        align-items: center;
       }
 
       p {
@@ -1488,13 +1493,14 @@ html {
 
       span, a {
         font-family: "Open Sans", Arial, sans-serif;
-        color: $white;
+        color: $black;
       }
 
       > .row {
         margin: 0;
-        border-bottom: 3px solid var(--primary-color);
-        padding: 1rem 0;
+        padding: 0;
+        padding-top: 1rem;
+        width: 25%;
 
         img {
           max-width: 100% !important;
@@ -1513,13 +1519,15 @@ html {
         gap: .75rem;
         order: 2;
         width: 100%;
+        padding-top: 1.25rem;
         padding-bottom: 3rem;
+        border-top: 3px solid var(--primary-color);
 
         .form-group {
           grid-column: auto / span 2;
           position: relative;
           font-family: "Open Sans", Arial, sans-serif;
-          color: #fff;
+          color: #000000;
           grid-column: 1 / span 4;
 
           &:first-child {
@@ -1541,7 +1549,7 @@ html {
             display: flex;
             align-items: center;
             margin-bottom: .25rem;
-            color: #fff;
+            color: #000000;
             font-family: "Open Sans", Arial, sans-serif;
             font-weight: 400;
           }
@@ -1550,6 +1558,7 @@ html {
             position: relative;
             z-index: 1;
             background-color: #e2e2e2;
+            border: 1px solid #e3e3e3;
             transition: z-index .15s ease-in-out, background-color .15s ease-in-out;
 
             &:focus {
