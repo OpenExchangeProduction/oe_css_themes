@@ -1292,6 +1292,7 @@ html {
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .showcase-title {
   font-weight: 500;
+  color: #000000;
 }
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row {
