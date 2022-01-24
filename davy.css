@@ -1336,11 +1336,11 @@ html {
 
 /* single post */
 #page-top.single-post .post .tile-area .tile-navigation-link .navigation-link-title {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 #page-top.single-post h2#page-title {
-  color: #ffffff;
+  color: #000000;
 }
 
 #page-top.single-post .right-container {

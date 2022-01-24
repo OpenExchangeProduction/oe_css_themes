@@ -1387,11 +1387,11 @@ html {
 /* single post */
 #page-top.single-post {
   .post .tile-area .tile-navigation-link .navigation-link-title {
-    color: #ffffff !important;
+    color: $black !important;
   }
 
   h2#page-title {
-    color: $white;
+    color: $black;
   }
 
   .right-container {
