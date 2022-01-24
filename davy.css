@@ -514,8 +514,9 @@ html {
     text-transform: uppercase;
     color: #333 !important;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.8rem;
+    font-family: 'Open Sans', arial, sans-serif;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown {
     height: 100%;
@@ -532,8 +533,9 @@ html {
     text-transform: uppercase;
     color: #333 !important;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.8rem;
+    font-family: 'Open Sans', arial, sans-serif;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
     height: 100%;
@@ -596,7 +598,7 @@ html {
   text-transform: uppercase;
   color: #333 !important;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.8rem;
 }
 
@@ -614,7 +616,7 @@ html {
   text-transform: uppercase;
   color: #333 !important;
   font-size: .9rem;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.8rem;
 }
 
