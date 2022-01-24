@@ -445,6 +445,7 @@ html {
   }
   #page-top #main_navigation .container-fluid .navbar-header .navbar-brand {
     height: 100%;
+    width: 100%;
   }
   #page-top #main_navigation .container-fluid .navbar-header .navbar-brand .showcase-logo {
     max-height: 65px;
