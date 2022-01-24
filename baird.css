@@ -450,7 +450,6 @@ body {
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis {
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-content: flex-end;
   column-gap: 0;
@@ -673,7 +672,6 @@ body {
 #page-top:not(.single-post) .list-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis {
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-content: flex-end;
   column-gap: 0;
