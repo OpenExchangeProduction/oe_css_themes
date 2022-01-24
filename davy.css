@@ -514,7 +514,7 @@ html {
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group {
     height: 100%;
   }
-  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.ellipsis {
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .ellipsis {
     height: 100%;
     display: flex;
     align-items: center;
@@ -571,7 +571,7 @@ html {
   color: #606060 !important;
 }
 
-#page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.ellipsis {
+#page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .ellipsis {
   text-decoration: none;
   letter-spacing: .02em;
   text-transform: uppercase;

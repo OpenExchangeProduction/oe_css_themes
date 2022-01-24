@@ -541,7 +541,7 @@ html {
               .btn-group {
                 height: 100%;
 
-                .btn.ellipsis {
+                .ellipsis {
                   height: 100%;
                   display: flex;
                   align-items: center;
@@ -615,7 +615,7 @@ html {
         ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
           .dropdown {
             .btn-group {
-              .btn.ellipsis {
+              .ellipsis {
                 text-decoration: none;
                 letter-spacing: .02em;
                 text-transform: uppercase;
