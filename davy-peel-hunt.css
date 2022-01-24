@@ -19,11 +19,7 @@
 }
 
 body, div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', arial, sans-serif;
-}
-
-body {
-  background: red;
+  font-family: 'Open Sans', arial, sans-serif !important;
 }
 
 body {
@@ -519,8 +515,9 @@ html {
     text-transform: uppercase;
     color: #333 !important;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.8rem;
+    font-family: 'Open Sans', arial, sans-serif;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown {
     height: 100%;
@@ -537,8 +534,9 @@ html {
     text-transform: uppercase;
     color: #333 !important;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.8rem;
+    font-family: 'Open Sans', arial, sans-serif;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
     height: 100%;
@@ -591,8 +589,9 @@ html {
   text-transform: uppercase;
   color: #333 !important;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.8rem;
+  font-family: 'Open Sans', arial, sans-serif;
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .ellipsis {
@@ -601,8 +600,9 @@ html {
   text-transform: uppercase;
   color: #333 !important;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.8rem;
+  font-family: 'Open Sans', arial, sans-serif;
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {

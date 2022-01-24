@@ -20,11 +20,7 @@
 }
 
 body, div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', arial, sans-serif;
-}
-
-body {
-  background: red;
+  font-family: 'Open Sans', arial, sans-serif !important;
 }
 
 $white: #ffffff;
@@ -546,8 +542,9 @@ html {
               text-transform: uppercase;
               color: #333 !important;
               font-size: 1rem;
-              font-weight: 600;
+              font-weight: 800;
               line-height: 1.8rem;
+              font-family: 'Open Sans', arial, sans-serif
             }
 
             .dropdown {
@@ -565,8 +562,9 @@ html {
                   text-transform: uppercase;
                   color: #333 !important;
                   font-size: 1rem;
-                  font-weight: 600;
+                  font-weight: 800;
                   line-height: 1.8rem;
+                  font-family: 'Open Sans', arial, sans-serif
                 }
 
                 .btn.dropdown-toggle {
@@ -634,8 +632,9 @@ html {
             text-transform: uppercase;
             color: #333 !important;
             font-size: 1rem;
-            font-weight: 600;
+            font-weight: 800;
             line-height: 1.8rem;
+            font-family: 'Open Sans', arial, sans-serif
           }
 
           .dropdown {
@@ -646,8 +645,9 @@ html {
                 text-transform: uppercase;
                 color: #333 !important;
                 font-size: 1rem;
-                font-weight: 600;
+                font-weight: 800;
                 line-height: 1.8rem;
+                font-family: 'Open Sans', arial, sans-serif
               }
 
               .btn.dropdown-toggle {
