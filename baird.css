@@ -240,7 +240,6 @@ body {
   position: relative;
   float: none;
   width: 100%;
-  height: 100%;
   border: none;
   background: unset;
 }
@@ -255,7 +254,6 @@ body {
 #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper .thumb-link .thumb {
   max-width: 100%;
   width: 100%;
-  max-height: none;
   background: transparent !important;
 }
 
@@ -264,7 +262,6 @@ body {
   float: none;
   max-width: 100%;
   width: 100%;
-  height: 100%;
   padding: 0.5rem 0 0;
 }
 
