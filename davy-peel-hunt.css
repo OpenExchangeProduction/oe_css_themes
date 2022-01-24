@@ -23,6 +23,10 @@ body, div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+  background: red;
+}
+
+body {
   background: var(--bkg-color);
   color: #ffffff;
   padding-top: 130px !important;
