@@ -273,7 +273,7 @@ body {
           .thumb {
             max-width: 100%;
             width: 100%;
-            // max-height: none;
+            max-height: unset;
             background: transparent !important;
           }
         }

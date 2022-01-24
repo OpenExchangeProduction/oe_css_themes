@@ -254,6 +254,7 @@ body {
 #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper .thumb-link .thumb {
   max-width: 100%;
   width: 100%;
+  max-height: unset;
   background: transparent !important;
 }
 
