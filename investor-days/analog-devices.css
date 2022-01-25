@@ -781,7 +781,7 @@ body {
 #page-top #showcase_category .container.posts > .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title {
   font-family: "Barlow", Arial, sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0;
   height: auto !important;
   overflow: visible;
@@ -789,6 +789,7 @@ body {
   height: unset !important;
   display: block;
   line-height: 1.3;
+  word-break: break-word;
 }
 
 #page-top #showcase_category .container.posts > .row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a,
@@ -802,6 +803,7 @@ body {
   padding: 0;
   height: auto !important;
   color: #2e2e2e !important;
+  word-break: break-word;
 }
 
 #page-top #showcase_category .container.posts > .row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover,
