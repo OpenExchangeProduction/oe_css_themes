@@ -330,6 +330,7 @@ body {
 	#main_navigation {
 		font-family: $primary-font;
 		border: none;
+    z-index: 3;
 		.btn {
 			font-family: $primary-font;
 		}

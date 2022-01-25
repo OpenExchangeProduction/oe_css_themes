@@ -341,6 +341,7 @@ body {
 #page-top #main_navigation {
   font-family: "Barlow", Arial, sans-serif;
   border: none;
+  z-index: 3;
 }
 
 #page-top #main_navigation .btn {
