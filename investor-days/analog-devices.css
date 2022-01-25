@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap");
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/citi_theme_login_bkg_2_jpg_1622745127049/citi_theme_login_bkg_2_e880fc5d-78f1-4f23-b71b-dcd9d0017ab4.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=1Bt30vdAIs24cqQA7UaAeOkO1Wk%3D");
   --primary-color: #32b3c9;
@@ -390,6 +390,7 @@ body {
 
 #page-top #main_navigation .container-fluid .navbar-brand {
   width: unset;
+  padding-left: 0;
 }
 
 #page-top #main_navigation .container-fluid .navbar-brand img.showcase-logo {
@@ -508,7 +509,7 @@ body {
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description {
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   position: relative;
   z-index: 2;
   display: block;
@@ -532,6 +533,13 @@ body {
   line-height: 2.25rem;
   color: white !important;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+#url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description > p:first-child {
+  font-size: 2.25rem;
+  font-family: "Barlow", Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: .88888em;
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description > p a {
@@ -569,7 +577,12 @@ body {
   object-fit: cover;
   pointer-events: none;
   z-index: 0;
-  filter: brightness(0.7);
+}
+
+@media (max-width: 1150px) {
+  #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-banner {
+    filter: brightness(0.7);
+  }
 }
 
 .modal .modal-content {
