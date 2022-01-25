@@ -514,18 +514,19 @@ body {
 								a {
 									padding: calc((2em - 0.894em)/2) 1em;
 									font-size: 1rem;
-									font-weight: 300;
-									line-height: 1.5rem;
+									font-weight: 700;
 									text-decoration: none;
-									color: white !important;
+									color: #fff !important;
 									background: #6dad46;
 									-webkit-transition: background .3s ease-in-out;
 									transition: background .3s ease-in-out;
-									letter-spacing: 0.05em;
-									border-radius: 4px;
                   margin-top: 1rem;
-                  display: block;
                   max-width: max-content;
+                  line-height: 16px;
+                  display: inline-block;
+                  outline: 0;
+                  border: 1px solid #fff;
+                  border-radius: 20px;
 
 									&:hover {
 										background: #519643;
