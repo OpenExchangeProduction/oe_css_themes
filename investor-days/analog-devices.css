@@ -1042,6 +1042,7 @@ body {
   width: 100%;
   max-width: 350px;
   margin: 0 auto !important;
+  padding: 3rem 0;
 }
 
 @media (max-height: 660px) {
@@ -1059,7 +1060,7 @@ body {
 }
 
 #page-top .login-container > .row > div {
-  border-top: 5px solid #578196;
+  border-top: 5px solid #000;
   margin: 0;
   background: #ffffff;
   overflow-y: auto;
@@ -1100,16 +1101,19 @@ body {
 #page-top .login-container > .row > div h3 {
   font-family: "Barlow", Arial, sans-serif;
   text-align: left;
-  color: #005b7f;
+  color: #000;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   order: 1;
+  font-weight: 700;
+  text-align: center;
 }
 
 #page-top .login-container > .row > div p {
   margin-bottom: 1rem;
   font-weight: 300;
   line-height: 1.7;
+  text-align: center;
 }
 
 #page-top .login-container > .row > div p br {
@@ -1128,7 +1132,7 @@ body {
 
 #page-top .login-container > .row > div p, #page-top .login-container > .row > div span, #page-top .login-container > .row > div a {
   font-family: "Barlow", Arial, sans-serif;
-  color: #005b7f;
+  color: #000;
 }
 
 #page-top .login-container > .row > div p:empty {
@@ -1142,7 +1146,7 @@ body {
 #page-top .login-container > .row > div form .form-group {
   position: relative;
   font-family: "Barlow", Arial, sans-serif;
-  color: #005b7f;
+  color: #000;
 }
 
 #page-top .login-container > .row > div form .form-group > span,
@@ -1156,7 +1160,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: .25rem;
-  color: #005b7f;
+  color: #000;
   font-family: "Barlow", Arial, sans-serif;
   font-weight: 400;
 }
@@ -1181,7 +1185,9 @@ body {
 #page-top .login-container > .row > div form .form-group button {
   padding: 0.5rem 1rem;
   color: #fff !important;
-  background: #578196;
+  background: #009fbd;
+  border: 1px solid #009fbd;
+  border-radius: 20px;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -1193,7 +1199,7 @@ body {
 }
 
 #page-top .login-container > .row > div form .form-group button:hover {
-  background: #005b7f;
+  background: #00829b;
 }
 
 @media (max-width: 768px) {
@@ -1230,7 +1236,7 @@ body {
 }
 
 .glyphicon-play:before {
-  color: #2573ba;
+  color: #009fbd;
 }
 
 #page-top header:nth-child(4) {

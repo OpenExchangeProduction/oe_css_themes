@@ -1033,6 +1033,7 @@ body {
       width: 100%;
       max-width: 350px;
       margin: 0 auto !important;
+      padding: 3rem 0;
 
       @media (max-height: 660px) {
         margin-top: 60px;
@@ -1045,7 +1046,7 @@ body {
       }
 
       > div {
-        border-top: 5px solid $blue;
+        border-top: 5px solid $black;
         margin: 0;
         background: $white;
         overflow-y: auto;
@@ -1083,16 +1084,19 @@ body {
         h3 {
           font-family: $primary-font;
           text-align: left;
-          color: $dk-blue;
+          color: $black;
           font-size: 2.5rem;
           margin-bottom: 1rem;
           order: 1;
+          font-weight: 700;
+          text-align: center;
         }
 
         p {
           margin-bottom: 1rem;
           font-weight: 300;
           line-height: 1.7;
+          text-align: center;
 
           br {
             display: none;
@@ -1111,7 +1115,7 @@ body {
 
         p, span, a {
           font-family: $primary-font;
-          color: $dk-blue;
+          color: $black;
         }
 
         p:empty {
@@ -1124,7 +1128,7 @@ body {
           .form-group {
             position: relative;
             font-family: $primary-font;
-            color: $dk-blue;
+            color: $black;
 
             > span,
             label span {
@@ -1137,7 +1141,7 @@ body {
               display: flex;
               align-items: center;
               margin-bottom: .25rem;
-              color: $dk-blue;
+              color: $black;
               font-family: $primary-font;
               font-weight: 400;
             }
@@ -1163,7 +1167,9 @@ body {
             button {
               padding: 0.5rem 1rem;
               color: #fff !important;
-              background: $blue;
+              background: #009fbd;
+              border: 1px solid #009fbd;
+              border-radius: 20px;
               text-decoration: none;
               -webkit-transition: all 0.3s ease-in;
               transition: all 0.3s ease-in;
@@ -1174,7 +1180,7 @@ body {
               border: none;
 
               &:hover {
-                background: $dk-blue;
+                background: #00829b;
               }
             }
           }
@@ -1217,7 +1223,7 @@ body {
 }
 
 .glyphicon-play:before {
-  color: $lt-blue;
+  color: #009fbd;
 }
 
 // header styles on internal page
