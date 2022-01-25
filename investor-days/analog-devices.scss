@@ -1011,15 +1011,17 @@ body {
 #page-top {
   .login-container {
     margin: 0;
-    height: 100%;
+    height: 100vh;
     width: 100% !important;
     background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Hero_Jan10_1643131194229/Hero_Jan10_8033067c-aca4-4d0f-ba56-dd32e00aa8be.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MCefjwE0VV09LWdfwJkEgSRD5OU%3D');
     background-size: cover;
     background-position: top right;
-    overflow: hidden;
+    overflow-y: scroll;
     bottom: 0;
     left: 0;
     max-width: unset;
+    position: absolute;
+    z-index: 10;
 
     @media (max-width: 768px) {
       overflow: scroll;
