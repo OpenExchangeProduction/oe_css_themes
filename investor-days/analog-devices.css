@@ -1113,7 +1113,6 @@ body {
   margin-bottom: 1rem;
   font-weight: 300;
   line-height: 1.7;
-  text-align: center;
 }
 
 #page-top .login-container > .row > div p br {
@@ -1194,8 +1193,6 @@ body {
   box-shadow: 0 0 0 3px transparent inset, 0 0 0 4px transparent inset;
   width: 100%;
   font-family: "Barlow", Arial, sans-serif;
-  border-radius: 0px;
-  border: none;
 }
 
 #page-top .login-container > .row > div form .form-group button:hover {
