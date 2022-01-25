@@ -539,16 +539,18 @@ body {
   font-size: 2.25rem;
   font-family: "Barlow", Arial, sans-serif;
   text-transform: uppercase;
-  line-height: .88888em;
+  line-height: 1em;
+  font-weight: 1.5em;
+  margin-bottom: .5rem;
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description > p a {
   padding: calc((2em - 0.894em)/2) 1em;
-  font-size: 1rem;
+  font-size: .85rem;
   font-weight: 700;
   text-decoration: none;
   color: #fff !important;
-  background: #6dad46;
+  background: transparent;
   -webkit-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
   margin-top: 1rem;
@@ -561,7 +563,7 @@ body {
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description > p a:hover {
-  background: #519643;
+  background: #009fbd;
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-banner {
