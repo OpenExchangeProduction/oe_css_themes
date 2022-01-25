@@ -1109,6 +1109,7 @@ body {
   order: 1;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 
 #page-top .login-container > .row > div p {
