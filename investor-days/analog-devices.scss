@@ -395,7 +395,6 @@ body {
   }
 
   .column-view-item .post-identifier .thumb-meta-wrapper .tile-header-ellipsis div {
-    font-weight: 300 !important;
     font-family: $primary-font;
   }
 
@@ -800,7 +799,7 @@ body {
 
 							.tile-title {
 								font-family: $primary-font;
-								font-size: 1.5rem;
+								font-size: 1rem;
 								font-weight: 600;
 								padding: 0;
 								height: auto !important;
