@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap");
+:root {
+  --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/citi_theme_login_bkg_2_jpg_1622745127049/citi_theme_login_bkg_2_e880fc5d-78f1-4f23-b71b-dcd9d0017ab4.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=1Bt30vdAIs24cqQA7UaAeOkO1Wk%3D");
+  --primary-color: #32b3c9;
+  --header-button-color: #32b3c9;
+  --header-button-hover: #23527c;
+  --login-image-anchor: bottom left;
+  --banner-image-anchor: top right;
+}
+
+/* toggle carousel on/off
+#page-top {
+  background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/Picture2_jpg_1630097017930/Picture2_993eee32-1783-487d-870d-0f8f583be95e.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=DfldRbIbi0d40HnXMLmD7%2F2I7KU%3D') !important;
+}
+
+.featured-category,
+.showcase-banner {
+  display: none !important;
+}
+*/
 body, p, span, a {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -508,7 +527,6 @@ body {
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description > p {
-  font-family: proxima-nova, Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2.25rem;
@@ -517,7 +535,6 @@ body {
 }
 
 #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description > p a {
-  font-family: proxima-nova, Arial, Helvetica, sans-serif;
   padding: calc((2em - 0.894em)/2) 1em;
   font-size: 1rem;
   font-weight: 300;
@@ -1344,15 +1361,5 @@ body {
 }
 
 .carousel-control {
-  display: none !important;
-}
-
-/* delete to turn on carousel */
-#page-top {
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/Picture2_jpg_1630097017930/Picture2_993eee32-1783-487d-870d-0f8f583be95e.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=DfldRbIbi0d40HnXMLmD7%2F2I7KU%3D") !important;
-}
-
-.featured-category,
-.showcase-banner {
   display: none !important;
 }
