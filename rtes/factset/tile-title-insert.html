@@ -1,0 +1,27 @@
+<p class="selector">selector</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var selector = document.querySelector('.selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+  });
+
+  $(function() {
+    $('.thumb[src*="title"]').closest('.list-view-item').addClass('title');
+    $('.thumb[src*="description"]').closest('.list-view-item').addClass('description');
+    $('.thumb[src*="details"]').closest('.list-view-item').addClass('details');
+    $('.thumb[src*="button"]').closest('.list-view-item').addClass('button');
+    $('.thumb[src*="speakertitle"]').closest('.list-view-item').addClass('speaker-title');
+
+    var url = $('.thumb-link[href*="bit"]').attr('href');
+    $('.container.header-container .row > .col-xs-12').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
+  });
+</script>
+
+<style>
+  .featured-category.hide, .showcase-banner.hide {
+    display: none;
+  }
+</style>

@@ -1,0 +1,21 @@
+<p class="selector">test</p>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var selector = document.querySelector('.selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+  });
+
+  $(function() {
+    var selector = document.querySelector('.selector');
+    var url = selector.closest('.thumb-link').attr('src');
+    $('.showcase-description').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
+  });
+</script>
+
+<style>
+  .featured-category.hide {
+    display: none;
+  }
+</style>
