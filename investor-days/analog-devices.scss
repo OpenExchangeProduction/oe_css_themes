@@ -530,49 +530,6 @@ body {
 		}
 	}
 }
-.modal {
-	.modal-content {
-		padding-top: 0.5rem;
-		#postDetailsHeader {
-			position: relative;
-			height: auto;
-			padding-bottom: 1.0625rem;
-			-webkit-box-shadow: none;
-			box-shadow: none;
-			.post-details-title {
-				font-family: $primary-font;
-				font-weight: 600;
-				font-size: 2rem;
-				line-height: 3rem;
-			}
-			&::after {
-				content: "";
-				position: absolute;
-				left: 1rem;
-				right: 1rem;
-				bottom: 0;
-				height: 0.0625rem;
-				background: #3c3c3c;
-			}
-			#postDetailsMetadata {
-				display: none;
-			}
-		}
-		#postDetailsBody {
-			margin-top: 1rem;
-			margin-bottom: 2rem;
-			.details-speaker-image-wrapper {
-				display: none;
-			}
-			.details-speaker-metadata {
-				margin-left: 0;
-			}
-			.details-speaker-description {
-				margin-left: 0;
-			}
-		}
-	}
-}
 #page-top.single-post {
 	.tile-area {
 		display: none;
@@ -854,7 +811,7 @@ body {
 
 								a {
 									font-family: $primary-font;
-									font-size: 2rem;
+									font-size: 1rem;
 									line-height: unset;
 									font-weight: 600;
 									padding: 0;

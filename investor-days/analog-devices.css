@@ -555,56 +555,6 @@ body {
   }
 }
 
-.modal .modal-content {
-  padding-top: 0.5rem;
-}
-
-.modal .modal-content #postDetailsHeader {
-  position: relative;
-  height: auto;
-  padding-bottom: 1.0625rem;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-.modal .modal-content #postDetailsHeader .post-details-title {
-  font-family: "Barlow", Arial, sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-.modal .modal-content #postDetailsHeader::after {
-  content: "";
-  position: absolute;
-  left: 1rem;
-  right: 1rem;
-  bottom: 0;
-  height: 0.0625rem;
-  background: #3c3c3c;
-}
-
-.modal .modal-content #postDetailsHeader #postDetailsMetadata {
-  display: none;
-}
-
-.modal .modal-content #postDetailsBody {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.modal .modal-content #postDetailsBody .details-speaker-image-wrapper {
-  display: none;
-}
-
-.modal .modal-content #postDetailsBody .details-speaker-metadata {
-  margin-left: 0;
-}
-
-.modal .modal-content #postDetailsBody .details-speaker-description {
-  margin-left: 0;
-}
-
 #page-top.single-post .tile-area {
   display: none;
 }
@@ -846,7 +796,7 @@ body {
 #page-top #showcase_category .container.posts > .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a,
 #page-top #showcase_category .container.posts > .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title a {
   font-family: "Barlow", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: unset;
   font-weight: 600;
   padding: 0;
