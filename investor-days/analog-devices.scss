@@ -3,10 +3,10 @@
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/citi_theme_login_bkg_2_jpg_1622745127049/citi_theme_login_bkg_2_e880fc5d-78f1-4f23-b71b-dcd9d0017ab4.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=1Bt30vdAIs24cqQA7UaAeOkO1Wk%3D");
   --primary-color: #32b3c9;
-  --header-button-color: #32b3c9;
+  --header-button-color: #ffffff;
   --header-button-hover: #23527c;
-  --login-image-anchor: bottom left;
-  --banner-image-anchor: top right;
+  --login-image-anchor: center;
+  --banner-image-anchor: center;
 }
 
 /* toggle carousel on/off
@@ -311,7 +311,7 @@ body {
 					position: relative;
 					height: 0 !important;
 					width: 100%;
-					padding-top: 56.25%;
+					padding-top: 45.25%;
 					iframe {
 						position: absolute;
 						top: 0;
@@ -1054,7 +1054,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100% !important;
-    background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Picture2_jpg_1629999585583/Picture2_317eca68-a631-4ed5-9f82-6db1ff9d12f8.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=obxeMtAC49wt1Jv%2FzO9T0zDnuKQ%3D');
+    background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Hero_Jan10_1643131194229/Hero_Jan10_8033067c-aca4-4d0f-ba56-dd32e00aa8be.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MCefjwE0VV09LWdfwJkEgSRD5OU%3D');
     background-size: cover;
     background-position: top right;
     overflow: hidden;
@@ -1262,8 +1262,8 @@ body {
 }
 
 // header styles on internal page
-#page-top header:nth-child(3) {
-  background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/1525688400061_jpeg_1630006986577/1525688400061_3b332d2f-839e-4a90-aa1d-af66e4e51e2a.jpeg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=uvbsAPH82NcTy0rFBJLwDC5bDjA%3D');
+#page-top header:nth-child(4) {
+  background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Hero_Jan10_1643131194229/Hero_Jan10_8033067c-aca4-4d0f-ba56-dd32e00aa8be.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MCefjwE0VV09LWdfwJkEgSRD5OU%3D');
   background-size: cover;
   margin-bottom: 2rem;
   padding: 2rem 0;
@@ -1276,6 +1276,11 @@ body {
 
     .showcase-title {
       margin-bottom: 0;
+      font-size: 2.25rem;
+      font-family: $primary-font;
+      text-transform: uppercase;
+      line-height: 1em;
+      font-weight: 700;
     }
 
   	@media (max-width: 768px) {
