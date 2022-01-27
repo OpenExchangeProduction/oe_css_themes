@@ -7,6 +7,7 @@
   --header-button-hover: #23527c;
   --login-image-anchor: center;
   --banner-image-anchor: center;
+  --color-text-header: #009fbd;
 }
 
 /* toggle carousel on/off
@@ -711,7 +712,7 @@ body {
 		    height: 100%;
 				@include grid(2, 1fr, 1rem);
         background: #ffffff;
-        border-top: 5px solid $blue;
+        border-top: 5px solid $black;
 
 				.thumb-wrapper {
 					position: relative;
@@ -938,7 +939,7 @@ body {
                 border: 1px solid #e3e3e3;
                 max-width: 100%;
                 background: #ffffff;
-                border-top: 5px solid $blue;
+                border-top: 5px solid $black;
 
                 .thumb-wrapper {
                   background-color: #ffffff !important;
@@ -1256,7 +1257,7 @@ body {
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link .play-hover-button {
   pointer-events: none;
-  background: $green;
+  background: #009fbd;
   border-radius: 50%;
   filter: brightness(1.75);
 }
@@ -1293,4 +1294,9 @@ body {
 
 .carousel-control {
   display: none !important;
+}
+
+.tile-title, .tile-title a {
+  font-family: $primary-font;
+  font-weight: 500 !important;
 }

@@ -6,6 +6,7 @@
   --header-button-hover: #23527c;
   --login-image-anchor: center;
   --banner-image-anchor: center;
+  --color-text-header: #009fbd;
 }
 
 /* toggle carousel on/off
@@ -711,7 +712,7 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   background: #ffffff;
-  border-top: 5px solid #578196;
+  border-top: 5px solid #000;
 }
 
 #page-top #showcase_category .container.posts > .row .list-view-item .post .thumb-wrapper,
@@ -947,7 +948,7 @@ body {
   border: 1px solid #e3e3e3;
   max-width: 100%;
   background: #ffffff;
-  border-top: 5px solid #578196;
+  border-top: 5px solid #000;
 }
 
 #page-top section.featured-category .container.posts .row .carousel-inner .item .featured-post .post .thumb-wrapper {
@@ -1270,7 +1271,7 @@ body {
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link .play-hover-button {
   pointer-events: none;
-  background: #6dad46;
+  background: #009fbd;
   border-radius: 50%;
   filter: brightness(1.75);
 }
@@ -1308,4 +1309,9 @@ body {
 
 .carousel-control {
   display: none !important;
+}
+
+.tile-title, .tile-title a {
+  font-family: "Barlow", Arial, sans-serif;
+  font-weight: 500 !important;
 }
