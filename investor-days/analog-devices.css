@@ -848,9 +848,9 @@ body {
 #page-top section.featured-category .container:not(.posts) .showcase-title {
   font-family: "Barlow", Arial, sans-serif;
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 2rem;
-  color: #005b7f !important;
+  color: #000 !important;
   margin-bottom: 1.5rem;
 }
 
