@@ -843,6 +843,10 @@ body {
   }
 }
 
+#page-top:not(.single-post) #showcase_category .container.posts .row:before, #page-top:not(.single-post) #showcase_category .container.posts .row:after {
+  display: none;
+}
+
 /* homepage only */
 #page-top #url-auth-suffix ~ header {
   padding-top: 0 !important;

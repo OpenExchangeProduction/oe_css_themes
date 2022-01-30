@@ -857,6 +857,10 @@ body {
           -ms-grid-columns: minmax(0, 1fr) [6];
           grid-template-columns: repeat(6, minmax(0, 1fr));
         }
+
+        &:before, &:after {
+          display: none;
+        }
       }
     }
   }
