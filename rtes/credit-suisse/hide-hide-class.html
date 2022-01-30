@@ -20,6 +20,7 @@
     var selector = document.querySelector('.selector');
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
+    $('a:contains("Hide")').closest('.featured-post').addClass('hide-it');
   }
 
   defer(callback);
