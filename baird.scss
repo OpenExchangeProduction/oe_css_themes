@@ -15,7 +15,6 @@
   --card-color: #1A1A1A;
   --card-text-color: #ffffff;
   --hp-showcase-tiles-label: 'Title';
-  --hp-showcase-tiles-label-display: block;
 }
 
 $white: #ffffff;
@@ -965,7 +964,7 @@ body {
 }
 
 #page-top #url-auth-suffix ~ #showcase_category .container.posts:before {
-  display: var(--hp-showcase-tiles-label-display);
+  display: block;
   content: var(--hp-showcase-tiles-label);
   color: $white;
   font-family: var(--primary-font);
