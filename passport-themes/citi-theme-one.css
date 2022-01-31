@@ -521,14 +521,14 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline) span,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) label,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) span {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline) span,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) span,
 #registration-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline) span,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) span {
-  margin-left: 0;
+  margin-bottom: 1rem;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div > div img,
