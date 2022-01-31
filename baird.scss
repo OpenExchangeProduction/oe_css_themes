@@ -1258,10 +1258,6 @@ footer {
   border-color: #000000 !important;
 }
 
-#main-search-form .search-cancel:hover span:before {
-  color: #000000 !important;
-}
-
-#page-top .post-details-description-output {
+#main-search-form .search-cancel:hover span:before, #page-top .post-details-description-output, #page-top .showcase-modal-close {
   color: #000000 !important;
 }
