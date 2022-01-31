@@ -175,7 +175,7 @@ div[class*='event-details'] > .items-start {
         margin-left: 0;
       }
 
-      &.flex {
+      &.flex:not(.items-baseline) {
         @media (max-width: 768px) {
           flex-wrap: wrap;
 

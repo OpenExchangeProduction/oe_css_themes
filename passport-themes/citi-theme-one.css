@@ -172,41 +172,41 @@ div[class*='event-details'] > .items-start {
 }
 
 @media (max-width: 768px) {
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex,
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex {
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline),
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline),
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline),
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline),
+  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline),
+  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline),
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline),
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) {
     flex-wrap: wrap;
   }
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex label, #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex span,
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex label,
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex span,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex label,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex span,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex label,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex span,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex label,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex span,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex label,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex span,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex label,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex span,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex label,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex span {
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline) label, #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline) label,
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline) span,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline) label,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) label,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline) label,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline) label,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline) label,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) label,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) span {
     margin-bottom: 0;
   }
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex span,
-  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex span,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex span,
-  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex span,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex span,
-  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex span,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex span,
-  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex span {
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline) span,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content.flex:not(.items-baseline) span,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content.flex:not(.items-baseline) span {
     margin-left: 0;
   }
 }
