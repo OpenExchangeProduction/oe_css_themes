@@ -565,7 +565,7 @@ html {
             margin: 1rem 1rem 0 0;
             padding: 1rem;
             background-color: var(--header-button-color);
-            color: $white;
+            color: $white !important;
             transition: background-color .2s ease-in-out;
             font-weight: 400;
 
