@@ -13,6 +13,8 @@
   --bkg-color: #282828;
   --card-color: #1A1A1A;
   --card-text-color: #ffffff;
+  --hp-showcase-tiles-label: 'Title';
+  --hp-showcase-tiles-label: block;
 }
 
 body {
@@ -949,6 +951,13 @@ body {
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(5) {
   font-size: 1.75rem;
   line-height: 1.7;
+}
+
+#page-top #url-auth-suffix #showcase_category .container.posts .row:before {
+  display: var(--hp-showcase-tiles-label-display);
+  content: var(--hp-showcase-tiles-label);
+  color: #ffffff;
+  font-family: var(--primary-font);
 }
 
 /* sub page styles */

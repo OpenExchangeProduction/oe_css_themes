@@ -14,6 +14,8 @@
   --bkg-color: #282828;
   --card-color: #1A1A1A;
   --card-text-color: #ffffff;
+  --hp-showcase-tiles-label: 'Title';
+  --hp-showcase-tiles-label: block;
 }
 
 $white: #ffffff;
@@ -957,6 +959,17 @@ body {
             line-height: 1.7;
           }
         }
+      }
+    }
+  }
+
+  #showcase_category {
+    .container.posts {
+      .row:before {
+        display: var(--hp-showcase-tiles-label-display);
+        content: var(--hp-showcase-tiles-label);
+        color: $white;
+        font-family: var(--primary-font);
       }
     }
   }
