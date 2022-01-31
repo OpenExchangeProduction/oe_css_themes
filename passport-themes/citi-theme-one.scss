@@ -170,10 +170,7 @@ div[class*='event-details'] > .items-start {
       background-color: transparent;
       padding: 1rem;
       width: 100%;
-
-      @media (max-width: 768px) {
-        margin-left: 0;
-      }
+      margin: 0;
      }
 
      div .editable-sign-in--wrapper,
