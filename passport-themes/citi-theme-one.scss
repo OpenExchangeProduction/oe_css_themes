@@ -291,11 +291,8 @@ div[class*='event-details'] > .items-start {
        &.flex:not(.items-baseline) {
          flex-wrap: wrap;
 
-         label, span {
-           margin: 0;
-         }
-
          span {
+           margin: 0;
            margin-bottom: 1rem;
          }
        }
