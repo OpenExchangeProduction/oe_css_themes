@@ -174,20 +174,6 @@ div[class*='event-details'] > .items-start {
       @media (max-width: 768px) {
         margin-left: 0;
       }
-
-      &.flex:not(.items-baseline) {
-        @media (max-width: 768px) {
-          flex-wrap: wrap;
-
-          label, span {
-            margin-bottom: 0;
-          }
-
-          span {
-            margin-left: 0;
-          }
-        }
-      }
      }
 
      div .editable-sign-in--wrapper,
@@ -301,6 +287,18 @@ div[class*='event-details'] > .items-start {
        background-color: transparent;
        border: none;
        color: #000000;
+
+       &.flex:not(.items-baseline) {
+         flex-wrap: wrap;
+
+         label, span {
+           margin-bottom: 0;
+         }
+
+         span {
+           margin-left: 0;
+         }
+       }
 
        img {
          margin: 0 auto;
