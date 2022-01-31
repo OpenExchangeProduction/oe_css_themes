@@ -1361,7 +1361,7 @@ html {
 
       .showcase-title {
         font-weight: 500;
-        color: $black;
+        color: $black !important;
       }
     }
 
@@ -1442,8 +1442,8 @@ html {
   }
 
   .btn-primary {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
     transition: filter .2s ease-in-out;
     filter: brightness(1);
     width: 100%;
