@@ -161,6 +161,10 @@ div[class*='event-details'] > .items-start {
       background: $white;
       border-radius: 6px;
 
+      @media (max-width: 768px) {
+        max-width: 75%;
+      }
+
      .editable-sign-in--left-content,
      .editable-registration--left-content {
       background-color: transparent;
@@ -220,13 +224,23 @@ div[class*='event-details'] > .items-start {
 
          > div {
            margin-top: 0;
+
+           @media (max-width: 768px) {
+             grid-column: auto / span 2;
+           }
          }
 
          .input-group {
            grid-column: auto / span 2;
+           flex-wrap: wrap;
 
            > div {
              width: 100%;
+
+             @media (max-width: 768px) {
+               max-width: unset;
+               margin-top: 0;
+             }
            }
          }
 

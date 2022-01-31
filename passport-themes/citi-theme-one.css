@@ -136,6 +136,15 @@ div[class*='event-details'] > .items-start {
   border-radius: 6px;
 }
 
+@media (max-width: 768px) {
+  #sign-in-page .main-content-wrapper .editable-sign-in,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray),
+  #registration-page .main-content-wrapper .editable-sign-in,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) {
+    max-width: 75%;
+  }
+}
+
 #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content,
 #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content,
@@ -339,6 +348,19 @@ div[class*='event-details'] > .items-start {
   margin-top: 0;
 }
 
+@media (max-width: 768px) {
+  #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form > div,
+  #sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form > div,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form > div,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > div,
+  #registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form > div,
+  #registration-page .main-content-wrapper .editable-sign-in .shadow-gray form > div,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form > div,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > div {
+    grid-column: auto / span 2;
+  }
+}
+
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .input-group,
 #sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form .input-group,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group,
@@ -348,6 +370,7 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group {
   grid-column: auto / span 2;
+  flex-wrap: wrap;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .input-group > div,
@@ -359,6 +382,20 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group > div,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .input-group > div,
+  #sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form .input-group > div,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group > div,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div,
+  #registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .input-group > div,
+  #registration-page .main-content-wrapper .editable-sign-in .shadow-gray form .input-group > div,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group > div,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {
+    max-width: unset;
+    margin-top: 0;
+  }
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form input,
