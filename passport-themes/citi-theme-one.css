@@ -158,6 +158,19 @@ div[class*='event-details'] > .items-start {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content,
+  #sign-in-page .main-content-wrapper .editable-sign-in .editable-registration--left-content,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-sign-in--left-content,
+  #registration-page .main-content-wrapper .editable-sign-in .editable-registration--left-content,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content {
+    margin-left: 0;
+  }
+}
+
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper,
 #sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper,
