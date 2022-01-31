@@ -963,7 +963,7 @@ body {
     }
   }
 
-  #showcase_category {
+  ~ #showcase_category {
     .container.posts {
       .row:before {
         display: var(--hp-showcase-tiles-label-display);
