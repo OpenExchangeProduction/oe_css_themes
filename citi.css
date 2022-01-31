@@ -161,6 +161,11 @@ html {
   color: #002a54 !important;
 }
 
+#kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:first-child #main-search-form .search-form-head input.search-query {
+  color: #000000 !important;
+  border-color: #000000;
+}
+
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child {
   margin-left: -15px;
 }
@@ -173,6 +178,7 @@ html {
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child li a {
   font-family: "interstate", arial, sans-serif;
   font-weight: 400;
+  color: #fff !important;
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child li:hover {
@@ -399,8 +405,8 @@ html {
   margin: 1rem 1rem 0 0;
   padding: 1rem;
   background-color: var(--header-button-color);
+  color: #fff;
   transition: background-color .2s ease-in-out;
-  font-size: 1;
   font-weight: 400;
 }
 
@@ -1927,6 +1933,12 @@ footer .footer-container p {
 #page-top .login-container > .row > div form .form-group button {
   width: 100%;
   transition: background .15s ease-in-out, border-color .15s ease-in-out;
+  background: #002D72 !important;
+  color: #ffffff !important;
+}
+
+#page-top .login-container .form-control {
+  border-color: #cfcfcf !important;
 }
 
 @media (max-width: 767px) {
@@ -2430,6 +2442,10 @@ footer .footer-container p {
   overflow-x: hidden;
 }
 
+#page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-preview {
+  color: #000000;
+}
+
 #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .post-details-caret {
   display: none !important;
 }
@@ -2454,6 +2470,7 @@ footer .footer-container p {
 
 #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
   max-height: 100px;
+  color: #000000;
 }
 
 #page-top #postDetailsModal.in .modal-dialog .modal-content.post-details-modal-content #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description a {

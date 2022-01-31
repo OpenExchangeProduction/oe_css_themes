@@ -310,6 +310,11 @@ html {
           li i {
             color: $navy !important;
           }
+
+          #main-search-form .search-form-head input.search-query {
+            color: #000000 !important;
+            border-color: #000000;
+          }
         }
 
         // nav links //
@@ -322,6 +327,7 @@ html {
             a {
               font-family: $primary-font;
               font-weight: 400;
+              color: $white !important;
             }
 
             &:hover {
@@ -559,8 +565,8 @@ html {
             margin: 1rem 1rem 0 0;
             padding: 1rem;
             background-color: var(--header-button-color);
+            color: $white;
             transition: background-color .2s ease-in-out;
-            font-size: 1;
             font-weight: 400;
 
             &:hover {
@@ -1885,10 +1891,16 @@ footer {
             button {
               width: 100%;
               transition: background .15s ease-in-out, border-color .15s ease-in-out;
+              background: #002D72 !important;
+              color: #ffffff !important;
             }
           }
         }
       }
+    }
+
+    .form-control {
+      border-color: rgba(207, 207, 207, 1) !important;
     }
 
     @include breakpoint(sm) {
@@ -2405,6 +2417,10 @@ footer {
           overflow-y: auto;
           overflow-x: hidden;
 
+          .details-speaker-preview {
+            color: #000000;
+          }
+
           .post-details-caret {
             display: none !important;
           }
@@ -2426,6 +2442,7 @@ footer {
 
             .details-speaker-description {
               max-height: 100px;
+              color: #000000;
 
               a {
                 color: $blue !important;
