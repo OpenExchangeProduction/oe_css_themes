@@ -1212,3 +1212,8 @@ footer a.text-primary:nth-of-type(3):before {
 form input[type="checkbox"] {
   margin-top: 1.5rem;
 }
+
+/* Fix dev's broken color update */
+#page-top .post-details-description-button {
+  color: #000000;
+}
