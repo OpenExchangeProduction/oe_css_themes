@@ -953,11 +953,13 @@ body {
   line-height: 1.7;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts .row:before {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts:before {
   display: var(--hp-showcase-tiles-label-display);
   content: var(--hp-showcase-tiles-label);
   color: #ffffff;
   font-family: var(--primary-font);
+  font-size: 2.45rem;
+  font-weight: 500;
 }
 
 /* sub page styles */
