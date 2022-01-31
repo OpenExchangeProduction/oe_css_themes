@@ -960,6 +960,7 @@ body {
   font-family: var(--primary-font);
   font-size: 2.45rem;
   font-weight: 500;
+  margin-bottom: .5rem;
 }
 
 /* sub page styles */
