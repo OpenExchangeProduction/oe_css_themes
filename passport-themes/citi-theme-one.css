@@ -495,21 +495,6 @@ div[class*='event-details'] > .items-start {
   color: #000000;
 }
 
-#sign-in-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline),
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline),
-#registration-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline),
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) {
-  flex-wrap: wrap;
-}
-
-#sign-in-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline) span,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) span,
-#registration-page .main-content-wrapper .editable-sign-in div > div.flex:not(.items-baseline) span,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div.flex:not(.items-baseline) span {
-  margin: 0;
-  margin-bottom: 1rem;
-}
-
 #sign-in-page .main-content-wrapper .editable-sign-in div > div img,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div img,
 #registration-page .main-content-wrapper .editable-sign-in div > div img,
@@ -1263,4 +1248,14 @@ footer a.text-primary:nth-of-type(3):before {
 
 form input[type="checkbox"] {
   margin-top: 1.5rem;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) {
+  flex-wrap: wrap;
+  font-size: .75rem;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) span {
+  margin: 0;
+  margin-bottom: 1rem;
 }

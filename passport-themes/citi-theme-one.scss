@@ -285,15 +285,6 @@ div[class*='event-details'] > .items-start {
        border: none;
        color: #000000;
 
-       &.flex:not(.items-baseline) {
-         flex-wrap: wrap;
-
-         span {
-           margin: 0;
-           margin-bottom: 1rem;
-         }
-       }
-
        img {
          margin: 0 auto;
        }
@@ -1147,4 +1138,14 @@ footer {
 
 form input[type="checkbox"] {
   margin-top: 1.5rem;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) {
+  flex-wrap: wrap;
+  font-size: .75rem;
+
+  span {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
 }
