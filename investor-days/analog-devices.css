@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/citi_theme_login_bkg_2_jpg_1622745127049/citi_theme_login_bkg_2_e880fc5d-78f1-4f23-b71b-dcd9d0017ab4.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=1Bt30vdAIs24cqQA7UaAeOkO1Wk%3D");
   --primary-color: #32b3c9;
@@ -20,7 +20,7 @@
 }
 */
 body, p, span, a {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Barlow", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, .showcase-title {
