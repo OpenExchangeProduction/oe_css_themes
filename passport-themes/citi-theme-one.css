@@ -1252,10 +1252,10 @@ form input[type="checkbox"] {
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) {
   flex-wrap: wrap;
-  font-size: .75rem;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) span {
   margin: 0;
   margin-bottom: 1rem;
+  font-size: .75rem;
 }
