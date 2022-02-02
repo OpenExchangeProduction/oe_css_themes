@@ -15,6 +15,7 @@
   --card-text-color: #ffffff;
   --hp-showcase-tiles-label: 'Title';
   --hp-showcase-tiles-display: block;
+  /* Set to block to show, set to none to hide */
 }
 
 body {
