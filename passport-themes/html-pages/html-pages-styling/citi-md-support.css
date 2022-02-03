@@ -13,26 +13,22 @@ a {
   color: inherit;
 }
 
-ul {
+.instructions-page__main__accordians__single {
   list-style: none;
   padding: 0;
 }
 
-ul .inner {
+.instructions-page__main__accordians__single .inner {
   padding-left: 1em;
   overflow: hidden;
   display: none;
 }
 
-ul .inner.show {
+.instructions-page__main__accordians__single .inner.show {
   /*display: block;*/
 }
 
-ul li {
-  margin: .5em 0;
-}
-
-ul li a.toggle {
+.instructions-page__main__accordians__single a.toggle {
   width: 100%;
   display: block;
   background: rgba(0, 0, 0, 0.78);
@@ -42,7 +38,7 @@ ul li a.toggle {
   transition: background .3s ease;
 }
 
-ul li a.toggle:hover {
+.instructions-page__main__accordians__single a.toggle:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 

@@ -46,7 +46,7 @@ a {
     color: inherit;
 }
 
-ul {
+.instructions-page__main__accordians__single {
     list-style: none;
     padding: 0;
 
@@ -60,21 +60,17 @@ ul {
         }
     }
 
-    li {
-        margin: .5em 0;
+    a.toggle {
+        width: 100%;
+        display: block;
+        background: rgba(0,0,0,0.78);
+        color: #fefefe;
+        padding: .75em;
+        border-radius: 0.15em;
+        transition: background .3s ease;
 
-        a.toggle {
-            width: 100%;
-            display: block;
-            background: rgba(0,0,0,0.78);
-            color: #fefefe;
-            padding: .75em;
-            border-radius: 0.15em;
-            transition: background .3s ease;
-
-            &:hover {
-                background: rgba(0, 0, 0, 0.9);
-            }
+        &:hover {
+            background: rgba(0, 0, 0, 0.9);
         }
     }
 }
