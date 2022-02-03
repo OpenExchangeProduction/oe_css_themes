@@ -66,7 +66,7 @@ a {
   padding-bottom: 4rem;
 }
 
-.instructions-page__header__wrapper, .instructions-page__main {
+.instructions-page__header, .instructions-page__main {
   grid-column: auto / span 12;
 }
 
@@ -75,7 +75,7 @@ a {
   justify-content: space-between;
 }
 
-.instructions-page__header__title {
+.instructions-page__header__info h1 {
   display: block;
   font-size: 3rem;
   font-weight: 700;
