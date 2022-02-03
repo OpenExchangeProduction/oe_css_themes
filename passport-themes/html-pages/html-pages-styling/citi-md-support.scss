@@ -1,0 +1,131 @@
+@import url("https://use.typekit.net/zke5hab.css");
+
+
+$login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/4357b1e0_5e26_4a9c_80f0_2ef83947645b_jpeg_1643927875257/4357b1e0_5e26_4a9c_80f0_2ef83947645b_75e7d519-065c-4d34-9626-6ce620c92bf0.jpeg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=fwW6OvbFAjYh9YW5qr3QD3HRPRU%3D");
+$header-button-color: #005aa1;
+$header-button-hover: #002D72;
+
+@mixin grid($count, $space, $gap) {
+  display: grid;
+  grid-template-columns: repeat($count, minmax(0, $space));
+  gap: $gap;
+}
+
+@mixin aspect-ratio-image($x, $y) {
+  padding-bottom: unquote( ( $y / $x ) * 100 + '%' );
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+
+  img,
+  iframe,
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: contain;
+    object-position: center;
+    background: $light-grey; // bc most a.r. images have an a.r. check to apply .contain (below) to vertical images
+  }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'interstate', Arial, sans-serif;
+}
+
+html {
+  font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size:1.1em;
+    margin: 1em 0;
+}
+
+.description {
+  margin: 1em auto 2.25em;
+}
+
+body {
+    width: 40%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 1.5em auto;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+    .inner {
+        padding-left: 1em;
+        overflow: hidden;
+        display: none;
+
+        &.show {
+          /*display: block;*/
+        }
+    }
+
+    li {
+        margin: .5em 0;
+
+        a.toggle {
+            width: 100%;
+            display: block;
+            background: rgba(0,0,0,0.78);
+            color: #fefefe;
+            padding: .75em;
+            border-radius: 0.15em;
+            transition: background .3s ease;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
+}
+
+.instructions-page {
+  &__wrapper {
+    max-width: 1024px;
+    display: block;
+    margin: 0 auto;
+    @include grid(12, 1fr, 1rem);
+  }
+
+  &__title__wrapper,
+  &__main {
+    grid-column: auto / span 12;
+  }
+
+  &__title {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__main {
+    &__accordians {
+      display: block;
+      width: 100%;
+    }
+  }
+}
