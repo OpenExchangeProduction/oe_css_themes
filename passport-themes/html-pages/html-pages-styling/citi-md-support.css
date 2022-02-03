@@ -22,20 +22,6 @@ p {
   margin: 1em auto 2.25em;
 }
 
-body {
-  width: 40%;
-  min-width: 300px;
-  max-width: 400px;
-  margin: 1.5em auto;
-  color: #333;
-}
-
-h1 {
-  font-family: 'Pacifico', cursive;
-  font-weight: 400;
-  font-size: 2.5em;
-}
-
 ul {
   list-style: none;
   padding: 0;
