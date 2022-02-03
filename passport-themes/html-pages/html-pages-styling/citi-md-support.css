@@ -66,15 +66,24 @@ a {
   width: 100%;
 }
 
-.instructions-page__title__wrapper, .instructions-page__main {
+.instructions-page__header__wrapper, .instructions-page__main {
   grid-column: auto / span 12;
 }
 
-.instructions-page__title {
+.instructions-page__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instructions-page__header__title {
   display: block;
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.instructions-page__header img {
+  object-fit: contain;
 }
 
 .instructions-page__main__accordians {
