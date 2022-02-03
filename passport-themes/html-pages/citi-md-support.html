@@ -24,27 +24,25 @@
             <li>Option 3</li>
           </ul>
         </div>
+        <div class="instructions-page__main__accordians__single">
+          <a class="toggle" href="javascript:void(0);">Item 2</a>
+          <ul class="inner">
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+          </ul>
+        </div>
       </div>
       <div class="instructions-page__main__image"></div>
       <div class="instructions-page__main__support"></div>
     </div>
   </div>
-  <script src="jquery-3.5.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $('.toggle').click(function(e) {
-  	e.preventDefault();
-
-    var $this = $(this);
-
-    if ($this.next().hasClass('show')) {
-        $this.next().removeClass('show');
-        $this.next().slideUp(350);
-    } else {
-        $this.parent().parent().find('.inner.show').removeClass('show');
-        $this.closest('.inner').slideUp(350);
-        $this.next().toggleClass('show');
-        $this.next().slideToggle(350);
-      }
+    	e.preventDefault();
+      var $this = $(this);
+      $this.next().slideToggle(350);
     });
   </script>
 </body>

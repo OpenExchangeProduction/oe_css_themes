@@ -76,11 +76,16 @@ a {
 }
 
 .instructions-page {
+  background: $login-bkg;
+  background-size: cover;
+  background-position: center;
+
   &__wrapper {
     max-width: 1024px;
     display: block;
     margin: 0 auto;
     @include grid(12, 1fr, 1rem);
+    background-color: $white;
   }
 
   &__title__wrapper,
