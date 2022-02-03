@@ -62,8 +62,8 @@ a {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 1rem;
   background-color: #ffffff;
-  height: 100%;
   width: 100%;
+  padding-bottom: 4rem;
 }
 
 .instructions-page__header__wrapper, .instructions-page__main {
