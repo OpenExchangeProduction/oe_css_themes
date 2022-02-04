@@ -1207,28 +1207,21 @@ html {
     right: 0;
   }
   span.showcase-description p {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  span.showcase-description p {
     max-width: 50%;
     font-size: 3rem;
     margin-right: auto;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
-  .img-responsive.showcase-banner {
-    left: -3rem;
-    width: 100%;
-  }
-}
-
 @media (max-width: 1200px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
-    font-size: 3rem;
-  }
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p {
     font-size: 1.25rem;
-  }
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
-    font-size: 1rem;
   }
 }
 
