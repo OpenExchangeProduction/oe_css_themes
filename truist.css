@@ -499,10 +499,9 @@ html {
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) li > a {
     text-decoration: none;
-    text-transform: uppercase;
     color: #fff !important;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 1.8rem;
     font-family: 'Graphik', arial, sans-serif;
   }
@@ -517,11 +516,9 @@ html {
     display: flex;
     align-items: center;
     text-decoration: none;
-    letter-spacing: .02em;
-    text-transform: uppercase;
     color: #fff !important;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 1.8rem;
     font-family: 'Graphik', arial, sans-serif;
   }
@@ -533,9 +530,7 @@ html {
     background-color: var(--navigation-color) !important;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu > li > a {
-    letter-spacing: .02em;
-    text-transform: uppercase;
-    color: #333 !important;
+    color: #fff !important;
     font-size: .9rem;
     font-weight: 600;
     line-height: 1.8rem;
@@ -551,17 +546,16 @@ html {
   text-decoration: none;
   color: #ffffff !important;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.8rem;
 }
 
 #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .ellipsis {
   text-decoration: none;
-  letter-spacing: .02em;
   text-transform: uppercase;
   color: #ffffff !important;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 400;
   line-height: 1.8rem;
 }
 
@@ -578,7 +572,7 @@ html {
   text-decoration: none;
   color: #ffffff !important;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.8rem;
 }
 
