@@ -458,9 +458,8 @@ html {
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) li > a {
     text-decoration: none;
-    letter-spacing: .02em;
     text-transform: uppercase;
-    color: #333 !important;
+    color: #fff !important;
     font-size: 1rem;
     font-weight: 800;
     line-height: 1.8rem;
@@ -479,7 +478,7 @@ html {
     text-decoration: none;
     letter-spacing: .02em;
     text-transform: uppercase;
-    color: #333 !important;
+    color: #fff !important;
     font-size: 1rem;
     font-weight: 800;
     line-height: 1.8rem;
@@ -487,7 +486,7 @@ html {
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
     height: 100%;
-    color: #333 !important;
+    color: #fff !important;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .dropdown-menu {
     background-color: var(--navigation-color) !important;
