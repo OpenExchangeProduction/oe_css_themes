@@ -6,7 +6,6 @@
 
 html {
   font-size: 14px;
-  height: 100%;
   width: 100%;
 }
 
@@ -48,7 +47,6 @@ a {
   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/4357b1e0_5e26_4a9c_80f0_2ef83947645b_jpeg_1643927875257/4357b1e0_5e26_4a9c_80f0_2ef83947645b_75e7d519-065c-4d34-9626-6ce620c92bf0.jpeg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=fwW6OvbFAjYh9YW5qr3QD3HRPRU%3D");
   background-size: cover;
   background-position: center;
-  height: 100%;
   width: 100%;
   margin: 1rem 0 0 0;
 }
@@ -102,10 +100,12 @@ a {
   display: block;
   width: 100%;
   grid-column: auto / span 6;
+  margin-bottom: 1rem;
 }
 
 .instructions-page__main__image {
   grid-column: auto / span 6;
+  margin-bottom: 1rem;
 }
 
 .instructions-page__main__support {
@@ -113,6 +113,7 @@ a {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 .instructions-page__main__support__single {

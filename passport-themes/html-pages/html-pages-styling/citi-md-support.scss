@@ -39,7 +39,6 @@ $header-button-hover: #002D72;
 
 html {
   font-size: 14px;
-  height: 100%;
   width: 100%;
 }
 
@@ -81,7 +80,6 @@ a {
   background: $login-bkg;
   background-size: cover;
   background-position: center;
-  height: 100%;
   width: 100%;
   margin: 1rem 0 0 0;
 
@@ -132,15 +130,18 @@ a {
       display: block;
       width: 100%;
       grid-column: auto / span 6;
+      margin-bottom: 1rem;
     }
 
     &__image {
       grid-column: auto / span 6;
+      margin-bottom: 1rem;
     }
 
     &__support {
       grid-column: auto / span 12;
       @include grid(12, 1fr, 0 1rem);
+      margin-bottom: 1rem;
 
       &__single {
         grid-column: auto / span 4;
