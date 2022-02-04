@@ -1,4 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "Graphik";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a98ced82-0596-4c01-9931-c2eb244839a6/subaccount/0eaf3326-b8c4-4b55-8796-bf9c756ea521/content/assets/templates/template_source/GraphikLight_otf_1643995722748/GraphikLight_c442a8ef-5ad7-4ae8-bc2e-7f2b430af70c.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=u9%2BahP5K2rPObdTtbHVJdnjjGc0%3D") format("otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a98ced82-0596-4c01-9931-c2eb244839a6/subaccount/0eaf3326-b8c4-4b55-8796-bf9c756ea521/content/assets/templates/template_source/GraphikRegular_otf_1643995722783/GraphikRegular_af9e82a6-d641-4ea8-894f-6e8ea0acd674.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=L%2BX8Uiv%2FSBQBXoE%2BjeUhI7uThX8%3D") format("otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a98ced82-0596-4c01-9931-c2eb244839a6/subaccount/0eaf3326-b8c4-4b55-8796-bf9c756ea521/content/assets/templates/template_source/GraphikMedium_otf_1643995722776/GraphikMedium_a42d38f2-0282-4e30-bf0e-2b3609f8f313.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=EZX8zBFG57krfXJMCb9zcXedBRs%3D") format("otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a98ced82-0596-4c01-9931-c2eb244839a6/subaccount/0eaf3326-b8c4-4b55-8796-bf9c756ea521/content/assets/templates/template_source/GraphikSemibold_otf_1643995722784/GraphikSemibold_45a4cf03-5b53-4739-9674-34b9ee6e29c9.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=FNHocPZ8mTUEf1lCOR7EDCEzryo%3D") format("otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a98ced82-0596-4c01-9931-c2eb244839a6/subaccount/0eaf3326-b8c4-4b55-8796-bf9c756ea521/content/assets/templates/template_source/GraphikBold_otf_1643995722739/GraphikBold_ec1dcc67-5f18-4111-b013-4018c119f27d.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=8GBRRbtjgnP4jR3oWZD3koktL3A%3D") format("otf");
+  font-weight: 700;
+}
+
 /* =================================== */
 /* = Overall Settings ================ */
 /* =================================== */
@@ -14,12 +43,12 @@
   --view-all-button-color: #005383;
   --bkg-color: linear-gradient(-270deg, #F5F5F5, #ffffff);
   --navigation-color: rgba(255, 255, 255, 1);
-  --secondary-font: "Open Sans", sans-serif;
-  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Graphik", sans-serif;
+  --primary-font: "Graphik", sans-serif;
 }
 
 body, div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Graphik', arial, sans-serif;
 }
 
 body {
@@ -1097,7 +1126,7 @@ html {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-  padding: 3rem 0 !important;
+  padding: 6rem 1rem !important;
   margin-bottom: 20px;
   position: relative;
   max-width: 100%;
