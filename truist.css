@@ -1602,3 +1602,7 @@ footer .footer-container p:last-child {
 #main-search-form .search-cancel:hover span:before, #page-top .post-details-description-output, #page-top .showcase-modal-close, .modal .post-details-description-output, .details-speaker-preview {
   color: #000000 !important;
 }
+
+#detailsSPEAKERPreview, #detailsCOMPANYPreview {
+  color: #000000 !important;
+}
