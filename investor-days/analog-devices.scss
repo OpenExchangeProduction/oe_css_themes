@@ -456,7 +456,7 @@ body {
 							}
 						}
 						.showcase-description {
-							padding-top: 1rem !important;
+							padding: 6rem 0 !important;
 							position: relative;
 							z-index: 2;
 							display: block;
@@ -477,40 +477,8 @@ body {
                 &:first-child {
                   font-size: 2.25rem;
                   font-family: $primary-font;
-                  text-transform: uppercase;
                   line-height: .5;
                   font-weight: 500;
-                }
-
-                &:nth-child(2) {
-                  font-size: 3rem;
-                  font-family: $primary-font;
-                  text-transform: uppercase;
-                  line-height: 1;
-                  font-weight: 600;
-                }
-
-                &:nth-child(3) {
-                  font-size: 3rem;
-                  font-family: $primary-font;
-                  text-transform: uppercase;
-                  line-height: .7;
-                  font-weight: 600;
-
-                  span {
-                    color: #ffffff !important;
-                    font-size: 2.25rem;
-                    font-weight: 500;
-                  }
-                }
-
-                &:nth-child(4) {
-                  margin-top: 3rem;
-                  font-size: 2.5rem;
-                  font-family: $primary-font;
-                  text-transform: normal;
-                  font-weight: 600;
-                  letter-spacing: -1px;
                 }
 
 								a {
