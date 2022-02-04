@@ -33,16 +33,16 @@
 /* =================================== */
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/2_03Davy_100Archive_1642524524613/2_03Davy_100Archive_2090cd78-857f-48f5-beaf-bff321342127.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=obh4j0pdEvV8yd9HwoV3hsVEzLo%3D");
-  --primary-color: rgba(185, 0, 47, 1);
-  --card-color: #4A5058;
+  --primary-color: #2E1A47;
+  --card-color: #2E1A47;
   --card-text-color: #ffffff;
-  --header-button-color: #474747;
+  --header-button-color: #2E1A47;
   --header-gradient: linear-gradient(-90deg, #ffffff 45%, transparent);
   --anchor-position: left;
-  --play-button-color: rgba(185, 0, 47, 1);
-  --view-all-button-color: #005383;
+  --play-button-color: #2E1A47;
+  --view-all-button-color: #2E1A47;
   --bkg-color: linear-gradient(-270deg, #F5F5F5, #ffffff);
-  --navigation-color: rgba(255, 255, 255, 1);
+  --navigation-color: #2E1A47;
   --secondary-font: "Graphik", sans-serif;
   --primary-font: "Graphik", sans-serif;
 }
@@ -1154,7 +1154,7 @@ html {
   margin-bottom: 0;
   font-weight: 300;
   margin-bottom: 1rem;
-  text-shadow: 1px 1px 3px #b9002f;
+  text-shadow: 1px 1px 3px #2E1A47;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
@@ -1194,7 +1194,7 @@ html {
     position: absolute;
     z-index: -1;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
     width: 100%;
     height: 100%;
     left: 0;
@@ -1204,7 +1204,7 @@ html {
   #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
     display: block;
     content: '';
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.35);
     height: 100%;
     width: 100%;
     position: absolute;
