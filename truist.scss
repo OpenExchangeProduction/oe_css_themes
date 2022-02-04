@@ -473,7 +473,16 @@ html {
           width: 100%;
           position: relative;
 
+          ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
+            display: flex;
+            height: 100%;
+            align-items: center;
+          }
+
           ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+            display: flex;
+            height: 100%;
+            align-items: center;
 
             li > a {
               text-decoration: none;

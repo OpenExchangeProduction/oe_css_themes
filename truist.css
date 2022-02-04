@@ -456,6 +456,16 @@ html {
     width: 100%;
     position: relative;
   }
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) li > a {
     text-decoration: none;
     text-transform: uppercase;
