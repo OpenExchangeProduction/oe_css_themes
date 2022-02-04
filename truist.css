@@ -456,12 +456,6 @@ html {
     width: 100%;
     position: relative;
   }
-  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    float: none !important;
-  }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) li > a {
     text-decoration: none;
     letter-spacing: .02em;
