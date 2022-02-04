@@ -1584,3 +1584,7 @@ footer .footer-container p:last-child {
 .modal .post-details-description-output {
   color: black;
 }
+
+#postMetadataTitle {
+  max-height: none !important;
+}
