@@ -66,6 +66,11 @@ a {
   padding-bottom: 4rem;
 }
 
+.instructions-page__wrapper hr {
+  width: 100%;
+  grid-column: auto / span 12;
+}
+
 .instructions-page__header, .instructions-page__main {
   grid-column: auto / span 12;
 }
@@ -87,7 +92,29 @@ a {
   object-fit: contain;
 }
 
+.instructions-page__main {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0 1rem;
+}
+
 .instructions-page__main__accordians {
   display: block;
   width: 100%;
+  grid-column: auto / span 6;
+}
+
+.instructions-page__main__image {
+  grid-column: auto / span 6;
+}
+
+.instructions-page__main__support {
+  grid-column: auto / span 12;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0 1rem;
+}
+
+.instructions-page__main__support__single {
+  grid-column: auto / span 4;
 }
