@@ -1207,7 +1207,7 @@ html {
       z-index: -1;
       object-fit: cover;
       object-position: left;
-      width: 70%;
+      width: 10%;
       height: 100%;
       left: 0;
       display: block;
@@ -1217,9 +1217,9 @@ html {
     #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
       display: block;
       content: '';
-      background: var(--header-gradient);
+      background: rgba(0,0,0,.5);
       height: 100%;
-      width: 70%;
+      width: 100%;
       position: absolute;
       z-index: 0;
       right: 0;
