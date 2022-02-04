@@ -63,7 +63,8 @@ a {
 
   a.toggle {
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     background: #005aa1;
     color: #fefefe;
     padding: .75em;
