@@ -19,6 +19,10 @@ a {
   padding: 0;
 }
 
+.instructions-page__main__accordians__single:first-child a.toggle {
+  margin-top: 0;
+}
+
 .instructions-page__main__accordians__single .inner {
   padding-left: 1em;
   overflow: hidden;
@@ -38,7 +42,7 @@ a {
   padding: .75em;
   border-radius: 0.15em;
   transition: background .3s ease;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .instructions-page__main__accordians__single a.toggle svg {
