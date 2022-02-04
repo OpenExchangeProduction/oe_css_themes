@@ -28,7 +28,7 @@ $header-button-hover: #002D72;
     top: 0;
     object-fit: contain;
     object-position: center;
-    background: $light-grey; // bc most a.r. images have an a.r. check to apply .contain (below) to vertical images
+    background: #eeeeee; // bc most a.r. images have an a.r. check to apply .contain (below) to vertical images
   }
 }
 
@@ -136,6 +136,11 @@ a {
     &__image {
       grid-column: auto / span 6;
       margin-bottom: 1rem;
+      @include aspect-ratio-image(4, 3);
+
+      img {
+        object-fit: cover;
+      }
     }
 
     &__support {
