@@ -721,7 +721,7 @@ html {
 
             .tile-title {
               color: var(--card-text-color) !important;
-              font-size: 1.25rem;
+              font-size: 1rem;
               line-height: 1.35;
               filter: brightness(1);
               transition: filter .2s ease, padding .2s ease;
@@ -772,7 +772,8 @@ html {
               width: 100%;
               right: unset;
               top: unset;
-              font-size: 1rem;
+              font-size: .75rem;
+              font-weight: 600;
               order: 3;
               color: var(--card-text-color) !important;
               margin-top: 0;
@@ -1052,8 +1053,8 @@ html {
 
           a {
             .showcase-title {
-              font-weight: 300;
-              color: $black !important;
+              font-weight: 400;
+              color: var(--primary-color) !important;
             }
           }
         }

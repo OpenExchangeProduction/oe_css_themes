@@ -690,7 +690,7 @@ html {
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis .tile-title {
   color: var(--card-text-color) !important;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.35;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -740,7 +740,8 @@ html {
   width: 100%;
   right: unset;
   top: unset;
-  font-size: 1rem;
+  font-size: .75rem;
+  font-weight: 600;
   order: 3;
   color: var(--card-text-color) !important;
   margin-top: 0;
@@ -1033,8 +1034,8 @@ html {
 }
 
 #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-9 a .showcase-title {
-  font-weight: 300;
-  color: #000000 !important;
+  font-weight: 400;
+  color: var(--primary-color) !important;
 }
 
 #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-2.pull-right a {
