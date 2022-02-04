@@ -1189,29 +1189,36 @@ html {
 }
 
 /* styles for header */
+.img-responsive.showcase-banner {
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: block;
+  max-height: unset !important;
+}
+
+#page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
+  display: block;
+  content: '';
+  background: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+}
+
+span.showcase-description p {
+  text-align: center;
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
-  .img-responsive.showcase-banner {
-    margin: 0;
-    position: absolute;
-    z-index: -1;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    display: block;
-    max-height: unset !important;
-  }
-  #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
-    display: block;
-    content: '';
-    background: rgba(0, 0, 0, 0.35);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-    right: 0;
-  }
   span.showcase-description p {
     max-width: 70%;
   }
