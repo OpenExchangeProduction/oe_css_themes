@@ -1181,6 +1181,10 @@ html {
             font-weight: 300;
             margin-bottom: 1rem;
             text-shadow: 1px 1px 3px #2E1A47;
+
+            @media (max-width: 768px) {
+              font-size: 2rem;
+            }
           }
 
           p:nth-child(2) {
@@ -1188,6 +1192,11 @@ html {
             margin-bottom: .5rem;
             padding-bottom: .5rem;
             font-weight: 300;
+
+            @media (max-width: 768px) {
+              font-size: 1.5rem;
+              text-shadow: 1px 1px 3px #2E1A47;
+            }
           }
 
           p:last-child a {
@@ -1241,10 +1250,13 @@ html {
   position: absolute;
   z-index: 0;
   right: 0;
+
+  @media (max-width: 768px) {
+    background: rgba(0,0,0,.6);
+  }
 }
 
 span.showcase-description p {
-  text-align: center;
   max-width: 100%;
 }
 
@@ -1269,17 +1281,8 @@ span.showcase-description p {
 }
 
 @media (max-width: 550px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p,
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
-    text-align: left;
-    margin-left: 0;
-    max-width: 100%;
-  }
+  span.showcase-description p {
 
-  .img-responsive.showcase-banner {
-    max-width: unset;
-    margin-left: -15px;
-    margin-right: -15px;
   }
 }
 

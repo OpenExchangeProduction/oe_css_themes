@@ -1158,11 +1158,24 @@ html {
   text-shadow: 1px 1px 3px #2E1A47;
 }
 
+@media (max-width: 768px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:first-child {
+    font-size: 2rem;
+  }
+}
+
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
   font-size: 2rem;
   margin-bottom: .5rem;
   padding-bottom: .5rem;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px #2E1A47;
+  }
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
@@ -1213,8 +1226,13 @@ html {
   right: 0;
 }
 
+@media (max-width: 768px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
 span.showcase-description p {
-  text-align: center;
   max-width: 100%;
 }
 
@@ -1235,20 +1253,6 @@ span.showcase-description p {
 @media (max-width: 1200px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p {
     font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 550px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p,
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
-    text-align: left;
-    margin-left: 0;
-    max-width: 100%;
-  }
-  .img-responsive.showcase-banner {
-    max-width: unset;
-    margin-left: -15px;
-    margin-right: -15px;
   }
 }
 
