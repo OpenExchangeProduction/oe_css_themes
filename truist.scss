@@ -1135,6 +1135,7 @@ html {
 
           p {
             font-size: 2rem;
+            color: #ffffff;
 
             span {
               font-family: "Open Sans", sans-serif;
@@ -1160,6 +1161,7 @@ html {
           p:last-child a {
             color: var(--header-button-color) !important;
             border: 1px solid var(--header-button-color);
+            background-color: #ffffff;
             font-size: 1rem;
             text-decoration: none !important;
             padding: 12px 30px;
