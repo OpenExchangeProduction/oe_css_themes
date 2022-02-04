@@ -1061,7 +1061,9 @@ html {
 
 /* homepage only */
 #page-top #url-auth-suffix ~ header {
-  padding-top: 0 !important;
+  padding: 0 1rem !important;
+  margin: 2rem auto 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) {
