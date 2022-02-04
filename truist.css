@@ -1089,7 +1089,7 @@ html {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #page-top #url-auth-suffix ~ header {
     width: 750px;
   }
