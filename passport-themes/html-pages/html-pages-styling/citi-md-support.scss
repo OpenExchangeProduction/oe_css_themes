@@ -151,7 +151,7 @@ a {
       &__single {
         grid-column: auto / span 4;
 
-        &_title {
+        &__title {
           text-align: center;
         }
 
@@ -162,28 +162,29 @@ a {
 
           svg {
             max-height: 80px;
+            fill: #002D72;
           }
+        }
 
-          &__description {
-            text-align: center;
-          }
+        &__description {
+          text-align: center;
+        }
 
-          &__button {
-            text-decoration: none !important;
-            display: inline-block;
-            margin: 1rem 1rem 0 0;
-            padding: 0.75rem;
-            background-color: #005aa1;
-            color: #fff !important;
-            transition: background-color .2s ease-in-out;
-            font-weight: 400;
-            border: none;
-            line-height: 1;
-            margin-top: 0;
-            font-weight: bold;
-            border: none !important;
-            cursor: pointer;
-          }
+        &__button {
+          text-decoration: none !important;
+          display: inline-block;
+          margin: 1rem 1rem 0 0;
+          padding: 0.75rem;
+          background-color: #005aa1;
+          color: #fff !important;
+          transition: background-color .2s ease-in-out;
+          font-weight: 400;
+          border: none;
+          line-height: 1;
+          margin-top: 0;
+          font-weight: bold;
+          border: none !important;
+          cursor: pointer;
         }
       }
     }

@@ -142,7 +142,7 @@ a {
   grid-column: auto / span 4;
 }
 
-.instructions-page__main__support__single_title {
+.instructions-page__main__support__single__title {
   text-align: center;
 }
 
@@ -154,13 +154,14 @@ a {
 
 .instructions-page__main__support__single__svg svg {
   max-height: 80px;
+  fill: #002D72;
 }
 
-.instructions-page__main__support__single__svg__description {
+.instructions-page__main__support__single__description {
   text-align: center;
 }
 
-.instructions-page__main__support__single__svg__button {
+.instructions-page__main__support__single__button {
   text-decoration: none !important;
   display: inline-block;
   margin: 1rem 1rem 0 0;
