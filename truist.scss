@@ -1162,6 +1162,10 @@ html {
           z-index: 2;
           text-align: left;
 
+          @media (max-width: 768px) {
+            text-align: center;
+          }
+
           p {
             font-size: 2rem;
             color: #ffffff;
