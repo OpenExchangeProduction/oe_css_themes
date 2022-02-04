@@ -55,7 +55,7 @@ a {
   max-width: 1024px;
   display: block;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 0 1rem;
@@ -140,4 +140,39 @@ a {
 
 .instructions-page__main__support__single {
   grid-column: auto / span 4;
+}
+
+.instructions-page__main__support__single_title {
+  text-align: center;
+}
+
+.instructions-page__main__support__single__svg {
+  width: 100%;
+  max-height: 80px;
+  text-align: center;
+}
+
+.instructions-page__main__support__single__svg svg {
+  max-height: 80px;
+}
+
+.instructions-page__main__support__single__svg__description {
+  text-align: center;
+}
+
+.instructions-page__main__support__single__svg__button {
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 1rem 1rem 0 0;
+  padding: 0.75rem;
+  background-color: #005aa1;
+  color: #fff !important;
+  transition: background-color .2s ease-in-out;
+  font-weight: 400;
+  border: none;
+  line-height: 1;
+  margin-top: 0;
+  font-weight: bold;
+  border: none !important;
+  cursor: pointer;
 }

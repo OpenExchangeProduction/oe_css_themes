@@ -87,7 +87,7 @@ a {
     max-width: 1024px;
     display: block;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
     @include grid(12, 1fr, 0 1rem);
     background-color: #ffffff;
     width: 100%;
@@ -150,6 +150,41 @@ a {
 
       &__single {
         grid-column: auto / span 4;
+
+        &_title {
+          text-align: center;
+        }
+
+        &__svg {
+          width: 100%;
+          max-height: 80px;
+          text-align: center;
+
+          svg {
+            max-height: 80px;
+          }
+
+          &__description {
+            text-align: center;
+          }
+
+          &__button {
+            text-decoration: none !important;
+            display: inline-block;
+            margin: 1rem 1rem 0 0;
+            padding: 0.75rem;
+            background-color: #005aa1;
+            color: #fff !important;
+            transition: background-color .2s ease-in-out;
+            font-weight: 400;
+            border: none;
+            line-height: 1;
+            margin-top: 0;
+            font-weight: bold;
+            border: none !important;
+            cursor: pointer;
+          }
+        }
       }
     }
   }
