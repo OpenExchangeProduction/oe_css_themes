@@ -1266,6 +1266,6 @@ footer .footer-container p {
   border-color: #000000 !important;
 }
 
-#main-search-form .search-cancel:hover span:before, #page-top .post-details-description-output, #page-top .showcase-modal-close {
+#main-search-form .search-cancel:hover span:before, #page-top .post-details-description-output, #page-top .showcase-modal-close, .modal .post-details-description-output, .details-speaker-preview {
   color: #000000 !important;
 }

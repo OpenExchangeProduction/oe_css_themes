@@ -1581,10 +1581,24 @@ footer .footer-container p:last-child {
   word-break: break-word;
 }
 
-.modal .post-details-description-output {
+.modal .post-details-description-output, .details-speaker-preview {
   color: black;
 }
 
 #postMetadataTitle {
   max-height: none !important;
+}
+
+/* Unset the color stuff from dev */
+#postDetailsDescriptionButton:hover, #postContentMetadataCaretSPEAKER:hover {
+  background: transparent !important;
+}
+
+#page-top .navbar-default #main-search-form .search-form-head input.search-query {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+#main-search-form .search-cancel:hover span:before, #page-top .post-details-description-output, #page-top .showcase-modal-close, .modal .post-details-description-output, .details-speaker-preview {
+  color: #000000 !important;
 }
