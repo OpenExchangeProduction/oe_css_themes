@@ -1580,3 +1580,7 @@ footer .footer-container p:last-child {
 #page-top .tile-title {
   word-break: break-word;
 }
+
+.modal .post-details-description-output {
+  color: black;
+}
