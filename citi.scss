@@ -9,6 +9,7 @@
   --header-button-hover: #002D72;
   --login-image-anchor: bottom left;
   --banner-image-anchor: top right;
+  --clip-image: url('https://openexc.s3-us-west-2.amazonaws.com/vector-shape.svg');
 }
 
 ///////////////////////////////////////
@@ -469,7 +470,7 @@ html {
 
         &:before {
           content: '';
-          background-image: url('https://openexc.s3-us-west-2.amazonaws.com/vector-shape.svg');
+          background-image: var(--clip-image);
           background-repeat: no-repeat;
           display: block;
           width: 100%;
