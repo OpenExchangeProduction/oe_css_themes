@@ -504,7 +504,7 @@ html {
     font-size: 1rem;
     font-weight: 800;
     line-height: 1.8rem;
-    font-family: 'Open Sans', arial, sans-serif;
+    font-family: 'Graphik', arial, sans-serif;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown {
     height: 100%;
@@ -523,7 +523,7 @@ html {
     font-size: 1rem;
     font-weight: 800;
     line-height: 1.8rem;
-    font-family: 'Open Sans', arial, sans-serif;
+    font-family: 'Graphik', arial, sans-serif;
   }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) .dropdown .btn-group .btn.dropdown-toggle {
     height: 100%;
@@ -1142,14 +1142,14 @@ html {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p span {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Graphik", sans-serif;
   font-weight: 300;
   display: block;
   margin-bottom: .5rem;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:first-child {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Graphik", sans-serif !important;
   font-size: 2.5rem;
   margin-bottom: 0;
 }
@@ -1348,7 +1348,7 @@ html {
   filter: brightness(1);
   width: 100%;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Graphik', sans-serif;
 }
 
 #page-top .login-container .btn-primary:hover {
@@ -1395,7 +1395,7 @@ html {
 }
 
 #page-top .login-container > .row > div h3 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Graphik", Arial, sans-serif;
   text-align: left;
   color: #000000;
   font-size: 1.5rem;
@@ -1413,7 +1413,7 @@ html {
   font-weight: 300;
   line-height: 1.7;
   color: #ffffff !important;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Graphik", Arial, sans-serif;
 }
 
 #page-top .login-container > .row > div p br {
@@ -1425,7 +1425,7 @@ html {
 }
 
 #page-top .login-container > .row > div span, #page-top .login-container > .row > div a {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Graphik", Arial, sans-serif;
   color: #000000;
 }
 
@@ -1463,7 +1463,7 @@ html {
 #page-top .login-container > .row > div form .form-group {
   grid-column: auto / span 2;
   position: relative;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Graphik", Arial, sans-serif;
   color: #000000;
   grid-column: 1 / span 4;
 }
@@ -1488,7 +1488,7 @@ html {
   align-items: center;
   margin-bottom: .25rem;
   color: #000000;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Graphik", Arial, sans-serif;
   font-weight: 400;
 }
 
