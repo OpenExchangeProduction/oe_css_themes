@@ -1089,6 +1089,12 @@ html {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  #page-top #url-auth-suffix ~ header {
+    width: 750px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   #page-top #url-auth-suffix ~ header {
     max-width: 50rem;
