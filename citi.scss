@@ -5,6 +5,7 @@
 
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/citi_theme_login_bkg_2_jpg_1622745127049/citi_theme_login_bkg_2_e880fc5d-78f1-4f23-b71b-dcd9d0017ab4.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=1Bt30vdAIs24cqQA7UaAeOkO1Wk%3D");
+  --header-bkg-color: #002a54;
   --header-button-color: #005aa1;
   --header-button-hover: #002D72;
   --login-image-anchor: bottom left;
@@ -459,7 +460,7 @@ html {
       .col-xs-12 {
         @include grid(2, 1fr, 0);
         grid-template-rows: repeat(2, minmax(0, 1fr));
-        background-color: $primary-accent;
+        background-color: var(--header-bkg-color);
         width: 100%;
         padding: 0;
 
@@ -538,7 +539,7 @@ html {
           margin-left: 18%;
           margin-right: 3rem;
           margin-bottom: 0;
-          background-color: $primary-accent;
+          background-color: var(--header-bkg-color);
           padding: 3rem 0;
 
           p, span {
