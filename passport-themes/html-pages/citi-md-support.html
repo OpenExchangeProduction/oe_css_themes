@@ -22,7 +22,7 @@
     <div class="instructions-page__main">
       <div class="instructions-page__main__accordians">
         <div class="instructions-page__main__accordians__single">
-          <a class="toggle" href="javascript:void(0);">Item 1</a>
+          <a class="toggle" href="javascript:void(0);">Item 1 <i class="fas fa-chevron-up"></i></a>
           <ul class="inner">
             <li>Option 1</li>
             <li>Option 2</li>
@@ -30,7 +30,7 @@
           </ul>
         </div>
         <div class="instructions-page__main__accordians__single">
-          <a class="toggle" href="javascript:void(0);">Item 2</a>
+          <a class="toggle" href="javascript:void(0);">Item 2 <i class="fas fa-chevron-up"></i></a>
           <ul class="inner">
             <li>Option 1</li>
             <li>Option 2</li>
@@ -50,7 +50,7 @@
 							</svg>
           </div>
           <p class="instructions-page__main__support__single__description">Talk with our video specialist to help resolve any issues in real time.</p>
-          <a href="#" class="instructions-page__main__support__single__button">Zoom Call</a>
+          <a href="https://openexc.zoom.us/j/9596530640" class="instructions-page__main__support__single__button">Zoom Call</a>
         </div>
         <div class="instructions-page__main__support__single">
           <h4 class="instructions-page__main__support__single__title">Email</h4>
@@ -60,7 +60,7 @@
   					</svg>
           </div>
           <p class="instructions-page__main__support__single__description">If during off hours, email our support group and we'll respond in 24 hours.</p>
-          <a href="#" class="instructions-page__main__support__single__button">Email Support</a>
+          <a href="mailto:support@openexc.com?subject=Suppor Request for New MD Program" class="instructions-page__main__support__single__button">Email Support</a>
         </div>
         <div class="instructions-page__main__support__single">
           <h4 class="instructions-page__main__support__single__title">Test Line</h4>
@@ -70,17 +70,19 @@
   					</svg>
           </div>
           <p class="instructions-page__main__support__single__description">Need to test your video connection? Connect with a Video Specialists on our Testline.</p>
-          <a href="#" target="_blank" class="instructions-page__main__support__single__button">Test</a>
+          <a href="https://test.open-exchange.net" target="_blank" class="instructions-page__main__support__single__button">Test</a>
         </div>
       </div>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
   <script>
     $('.toggle').click(function(e) {
     	e.preventDefault();
       var $this = $(this);
       $this.next().slideToggle(350);
+      $this.toggleClass('.rotate');
     });
   </script>
 </body>

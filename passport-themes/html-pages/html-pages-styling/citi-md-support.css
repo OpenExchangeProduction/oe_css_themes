@@ -32,15 +32,24 @@ a {
 .instructions-page__main__accordians__single a.toggle {
   width: 100%;
   display: block;
-  background: rgba(0, 0, 0, 0.78);
+  background: #005aa1;
   color: #fefefe;
   padding: .75em;
   border-radius: 0.15em;
   transition: background .3s ease;
+  margin-bottom: 1rem;
+}
+
+.instructions-page__main__accordians__single a.toggle svg {
+  transition: transform .2s ease-in-out;
+}
+
+.instructions-page__main__accordians__single a.toggle.rotate svg {
+  transform: rotate(180deg);
 }
 
 .instructions-page__main__accordians__single a.toggle:hover {
-  background: rgba(0, 0, 0, 0.9);
+  background: #002D72;
 }
 
 .instructions-page {
@@ -149,7 +158,9 @@ a {
 }
 
 .instructions-page__main__support__single__title {
-  margin-bottom: .75rem;
+  margin: .75rem 0;
+  font-size: 1.5rem;
+  color: #002D72;
 }
 
 .instructions-page__main__support__single__svg {
