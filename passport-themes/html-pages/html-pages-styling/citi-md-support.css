@@ -120,7 +120,7 @@ a {
 .instructions-page__main__image {
   grid-column: auto / span 6;
   margin-bottom: 1rem;
-  padding-bottom: 75%;
+  padding-bottom: 56.25%;
   width: 100%;
   height: 0;
   overflow: hidden;
