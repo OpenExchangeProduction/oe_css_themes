@@ -461,6 +461,9 @@ html {
     height: 100%;
     align-items: center;
   }
+  #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(1) #search-btn {
+    margin: 0;
+  }
   #page-top #main_navigation .container-fluid #main_navigation_collapse ul.nav.navbar-nav.navbar-right:nth-of-type(2) {
     display: flex;
     height: 100%;
