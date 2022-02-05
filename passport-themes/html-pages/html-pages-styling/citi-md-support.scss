@@ -155,7 +155,7 @@ a {
     &__image {
       grid-column: auto / span 6;
       margin-bottom: 1rem;
-      @include aspect-ratio-image(16, 9);
+      @include aspect-ratio-image(18, 9);
 
       img {
         object-fit: cover;
