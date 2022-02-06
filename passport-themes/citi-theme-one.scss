@@ -420,24 +420,24 @@ div[class*='event-details'] > .items-start {
           filter: brightness(1);
           transition: filter .2s ease-in-out;
           display: flex;
-          flex-wrap: wrap;
           justify-content: center;
+          align-items: center;
           background: rgba(0,90,161,1);
         	box-shadow: 0 0 0 0 rgba(0,90,161,1);
           transform: scale(.97);
           padding: 1rem;
           font-size: 1.5rem;
           font-weight: 500;
+          animation: btn-pulse 2s infinite;
 
           svg {
-            order: -1;
-            width: 100%;
+            width: 8%;
             height: 2rem;
+            margin: 0;
           }
 
           &:hover {
             filter: brightness(.8);
-            animation: btn-pulse 2s infinite;
           }
         }
       }

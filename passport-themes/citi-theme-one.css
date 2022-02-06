@@ -640,25 +640,25 @@ div[class*='event-details'] > .items-start {
   filter: brightness(1);
   transition: filter .2s ease-in-out;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   background: #005aa1;
   box-shadow: 0 0 0 0 #005aa1;
   transform: scale(0.97);
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: 500;
+  animation: btn-pulse 2s infinite;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .bg-primary-lighter .common-btn svg {
-  order: -1;
-  width: 100%;
+  width: 8%;
   height: 2rem;
+  margin: 0;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .bg-primary-lighter .common-btn:hover {
   filter: brightness(0.8);
-  animation: btn-pulse 2s infinite;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .common-btn:hover:not(:disabled):after {
