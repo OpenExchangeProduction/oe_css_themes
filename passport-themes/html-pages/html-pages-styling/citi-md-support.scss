@@ -140,6 +140,14 @@ a {
     img {
       object-fit: contain;
     }
+
+    @media (max-width: 640px) {
+      flex-wrap: wrap;
+
+      img {
+        order: -1;
+      }
+    }
   }
 
   &__main {
@@ -151,11 +159,20 @@ a {
       grid-column: auto / span 6;
       margin-bottom: 1rem;
 
+      @media (max-width: 640px) {
+        grid-column: auto / span 12;
+      }
+
       &__single {
         .inner__image {
           display: flex;
           justify-content: center;
           margin-bottom: .75rem;
+
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e6e6e6;
+          }
 
           img {
             object-fit: contain;
@@ -176,6 +193,10 @@ a {
       img {
         object-fit: cover;
       }
+
+      @media (max-width: 640px) {
+        grid-column: auto / span 12;
+      }
     }
 
     &__support {
@@ -188,9 +209,13 @@ a {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 1rem .25rem;
+        padding: 1rem;
         border: 1px solid #002D72;
         border-radius: 6px;
+
+        @media (max-width: 640px) {
+          grid-column: auto / span 12;
+        }
 
         &__title {
           margin: .75rem 0;

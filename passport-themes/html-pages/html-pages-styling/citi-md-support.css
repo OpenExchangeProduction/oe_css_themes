@@ -105,6 +105,15 @@ a {
   object-fit: contain;
 }
 
+@media (max-width: 640px) {
+  .instructions-page__header {
+    flex-wrap: wrap;
+  }
+  .instructions-page__header img {
+    order: -1;
+  }
+}
+
 .instructions-page__main {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -118,10 +127,21 @@ a {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 640px) {
+  .instructions-page__main__accordians {
+    grid-column: auto / span 12;
+  }
+}
+
 .instructions-page__main__accordians__single .inner__image {
   display: flex;
   justify-content: center;
   margin-bottom: .75rem;
+}
+
+.instructions-page__main__accordians__single .inner__image:not(:last-child) {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .instructions-page__main__accordians__single .inner__image img {
@@ -159,6 +179,12 @@ a {
   object-fit: cover;
 }
 
+@media (max-width: 640px) {
+  .instructions-page__main__image {
+    grid-column: auto / span 12;
+  }
+}
+
 .instructions-page__main__support {
   grid-column: auto / span 12;
   display: grid;
@@ -172,9 +198,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 1rem .25rem;
+  padding: 1rem;
   border: 1px solid #002D72;
   border-radius: 6px;
+}
+
+@media (max-width: 640px) {
+  .instructions-page__main__support__single {
+    grid-column: auto / span 12;
+  }
 }
 
 .instructions-page__main__support__single__title {
