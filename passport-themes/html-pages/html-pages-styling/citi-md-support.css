@@ -118,10 +118,20 @@ a {
   margin-bottom: 1rem;
 }
 
+.instructions-page__main__accordians__single .inner__image {
+  display: flex;
+  justify-content: center;
+}
+
+.instructions-page__main__accordians__single .inner__image img {
+  object-fit: contain;
+  width: 100%;
+}
+
 .instructions-page__main__image {
   grid-column: auto / span 6;
   margin-bottom: 1rem;
-  padding-bottom: 50%;
+  padding-bottom: 56.25%;
   width: 100%;
   height: 0;
   overflow: hidden;

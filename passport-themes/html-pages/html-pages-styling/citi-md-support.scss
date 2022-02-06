@@ -150,12 +150,24 @@ a {
       width: 100%;
       grid-column: auto / span 6;
       margin-bottom: 1rem;
+
+      &__single {
+        .inner__image {
+          display: flex;
+          justify-content: center;
+
+          img {
+            object-fit: contain;
+            width: 100%;
+          }
+        }
+      }
     }
 
     &__image {
       grid-column: auto / span 6;
       margin-bottom: 1rem;
-      @include aspect-ratio-image(18, 9);
+      @include aspect-ratio-image(16, 9);
 
       img {
         object-fit: cover;
