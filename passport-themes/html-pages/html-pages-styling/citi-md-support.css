@@ -121,6 +121,7 @@ a {
 .instructions-page__main__accordians__single .inner__image {
   display: flex;
   justify-content: center;
+  margin-bottom: .75rem;
 }
 
 .instructions-page__main__accordians__single .inner__image img {
