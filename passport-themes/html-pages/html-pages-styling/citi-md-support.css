@@ -137,6 +137,8 @@ a {
   height: 0;
   overflow: hidden;
   position: relative;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
 }
 
 .instructions-page__main__image img,

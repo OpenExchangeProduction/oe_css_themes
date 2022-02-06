@@ -169,6 +169,8 @@ a {
       grid-column: auto / span 6;
       margin-bottom: 1rem;
       @include aspect-ratio-image(16, 9);
+      border-radius: 6px;
+      border: 1px solid #e6e6e6;
 
       img {
         object-fit: cover;
