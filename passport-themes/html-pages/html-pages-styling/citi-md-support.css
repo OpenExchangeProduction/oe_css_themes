@@ -101,6 +101,12 @@ a {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 640px) {
+  .instructions-page__header__info h1 {
+    margin-top: 1rem;
+  }
+}
+
 .instructions-page__header img {
   object-fit: contain;
 }
@@ -111,6 +117,7 @@ a {
   }
   .instructions-page__header img {
     order: -1;
+    max-height: 50px;
   }
 }
 
@@ -206,6 +213,7 @@ a {
 @media (max-width: 640px) {
   .instructions-page__main__support__single {
     grid-column: auto / span 12;
+    margin-bottom: 1rem;
   }
 }
 

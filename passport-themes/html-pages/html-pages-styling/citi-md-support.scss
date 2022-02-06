@@ -134,6 +134,10 @@ a {
         font-weight: 700;
         text-transform: uppercase;
         margin-bottom: 1rem;
+
+        @media (max-width: 640px) {
+          margin-top: 1rem;
+        }
       }
     }
 
@@ -146,6 +150,7 @@ a {
 
       img {
         order: -1;
+        max-height: 50px;
       }
     }
   }
@@ -215,6 +220,7 @@ a {
 
         @media (max-width: 640px) {
           grid-column: auto / span 12;
+          margin-bottom: 1rem;
         }
 
         &__title {
