@@ -928,6 +928,7 @@ html {
   word-break: break-word;
   line-height: 1.75rem;
   display: block;
+  color: white !important;
 }
 
 #page-top:not(.single-post) .list-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis .page-description {
