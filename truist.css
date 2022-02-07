@@ -855,6 +855,7 @@ html {
   flex-wrap: wrap;
   flex-direction: column;
   height: 100%;
+  pointer-events: none;
 }
 
 #page-top:not(.single-post) .list-view-item .post .thumb-wrapper {
