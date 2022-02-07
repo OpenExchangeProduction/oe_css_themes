@@ -854,10 +854,12 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  height: 100%;
 }
 
 #page-top:not(.single-post) .list-view-item .post .thumb-wrapper {
   width: 100%;
+  height: auto;
   position: unset;
   display: block;
   left: unset;
@@ -916,6 +918,7 @@ html {
   color: var(--card-text-color);
   height: auto !important;
   margin-bottom: .5rem;
+  padding: 0;
 }
 
 #page-top:not(.single-post) .list-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis .tile-title:hover {

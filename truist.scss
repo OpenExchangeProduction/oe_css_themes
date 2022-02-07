@@ -888,9 +888,11 @@ html {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+      height: 100%;
 
       .thumb-wrapper {
         width: 100%;
+        height: auto;
         position: unset;
         display: block;
         left: unset;
@@ -935,6 +937,7 @@ html {
               color: var(--card-text-color);
               height: auto !important;
               margin-bottom: .5rem;
+              padding: 0;
 
               &:hover {
                 filter: brightness(0.8);
