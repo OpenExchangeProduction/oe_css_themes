@@ -884,28 +884,20 @@ html {
     margin-bottom: 2rem;
 
     .post {
-      display: flex;
-      flex-wrap: nowrap;
       width: 100%;
-
-      @media (max-width: 640px) {
-        flex-direction: column;
-      }
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
 
       .thumb-wrapper {
-        width: max-content;
-        height: max-content;
-        flex: 1;
+        width: 100%;
         position: unset;
         display: block;
         left: unset;
-
-        @media (min-width: 640px) and (max-width: 768) {
-          flex: 2;
-        }
+        flex: 1;
 
         .thumb-link {
-          @include aspect-ratio-image(4, 3);
+          @include aspect-ratio-image(4, 4);
           display: block;
 
           .thumb {
@@ -929,48 +921,31 @@ html {
       }
 
       .thumb-meta-wrapper {
-        padding: 2rem;
-        flex: 3;
+        padding: 1rem;
         margin: 0;
         height: auto;
-        position: relative;
-        overflow: hidden;
+        flex: 1;
 
         .tile-text-area {
-          height: 100%;
+          padding: 0;
 
           .tile-header-ellipsis {
-            height: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            align-content: flex-end;
-            column-gap: 0;
-
-            &::after {
-              display: block;
-              content: '';
-              width: 100%;
-              height: 2px;
-              background: #000000;
-              align-self: flex-end;
-              margin: 1.25rem 0;
-              transform: scaleX(1.25);
-            }
 
             .tile-title {
               color: var(--card-text-color);
-              font-size: 2.5rem;
-              font-weight: 500;
-              line-height: 1.35;
-              filter: brightness(1);
-              transition: filter .2s ease, padding .2s ease;
-              display: block;
               height: auto !important;
               margin-bottom: .5rem;
 
               &:hover {
                 filter: brightness(0.8);
+              }
+
+              a {
+                font-size: 1.25rem;
+                font-weight: 400;
+                word-break: break-word;
+                line-height: 1.75rem;
+                display: block;
               }
             }
 
@@ -983,37 +958,7 @@ html {
             }
 
             .post-details-icon {
-              display: block;
-              padding: 0;
-              width: 100%;
-              right: unset;
-              top: unset;
-              font-size: 1.3rem;
-              order: 3;
-              color: var(--primary-color) !important;
-              margin-top: 0;
-              padding: 0;
-              filter: brightness(1);
-              transition: filter .2s ease, padding .2s ease;
-              text-decoration: none;
-              position: relative;
-              align-self: flex-end;
-
-              &:after {
-                opacity: 1;
-                content: '\276F'; // right chevron
-                position: relative;
-                left: .5rem;
-              }
-
-              &:hover {
-                filter: brightness(0.8);
-              }
-
-              &:before {
-                content: "More Details";
-                font-family: var(--primary-font);
-              }
+              display: none;
             }
           }
         }
@@ -1023,12 +968,6 @@ html {
           bottom: 0;
           right: 0;
         }
-      }
-    }
-
-    &:nth-of-type(even) {
-      .post .thumb-wrapper {
-        order: 2;
       }
     }
   }
