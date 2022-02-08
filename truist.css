@@ -1348,8 +1348,6 @@ span.showcase-description p {
   overflow-y: auto;
   width: 100%;
   box-shadow: 3px 3px rgba(35, 33, 33, 0.3);
-  display: flex;
-  flex-wrap: wrap;
 }
 
 #page-top .login-container > .row > div h3 {
@@ -1359,18 +1357,14 @@ span.showcase-description p {
   font-size: 1.5rem;
   margin-bottom: 0;
   margin-top: 1rem;
-  order: 1;
-  width: 75%;
-  padding-left: .75rem;
-  display: flex;
-  align-items: center;
+  padding: 0 1rem;
 }
 
 #page-top .login-container > .row > div p {
   margin-bottom: 1rem;
   font-weight: 300;
   line-height: 1.7;
-  color: #ffffff !important;
+  color: #000000 !important;
   font-family: "Graphik", Arial, sans-serif;
 }
 
@@ -1388,10 +1382,7 @@ span.showcase-description p {
 }
 
 #page-top .login-container > .row > div > .row {
-  margin: 0;
-  padding: 0;
-  padding-top: 1rem;
-  width: 25%;
+  padding: 1rem;
 }
 
 #page-top .login-container > .row > div > .row img {

@@ -42,6 +42,14 @@
     flex-wrap: nowrap !important;
   }
 
+  @media screen and (max-width: 640px) {
+    .list-view-item .post {
+      flex: 1 4;
+      flex-direction: column !important;
+      flex-wrap: wrap !important;
+    }
+  }
+
   .list-view-item .thumb-wrapper {
     box-shadow: none !important;
     flex: 1 !important;
@@ -49,6 +57,7 @@
 
   .list-view-item .thumb-meta-wrapper {
     flex: 4 !important;
+    width: 100% !important;
   }
 
   .list-view-item.logo:not(:first-of-type) {
@@ -59,6 +68,7 @@
   #page-top:not(.single-post) .list-view-item .post .thumb-wrapper .thumb-link {
     border: 1px solid var(--card-color);
     background-color: #ffffff;
+    height: 100% !important;
   }
 
   #page-top:not(.single-post) .list-view-item.speaker .post .thumb-wrapper .thumb-link img:not(.play-hover-button) {
