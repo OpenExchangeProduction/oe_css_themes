@@ -2624,3 +2624,7 @@ footer .footer-container p {
 #showcase_category_post ~ footer {
   display: none;
 }
+
+#single-post footer {
+  display: none !important;
+}
