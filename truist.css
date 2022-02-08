@@ -847,6 +847,7 @@ html {
 
 #page-top:not(.single-post) .list-view-item {
   margin-bottom: 2rem;
+  padding: 0;
 }
 
 #page-top:not(.single-post) .list-view-item .post {
