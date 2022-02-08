@@ -1352,16 +1352,15 @@ span.showcase-description p {
 
 #page-top .login-container > .row > div h3 {
   font-family: "Graphik", Arial, sans-serif;
-  text-align: left;
+  text-align: center;
   color: #000000;
   font-size: 1.5rem;
-  margin: 1rem;
-  padding: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 #page-top .login-container > .row > div p {
   margin-bottom: 1rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.7;
   color: #000000 !important;
   font-family: "Graphik", Arial, sans-serif;
@@ -1388,12 +1387,8 @@ span.showcase-description p {
   max-width: 100% !important;
   margin: 0;
   width: 100%;
-}
-
-@media (max-width: 1100px) {
-  #page-top .login-container > .row > div > .row img {
-    max-height: 100px !important;
-  }
+  max-height: 75px;
+  object-fit: contain;
 }
 
 #page-top .login-container > .row > div form {
