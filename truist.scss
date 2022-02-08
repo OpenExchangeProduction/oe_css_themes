@@ -1248,6 +1248,10 @@ span.showcase-description p {
       background-color: transparent;
       padding-top: 0;
 
+      .header-container {
+        margin-bottom: 0;
+      }
+
       .showcase-title {
         font-weight: 500;
         color: $black !important;

@@ -1213,6 +1213,10 @@ span.showcase-description p {
   padding-top: 0;
 }
 
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .header-container {
+  margin-bottom: 0;
+}
+
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .showcase-title {
   font-weight: 500;
   color: #000000 !important;
