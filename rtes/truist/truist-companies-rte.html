@@ -20,27 +20,72 @@
     var selector = document.querySelector('.selector');
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
+    $('.thumb[src*="logo"]').closest('.list-view-item').addClass('logo');
+    $('.thumb[src*="speaker"]').closest('.list-view-item').addClass('speaker');
   }
 
   defer(callback);
-
-  $(function() {
-    $('.thumb[src*="logo"]').parent().addClass('logo');
-    $('.thumb[src*="speaker"]').closest('.list-view-item').addClass('speaker');
-  });
 </script>
 
 <style>
   .featured-category.hide {
     display: none;
   }
-  .hide-it {
-    visibility: hidden;
-    pointer-events: none;
+
+  #page-top:not(.single-post) .list-view-item.speaker, #page-top:not(.single-post) .list-view-item.logo {
+    margin-bottom: 0;
   }
-  @media screen and (max-width: 768px) {
-    .hide-it {
-      display: none;
+
+  .list-view-item .post {
+    flex: 1 4;
+    flex-direction: unset !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .list-view-item .thumb-wrapper {
+    box-shadow: none !important;
+    flex: 1 !important;
+  }
+
+  .list-view-item .thumb-meta-wrapper {
+    flex: 4 !important;
+  }
+
+  .list-view-item.logo:not(:first-of-type) {
+    padding-top: 2rem !important;
+    border-top: 3px solid var(--card-color);
+  }
+
+  #page-top:not(.single-post) .list-view-item .post .thumb-wrapper .thumb-link {
+    border: 1px solid var(--card-color);
+    background-color: #ffffff;
+  }
+
+  #page-top:not(.single-post) .list-view-item.speaker .post .thumb-wrapper .thumb-link img:not(.play-hover-button) {
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 992px) {
+    .list-view-item {
+      grid-column: auto / span 3;
+    }
+  }
+
+  @media all and (min-width: 1200px) {
+    .list-view-item {
+      grid-column: auto / span 4;
+    }
+  }
+
+  @media all and (min-width: 1500px) {
+    .list-view-item {
+      grid-column: auto / span 5;
+    }
+  }
+
+  @media all and (min-width: 1800px) {
+    .list-view-item {
+      grid-column: auto / span 6;
     }
   }
 </style>
