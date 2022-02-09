@@ -974,6 +974,7 @@ html {
 
 #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-2.pull-right a {
   background-color: var(--view-all-button-color);
+  color: #ffffff !important;
   text-decoration: none !important;
   padding: 12px 30px;
   -webkit-transition: .2s;

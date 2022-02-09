@@ -22,6 +22,7 @@
     rte.classList.add("hide");
     $('.thumb[src*="logo"]').closest('.list-view-item').addClass('logo');
     $('.thumb[src*="speaker"]').closest('.list-view-item').addClass('speaker');
+    $('.thumb[src*="presentation"]').closest('.list-view-item').addClass('presentation');
   }
 
   defer(callback);
@@ -73,6 +74,39 @@
 
   #page-top:not(.single-post) .list-view-item.speaker .post .thumb-wrapper .thumb-link img:not(.play-hover-button) {
     object-fit: cover;
+  }
+
+  #page-top:not(.single-post) .list-view-item.speaker, #page-top:not(.single-post) .list-view-item.presentation {
+    margin-bottom: 0;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .thumb-wrapper {
+    display: none;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .thumb-meta-wrapper {
+    width: max-content !important;
+    max-width: max-content;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .thumb-meta-wrapper .link-header, #page-top:not(.single-post) .list-view-item.speaker, #page-top:not(.single-post) .list-view-item.presentation .thumb-meta-wrapper .link-header .tile-title {
+    margin: 0 !important;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .thumb-meta-wrapper .link-header .tile-title {
+    display: flex;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .thumb-meta-wrapper .link-header .tile-title a {
+    max-width: max-content;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .thumb-meta-wrapper .link-header .page-description {
+    display: none;
+  }
+
+  #page-top:not(.single-post) .list-view-item.presentation .post {
+    pointer-events: auto;
   }
 
   @media screen and (min-width: 992px) {
