@@ -1522,3 +1522,12 @@ footer .footer-container p:last-child {
 #detailsSPEAKERPreview, #detailsCOMPANYPreview {
   color: #000000 !important;
 }
+
+.post .newLabel {
+  z-index: 3;
+}
+
+.post .newLabel.liveLabel {
+  background: red !important;
+  color: white !important;
+}

@@ -1555,3 +1555,12 @@ footer {
 #detailsSPEAKERPreview, #detailsCOMPANYPreview {
   color: #000000 !important;
 }
+
+.post .newLabel {
+  z-index: 3;
+
+  &.liveLabel {
+    background: red !important;
+    color: white !important;
+  }
+}
