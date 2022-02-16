@@ -665,12 +665,6 @@ div[class*='event-details'] > .items-start {
   display: none !important;
 }
 
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-bottom: 1rem;
-}
-
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
   max-width: 95%;
 }
@@ -680,6 +674,10 @@ div[class*='event-details'] > .items-start {
   margin: 0;
   padding-right: 1rem;
   color: #000000;
+}
+
+#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
+  margin-top: 1rem;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title div p,
