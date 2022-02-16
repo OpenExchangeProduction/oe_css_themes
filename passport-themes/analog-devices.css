@@ -1268,3 +1268,17 @@ form input[type="checkbox"] {
 #page-top .post-details-description-button {
   color: #000000;
 }
+
+.editable-welcome-event-details .items-start {
+  display: block !important;
+}
+
+.editable-welcome-event-details .items-start img {
+  widht: 100%;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.editable-welcome-event-details .items-start .editable-welcome-event-details--wrapper {
+  display: none !important;
+}
