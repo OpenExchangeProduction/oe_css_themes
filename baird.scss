@@ -1281,3 +1281,9 @@ footer {
 #detailsSPEAKERPreview, #detailsCOMPANYPreview {
   color: #000000 !important;
 }
+
+@media (max-width: 640px) {
+  #page-top #main-search-form {
+    padding: 0 !important;
+  }
+}
