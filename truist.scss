@@ -1310,8 +1310,8 @@ span.showcase-description p {
     color: $black;
   }
 
-  .right-container {
-    display: none !important;
+  .container-fluid {
+    max-width: unset !important;
   }
 }
 

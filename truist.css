@@ -1273,8 +1273,8 @@ span.showcase-description p {
   color: #000000;
 }
 
-#page-top.single-post .right-container {
-  display: none !important;
+#page-top.single-post .container-fluid {
+  max-width: unset !important;
 }
 
 /* login */
