@@ -1502,10 +1502,6 @@ span.showcase-description p {
       height: calc(100vh - 121px);
       position: unset;
   }
-
-  body#page-top {
-      padding-top: 121px!important;
-  }
 }
 
 footer {
@@ -1563,4 +1559,8 @@ footer {
     background: red !important;
     color: white !important;
   }
+}
+
+.list-view-item>.post>.thumb-meta-wrapper {
+  width: 100%;
 }
