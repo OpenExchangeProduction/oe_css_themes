@@ -1,0 +1,19 @@
+<div id="pageid_rte">CLICKING "DONE" WILL REMOVE INVISIBLE CODE</div>
+<script>
+ String.prototype.replaceAll = function (search, replacement) {
+     var target = this;
+     return target.replace(new RegExp(search, 'g'), replacement);
+ };
+
+ window.addEventListener("DOMContentLoaded", (event) => {
+     let rteID = document.querySelector("#pageid_rte");
+     let rteCate = rteID.closest(".featured-category");
+     if (rteCate) {
+         rteCate.classList.add("hidden");
+     }
+
+     let pageTitle = document.title;
+     let className = pageTitle.split(":")[0].toLowerCase().replaceAll(" ", "-");
+     document.querySelector("#page-top").classList.add(className);
+ });
+</script>

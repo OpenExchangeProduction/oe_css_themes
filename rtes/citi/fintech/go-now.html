@@ -1,5 +1,4 @@
-<img src="https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/7d19afcc-c361-472f-a96d-0fd8ca2b7d8a/content/assets/templates/template_background/new_md_agenda_png_1646692735358/new_md_agenda_9698132a-5cd4-4040-acb3-092e77674db6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=gSXNfYDFc8nEuRZOf9iVYn%2F1y58%3D">
-<p class="selector hide">selector</p>
+<p class="selector">selector</p>
 <script>
   var counter = 0;
 
@@ -19,7 +18,7 @@
 
   var callback = function () {
     var selector = document.querySelector('.selector');
-    var rte = selector.closest('.carousel-inner');
+    var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
   }
 
@@ -27,7 +26,7 @@
 </script>
 
 <style>
-  .carousel-inner.hide, .selector.hide {
+  .featured-category.hide {
     display: none;
   }
   .hide-it {
@@ -38,5 +37,11 @@
     .hide-it {
       display: none;
     }
+  }
+  #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a:before {
+    content: 'Go Now';
+  }
+  #page-top #showcase_category .container.posts .row .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.link-header .tile-title a:hover:before {
+    content: 'Go Now >';
   }
 </style>
