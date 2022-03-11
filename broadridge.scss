@@ -561,6 +561,16 @@ h5 {
         display: flex;
         width: 100%;
         margin: 0;
+
+        .carousel-control {
+          color: rgba(0,54,87,1) !important;
+        }
+      }
+
+      .item.active, .item.prev, .item.next {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
       }
     }
   }
@@ -718,15 +728,14 @@ h5 {
   }
 
   .column-view-item {
-    padding: 0;
-    background: #ffffff;
+    padding: 0 1rem 1rem;
 
     .post {
       width: 100%;
       height: auto;
+      background: #ffffff;
       border: 1px solid #DDDDDD;
       box-shadow: none !important;
-      margin: 0 1rem 1rem;
 
       .thumb-wrapper {
         position: static;
