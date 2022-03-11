@@ -217,9 +217,22 @@ h5 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/wrapper_pattern_static__1__png_1647015153606/wrapper_pattern_static__1__dc71cb21-5aa6-43a0-9eea-fac98d034229.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=10Y%2FyxATVLJAUc%2FUzn%2FPj2Yc79E%3D");
-  background-size: cover;
+  background: linear-gradient(0deg, transparent, transparent 270px, #00578E 270px, #00578E 100%);
   padding: 0;
+  position: relative;
+}
+
+#page-top > .container:not(.login-container):after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/wrapper_pattern_static__1___1__png_1647015583984/wrapper_pattern_static__1___1__ff9f036e-4947-4c5d-9b9c-7ace53520183.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sVMsUfi80FDme7GKkrp%2BRKndyvg%3D");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
 }
 
 #page-top > .container:not(.login-container) .featured-knovio {
@@ -233,6 +246,7 @@ h5 {
   margin: 0 auto;
   gap: 2rem;
   padding: 4.5rem 0;
+  z-index: 10;
 }
 
 #page-top > .container:not(.login-container) .featured-knovio:before {
