@@ -1371,6 +1371,10 @@ html {
 }
 
 /* login */
+#page-top #main_navigation:first-child {
+  display: none;
+}
+
 #page-top .login-container {
   margin: 0;
   height: 100vh;
