@@ -1114,10 +1114,11 @@ h5 {
         font-family: "KievitWeb W05", Arial, sans-serif;
         text-align: left;
         color: #ffffff;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         font-weight: 300;
         margin-bottom: 1rem;
-        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #fff;
         width: 100%;
         display: flex;
         align-items: center;
@@ -1168,7 +1169,7 @@ h5 {
         order: 2;
         width: 100%;
         padding-top: 1.25rem;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         border-top: 1px solid var(--primary-color);
 
         .form-group {
@@ -1177,6 +1178,7 @@ h5 {
           font-family: "KievitWeb W05", Arial, sans-serif;
           color: #ffffff;
           grid-column: 1 / span 4;
+          font-weight: 300;
 
           &:first-child {
             grid-column: 1 / span 2;
