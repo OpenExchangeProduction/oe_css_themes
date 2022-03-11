@@ -756,15 +756,7 @@ h5 {
     .post {
       width: 100%;
       height: auto;
-      -webkit-box-shadow: 0.125rem 0.1875rem 0.4375rem 0 rgba(0, 0, 0, 0.13);
-              box-shadow: 0.125rem 0.1875rem 0.4375rem 0 rgba(0, 0, 0, 0.13);
-      -webkit-transition: 0.3s ease-out;
-      transition: 0.3s ease-out;
-
-      &:hover {
-        -webkit-box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
-                box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
-      }
+      border: 1px solid #DDDDDD;
 
       .thumb-wrapper {
         position: static;
