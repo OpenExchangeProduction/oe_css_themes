@@ -1139,7 +1139,7 @@ footer .container .footer-container p:not(:last-child) {
   height: 100% !important;
   left: 0;
   top: 0;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   border: 1px solid #e2e2e2;
 }
