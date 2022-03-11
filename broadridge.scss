@@ -585,16 +585,7 @@ h5 {
   }
 
   .list-view-item .post .thumb-wrapper .thumb-link .thumb, .column-view-item .post .thumb-wrapper .thumb-link .thumb {
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-            padding: 1rem;
-  }
-
-  .list-view-item .post .thumb-wrapper .thumb-link .thumb:hover, .column-view-item:hover .post .thumb-wrapper .thumb-link .thumb {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    padding: 1rem;
   }
 
   .list-view-item {
@@ -641,19 +632,6 @@ h5 {
           padding: 56.25% 0 0;
           overflow: hidden;
           background-color: #ffffff;
-
-          .play-hover-button {
-            pointer-events: none;
-            background: #e31837;
-            border-radius: 50%;
-            filter: brightness(1.75);
-          }
-
-          &:hover {
-            .play-hover-button {
-              opacity: .7 !important;
-            }
-          }
         }
       }
 
@@ -817,9 +795,12 @@ h5 {
       .thumb-meta-wrapper {
         height: min-content;
         float: none;
+        background-color: #ffffff;
+        transition: all .2s ease-in-out;
 
         .tile-text-area {
           padding: 1.5rem 1.25rem;
+          padding-bottom: 3rem;
 
           .post-details-activate {
             height: min-content;
@@ -838,6 +819,17 @@ h5 {
           &:hover {
             color: #012169 !important;
           }
+        }
+      }
+    }
+
+    &:hover {
+      .post .thumb-meta-wrapper {
+        background-color: rgba(0,54,87,1);
+        
+        .tile-title,
+        .tile-title a {
+          color: #ffffff !important;
         }
       }
     }
