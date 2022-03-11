@@ -1027,6 +1027,7 @@ h5 {
   text-align: left;
   color: #ffffff;
   font-size: 1.5rem;
+  font-weight: 300;
   margin-bottom: 1rem;
   margin-top: 1rem;
   width: 100%;
@@ -1082,7 +1083,7 @@ h5 {
   width: 100%;
   padding-top: 1.25rem;
   padding-bottom: 3rem;
-  border-top: 3px solid var(--primary-color);
+  border-top: 1px solid var(--primary-color);
 }
 
 #page-top .login-container > .row > div form .form-group {
