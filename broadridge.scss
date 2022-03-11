@@ -1244,15 +1244,17 @@ footer {
 
   .container {
     .footer-container {
-      padding: 0;
+      padding: 1.5rem 0;
 
       p {
         margin: 0;
-        text-align: center;
         color: #fff;
         font-family: $primary-font;
         font-weight: 400;
-        padding: 1.5rem 0;
+      }
+
+      p:not(:last-child) {
+        margin-bottom: .5rem;
       }
     }
   }

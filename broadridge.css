@@ -1155,16 +1155,18 @@ footer {
 }
 
 footer .container .footer-container {
-  padding: 0;
+  padding: 1.5rem 0;
 }
 
 footer .container .footer-container p {
   margin: 0;
-  text-align: center;
   color: #fff;
   font-family: "KievitWeb W05", Arial, sans-serif;
   font-weight: 400;
-  padding: 1.5rem 0;
+}
+
+footer .container .footer-container p:not(:last-child) {
+  margin-bottom: .5rem;
 }
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header {
