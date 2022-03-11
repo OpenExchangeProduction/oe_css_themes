@@ -1071,6 +1071,7 @@ h5 {
     width: 100%;
     text-transform: uppercase;
     font-family: "KievitWeb W05", sans-serif;
+    color: rgba(0,54,87,1);
 
     &:hover {
       filter: brightness(.75);
@@ -1103,23 +1104,20 @@ h5 {
 
     > div {
       margin: 0;
-      background: rgba(255,255,255,1);
+      background: rgba(0,54,87,1);
       overflow-y: auto;
       width: 100%;
-      box-shadow: 3px 3px rgba(35, 33, 33, 0.3);
       display: flex;
       flex-wrap: wrap;
 
       h3 {
         font-family: "KievitWeb W05", Arial, sans-serif;
         text-align: left;
-        color: #000000;
+        color: #ffffff;
         font-size: 1.5rem;
         margin-bottom: 0;
         margin-top: 1rem;
-        order: 1;
-        width: 75%;
-        padding-left: .75rem;
+        width: 100%;
         display: flex;
         align-items: center;
       }
@@ -1149,7 +1147,7 @@ h5 {
         margin: 0;
         padding: 0;
         padding-top: 1rem;
-        width: 25%;
+        width: 100%;
 
         img {
           max-width: 100% !important;
@@ -1177,7 +1175,7 @@ h5 {
           grid-column: auto / span 2;
           position: relative;
           font-family: "KievitWeb W05", Arial, sans-serif;
-          color: #000000;
+          color: #ffffff;
           grid-column: 1 / span 4;
 
           &:first-child {
@@ -1199,7 +1197,7 @@ h5 {
             display: flex;
             align-items: center;
             margin-bottom: .25rem;
-            color: #000000;
+            color: #ffffff;
             font-family: "KievitWeb W05", Arial, sans-serif;
             font-weight: 300;
           }
