@@ -1,5 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
+// SECTION KIEVITWEB W05
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Exlig_eot_1647010887781/KievitWeb_W05_Exlig_9f805619-3496-478b-8957-fe24ce0682fd.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ChgAVFECYOx4Rf66EMze4FcsqjU%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Exlig_eot_1647010887781/KievitWeb_W05_Exlig_9f805619-3496-478b-8957-fe24ce0682fd.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ChgAVFECYOx4Rf66EMze4FcsqjU%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Exlig_woff2_1647010887793/KievitWeb_W05_Exlig_8e07a8fa-8faf-4947-a19c-fb2f8c5ff980.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=FzTaoLzp7P2I0l7waJk3MIO5ZQg%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Exlig_woff_1647010887815/KievitWeb_W05_Exlig_25aa9ddd-3359-4380-a4d4-8756b423ece9.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=klNUnVcI5Xc%2BT5gBc05QLTKIApw%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Exlig_ttf_1647010887787/KievitWeb_W05_Exlig_4866fa1e-c66a-45ac-b517-a8f4b395dda2.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MBJzjOFYbL9GC8Hf%2Frk5XwnKUiM%3D")
+            format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_ExligIta_eot_1647010950663/KievitWeb_W05_ExligIta_ddcceb06-9b3b-44b8-b16e-71d8a990ed97.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ODDRxgkbW5JO60XzlDEEZMT2vq0%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_ExligIta_eot_1647010950663/KievitWeb_W05_ExligIta_ddcceb06-9b3b-44b8-b16e-71d8a990ed97.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ODDRxgkbW5JO60XzlDEEZMT2vq0%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_ExligIta_woff2_1647010950668/KievitWeb_W05_ExligIta_20859577-893c-4c8a-b6ee-b3fe9f0148f3.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ybT5GG9vRH3fiEH9ZyNwD5EjMJU%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_ExligIta_woff_1647010950668/KievitWeb_W05_ExligIta_f1d1731b-1a91-495d-ab4e-2105af4372c3.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ddTHk%2FCvHRdgBCsQ6LymbIXxFBY%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_ExligIta_ttf_1647010950716/KievitWeb_W05_ExligIta_10c3f2ec-103c-4c6f-a669-a111a2c89667.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=%2BHMvWkB57D1okx6ypFPHgiAwoZs%3D")
+            format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_LightIta_eot_1647011086173/KievitWeb_W05_LightIta_5844f132-76a8-416a-9cd3-a767fca95aac.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=nK5jNFszpXJo8rVsSwE8j7bhER8%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_LightIta_eot_1647011086173/KievitWeb_W05_LightIta_5844f132-76a8-416a-9cd3-a767fca95aac.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=nK5jNFszpXJo8rVsSwE8j7bhER8%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_LightIta_woff2_1647011086172/KievitWeb_W05_LightIta_e0d76419-49bc-4b3d-a473-6cbcf5ea503d.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=x7COxPH%2FmeMKqPGgW66vMHwcFG8%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_LightIta_woff_1647011086196/KievitWeb_W05_LightIta_df715508-c0a7-4e7c-80dd-201423b636e2.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Fk4MZE1Fo%2F4LbmZWnczUwxnVu30%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_LightIta_ttf_1647011086173/KievitWeb_W05_LightIta_a53f4d4e-52cf-4d06-86ec-5ee59bb7dfe1.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=9a5ac%2BIrHvz7H2HDsdSF1KUqnQc%3D")
+            format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Regular_eot_1647011210464/KievitWeb_W05_Regular_bab20ec4-422e-48d6-a00c-5380ac1acfce.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3LYfXoMu9IFOuCejPtu2j24IrsU%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Regular_eot_1647011210464/KievitWeb_W05_Regular_bab20ec4-422e-48d6-a00c-5380ac1acfce.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3LYfXoMu9IFOuCejPtu2j24IrsU%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Regular_woff2_1647011210496/KievitWeb_W05_Regular_3c7490d7-7290-4c0e-a027-a1e4b25a764c.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sRVGfqCc40KWwhtwhPR7LwgC%2Fd4%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Regular_woff_1647011210531/KievitWeb_W05_Regular_c4609d90-6f8b-41d3-98f8-98cf3422b9b7.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=RA8nm9Dpi6wS2WXGaa9q%2FN7bbTc%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Regular_ttf_1647011210488/KievitWeb_W05_Regular_1e01006d-68d9-41f1-ac40-78325aa6b740.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=urFo5D%2FVtXfNzsxl8mtNSMfQ9xo%3D")
+            format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Ita_eot_1647011025261/KievitWeb_W05_Ita_900346fb-bda2-4e81-abb7-b72eebd3f280.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=vEYD5c6cD1%2F6fNUNpxY5CxHNR5I%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Ita_eot_1647011025261/KievitWeb_W05_Ita_900346fb-bda2-4e81-abb7-b72eebd3f280.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=vEYD5c6cD1%2F6fNUNpxY5CxHNR5I%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Ita_woff2_1647011025271/KievitWeb_W05_Ita_d9ec6d04-7094-450b-ba23-e5b2015baa48.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=9sXVM%2FY5iFcmfVOQNavcG8730aI%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Ita_woff_1647011025270/KievitWeb_W05_Ita_82f62f15-3358-4dfb-9b79-9ffd6b3c6089.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3gbL9NOcuwufBiY0I8xOcIbhspg%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Ita_ttf_1647011025295/KievitWeb_W05_Ita_e233c54f-212e-4521-88d3-caa6fb10482b.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=LZ2lTJ98MnilpB99DN0n%2FMJJqKQ%3D")
+            format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Medi_eot_1647011140420/KievitWeb_W05_Medi_0d23352b-3964-46bd-b740-873a1340cf19.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=a62bDNiQu6N4k0W0eAZ13rqcD8o%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Medi_eot_1647011140420/KievitWeb_W05_Medi_0d23352b-3964-46bd-b740-873a1340cf19.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=a62bDNiQu6N4k0W0eAZ13rqcD8o%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Medi_woff2_1647011140385/KievitWeb_W05_Medi_8bc6ffdf-4c4b-4ad8-8140-17735f785f9e.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=269bCjkW214j6J%2Fy82k%2FDj7c4UY%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Medi_woff_1647011140401/KievitWeb_W05_Medi_2b1dc4f5-06c4-4a57-b4d3-0be707ca0792.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=bUaHuuopzOWP2LcokgwGmOJMa%2F4%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Medi_ttf_1647011140403/KievitWeb_W05_Medi_63b7ef4c-2d41-4445-a8fa-d66794f00a63.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=LGGVEM%2BcPQ0i0X2VzHN4z0HGYVs%3D")
+            format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KievitWeb W05";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Bold_eot_1647010608109/KievitWeb_W05_Bold_9c6a1114-e83f-4f10-9e84-25f2e5f1f3bc.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=xsxFy6tFgDes%2BswAW9XIEdFCWNE%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Bold_eot_1647010608109/KievitWeb_W05_Bold_9c6a1114-e83f-4f10-9e84-25f2e5f1f3bc.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=xsxFy6tFgDes%2BswAW9XIEdFCWNE%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Bold_woff2_1647010608140/KievitWeb_W05_Bold_5078e526-7e40-49bf-9b02-ff6448c6d587.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=TI4dp52u%2FHmzRdzGyLbYKzfEOZw%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Bold_woff_1647010608118/KievitWeb_W05_Bold_3e276e88-f772-440d-9abd-1f145ab0f5d9.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=vYSvm%2FrIpq6jBi5Zn3M%2BHg5JBkM%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/KievitWeb_W05_Bold_eot_1647010608109/KievitWeb_W05_Bold_9c6a1114-e83f-4f10-9e84-25f2e5f1f3bc.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=xsxFy6tFgDes%2BswAW9XIEdFCWNE%3D")
+            format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+// !SECTION KIEVITWEB W05
+
+// SECTION AvenirLTPro
+@font-face {
+    font-family: "AvenirLTPro";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirNextLTPro_UltLt_eot_1647011762225/AvenirNextLTPro_UltLt_6bf8975f-f5ce-42f8-9ee4-bc8c2c16eef4.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=s844tBGgmk8Vem2izsa1M8cTaXw%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirNextLTPro_UltLt_eot_1647011762225/AvenirNextLTPro_UltLt_6bf8975f-f5ce-42f8-9ee4-bc8c2c16eef4.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=s844tBGgmk8Vem2izsa1M8cTaXw%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirNextLTPro_UltLt_woff2_1647011762235/AvenirNextLTPro_UltLt_d84f2972-7354-4352-9912-e4f7f23ea307.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3DdIK3HFV14%2Flvc9aPOusDzj1sI%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirNextLTPro_UltLt_woff_1647011762255/AvenirNextLTPro_UltLt_c1aabe9c-dfb1-4aec-b201-cef0c58e3f6d.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sr4V3jGHvJD37bKiboYjotL1nCI%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirNextLTPro_UltLt_ttf_1647011762236/AvenirNextLTPro_UltLt_6f4cbf9e-47b7-479e-b8ac-c3d850405cd4.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Q2%2FXM0KT%2Fo5HgvcHKHbUPe%2BOhvI%3D")
+            format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AvenirLTPro";
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirLTPro_Light_eot_1647011465507/AvenirLTPro_Light_eede5161-aed6-45c9-98d8-d40ba5a443b9.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3EExGodFWeSCHbrOAjyfavu6L58%3D");
+    src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirLTPro_Light_eot_1647011465507/AvenirLTPro_Light_eede5161-aed6-45c9-98d8-d40ba5a443b9.eot?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3EExGodFWeSCHbrOAjyfavu6L58%3D")
+            format("embedded-opentype"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirLTPro_Light_woff2_1647011465536/AvenirLTPro_Light_409f048d-ba92-4c7a-8cf6-f5b7fac01191.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=pqWt7L9oiqqXYg6kyEA6YTjeP5o%3D")
+            format("woff2"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirLTPro_Light_woff_1647011465515/AvenirLTPro_Light_db3c420f-4a21-4faf-aa9b-fecda92aa963.woff?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=qy6IadRQ6g24j0%2BolhEd%2B2eP7Qs%3D")
+            format("woff"),
+        url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_background/AvenirLTPro_Light_ttf_1647011465508/AvenirLTPro_Light_51eb699f-1113-42eb-b62f-5242ef8fecb6.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=K%2FaTdemYYDTIHQtRbznWoBuZ4LE%3D")
+            format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+// !SECTION AvenirLTPro
+
+
 ///////////////////////////////////////
 // set global variables //
 ///////////////////////////////////////
@@ -8,7 +150,7 @@ $navy: #002a54;
 $blue: #002E72;
 $light-blue: #056DAE;
 
-$primary-font: "Raleway", Arial, sans-serif;
+$primary-font: "KievitWeb W05", Arial, sans-serif;
 $primary-accent: $navy;
 $link-color: $blue;
 $link-hover: $light-blue;
@@ -43,7 +185,7 @@ $dark-grey: #707070;
 }
 
 html {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "KievitWeb W05", Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -54,7 +196,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "KievitWeb W05", Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -387,7 +529,7 @@ h5 {
             .showcase-title {
               padding: 0;
               margin-bottom: 2rem;
-              font-family: "Raleway", Arial, sans-serif;
+              font-family: "KievitWeb W05", Arial, sans-serif;
               font-size: 1.5rem;
               font-weight: 400;
               color: rgba(227,24,55,1) !important
@@ -523,7 +665,7 @@ h5 {
           .post-details-activate {
             .tile-title,
             .tile-title a {
-              font-family: "Raleway", Arial, sans-serif;
+              font-family: "KievitWeb W05", Arial, sans-serif;
               font-size: 1.5rem;
               line-height: 2.25rem;
               color: #222222 !important;
@@ -683,7 +825,7 @@ h5 {
 
         .tile-title,
         .tile-title a {
-          font-family: "Raleway", Arial, sans-serif;
+          font-family: "KievitWeb W05", Arial, sans-serif;
           font-size: 1.25rem;
           font-weight: 400;
           color: #222222 !important;
@@ -746,7 +888,7 @@ h5 {
             font-size: 2rem;
 
             span {
-              font-family: "Open Sans", sans-serif;
+              font-family: "KievitWeb W05", sans-serif;
               font-weight: 300;
               display: block;
               margin-bottom: .5rem;
@@ -754,7 +896,7 @@ h5 {
           }
 
           p:first-child {
-            font-family: "Open Sans", sans-serif !important;
+            font-family: "KievitWeb W05", sans-serif !important;
             font-size: 1rem;
             margin-bottom: 0;
           }
