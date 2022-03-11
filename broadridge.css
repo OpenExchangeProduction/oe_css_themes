@@ -782,6 +782,74 @@ h5 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
+/* styles for header */
+@media (min-width: 768px) {
+  .img-responsive.showcase-banner {
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    object-position: left;
+    width: 70%;
+    height: 100%;
+    left: 0;
+    display: block;
+    max-height: unset !important;
+  }
+  #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
+    display: block;
+    content: '';
+    background: var(--header-gradient);
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+  }
+  span.showcase-description p {
+    max-width: 50%;
+    font-size: 3rem;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-responsive.showcase-banner {
+    left: -3rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
+    font-size: 3rem;
+  }
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p {
+    font-size: 1.25rem;
+  }
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p,
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(4), #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
+    text-align: left;
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .img-responsive.showcase-banner {
+    max-width: unset;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+#page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12 {
+  overflow: hidden;
+}
+
 .modal #postDetailsImage {
   background: none;
   -webkit-box-shadow: none;
