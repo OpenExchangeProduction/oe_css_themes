@@ -663,6 +663,7 @@ h5 {
 
 #page-top .column-view-item .post .thumb-meta-wrapper {
   height: 100%;
+  width: 100%;
   float: none;
   background-color: #ffffff;
   transition: all .2s ease-in-out;
