@@ -561,31 +561,6 @@ h5 {
         display: flex;
         width: 100%;
         margin: 0;
-
-        .carousel-inner {
-          display: inline-block;
-          overflow: visible;
-
-          .item {
-            display: block;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: row wrap;
-                    flex-flow: row wrap;
-            width: 100%;
-
-            @media screen and (max-width: 767px) {
-              -webkit-box-orient: vertical;
-              -webkit-box-direction: normal;
-                  -ms-flex-flow: column nowrap;
-                      flex-flow: column nowrap;
-            }
-          }
-        }
-
-        .carousel-control {
-          display: none;
-        }
       }
     }
   }
@@ -744,26 +719,14 @@ h5 {
 
   .column-view-item {
     padding: 0;
-    margin: 0 1rem 1rem;
     background: #ffffff;
-
-    @media screen and (max-width: 767px) {
-      width: calc(100% - 2rem);
-    }
-
-    @media screen and (min-width: 992px) {
-      width: calc(33.33% - 2rem);
-    }
-
-    @media all and (min-width: 1200px) {
-      width: calc(25% - 2rem);
-    }
 
     .post {
       width: 100%;
       height: auto;
       border: 1px solid #DDDDDD;
       box-shadow: none !important;
+      margin: 0 1rem 1rem;
 
       .thumb-wrapper {
         position: static;
