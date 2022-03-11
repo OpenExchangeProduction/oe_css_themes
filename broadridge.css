@@ -1180,6 +1180,7 @@ footer .container .footer-container p:not(:last-child) {
   padding: 0;
   height: auto !important;
   color: #2e2e2e !important;
+  font-weight: 300;
 }
 
 #page-top #showcase_category .container.posts .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover {
