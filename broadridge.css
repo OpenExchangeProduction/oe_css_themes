@@ -1111,6 +1111,7 @@ footer .container .footer-container p {
   background-size: cover;
   background-position: center;
   padding: 0;
+  margin-bottom: 3rem;
 }
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .header-container {
