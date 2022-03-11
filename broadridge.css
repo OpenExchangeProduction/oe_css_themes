@@ -28,7 +28,7 @@ h5 {
 }
 
 #page-top #main_navigation {
-  border-bottom: 1px solid #e31837;
+  border-bottom: none;
 }
 
 #page-top #main_navigation > .container-fluid {
@@ -679,6 +679,7 @@ h5 {
 #page-top #url-auth-suffix ~ header .container.header-container {
   max-width: unset;
   margin-top: 0;
+  margin-bottom: 0;
   width: 100%;
   position: relative;
 }
@@ -800,7 +801,7 @@ h5 {
   #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
     display: block;
     content: '';
-    background: var(--header-gradient);
+    background: linear-gradient(90deg, #003657 0, rgba(0, 54, 87, 0.2) 75%);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -811,6 +812,7 @@ h5 {
     max-width: 75%;
     font-size: 3rem;
     margin-right: auto;
+    color: #ffffff;
   }
 }
 
