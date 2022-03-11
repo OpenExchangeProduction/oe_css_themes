@@ -1218,8 +1218,21 @@ footer {
       padding: 0;
       margin-bottom: 3rem;
 
+      &::before {
+        background: linear-gradient(90deg, #003657 0, rgba(0, 54, 87, 0.2) 75%);
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        z-index: 2;
+      }
+
       .header-container {
-        background: linear-gradient(0deg, #00578E 270px, #00578E 100%);
+        position: relative;
+        z-index: 5;
       }
     }
   }
