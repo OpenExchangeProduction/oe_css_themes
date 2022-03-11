@@ -302,7 +302,6 @@ h5 {
   height: 100%;
   -webkit-box-shadow: none;
   box-shadow: none;
-  order: 2;
   width: 60%;
 }
 
@@ -455,6 +454,15 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 639px) {
+  #page-top .featured-category .container.posts .item.active, #page-top .featured-category .container.posts .item.prev, #page-top .featured-category .container.posts .item.next {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
 }
 
 #page-top .list-view-item .post .thumb-wrapper .thumb-link .thumb, #page-top .column-view-item .post .thumb-wrapper .thumb-link .thumb {

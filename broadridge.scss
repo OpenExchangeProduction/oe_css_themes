@@ -419,7 +419,6 @@ h5 {
         height: 100%;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        order: 2;
         width: 60%;
 
         .KnowledgeVisionEmbeddedContent {
@@ -571,6 +570,13 @@ h5 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+
+        @media screen and (max-width: 639px) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-flow: column;
+                  flex-flow: column;
+        }
       }
     }
   }
