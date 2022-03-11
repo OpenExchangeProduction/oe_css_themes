@@ -695,7 +695,8 @@ h5 {
   margin: 0 auto;
   min-height: 300px;
   z-index: 2;
-  text-align: right;
+  text-align: left;
+  display: block;
 }
 
 @media screen and (min-width: 992px) {
@@ -809,7 +810,7 @@ h5 {
   span.showcase-description p {
     max-width: 50%;
     font-size: 3rem;
-    margin-left: auto;
+    margin-right: auto;
   }
 }
 
