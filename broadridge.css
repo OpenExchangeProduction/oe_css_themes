@@ -217,19 +217,9 @@ h5 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: #012169;
-  padding: 0;
-}
-
-#page-top > .container:not(.login-container):after {
-  content: '';
-  display: block;
-  height: 35px;
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/assets_images_global_title_flagscape_1642004590744/assets_images_global_title_flagscape_fbfc0e23-2728-4143-b77f-f93ca6f2ee6c.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=7RPryMxoePY8vZlPWIkCKBcsfG0%3D");
+  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/wrapper_pattern_static__1__png_1647015153606/wrapper_pattern_static__1__dc71cb21-5aa6-43a0-9eea-fac98d034229.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=10Y%2FyxATVLJAUc%2FUzn%2FPj2Yc79E%3D");
   background-size: cover;
-  background-position: center;
-  background-color: #e31837 !important;
-  transform: rotate(180deg);
+  padding: 0;
 }
 
 #page-top > .container:not(.login-container) .featured-knovio {
