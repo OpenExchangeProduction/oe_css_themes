@@ -644,6 +644,7 @@ h5 {
   width: 100%;
   height: auto;
   border: 1px solid #DDDDDD;
+  box-shadow: none !important;
 }
 
 #page-top .column-view-item .post .thumb-wrapper {
@@ -737,7 +738,9 @@ h5 {
   padding: 3rem 0 !important;
   margin-bottom: 20px;
   position: relative;
-  max-width: 100%;
+  max-width: 104rem;
+  width: 100%;
+  max-height: 100%;
   margin: 0 auto;
   min-height: 300px;
   z-index: 2;
@@ -745,27 +748,39 @@ h5 {
   display: block;
 }
 
+@media screen and (max-width: 767px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
+    max-width: 45.875rem;
+  }
+}
+
 @media screen and (min-width: 992px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 50rem;
+    max-width: 59rem;
   }
 }
 
 @media all and (min-width: 1200px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 65rem;
+    max-width: 65.875rem;
   }
 }
 
 @media all and (min-width: 1500px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 82rem;
+    max-width: 84.625rem;
   }
 }
 
 @media all and (min-width: 1800px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-    max-width: 98rem;
+    max-width: 103.375rem;
   }
 }
 
@@ -1048,7 +1063,6 @@ h5 {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  box-shadow: 0 0 0 3px transparent inset, 0 0 0 4px transparent inset;
   width: 100%;
   font-family: "KievitWeb W05", Arial, sans-serif;
   border-radius: 0px;
@@ -1057,7 +1071,6 @@ h5 {
 
 #page-top .login-container > .row > div form .form-group button:hover {
   background: #012169;
-  box-shadow: 0 0 0 3px #012169 inset, 0 0 0 4px #fff inset;
 }
 
 @media (max-width: 350px) {

@@ -757,6 +757,7 @@ h5 {
       width: 100%;
       height: auto;
       border: 1px solid #DDDDDD;
+      box-shadow: none !important;
 
       .thumb-wrapper {
         position: static;
@@ -836,27 +837,37 @@ h5 {
           padding: 3rem 0!important;
           margin-bottom: 20px;
           position: relative;
-          max-width: 100%;
+          max-width: 104rem;
+          width: 100%;
+          max-height: 100%;
           margin: 0 auto;
           min-height: 300px;
           z-index: 2;
           text-align: left;
           display: block;
 
+          @media screen and (max-width: 767px) {
+            max-width: 100%;
+          }
+
+          @media screen and (min-width: 768px) {
+            max-width: 45.875rem;
+          }
+
           @media screen and (min-width: 992px) {
-            max-width: 50rem;
+            max-width: 59rem;
           }
 
           @media all and (min-width: 1200px) {
-            max-width: 65rem;
+            max-width: 65.875rem;
           }
 
           @media all and (min-width: 1500px) {
-            max-width: 82rem;
+            max-width: 84.625rem;
           }
 
           @media all and (min-width: 1800px) {
-            max-width: 98rem;
+            max-width: 103.375rem;
           }
 
           p {
@@ -1149,7 +1160,6 @@ h5 {
               text-decoration: none;
               -webkit-transition: all 0.3s ease-in;
               transition: all 0.3s ease-in;
-              box-shadow: 0 0 0 3px transparent inset, 0 0 0 4px transparent inset;
               width: 100%;
               font-family: $primary-font;
               border-radius: 0px;
@@ -1157,7 +1167,6 @@ h5 {
 
               &:hover {
                 background: #012169;
-                box-shadow: 0 0 0 3px #012169 inset, 0 0 0 4px #fff inset;
               }
             }
           }
