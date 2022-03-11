@@ -217,7 +217,7 @@ h5 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(0deg, transparent, transparent 270px, #00578E 270px, #00578E 100%);
+  background: linear-gradient(0deg, #00578E 270px, #00578E 100%);
   padding: 0;
   position: relative;
 }
@@ -247,6 +247,7 @@ h5 {
   gap: 2rem;
   padding: 4.5rem 0;
   z-index: 10;
+  position: relative;
 }
 
 #page-top > .container:not(.login-container) .featured-knovio:before {
