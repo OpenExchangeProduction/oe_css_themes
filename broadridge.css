@@ -1141,14 +1141,10 @@ footer .container .footer-container p:not(:last-child) {
   top: 0;
   object-fit: contain;
   object-position: center;
-}
-
-#page-top #showcase_category .container.posts .list-view-item .post .thumb-wrapper .thumb-link:hover {
-  box-shadow: 0 -1px 15px 2px rgba(171, 171, 171, 0.4);
+  border: 1px solid #e2e2e2;
 }
 
 #page-top #showcase_category .container.posts .list-view-item .post .thumb-meta-wrapper {
-  font-family: raleway, Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1;
   font-weight: 400;
@@ -1157,6 +1153,7 @@ footer .container .footer-container p:not(:last-child) {
   margin: 0;
   color: #2e2e2e;
   grid-column: auto / span 2;
+  margin-top: 2rem;
 }
 
 #page-top #showcase_category .container.posts .list-view-item .post .thumb-meta-wrapper .tile-text-area {
@@ -1168,7 +1165,6 @@ footer .container .footer-container p:not(:last-child) {
 }
 
 #page-top #showcase_category .container.posts .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title {
-  font-family: raleway, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: 400;
   padding: 0;
@@ -1178,7 +1174,6 @@ footer .container .footer-container p:not(:last-child) {
 }
 
 #page-top #showcase_category .container.posts .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
-  font-family: raleway, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   line-height: unset;
   font-weight: 600;

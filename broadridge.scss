@@ -1244,16 +1244,12 @@ footer {
 				    top: 0;
 				    object-fit: contain;
 				    object-position: center;
-					}
-
-					&:hover {
-						box-shadow: 0 -1px 15px 2px rgba(171,171,171,.4);
+            border: 1px solid $light-grey;
 					}
 				}
 			}
 
 			.thumb-meta-wrapper {
-				font-family: raleway, Arial, Helvetica, sans-serif;
 				font-size: 1rem;
 				line-height: 1;
 				font-weight: 400;
@@ -1262,6 +1258,7 @@ footer {
 				margin: 0;
 		    color: #2e2e2e;
 				grid-column: auto / span 2;
+        margin-top: 2rem;
 
 				.tile-text-area {
 					padding: 0;
@@ -1270,7 +1267,6 @@ footer {
 						margin: 0;
 
 						.tile-title {
-							font-family: raleway, Arial, Helvetica, sans-serif;
 							font-size: 2rem;
 							font-weight: 400;
 							padding: 0;
@@ -1279,7 +1275,6 @@ footer {
 							margin-bottom: .5rem;
 
 							a {
-								font-family: raleway, Arial, Helvetica, sans-serif;
 								font-size: 2rem;
 								line-height: unset;
 								font-weight: 600;
