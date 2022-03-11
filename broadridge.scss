@@ -775,7 +775,7 @@ h5 {
 
         .thumb-link {
           background-color: #ffffff;
-          @include aspect-ratio-image(4, 3);
+          @include aspect-ratio-image(3, 2);
         }
       }
 
