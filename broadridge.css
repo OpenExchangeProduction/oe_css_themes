@@ -854,6 +854,12 @@ h5 {
   right: 0;
 }
 
+@media screen and (max-width: 640px) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
+    background: rgba(0, 54, 87, 0.75) !important;
+  }
+}
+
 span.showcase-description p {
   max-width: 75%;
   font-size: 3rem;
@@ -880,11 +886,6 @@ span.showcase-description p {
     text-align: left;
     margin-left: 0;
     max-width: 100%;
-  }
-  .img-responsive.showcase-banner {
-    max-width: unset;
-    margin-left: -15px;
-    margin-right: -15px;
   }
 }
 
