@@ -587,158 +587,6 @@ h5 {
     }
   }
 
-  .list-view-item .post .thumb-wrapper .thumb-link .thumb, .column-view-item .post .thumb-wrapper .thumb-link .thumb {
-    padding: 1rem;
-  }
-
-  .list-view-item {
-    margin-top: 4rem;
-    padding: 0 0.9375rem;
-    background: #ffffff;
-
-    &:first-of-type {
-      margin-top: 0;
-    }
-
-    .post {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: row nowrap;
-              flex-flow: row nowrap;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start;
-
-      .thumb-wrapper {
-        position: static;
-        display: block;
-        width: 25%;
-        height: auto;
-        -webkit-box-shadow: 0.125rem 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.13);
-                box-shadow: 0.125rem 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.13);
-        -webkit-transition: 0.5s ease-in-out;
-        transition: 0.5s ease-in-out;
-        background: none;
-
-        &:hover {
-          -webkit-box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
-                  box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
-        }
-
-        .thumb-link {
-          position: relative;
-          display: block;
-          width: 100%;
-          padding: 56.25% 0 0;
-          overflow: hidden;
-          background-color: #ffffff;
-        }
-      }
-
-      .thumb-meta-wrapper {
-        width: 75%;
-        height: auto;
-        margin: 0;
-        padding-left: 4rem;
-
-        .tile-text-area {
-          padding: 0;
-
-          .post-details-activate {
-            .tile-title,
-            .tile-title a {
-              font-family: "KievitWeb W05", Arial, sans-serif;
-              font-size: 1.5rem;
-              line-height: 2.25rem;
-              color: #222222 !important;
-              pointer-events: none;
-
-              &:hover {
-                color: #012169 !important;
-              }
-            }
-
-            .tile-title {
-              height: auto !important;
-            }
-
-            .page-description {
-              margin-top: 1rem;
-
-              .list-page-description {
-                overflow: visible;
-                font-size: 1.25rem;
-                line-height: 1.5rem;
-              }
-            }
-          }
-        }
-      }
-
-      &:not([data-verifier="0"]) .post-details-activate {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-flow: column;
-                flex-flow: column;
-        pointer-events: none;
-
-        .post-details-icon {
-          position: static;
-          display: block !important;
-          height: 0;
-          width: 11.25rem;
-          margin-top: 1.5rem;
-          padding-bottom: 3rem;
-          -webkit-box-ordinal-group: 2;
-              -ms-flex-order: 1;
-                  order: 1;
-          pointer-events: all;
-
-          &::before {
-            content: "View Session Info";
-            padding: 0.75rem 1.5rem;
-            font-family: "Raleway", Arial, sans-serif;
-            font-size: 0.875rem;
-            font-weight: 500;
-            background: #186ade;
-            color: white;
-            -webkit-transition: 0.3s ease-out;
-            transition: 0.3s ease-out;
-          }
-
-          &:hover {
-            &::before {
-              background: #58575a;
-            }
-          }
-        }
-      }
-
-      @media screen and (max-width: 991px) {
-        -webkit-box-orient: vertical !important;
-        -webkit-box-direction: normal !important;
-            -ms-flex-flow: column !important;
-                flex-flow: column !important;
-
-        .thumb-wrapper {
-          width: 100% !important;
-          margin-bottom: 1rem !important;
-        }
-
-        .thumb-meta-wrapper {
-          width: 100% !important;
-          padding: 0 !important;
-        }
-      }
-    }
-  }
-
   .column-view-item {
     padding: 0 1rem 1rem;
 
@@ -1306,6 +1154,14 @@ footer {
 
 #page-top #showcase_category .container.posts {
 
+  .row {
+		@include grid(12, 1fr, 2rem);
+
+		&:before {
+			display: none;
+		}
+  }
+
 	.list-view-item {
 		height: auto;
 		padding: 0 0.5rem;
@@ -1325,7 +1181,6 @@ footer {
 			position: relative;
 			overflow: visible;
 	    height: 100%;
-			@include grid(2, 1fr, 1rem);
 
 			.thumb-wrapper {
 				position: relative;
