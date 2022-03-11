@@ -714,7 +714,6 @@ h5 {
       position: relative;
 
       .row {
-        border-bottom: 10px solid var(--primary-color);
 
         span.showcase-description {
           padding: 3rem 0!important;
@@ -762,7 +761,6 @@ h5 {
 
           p:nth-child(2) {
             font-size: 4rem;
-            border-bottom: 3px solid var(--primary-color);
             margin-bottom: .5rem;
             padding-bottom: .5rem;
             font-weight: 500;
@@ -778,28 +776,24 @@ h5 {
           }
 
           p:last-child a {
-            color: var(--header-button-color) !important;
+            color: var(--header-button-color);
             border: 1px solid var(--header-button-color);
+            background-color: transparent;
             font-size: 1.25rem;
             text-decoration: none !important;
-            padding: 12px 30px;
-            -webkit-transition: .2s;
-            transition: .2s;
-            -webkit-animation: cubic-bezier(0,.3,.25,1.5);
-            animation: cubic-bezier(0,.3,.25,1.5);
+            padding: 22px 24px;
+            -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
             white-space: normal;
-            letter-spacing: .5px;
+            letter-spacing: 2px;
             border-radius: 2px;
-            font-weight: 400;
-            line-height: 1.33333;
-            will-change: transform;
+            font-weight: 500;
+            line-height: 14px;
             display: inline-block;
 
             &:hover {
-              -webkit-transform: translate3d(0,-3px,0);
-              transform: translate3d(0,-3px,0);
-              -webkit-box-shadow: 0 4px 20px rgba(0,0,0,.25);
-              box-shadow: 0 4px 20px rgba(0,0,0,.25);
+              background-color: #fff;
+              color: #00578E;
             }
           }
         }
@@ -826,7 +820,7 @@ h5 {
     #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
       display: block;
       content: '';
-      background: linear-gradient(90deg, #003657 0, rgba(0, 54, 87, 0.2) 75%);;
+      background: var(--header-gradient);
       height: 100%;
       width: 100%;
       position: absolute;
