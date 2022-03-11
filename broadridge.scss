@@ -776,19 +776,6 @@ h5 {
         .thumb-link {
           background-color: #ffffff;
           @include aspect-ratio-image(16, 9);
-
-          .play-hover-button {
-            pointer-events: none;
-            background: #e31837;
-            border-radius: 50%;
-            filter: brightness(1.75);
-          }
-
-          &:hover {
-            .play-hover-button {
-              opacity: .7 !important;
-            }
-          }
         }
       }
 
@@ -826,7 +813,7 @@ h5 {
     &:hover {
       .post .thumb-meta-wrapper {
         background-color: rgba(0,54,87,1);
-        
+
         .tile-title,
         .tile-title a {
           color: #ffffff !important;

@@ -685,17 +685,6 @@ h5 {
   max-height: unset;
 }
 
-#page-top .column-view-item .post .thumb-wrapper .thumb-link .play-hover-button {
-  pointer-events: none;
-  background: #e31837;
-  border-radius: 50%;
-  filter: brightness(1.75);
-}
-
-#page-top .column-view-item .post .thumb-wrapper .thumb-link:hover .play-hover-button {
-  opacity: .7 !important;
-}
-
 #page-top .column-view-item .post .thumb-meta-wrapper {
   height: min-content;
   float: none;
