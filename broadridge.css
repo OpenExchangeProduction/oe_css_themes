@@ -813,7 +813,7 @@ h5 {
   font-size: 4rem;
   margin-bottom: .5rem;
   padding-bottom: .5rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(3) {
@@ -837,14 +837,14 @@ h5 {
   white-space: normal;
   letter-spacing: 2px;
   border-radius: 2px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 14px;
   display: inline-block;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover {
   background-color: #fff;
-  color: #00578E;
+  color: #00578E !important;
 }
 
 /* styles for header */
