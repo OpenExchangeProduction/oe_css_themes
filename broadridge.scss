@@ -1318,6 +1318,8 @@ footer {
 #page-top:not(.single-post) {
   #custom-fields-data + #main_navigation {
     ~ #showcase_category {
+      padding-bottom: 3rem;
+      
       .container.posts {
         .row {
           grid-template-columns: repeat(6, minmax(0, 1fr));
