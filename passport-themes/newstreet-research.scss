@@ -1328,10 +1328,10 @@ form .common-btn {
   &:disabled:after, &:hover:not(.player):after {
     background: #000;
     opacity: .4;
+  }
 
-    &:hover {
-      background: #C7FB02 !important;
-    }
+  &:disabled:hover {
+    background: #C7FB02 !important;
   }
 
   &:hover {
