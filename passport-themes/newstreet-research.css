@@ -1305,7 +1305,7 @@ form input[type="checkbox"] {
   height: 100%;
 }
 
-.editable-registration--left-content {
+.editable-registration--left-content, .editable-sign-in--left-content {
   padding-bottom: 0px !important;
 }
 
@@ -1322,7 +1322,7 @@ form > .mt-3:first-of-type .break-words p {
 }
 
 .editable-sign-in--title {
-  margin-bottom: .5rem;
+  margin-bottom: 0;
   font-size: 181.25%;
   color: #000 !important;
 }
@@ -1331,7 +1331,7 @@ form > .mt-3:first-of-type .break-words p {
   margin-top: .5rem;
 }
 
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray {
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray {
   padding-top: .5rem;
   margin-top: 0;
 }
