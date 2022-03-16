@@ -1320,3 +1320,7 @@ form > .mt-3:first-of-type .break-words p {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {
   margin-top: 0;
 }
+
+#root .App #registration-page header, #root .App #sign-in-page header {
+  display: none;
+}
