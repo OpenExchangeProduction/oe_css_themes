@@ -512,13 +512,12 @@ div[class*='event-details'] > .items-start {
 
 #sign-in-page .main-content-wrapper .editable-registration--left-content-title,
 #registration-page .main-content-wrapper .editable-registration--left-content-title {
-  text-align: center;
+  text-align: left;
   font-weight: 400;
 }
 
 #sign-in-page .main-content-wrapper .editable-registration--left-content-date .flex,
 #registration-page .main-content-wrapper .editable-registration--left-content-date .flex {
-  justify-content: center;
   flex-direction: row;
 }
 
@@ -1257,4 +1256,22 @@ form input[type="checkbox"] {
   .editable-welcome-event-details--wrapper {
     display: none !important;
   }
+}
+
+/* the following items should be refactored into the actual SCSS at some point */
+
+.knovio-content-wrapper, .showcase-content-wrapper {
+ height: 100%;
+}
+
+.editable-registration--left-content {
+ padding-bottom: 0px !important;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mr-2 ~ .mt-3:not(.mr-2) {
+ grid-column: auto / span 2;
+}
+
+form > .mt-3:first-of-type {
+ grid-column: auto / span 2;
 }
