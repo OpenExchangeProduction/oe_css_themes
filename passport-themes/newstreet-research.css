@@ -1363,3 +1363,34 @@ form > .mt-3:first-of-type .break-words p {
 #root .App #registration-page header, #root .App #sign-in-page header {
   display: none;
 }
+
+form .common-btn {
+  color: #000;
+  background: #C7FB02;
+  font-weight: 600;
+  transition: background .2s ease-in-out;
+}
+
+form .common-btn:disabled:after, form .common-btn:hover:not(.player):after {
+  background: #000;
+  opacity: .4;
+}
+
+form .common-btn:hover {
+  background: #B0DE00;
+}
+
+#sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div .common-btn, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div .common-btn {
+  color: #000;
+  background: #C7FB02;
+  font-weight: 600;
+  transition: background .2s ease-in-out;
+}
+
+#sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div .common-btn:hover, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div .common-btn:hover {
+  background: #B0DE00;
+}
+
+button[name="Sign in with Access Code"] {
+  display: none !important;
+}

@@ -1318,3 +1318,34 @@ form > .mt-3:first-of-type {
 #root .App #registration-page header, #root .App #sign-in-page header {
   display: none;
 }
+
+form .common-btn {
+  color: #000;
+  background: #C7FB02;
+  font-weight: 600;
+  transition: background .2s ease-in-out;
+
+  &:disabled:after, &:hover:not(.player):after {
+    background: #000;
+    opacity: .4;
+  }
+
+  &:hover {
+    background: #B0DE00;
+  }
+}
+
+#sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div .common-btn, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div .common-btn {
+  color: #000;
+  background: #C7FB02;
+  font-weight: 600;
+  transition: background .2s ease-in-out;
+
+  &:hover {
+    background: #B0DE00;
+  }
+}
+
+button[name="Sign in with Access Code"] {
+  display: none !important;
+}
