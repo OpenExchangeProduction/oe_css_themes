@@ -375,9 +375,9 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group > div,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {
   width: 100%;
+  max-width: 100%;
 
   @media (max-width: 768px) {
-    max-width: unset;
     margin-top: 0;
   }
 }
