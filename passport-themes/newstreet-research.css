@@ -54,7 +54,7 @@ div[class*='event-details'] > .items-start {
 #root .App header::before {
   content: "";
   display: block;
-  height: 1.25rem;
+  height: 1.8rem;
   width: 20rem;
   background-image: var(--img-logo);
   background-repeat: no-repeat;
