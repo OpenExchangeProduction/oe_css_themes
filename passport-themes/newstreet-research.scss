@@ -515,6 +515,7 @@ div[class*='event-details'] > .items-start {
   text-align: left;
   font-weight: 400;
   text-transform: uppercase;
+  color: #000 !important;
 }
 
 #sign-in-page .main-content-wrapper .editable-registration--left-content-date .flex,
@@ -1295,6 +1296,6 @@ form > .mt-3:first-of-type {
   padding-top: .5rem;
 }
 
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div:last-child {
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {
   margin-top: 0;
 }
