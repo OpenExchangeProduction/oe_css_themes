@@ -1376,6 +1376,10 @@ form .common-btn:disabled:after, form .common-btn:hover:not(.player):after {
   opacity: .4;
 }
 
+form .common-btn:disabled:after:hover, form .common-btn:hover:not(.player):after:hover {
+  background: #C7FB02 !important;
+}
+
 form .common-btn:hover {
   background: #B0DE00;
 }
