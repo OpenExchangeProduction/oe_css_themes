@@ -432,6 +432,26 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form input,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form input {
   color: #000000;
+  background: #e6e6e6;
+  border-radius: 2px;
+}
+
+#sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form input:focus, #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form input[value]:not([value=""]),
+#sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form input:focus,
+#sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form input[value]:not([value=""]),
+#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form input:focus,
+#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form input[value]:not([value=""]),
+#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form input:focus,
+#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form input[value]:not([value=""]),
+#registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form input:focus,
+#registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form input[value]:not([value=""]),
+#registration-page .main-content-wrapper .editable-sign-in .shadow-gray form input:focus,
+#registration-page .main-content-wrapper .editable-sign-in .shadow-gray form input[value]:not([value=""]),
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form input:focus,
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form input[value]:not([value=""]),
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form input:focus,
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form input[value]:not([value=""]) {
+  background: #fff;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .mr-2,
