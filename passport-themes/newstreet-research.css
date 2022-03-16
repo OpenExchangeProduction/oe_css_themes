@@ -212,7 +212,7 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 0 1rem;
   margin-top: 0;
 }
@@ -265,7 +265,7 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > small,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .editable-sign-in--submit-button,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .editable-registration--submit-button {
-  grid-column: auto / span 2;
+  grid-column: 1 / span 1;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .editable-sign-in--title,
@@ -364,7 +364,7 @@ div[class*='event-details'] > .items-start {
   #registration-page .main-content-wrapper .editable-sign-in .shadow-gray form > div,
   #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form > div,
   #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > div {
-    grid-column: auto / span 2;
+    grid-column: 1 / span 1;
   }
 }
 
@@ -376,8 +376,8 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper .editable-sign-in .shadow-gray form .input-group,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group {
-  grid-column: auto / span 2;
-  flex-wrap: wrap;
+  grid-column: 1 / span 1;
+  flex-direction: column;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .input-group > div,
@@ -424,7 +424,7 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper .editable-sign-in .shadow-gray form .mr-2,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .mr-2,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mr-2 {
-  grid-column: auto / span 2;
+  grid-column: 1 / span 1;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form[name="accessCodeForm"],
@@ -489,7 +489,7 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper .editable-sign-in .shadow-gray .editable-sign-in--back-to-sign-in ~ form > *,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper .editable-sign-in--back-to-sign-in ~ form > *,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray .editable-sign-in--back-to-sign-in ~ form > * {
-  grid-column: auto / span 2;
+  grid-column: 1 / span 1;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div > div,
@@ -1291,11 +1291,11 @@ form input[type="checkbox"] {
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mr-2 ~ .mt-3:not(.mr-2) {
-  grid-column: auto / span 2;
+  grid-column: 1 / span 1;
 }
 
 form > .mt-3:first-of-type {
-  grid-column: auto / span 2;
+  grid-column: 1 / span 1;
 }
 
 form > .mt-3:first-of-type .break-words p {
@@ -1314,4 +1314,8 @@ form > .mt-3:first-of-type .break-words p {
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray {
   padding-top: .5rem;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div:last-child {
+  margin-top: 0;
 }
