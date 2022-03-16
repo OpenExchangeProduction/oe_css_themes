@@ -71,12 +71,12 @@ div[class*='event-details'] > .items-start {
 }
 
 #root .App header .editable-header a.header-button:hover span {
-  border-bottom: 1px solid #002D72;
+  border-bottom: 1px solid #333333;
 }
 
 #root .App header .editable-header a.header-button.navbar-item-label-active > div,
 #root .App header .editable-header a.header-button.navbar-item-label-active > span {
-  border-bottom: 2px solid #002D72;
+  border-bottom: 2px solid #333333;
 }
 
 #root .App header .editable-header button[name="signOut"] {
@@ -580,7 +580,7 @@ div[class*='event-details'] > .items-start {
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] *, .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] * {
-  color: #002D72;
+  color: #333333;
   text-align: left;
   justify-content: flex-start;
 }
@@ -614,7 +614,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .common-btn.add-to-calendar-btn {
-  color: #002D72;
+  color: #333333;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .common-btn svg {
@@ -622,11 +622,11 @@ div[class*='event-details'] > .items-start {
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray button[name="backToList"] {
-  color: #002D72;
+  color: #333333;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray button[name="backToList"] svg {
-  fill: #002D72;
+  fill: #333333;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray p {
@@ -702,7 +702,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title {
-  color: #002D72;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -753,7 +753,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #welcome-page .editable-welcome--wrapper .editable-welcome-footer .editable-welcome-footer--wrapper.bg-primary-lighter-hover .editable-welcome-footer--title {
-  color: #002D72;
+  color: #333333;
   font-weight: 600;
   transition: color .2s ease-in-out;
 }
@@ -777,7 +777,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper h1 {
-  color: #002D72;
+  color: #333333;
   padding: 0;
   font-weight: 500;
 }
@@ -802,7 +802,7 @@ div[class*='event-details'] > .items-start {
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .break-words,
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .editable-session--table-row-left-date,
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm {
-  color: #002D72;
+  color: #333333;
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm > span:first-child {
@@ -815,7 +815,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .select-box--container svg {
-  fill: #002D72;
+  fill: #333333;
   opacity: 1;
 }
 
@@ -968,7 +968,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-right > .sm-shadow-gray > .flex-col .items-start .word-break span {
-  color: #002D72;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -1075,13 +1075,13 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 .main-content-wrapper .editable-agenda--wrapper > h1, .main-content-wrapper .editable-agenda--wrapper > h2, .main-content-wrapper .editable-session--header > h1, .main-content-wrapper .editable-session--header > h2, .rich-text-content-wrapper .editable-agenda--wrapper > h1, .rich-text-content-wrapper .editable-agenda--wrapper > h2, .rich-text-content-wrapper .editable-session--header > h1, .rich-text-content-wrapper .editable-session--header > h2 {
-  color: #002D72;
+  color: #333333;
   padding: 0;
   font-weight: 500;
 }
 
 .main-content-wrapper .editable-support--wrapper h1, .main-content-wrapper .editable-rich-text--wrapper h1, .rich-text-content-wrapper .editable-support--wrapper h1, .rich-text-content-wrapper .editable-rich-text--wrapper h1 {
-  color: #002D72;
+  color: #333333;
   padding: 0;
   font-weight: 500;
   margin: 0;
@@ -1095,7 +1095,7 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray h1.speaker-title {
-  color: #002D72;
+  color: #333333;
   padding: 0;
   margin: 0;
   font-weight: 500;
@@ -1111,7 +1111,7 @@ footer a.text-primary:nth-of-type(3):before {
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization h2 {
   font-weight: 500;
-  color: #002D72;
+  color: #333333;
   padding-bottom: 1rem;
   border-bottom: 1px solid #eeeeee;
 }
@@ -1124,7 +1124,7 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__title {
-  color: #002D72;
+  color: #333333;
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button {
@@ -1164,7 +1164,7 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio_expanded button span:first-child {
-  background: #002D72;
+  background: #333333;
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio_expanded button span:first-child:before {
@@ -1192,7 +1192,7 @@ footer a.text-primary:nth-of-type(3):before {
   object-fit: cover;
   object-position: center;
   border-radius: 100%;
-  border: 2px solid #002D72;
+  border: 2px solid #333333;
 }
 
 .bg-primary-light:after, .bg-primary-lighter-hover:hover:after, .bg-primary-lighter:after {
