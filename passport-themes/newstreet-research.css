@@ -137,9 +137,27 @@ div[class*='event-details'] > .items-start {
   display: block;
   margin: auto;
   width: 100%;
-  max-width: 50%;
+  max-width: 30%;
   background: #ffffff;
   border-radius: 6px;
+}
+
+@media (max-width: 1400px) {
+  #sign-in-page .main-content-wrapper .editable-sign-in,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray),
+  #registration-page .main-content-wrapper .editable-sign-in,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #sign-in-page .main-content-wrapper .editable-sign-in,
+  #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray),
+  #registration-page .main-content-wrapper .editable-sign-in,
+  #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) {
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1315,6 +1333,7 @@ form > .mt-3:first-of-type .break-words p {
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray {
   padding-top: .5rem;
+  margin-top: 0;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {

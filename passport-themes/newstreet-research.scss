@@ -137,9 +137,17 @@ div[class*='event-details'] > .items-start {
   display: block;
   margin: auto;
   width: 100%;
-  max-width: 50%;
+  max-width: 30%;
   background: #ffffff;
   border-radius: 6px;
+
+  @media (max-width: 1400px) {
+    max-width: 40%;
+  }
+
+  @media (max-width: 1000px) {
+    max-width: 50%;
+  }
 
   @media (max-width: 768px) {
     max-width: 75%;
@@ -1294,6 +1302,7 @@ form > .mt-3:first-of-type {
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray {
   padding-top: .5rem;
+  margin-top: 0;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .input-group > div {
