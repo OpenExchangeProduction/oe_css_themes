@@ -1,7 +1,13 @@
-/* Interstate Type Kit */
-@import url("https://use.typekit.net/zke5hab.css");
 div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Trebuchet MS', arial, sans-serif;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 600;
 }
 
 #root {
@@ -9,9 +15,9 @@ div, p, span, a, strong, em, h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --img-logo: url("https://storage.open-exchange.net/account/71/event/2798/38cba8da-7473-411f-8b4d-d5b12cd1c4e6");
+  --img-logo: url("https://s3.amazonaws.com/present.knowledgevision.com/account/606ae354-177b-4a76-a365-88c4c8cced7c/content/assets/templates/template_source/New_Street_Research_Logo___All_Variations_01_1647443290830/New_Street_Research_Logo___All_Variations_01_30471d97-07a2-4d18-a295-e54007fdbecf.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=HnYlUQapzJU%2BFI%2BZpkUh4sFsHDo%3D");
   --clr-nav-bg: rgb(255, 255, 255);
-  --clr-nav-text: #002d72;
+  --clr-nav-text: #333333;
 }
 
 /**
@@ -156,7 +162,7 @@ div[class*='event-details'] > .items-start {
   background-color: transparent;
   padding: 1rem;
   width: 100%;
-  margin: 0;
+  margin-left: 0;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper,
@@ -493,6 +499,8 @@ div[class*='event-details'] > .items-start {
   background-color: transparent;
   border: none;
   color: #000000;
+  font-weight: 600;
+  text-transform: none;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div > div img,
@@ -528,11 +536,17 @@ div[class*='event-details'] > .items-start {
 #sign-in-page .main-content-wrapper .editable-registration--left-content-title,
 #registration-page .main-content-wrapper .editable-registration--left-content-title {
   text-align: center;
+  font-weight: 400;
 }
 
 #sign-in-page .main-content-wrapper .editable-registration--left-content-date .flex,
 #registration-page .main-content-wrapper .editable-registration--left-content-date .flex {
   justify-content: center;
+  flex-direction: row;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form label {
+  font-weight: 600;
 }
 
 .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
@@ -639,22 +653,6 @@ div[class*='event-details'] > .items-start {
   width: 100%;
   filter: brightness(1);
   transition: filter .2s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #005aa1;
-  box-shadow: 0 0 0 0 #005aa1;
-  transform: scale(0.97);
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-  animation: btn-pulse 2s infinite;
-}
-
-#meeting-details-page .main-content-wrapper .shadow-gray .bg-primary-lighter .common-btn svg {
-  width: 8%;
-  height: 2rem;
-  margin: 0;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .bg-primary-lighter .common-btn:hover {
@@ -663,12 +661,6 @@ div[class*='event-details'] > .items-start {
 
 #meeting-details-page .main-content-wrapper .shadow-gray .common-btn:hover:not(:disabled):after {
   display: none !important;
-}
-
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-bottom: 1rem;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
@@ -680,6 +672,10 @@ div[class*='event-details'] > .items-start {
   margin: 0;
   padding-right: 1rem;
   color: #000000;
+}
+
+#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
+  margin-top: 1rem;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title div p,
@@ -1266,12 +1262,21 @@ form input[type="checkbox"] {
   margin-top: 1.5rem;
 }
 
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) {
-  flex-wrap: wrap;
+/* Fix dev's broken color update */
+#page-top .post-details-description-button {
+  color: #000000;
 }
 
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mt-3:not(.mr-2) .flex:not(.items-baseline) span {
-  margin: 0;
-  margin-bottom: 1rem;
-  font-size: .75rem;
+.editable-welcome-event-details .items-start {
+  display: block !important;
+}
+
+.editable-welcome-event-details .items-start img {
+  width: 100%;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.editable-welcome-event-details .items-start .editable-welcome-event-details--wrapper {
+  display: none !important;
 }
