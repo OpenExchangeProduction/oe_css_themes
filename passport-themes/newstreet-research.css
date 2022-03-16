@@ -1316,10 +1316,6 @@ form input[type="checkbox"] {
   max-height: unset !important;
 }
 
-.editable-welcome-event-details .items-start .editable-welcome-event-details--wrapper {
-  display: none !important;
-}
-
 /* the following items should be refactored into the actual SCSS at some point */
 .knovio-content-wrapper, .showcase-content-wrapper {
   height: 100%;
