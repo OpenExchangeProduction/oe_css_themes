@@ -2651,4 +2651,5 @@ footer .footer-container p {
   justify-self: flex-end;
   display: block;
   margin-top: auto;
+  font-weight: 500;
 }
