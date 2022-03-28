@@ -673,8 +673,8 @@ body {
   display: none;
 }
 
-#page-top #showcase_category .container.posts > .row .list-view-item,
-#page-top #showcase_category .container.posts > .row .column-view-item {
+#page-top #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row .list-view-item,
+#page-top #custom-fields-data + #main_navigation ~ #showcase_category .container.posts > .row .column-view-item {
   height: auto;
   padding: 0 0.5rem;
   margin-bottom: 2rem;
@@ -1333,11 +1333,11 @@ body {
   }
 }
 
-.carousel-control {
-  display: none !important;
-}
-
 .tile-title, .tile-title a {
   font-family: "Barlow", Arial, sans-serif;
   font-weight: 500 !important;
+}
+
+#page-top .column-view-item .post-identifier .thumb-meta-wrapper .tile-header-ellipsis div {
+  word-break: break-word;
 }
