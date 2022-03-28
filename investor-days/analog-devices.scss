@@ -1307,3 +1307,7 @@ body {
   font-family: $primary-font;
   font-weight: 500 !important;
 }
+
+body#page-top {
+  background: red !important;
+}
