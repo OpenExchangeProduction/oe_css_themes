@@ -913,7 +913,9 @@ body {
 					display: flex;
           flex-wrap: wrap;
           overflow: visible;
-          .item {
+          .item.active,
+          .item.prev,
+          .item.next {
             @include grid(6, 1fr, 2rem);
             margin-bottom: 2rem;
             width: 100%;
@@ -1262,9 +1264,6 @@ body {
 
 @media (max-width: 960px) {
   #page-top section.featured-category .container.posts .row .carousel-inner .item {
-    display: flex !important;
-    flex-flow: row wrap;
-    width: 100%;
 
     .column-view-item {
       margin-bottom: 2rem;
@@ -1286,6 +1285,16 @@ body {
       img {
         max-height: 108px;
       }
+    }
+  }
+
+  #page-top section.featured-category .container.posts .row .carousel-inner {
+    .item.active,
+    .item.prev,
+    .item.next {
+      display: flex !important;
+      flex-flow: row wrap;
+      width: 100%;
     }
   }
 }
