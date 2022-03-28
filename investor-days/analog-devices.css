@@ -678,7 +678,7 @@ body {
   height: auto;
   padding: 0 0.5rem;
   margin-bottom: 2rem;
-  grid-column: auto / span 3;
+  grid-column: auto / span 2;
   width: 100%;
 }
 
