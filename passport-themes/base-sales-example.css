@@ -1387,10 +1387,26 @@ form .common-btn:hover {
   filter: brightness(0.8);
 }
 
-.editable-welcome-event-details--time-zone {
-  display: none;
-}
-
 form .text-error {
   color: red !important;
+}
+
+.main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
+  max-width: 50% !important;
+  margin-right: auto;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
+    max-width: 100% !important;
+  }
+}
+
+.custom-select__options div {
+  background: white !important;
+}
+
+.editable-agenda-event-details--time-zone, .editable-session-event-details--time-zone, .editable-welcome-event-details--time-zone {
+  display: none !important;
 }
