@@ -1,0 +1,68 @@
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  @media screen and (max-width: 768px) {
+    #page-top .featured-knovio.row .featured-knovio-post div {
+      padding: 150% 0 0;
+    }
+  }
+  #page-top #showcase_category .container.posts .row {
+    display: block !important;
+  }
+  #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-9 {
+    width: 100% !important;
+  }
+  #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-9 iframe {
+    width: 100% !important;
+    min-height: 550px !important;
+  }
+  #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-9 .featured-category-title-link,
+  #page-top .thumb-meta-wrapper {
+    display: none !important;
+  }
+  #page-top:not(.single-post) .featured-category .carousel-inner .item {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+  #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper,
+  #page-top:not(.single-post) .column-view-item {
+    border: none !important;
+    pointer-events: none !important;
+  }
+  #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper .thumb-link {
+    pointer-events: none !important;
+  }
+  #page-top:not(.single-post) .column-view-item {
+    width: 100% !important;
+  }
+  #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper .thumb-link {
+    padding-bottom: 125% !important;
+  }
+  @media screen and (max-width: 767px) {
+    #page-top .featured-knovio.row {
+      display: none !important;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    #page-top .featured-category {
+      display: none !important;
+    }
+  }
+</style>
