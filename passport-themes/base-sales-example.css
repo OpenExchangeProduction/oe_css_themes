@@ -1316,16 +1316,16 @@ form input[type="checkbox"] {
   height: unset !important;
 }
 
-#session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item {
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item {
   height: unset;
 }
 
-#session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item > .flex:first-child {
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child {
   height: unset !important;
   flex-grow: 1;
 }
 
-#session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item > .flex:first-child > .flex-col-reverse + div {
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse + div {
   display: none;
 }
 
