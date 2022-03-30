@@ -1276,6 +1276,10 @@ form input[type="checkbox"] {
         .alice-carousel__stage{
           .alice-carousel__stage-item {
 
+            div:only-child:not(.item) {
+              display: none;
+            }
+
             .item {
               height: unset;
 

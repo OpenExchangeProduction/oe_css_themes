@@ -1316,6 +1316,10 @@ form input[type="checkbox"] {
   height: unset !important;
 }
 
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item div:only-child:not(.item) {
+  display: none;
+}
+
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item {
   height: unset;
 }
