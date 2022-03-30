@@ -1265,6 +1265,36 @@ form input[type="checkbox"] {
   }
 }
 
+/* General Sessions Page styling */
+
+#session-page {
+  .main-content-wrapper  {
+    .alice-carousel {
+      &__wrapper {
+        &__stage {
+          &-item {
+
+            .item > .flex:first-child {
+              height: unset !important;
+              flex-grow: 1;
+
+              > .flex-col-reverse + div {
+                display: none;
+              }
+            }
+
+            &.__active {
+              &.__target {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 /* the following items should be refactored into the actual SCSS at some point */
 
 .knovio-content-wrapper, .showcase-content-wrapper {

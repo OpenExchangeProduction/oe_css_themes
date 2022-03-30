@@ -1311,6 +1311,16 @@ form input[type="checkbox"] {
   max-height: unset !important;
 }
 
+/* General Sessions Page styling */
+#session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item > .flex:first-child {
+  height: unset !important;
+  flex-grow: 1;
+}
+
+#session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item > .flex:first-child > .flex-col-reverse + div {
+  display: none;
+}
+
 /* the following items should be refactored into the actual SCSS at some point */
 .knovio-content-wrapper, .showcase-content-wrapper {
   height: 100%;
