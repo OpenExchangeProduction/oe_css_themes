@@ -1337,6 +1337,17 @@ form input[type="checkbox"] {
   display: none;
 }
 
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse {
+  flex-direction: column;
+}
+
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse .font-size-12px:first-child {
+  font-size: .75rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  line-height: 1.1rem !important;
+}
+
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item .bg-gray-100 {
   height: 0 !important;
   position: relative;

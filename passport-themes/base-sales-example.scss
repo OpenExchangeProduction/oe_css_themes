@@ -1291,6 +1291,17 @@ form input[type="checkbox"] {
                 > .flex-col-reverse + div {
                   display: none;
                 }
+
+                > .flex-col-reverse {
+                  flex-direction: column;
+
+                  .font-size-12px:first-child {
+                    font-size: .75rem;
+                    font-weight: 600;
+                    margin-bottom: .5rem;
+                    line-height: 1.1rem !important;
+                  }
+                }
               }
 
               .bg-gray-100 {
