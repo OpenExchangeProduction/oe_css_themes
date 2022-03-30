@@ -14,6 +14,7 @@ strong {
   --img-logo: url("https://s3.amazonaws.com/present.knowledgevision.com/account/606ae354-177b-4a76-a365-88c4c8cced7c/subaccount/b46fc805-574c-4be5-ac71-e6db8ce51135/content/assets/templates/template_source/old_logos_jpg_1647543635558/old_logos_040e0292-24a3-47fe-b19f-c5f9c4ee115f.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=tdxbCcK%2FGUCzvX6JX17lqJR6G10%3D");
   --clr-nav-bg: rgb(255, 255, 255);
   --clr-nav-text: #333333;
+  --clr-btn-text: #000000;
 }
 
 /**
@@ -1355,7 +1356,7 @@ form > .mt-3:first-of-type .break-words p {
 }
 
 form .common-btn {
-  color: #000;
+  color: var(--clr-btn-text);
   background: var(--primary-color);
   font-weight: 600;
   filter: brightness(1);
@@ -1375,7 +1376,7 @@ form .common-btn:hover {
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div .common-btn, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div .common-btn, #registration-page .main-content-wrapper div > .registration-wrapper ~ div .common-btn {
-  color: #000;
+  color: var(--clr-btn-text);
   background: var(--primary-color);
   font-weight: 600;
   transition: filter .2s ease-in-out;
