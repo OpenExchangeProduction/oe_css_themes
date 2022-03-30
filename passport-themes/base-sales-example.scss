@@ -1312,7 +1312,7 @@ form > .mt-3:first-of-type {
 
 form .common-btn {
   color: #000;
-  background: #C7FB02;
+  background: var(--primary-color);
   font-weight: 600;
   filter: brightness(1);
 
@@ -1330,7 +1330,7 @@ form .common-btn {
   }
 }
 
-#sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div .common-btn, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div .common-btn {
+#sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div .common-btn, #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div .common-btn, #registration-page .main-content-wrapper div > .registration-wrapper ~ div .common-btn {
   color: #000;
   background: var(--primary-color);
   font-weight: 600;
@@ -1344,6 +1344,10 @@ form .common-btn {
 
 .editable-welcome-event-details--time-zone {
   display: none;
+}
+
+form .text-error {
+  color: red !important;
 }
 
 // button[name="Sign in with Access Code"] {
