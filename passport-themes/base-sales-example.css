@@ -570,8 +570,7 @@ div[class*='event-details'] > .items-start {
 #sign-in-page .main-content-wrapper .editable-registration--left-content-title,
 #registration-page .main-content-wrapper .editable-registration--left-content-title {
   text-align: left;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-weight: 500;
   color: #000 !important;
 }
 
