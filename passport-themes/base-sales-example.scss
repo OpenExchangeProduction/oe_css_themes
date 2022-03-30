@@ -1302,6 +1302,17 @@ form input[type="checkbox"] {
                     line-height: 1.1rem !important;
                   }
                 }
+
+                .editable-session--table-cell-buttons {
+                  button:first-child {
+                    filter: brightness(1);
+                    transition: filter .2s ease-in-out;
+
+                    &:hover {
+                      filter: brightness(.8);
+                    }
+                  }
+                }
               }
 
               .bg-gray-100 {
