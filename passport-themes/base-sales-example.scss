@@ -1270,7 +1270,7 @@ form input[type="checkbox"] {
 #session-page {
   .main-content-wrapper {
     .alice-carousel {
-      height: unset;
+      height: unset !important;
 
       &__wrapper {
         &__stage {

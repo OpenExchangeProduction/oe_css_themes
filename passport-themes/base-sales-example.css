@@ -1313,7 +1313,7 @@ form input[type="checkbox"] {
 
 /* General Sessions Page styling */
 #session-page .main-content-wrapper .alice-carousel {
-  height: unset;
+  height: unset !important;
 }
 
 #session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item {
