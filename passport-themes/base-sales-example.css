@@ -1312,6 +1312,14 @@ form input[type="checkbox"] {
 }
 
 /* General Sessions Page styling */
+#session-page .main-content-wrapper .alice-carousel {
+  height: unset;
+}
+
+#session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item {
+  height: unset;
+}
+
 #session-page .main-content-wrapper .alice-carousel__wrapper__stage-item .item > .flex:first-child {
   height: unset !important;
   flex-grow: 1;

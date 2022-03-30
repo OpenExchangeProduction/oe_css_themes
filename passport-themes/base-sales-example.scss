@@ -1268,18 +1268,24 @@ form input[type="checkbox"] {
 /* General Sessions Page styling */
 
 #session-page {
-  .main-content-wrapper  {
+  .main-content-wrapper {
     .alice-carousel {
+      height: unset;
+
       &__wrapper {
         &__stage {
           &-item {
 
-            .item > .flex:first-child {
-              height: unset !important;
-              flex-grow: 1;
+            .item {
+              height: unset;
 
-              > .flex-col-reverse + div {
-                display: none;
+              > .flex:first-child {
+                height: unset !important;
+                flex-grow: 1;
+
+                > .flex-col-reverse + div {
+                  display: none;
+                }
               }
             }
 
