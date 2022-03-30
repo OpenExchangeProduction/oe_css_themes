@@ -1295,7 +1295,7 @@ form input[type="checkbox"] {
                 > .flex-col-reverse {
                   flex-direction: column;
 
-                  .font-size-12px:first-child {
+                  > .font-size-12px:first-child {
                     font-size: .75rem;
                     font-weight: 600;
                     margin-bottom: .5rem;

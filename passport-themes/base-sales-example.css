@@ -1341,7 +1341,7 @@ form input[type="checkbox"] {
   flex-direction: column;
 }
 
-#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse .font-size-12px:first-child {
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse > .font-size-12px:first-child {
   font-size: .75rem;
   font-weight: 600;
   margin-bottom: .5rem;
