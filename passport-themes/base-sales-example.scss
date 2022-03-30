@@ -1275,8 +1275,9 @@ form input[type="checkbox"] {
       .alice-carousel__wrapper {
         .alice-carousel__stage{
           .alice-carousel__stage-item {
+            vertical-align: middle;
 
-            div:only-child:not(.item) {
+            > div:only-child:not(.item) {
               display: none;
             }
 
@@ -1300,6 +1301,11 @@ form input[type="checkbox"] {
             }
           }
         }
+      }
+
+      .alice-carousel__next-btn, .alice-carousel__prev-btn {
+        -webkit-transform: translateY(65%);
+        transform: translateY(65%);
       }
     }
   }

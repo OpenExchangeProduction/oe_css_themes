@@ -1316,7 +1316,11 @@ form input[type="checkbox"] {
   height: unset !important;
 }
 
-#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item div:only-child:not(.item) {
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item {
+  vertical-align: middle;
+}
+
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item > div:only-child:not(.item) {
   display: none;
 }
 
@@ -1331,6 +1335,11 @@ form input[type="checkbox"] {
 
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse + div {
   display: none;
+}
+
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__next-btn, #session-page .main-content-wrapper .alice-carousel .alice-carousel__prev-btn {
+  -webkit-transform: translateY(65%);
+  transform: translateY(65%);
 }
 
 /* the following items should be refactored into the actual SCSS at some point */
