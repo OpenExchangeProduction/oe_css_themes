@@ -1489,6 +1489,12 @@ form .text-error {
   margin-left: 1.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
     max-width: 100% !important;

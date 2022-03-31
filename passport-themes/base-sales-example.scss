@@ -1455,6 +1455,10 @@ form .text-error {
  max-width: 50% !important;
  margin-right: auto;
  margin-left: 1.5rem;
+
+ @media screen and (max-width: 600px) {
+   margin-left: 0;
+ }
 }
 
 @media (max-width: 768px) {
