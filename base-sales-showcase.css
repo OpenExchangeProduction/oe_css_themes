@@ -7,7 +7,8 @@
   --clr-carousel-label: #000000;
   --clr-tile-hover: #000000;
   --clr-tile-txt-hover: #ffffff;
-  --clr-tile-txt-hover: #000000;
+  --bkg-footer: #000000;
+  --nav-border: 1px solid #000000;
 }
 
 html {
@@ -39,7 +40,7 @@ h5 {
 }
 
 #page-top #main_navigation {
-  border-bottom: none;
+  border-bottom: var(--nav-border);
 }
 
 #page-top #main_navigation > .container-fluid {
