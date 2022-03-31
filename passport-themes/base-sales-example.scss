@@ -1315,6 +1315,7 @@ form input[type="checkbox"] {
 
                   .editable-session-event-details--date, .text-primary:last-child {
                     color: var(--clr-tile-text);
+                    font-weight: 500;
                   }
                 }
 
@@ -1322,6 +1323,7 @@ form input[type="checkbox"] {
                   button:first-child {
                     filter: brightness(1);
                     transition: filter .2s ease-in-out;
+                    color: var(--clr-btn-text);
                     font-weight: var(--clr-tile-btn-weight);
 
                     &:hover {
