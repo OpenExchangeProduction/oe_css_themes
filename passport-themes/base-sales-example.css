@@ -15,6 +15,9 @@ strong {
   --clr-nav-bg: rgb(255, 255, 255);
   --clr-nav-text: #333333;
   --clr-btn-text: #000000;
+  --clr-tile-text: #000000;
+  --clr-tile-add-btn: #000000;
+  --clr-tile-btn-weight: 500;
 }
 
 /**
@@ -1360,13 +1363,26 @@ form input[type="checkbox"] {
   line-height: 1.1rem !important;
 }
 
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse .editable-session-event-details--date, #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child > .flex-col-reverse .text-primary:last-child {
+  color: var(--clr-tile-text);
+}
+
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child .editable-session--table-cell-buttons button:first-child {
   filter: brightness(1);
   transition: filter .2s ease-in-out;
+  font-weight: var(--clr-tile-btn-weight);
 }
 
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child .editable-session--table-cell-buttons button:first-child:hover {
   filter: brightness(0.8);
+}
+
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child .editable-session--table-cell-buttons button:last-child {
+  color: var(--clr-tile-add-btn);
+}
+
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child .editable-session--table-cell-buttons button:last-child svg {
+  fill: var(--clr-tile-add-btn);
 }
 
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item .bg-gray-100 {

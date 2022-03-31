@@ -15,6 +15,9 @@ strong {
   --clr-nav-bg: rgb(255, 255, 255);
   --clr-nav-text: #333333;
   --clr-btn-text: #000000;
+  --clr-tile-text: #000000;
+  --clr-tile-add-btn: #000000;
+  --clr-tile-btn-weight: 500;
 }
 
 /**
@@ -1309,15 +1312,28 @@ form input[type="checkbox"] {
                     margin-bottom: .5rem;
                     line-height: 1.1rem !important;
                   }
+
+                  .editable-session-event-details--date, .text-primary:last-child {
+                    color: var(--clr-tile-text);
+                  }
                 }
 
                 .editable-session--table-cell-buttons {
                   button:first-child {
                     filter: brightness(1);
                     transition: filter .2s ease-in-out;
+                    font-weight: var(--clr-tile-btn-weight);
 
                     &:hover {
                       filter: brightness(.8);
+                    }
+                  }
+
+                  button:last-child {
+                    color: var(--clr-tile-add-btn);
+
+                    svg {
+                      fill: var(--clr-tile-add-btn);
                     }
                   }
                 }
