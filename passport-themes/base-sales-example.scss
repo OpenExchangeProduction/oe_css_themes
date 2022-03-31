@@ -1274,6 +1274,10 @@ form input[type="checkbox"] {
 
       .alice-carousel__wrapper {
         .alice-carousel__stage{
+          display: grid;
+          grid-template-columns: min-content;
+          grid-auto-flow: column;
+
           .alice-carousel__stage-item {
             vertical-align: middle;
 
@@ -1282,7 +1286,7 @@ form input[type="checkbox"] {
             }
 
             .item {
-              height: unset;
+              height: 100%;
 
               > .flex:first-child {
                 height: unset !important;

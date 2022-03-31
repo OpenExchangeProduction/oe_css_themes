@@ -1316,6 +1316,12 @@ form input[type="checkbox"] {
   height: unset !important;
 }
 
+#session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage {
+  display: grid;
+  grid-template-columns: min-content;
+  grid-auto-flow: column;
+}
+
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item {
   vertical-align: middle;
 }
@@ -1325,7 +1331,7 @@ form input[type="checkbox"] {
 }
 
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item {
-  height: unset;
+  height: 100%;
 }
 
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child {
