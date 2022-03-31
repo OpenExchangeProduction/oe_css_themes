@@ -492,7 +492,8 @@ h5 {
 }
 
 #page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-title,
-#page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-title a {
+#page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-title a,
+#page-top .column-view-item:hover .post .thumb-meta-wrapper .fa-chevron-right:before {
   color: var(--clr-tile-txt-hover) !important;
 }
 

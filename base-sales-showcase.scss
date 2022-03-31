@@ -500,7 +500,8 @@ h5 {
         background-color: var(--clr-tile-hover);
 
         .tile-title,
-        .tile-title a {
+        .tile-title a,
+        .fa-chevron-right:before {
           color: var(--clr-tile-txt-hover) !important;
         }
       }
