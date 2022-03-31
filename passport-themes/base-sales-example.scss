@@ -1288,6 +1288,10 @@ form input[type="checkbox"] {
             .item {
               height: 100%;
 
+              @media screen and (max-width: 600px) {
+                margin: 0 auto;
+              }
+
               > .flex:first-child {
                 height: unset !important;
                 flex-grow: 1;

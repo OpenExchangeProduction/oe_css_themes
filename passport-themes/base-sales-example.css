@@ -1334,6 +1334,12 @@ form input[type="checkbox"] {
   height: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item {
+    margin: 0 auto;
+  }
+}
+
 #session-page .main-content-wrapper .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .alice-carousel__stage-item .item > .flex:first-child {
   height: unset !important;
   flex-grow: 1;
