@@ -193,6 +193,10 @@ html {
       all: unset;
     }
   }
+
+  #page-top #custom-fields-data + #main_navigation ~ header .col-xs-12:before {
+    display: none;
+  }
 }
 
 ///////////////////////////////////////
