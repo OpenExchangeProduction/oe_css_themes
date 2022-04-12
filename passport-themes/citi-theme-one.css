@@ -1275,3 +1275,7 @@ form input[type="checkbox"] {
   margin-bottom: 1rem;
   font-size: .75rem;
 }
+
+.custom-select__options {
+  background-color: #ffffff !important;
+}
