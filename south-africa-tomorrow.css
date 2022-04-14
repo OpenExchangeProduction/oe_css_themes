@@ -410,7 +410,6 @@ h5 {
   overflow: visible;
   background: transparent;
   border: none;
-  margin-bottom: 3rem;
 }
 
 #page-top .featured-category:after {
@@ -419,6 +418,7 @@ h5 {
   width: 100%;
   content: '';
   background: var(--nav-border);
+  margin-top: 3rem;
 }
 
 #page-top .featured-category:nth-child(odd):after {
