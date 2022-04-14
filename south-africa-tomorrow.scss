@@ -615,10 +615,14 @@ h5 {
 
           p:first-child, p:nth-child(2) {
             font-family: $primary-font;
-            font-size: 4rem;
+            font-size: 6rem;
             font-weight: 500;
             margin-bottom: 0;
-            line-height: 1;
+            line-height: .85;
+          }
+
+          p:nth-child(2) {
+            margin-bottom: 1rem;
           }
 
           p:last-child a {
