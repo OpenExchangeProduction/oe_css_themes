@@ -551,66 +551,7 @@ h5 {
 #page-top #url-auth-suffix ~ header .container.header-container .row {
   display: flex;
   flex-direction: column;
-}
-
-#page-top #url-auth-suffix ~ header .container.header-container .row:before {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: '';
-  background: white;
-  height: 75px;
-  width: 100%;
-  z-index: 0;
-}
-
-#page-top #url-auth-suffix ~ header .container.header-container .row:after {
-  order: 1;
-  z-index: 1;
-  position: relative;
-  content: '';
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/Strip_png_1649968981373/Strip_89ce929f-f2cf-44f9-aba6-537e6c5afc18.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Lughj6S1%2BNLMNWOqihNOsgThHMc%3D");
-  background-size: contain;
-  height: 65px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 104rem;
-}
-
-@media screen and (max-width: 767px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row:after {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row:after {
-    max-width: 45.875rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row:after {
-    max-width: 59rem;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row:after {
-    max-width: 65.875rem;
-  }
-}
-
-@media all and (min-width: 1500px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row:after {
-    max-width: 84.625rem;
-  }
-}
-
-@media all and (min-width: 1800px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row:after {
-    max-width: 103.375rem;
-  }
+  background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.3) 100px);
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
@@ -625,6 +566,20 @@ h5 {
   z-index: 2;
   text-align: left;
   display: block;
+}
+
+#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description:after {
+  order: 1;
+  z-index: 1;
+  position: relative;
+  content: '';
+  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/Strip_png_1649968981373/Strip_89ce929f-f2cf-44f9-aba6-537e6c5afc18.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Lughj6S1%2BNLMNWOqihNOsgThHMc%3D");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 767px) {
