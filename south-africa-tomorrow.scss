@@ -644,6 +644,8 @@ h5 {
               display: inline-block;
               margin-right: .75rem;
               position: relative;
+              z-index: 0;
+              overflow: hidden;
 
               &:before {
                 content: "";
@@ -673,6 +675,7 @@ h5 {
                   -webkit-transform: translateY(0);
                   -ms-transform: translateY(0);
                   transform: translateY(0);
+                  filter: invert(1);
                 }
               }
             }
