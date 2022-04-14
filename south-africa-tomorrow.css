@@ -621,10 +621,14 @@ h5 {
   margin-bottom: 1rem;
 }
 
+#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child {
+  margin-top: 1rem;
+}
+
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a {
   color: var(--header-button-color);
   border: 1px solid var(--header-button-color);
-  background-color: transparent;
+  background: transparent;
   font-size: 1rem;
   text-decoration: none !important;
   padding: 1rem 1.5rem;
@@ -637,11 +641,38 @@ h5 {
   line-height: 14px;
   display: inline-block;
   margin-right: .75rem;
+  position: relative;
+}
+
+#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity: 0.5;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  background-color: #ffffff;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover {
-  background-color: #fff;
-  color: #00578E !important;
+  filter: invert(1);
+}
+
+#page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover:before {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
 }
 
 /* styles for header */

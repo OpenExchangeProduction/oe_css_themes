@@ -625,26 +625,57 @@ h5 {
             margin-bottom: 1rem;
           }
 
-          p:last-child a {
-            color: var(--header-button-color);
-            border: 1px solid var(--header-button-color);
-            background-color: transparent;
-            font-size: 1rem;
-            text-decoration: none !important;
-            padding: 1rem 1.5rem;
-            -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out;
-            white-space: normal;
-            letter-spacing: 2px;
-            border-radius: 2px;
-            font-weight: 400;
-            line-height: 14px;
-            display: inline-block;
-            margin-right: .75rem;
+          p:last-child {
+            margin-top: 1rem;
 
-            &:hover {
-              background-color: #fff;
-              color: #00578E !important;
+            a {
+              color: var(--header-button-color);
+              border: 1px solid var(--header-button-color);
+              background: transparent;
+              font-size: 1rem;
+              text-decoration: none !important;
+              padding: 1rem 1.5rem;
+              -webkit-transition: all .2s ease-in-out;
+              transition: all .2s ease-in-out;
+              white-space: normal;
+              letter-spacing: 2px;
+              border-radius: 2px;
+              font-weight: 400;
+              line-height: 14px;
+              display: inline-block;
+              margin-right: .75rem;
+              position: relative;
+
+              &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                opacity: 0.5;
+                z-index: -1;
+                -webkit-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+                -webkit-transform: translateY(100%);
+                -ms-transform: translateY(100%);
+                transform: translateY(100%);
+                background-color: #ffffff;
+              }
+
+              &:hover {
+                filter: invert(1);
+
+                &:before {
+                  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                  opacity: 1;
+                  -webkit-transform: translateY(0);
+                  -ms-transform: translateY(0);
+                  transform: translateY(0);
+                }
+              }
             }
           }
         }
