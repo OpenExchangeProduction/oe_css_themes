@@ -74,9 +74,13 @@ h5 {
   padding-bottom: 0;
 }
 
+#page-top #main_navigation {
+  border: none;
+}
+
 #page-top #main_navigation:after {
   display: block;
-  height: 3px;
+  height: 2px;
   width: 100%;
   content: '';
   background: var(--nav-border);
