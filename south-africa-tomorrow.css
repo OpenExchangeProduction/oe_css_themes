@@ -597,7 +597,7 @@ h5 {
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:first-child, #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 0;
   line-height: 1;
 }
