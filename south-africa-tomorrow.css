@@ -550,6 +550,7 @@ h5 {
 
 #page-top #url-auth-suffix ~ header .container.header-container .row {
   position: relative;
+  display: flex;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row:after {
@@ -558,7 +559,8 @@ h5 {
   content: '';
   background: white;
   height: 100px;
-  bottom: 3rem;
+  width: 100%;
+  bottom: 2.5rem;
   left: 0;
 }
 
@@ -581,10 +583,10 @@ h5 {
   z-index: 1;
   position: relative;
   content: '';
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/Strip_png_1649973576404/Strip_9830f15d-249d-47d6-b9ec-1d5fe9dc7b25.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=kNJ%2F3wmSu78RUVusqe25kFAfoGw%3D");
+  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/Strip_png_1649973967859/Strip_5bf2baf5-c6d2-4bfc-94c0-9649f230eda3.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=mqYujNkK81g5nJMyNHL5hMJK4c8%3D");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100px;
+  height: 80px;
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
