@@ -222,6 +222,7 @@ h5 {
   width: 100%;
   content: '';
   background: var(--nav-border);
+  transform: rotate(180deg);
 }
 
 #page-top > .container:not(.login-container):before {
@@ -417,6 +418,15 @@ h5 {
   width: 100%;
   content: '';
   background: var(--nav-border);
+}
+
+#page-top .featured-category:nth-child(odd):after {
+  display: block;
+  height: 2px;
+  width: 100%;
+  content: '';
+  background: var(--nav-border);
+  transform: rotate(180deg);
 }
 
 #page-top .featured-category > .container:not(.posts) .row {

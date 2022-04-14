@@ -270,7 +270,8 @@ h5 {
       height: 2px;
       width: 100%;
       content: '';
-      background: var(--nav-border)
+      background: var(--nav-border);
+      transform: rotate(180deg);
     }
 
     &:before {
@@ -446,6 +447,17 @@ h5 {
       width: 100%;
       content: '';
       background: var(--nav-border)
+    }
+
+    &:nth-child(odd) {
+      &:after {
+        display: block;
+        height: 2px;
+        width: 100%;
+        content: '';
+        background: var(--nav-border);
+        transform: rotate(180deg);
+      }
     }
 
     > .container:not(.posts) {
