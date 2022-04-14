@@ -1,4 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "Roboto";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/roboto_black_ttf_1649967736114/roboto_black_cf7da17a-615d-4dbe-b33f-5ca06fef21f2.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ZAQW0hxb3Hu9sRhA9lsw4HBK1YY%3D") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/roboto_bold_ttf_1649967736160/roboto_bold_61de85bf-e199-416c-889e-1394d2a9c002.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=oj%2F%2BA7X7D28Jvs62U9M9gkn3Oc0%3D") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/roboto_medium_ttf_1649967736141/roboto_medium_14d8e6e8-d658-4869-bd91-7de5fa2425fb.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=4QIsTTyxfW%2BmUJsMA%2B6rsRrsOD0%3D") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/roboto_regular_ttf_1649967736156/roboto_regular_6949d789-98b2-4629-83ca-5c842ce6116e.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=dv%2BFerXsrDRIJ1XxyfSHqfBKWo4%3D") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/roboto_light_ttf_1649967736133/roboto_light_7bb061fc-3a61-47ae-9a2d-3336ca04eae7.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=A%2ByHfbRqzWO4yF9h6AUm6Y1E%2BMw%3D") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
 :root {
   --subpage-header-bkg: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/img_home_herobg_esg1_1647008620456/img_home_herobg_esg1_3a6f2525-2daf-470f-ad20-2e229a1785fd.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=HOOTiT6jtFLsMkaXc7u6pko7M%2Fg%3D');
   --primary-color: #ffffff;
