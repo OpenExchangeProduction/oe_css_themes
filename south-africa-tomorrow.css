@@ -72,6 +72,7 @@ h5 {
   flex-flow: column;
   padding-top: 6rem;
   padding-bottom: 0;
+  background-color: #0e0e0e;
 }
 
 #page-top #main_navigation {
@@ -198,16 +199,32 @@ h5 {
   margin-bottom: .25rem;
 }
 
+#page-top header:after {
+  display: block;
+  height: 2px;
+  width: 100%;
+  content: '';
+  background: var(--nav-border);
+}
+
 #page-top > .container:not(.login-container) {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(0deg, #191919 270px, #0e0e0e 100%);
+  background: linear-gradient(0deg, #111111 270px, #0e0e0e 100%);
   padding: 0;
   position: relative;
 }
 
 #page-top > .container:not(.login-container):after {
+  display: block;
+  height: 2px;
+  width: 100%;
+  content: '';
+  background: var(--nav-border);
+}
+
+#page-top > .container:not(.login-container):before {
   content: '';
   display: block;
   position: absolute;
@@ -218,6 +235,7 @@ h5 {
   background-position: center;
   top: 0;
   left: 0;
+  filter: opacity(0.3);
 }
 
 #page-top > .container:not(.login-container) .featured-knovio {
@@ -389,7 +407,16 @@ h5 {
   padding-top: 4rem;
   padding-bottom: 2rem;
   overflow: visible;
-  background: #fbfbfb;
+  background: transparent;
+  border: none;
+}
+
+#page-top .featured-category:after {
+  display: block;
+  height: 2px;
+  width: 100%;
+  content: '';
+  background: var(--nav-border);
 }
 
 #page-top .featured-category > .container:not(.posts) .row {
