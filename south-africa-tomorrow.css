@@ -43,7 +43,7 @@
   --clr-tile-hover: #000000;
   --clr-tile-txt-hover: #ffffff;
   --bkg-footer: #000000;
-  --nav-border: 1px solid #000000;
+  --nav-border: linear-gradient(90deg, red 0, green 25%, blue 50%, red 75%);
 }
 
 html {
@@ -74,8 +74,12 @@ h5 {
   padding-bottom: 0;
 }
 
-#page-top #main_navigation {
-  border-bottom: var(--nav-border);
+#page-top #main_navigation:after {
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: '';
+  background: var(--nav-border);
 }
 
 #page-top #main_navigation > .container-fluid {
@@ -557,7 +561,7 @@ h5 {
   position: absolute;
   display: block;
   content: '';
-  background: rgab(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.9);
   height: 70px;
   width: 100%;
   bottom: 2.5rem;
