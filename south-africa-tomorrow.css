@@ -205,6 +205,7 @@ h5 {
   width: 100%;
   content: '';
   background: var(--nav-border);
+  transform: rotate(180deg);
 }
 
 #page-top > .container:not(.login-container) {
@@ -222,7 +223,6 @@ h5 {
   width: 100%;
   content: '';
   background: var(--nav-border);
-  transform: rotate(180deg);
 }
 
 #page-top > .container:not(.login-container):before {
