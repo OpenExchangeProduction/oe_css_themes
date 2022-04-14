@@ -12,7 +12,7 @@
 }
 
 html {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -23,7 +23,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -362,7 +362,7 @@ h5 {
 #page-top .featured-category > .container:not(.posts) .row .col-xs-9 .featured-category-title-link .showcase-title {
   padding: 0;
   margin-bottom: 2rem;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--clr-carousel-label) !important;
@@ -475,7 +475,7 @@ h5 {
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title,
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title a {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
   color: #222222 !important;
@@ -731,7 +731,7 @@ span.showcase-description p {
   filter: brightness(1);
   width: 100%;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #003657 !important;
 }
 
@@ -778,7 +778,7 @@ span.showcase-description p {
 }
 
 #page-top .login-container > .row > div h3 {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   text-align: left;
   color: #ffffff;
   font-size: 1.75rem;
@@ -796,7 +796,7 @@ span.showcase-description p {
   font-weight: 300;
   line-height: 1.7;
   color: #fff !important;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 #page-top .login-container > .row > div p br {
@@ -808,7 +808,7 @@ span.showcase-description p {
 }
 
 #page-top .login-container > .row > div span, #page-top .login-container > .row > div a {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   color: #000;
 }
 
@@ -845,7 +845,7 @@ span.showcase-description p {
 #page-top .login-container > .row > div form .form-group {
   grid-column: auto / span 2;
   position: relative;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   color: #ffffff;
   grid-column: 1 / span 4;
   font-weight: 300;
@@ -871,7 +871,7 @@ span.showcase-description p {
   align-items: center;
   margin-bottom: .25rem;
   color: #ffffff;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
 }
 
