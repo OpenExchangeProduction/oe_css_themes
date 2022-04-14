@@ -202,7 +202,7 @@ h5 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(0deg, #00578E 270px, #00578E 100%);
+  background: linear-gradient(0deg, #191919 270px, #0e0e0e 100%);
   padding: 0;
   position: relative;
 }
@@ -213,7 +213,7 @@ h5 {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/wrapper_pattern_static__1___1__png_1647015583984/wrapper_pattern_static__1___1__ff9f036e-4947-4c5d-9b9c-7ace53520183.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sVMsUfi80FDme7GKkrp%2BRKndyvg%3D");
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/bc917b7f-f3c6-4b11-8643-dad60e1b36f0/content/assets/templates/template_background/rainbow_abstract_vector_SBI_300161299_png_1649977975720/rainbow_abstract_vector_SBI_300161299_e55f7174-2a7a-441b-adbc-6cf254aacd9c.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=4RgLdhnFs6p4hls%2B0HBv52Iddbo%3D");
   background-size: cover;
   background-position: center;
   top: 0;
