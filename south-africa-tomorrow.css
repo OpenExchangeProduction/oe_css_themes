@@ -44,6 +44,8 @@
   --clr-tile-txt-hover: #ffffff;
   --bkg-footer: #000000;
   --nav-border: linear-gradient(90deg, #FFB81C 0 25%, #007749 25% 50%, #E03C31 50% 75%, #001489 75%);
+  --thubnail-aspect-ratio-x: 16;
+  --thubnail-aspect-ratio-y: 9;
 }
 
 html {
@@ -515,7 +517,7 @@ h5 {
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link {
   background-color: #ffffff;
-  padding-bottom: 66.66667%;
+  padding-bottom: 56.25%;
   width: 100%;
   height: 0;
   overflow: hidden;
@@ -800,7 +802,7 @@ h5 {
 
 @media screen and (max-width: 640px) {
   #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
-    background: rgba(0, 54, 87, 0.75) !important;
+    background: #242424bf !important;
   }
 }
 
@@ -813,7 +815,10 @@ span.showcase-description p {
 }
 
 @media (max-width: 1200px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2),
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:first-child,
+  #page-top header.homepage .container.header-container .row span.showcase-description p:nth-child(2),
+  #page-top header.homepage .container.header-container .row span.showcase-description p:first-child {
     font-size: 3rem;
   }
   #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p {

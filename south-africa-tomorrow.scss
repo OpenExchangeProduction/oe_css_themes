@@ -49,6 +49,8 @@
   --clr-tile-txt-hover: #ffffff;
   --bkg-footer: #000000;
   --nav-border: linear-gradient(90deg, #FFB81C 0 25%, #007749 25% 50%, #E03C31 50% 75%, #001489 75%);
+  --thubnail-aspect-ratio-x: 16;
+  --thubnail-aspect-ratio-y: 9;
 }
 
 ///////////////////////////////////////
@@ -548,7 +550,7 @@ h5 {
 
         .thumb-link {
           background-color: #ffffff;
-          @include aspect-ratio-image(3, 2);
+          @include aspect-ratio-image(16, 9);
         }
       }
 
@@ -808,7 +810,7 @@ h5 {
   right: 0;
 
   @media screen and (max-width: 640px) {
-    background: rgba(0,54,87,.75) !important;
+    background: #242424bf !important;
   }
 }
 
@@ -821,7 +823,10 @@ span.showcase-description p {
 }
 
 @media (max-width: 1200px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2),
+  #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:first-child,
+  #page-top header.homepage .container.header-container .row span.showcase-description p:nth-child(2),
+  #page-top header.homepage .container.header-container .row span.showcase-description p:first-child {
     font-size: 3rem;
   }
 
