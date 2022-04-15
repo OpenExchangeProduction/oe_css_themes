@@ -606,6 +606,7 @@ h5 {
   border-radius: 6px;
   text-decoration: none;
   position: relative;
+  border: 1px solid transparent;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:hover,
@@ -652,6 +653,7 @@ h5 {
   text-decoration: none;
   position: relative;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:before {
