@@ -600,7 +600,7 @@ h5 {
   font-size: 1.25rem;
   color: #fafafa !important;
   background-color: #0e0e0e;
-  padding: .5rem 2rem;
+  padding: .5rem 1.25rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
   border-radius: 6px;
@@ -616,7 +616,6 @@ h5 {
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:hover:before,
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a:hover:before {
   filter: brightness(0.8);
-  content: "Go Now >";
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon,
@@ -639,20 +638,20 @@ h5 {
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
-  padding: .6rem 2rem;
   max-width: max-content;
   right: unset;
   top: unset;
-  font-size: 1.25rem;
+  font-size: .9rem;
   order: 3;
   color: #fafafa !important;
   background-color: #0e0e0e;
-  padding: .5rem 2rem;
+  padding: .5rem 1.25rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
   border-radius: 6px;
   text-decoration: none;
   position: relative;
+  cursor: pointer;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:before {
@@ -661,7 +660,7 @@ h5 {
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:hover {
-  padding: .6rem 3rem .6rem 1rem;
+  filter: brightness(0.8);
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title,
