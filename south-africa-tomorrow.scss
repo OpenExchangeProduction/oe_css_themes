@@ -1470,3 +1470,8 @@ footer {
     }
   }
 }
+
+/* Single Post Styles (player) */
+#page-top.single-post .post .tile-area .tile-text h2, #page-top.single-post span.title, #page-top.single-post #main_status_content .presentation-status {
+  color: #fafafa !important;
+}
