@@ -547,8 +547,8 @@ h5 {
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area {
-  padding: 1.5rem 1.25rem;
-  padding-bottom: 3rem;
+  padding: 1rem;
+  padding-bottom: .75rem;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate {
