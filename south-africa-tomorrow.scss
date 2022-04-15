@@ -765,6 +765,10 @@ h5 {
 }
 
 #page-top header.homepage {
+  &:after {
+    position: relative;
+    z-index: 2;
+  }
   .showcase-title {
     display: none;
   }

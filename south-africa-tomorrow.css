@@ -756,6 +756,11 @@ h5 {
   filter: invert(1);
 }
 
+#page-top header.homepage:after {
+  position: relative;
+  z-index: 2;
+}
+
 #page-top header.homepage .showcase-title {
   display: none;
 }
