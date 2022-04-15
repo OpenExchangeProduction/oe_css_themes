@@ -687,6 +687,10 @@ h5 {
   color: var(--clr-tile-txt-hover) !important;
 }
 
+#page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon, #page-top .column-view-item:hover .post .thumb-meta-wrapper .link-header.tile-header-ellipsis .tile-title a:before {
+  border: 1px solid #fafafa;
+}
+
 #page-top .newLabel {
   z-index: 3;
 }

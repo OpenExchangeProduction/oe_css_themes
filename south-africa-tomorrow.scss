@@ -703,6 +703,10 @@ h5 {
         .fa-chevron-right:before {
           color: var(--clr-tile-txt-hover) !important;
         }
+
+        .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon, .link-header.tile-header-ellipsis .tile-title a:before {
+          border: 1px solid #fafafa;
+        }
       }
     }
   }
