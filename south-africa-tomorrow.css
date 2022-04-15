@@ -756,6 +756,10 @@ h5 {
   filter: invert(1);
 }
 
+#page-top header.homepage .showcase-title {
+  display: none;
+}
+
 /* styles for header */
 .img-responsive.showcase-banner {
   margin: 0;
