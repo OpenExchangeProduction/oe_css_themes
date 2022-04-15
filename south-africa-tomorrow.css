@@ -556,6 +556,114 @@ h5 {
   min-height: unset;
 }
 
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title {
+  height: unset !important;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a, #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title div,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title div {
+  padding-bottom: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  filter: brightness(1);
+  transition: filter .2s ease;
+  word-break: break-word;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:hover, #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title div:hover,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a:hover,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title div:hover {
+  filter: brightness(0.6);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:before,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a:before {
+  order: 2;
+  display: block;
+  max-width: max-content;
+  right: unset;
+  top: unset;
+  content: "Go Now";
+  font-family: "Roboto-File", "Roboto", Arial, sans-serif;
+  margin-top: 1.42rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fafafa !important;
+  background-color: #0e0e0e;
+  padding: .5rem 2rem;
+  filter: brightness(1);
+  transition: filter .2s ease, padding .2s ease;
+  border-radius: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:hover,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a:hover {
+  filter: brightness(0.8);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a:hover:before,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a:hover:before {
+  filter: brightness(0.8);
+  content: "Go Now >";
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .post-details-icon {
+  display: none;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
+  padding-bottom: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  filter: brightness(1);
+  transition: filter .2s ease;
+  word-break: break-word !important;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
+  filter: brightness(0.6);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
+  display: block;
+  padding: .6rem 2rem;
+  max-width: max-content;
+  right: unset;
+  top: unset;
+  font-size: 1.25rem;
+  order: 3;
+  color: #fafafa !important;
+  background-color: #0e0e0e;
+  padding: .5rem 2rem;
+  filter: brightness(1);
+  transition: filter .2s ease, padding .2s ease;
+  border-radius: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:before {
+  content: "Details";
+  font-family: "Roboto-File", "Roboto", Arial, sans-serif;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon:hover {
+  padding: .6rem 3rem .6rem 1rem;
+}
+
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title,
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title a {
   font-family: "Roboto-File", "Roboto", Arial, sans-serif;
