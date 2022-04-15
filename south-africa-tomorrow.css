@@ -765,6 +765,14 @@ h5 {
   display: none;
 }
 
+#page-top header.homepage .featured-category:nth-child(odd):after {
+  transform: unset;
+}
+
+#page-top header.homepage .featured-category:nth-child(even):after {
+  transform: rotate(180deg);
+}
+
 /* styles for header */
 .img-responsive.showcase-banner {
   margin: 0;
@@ -1087,7 +1095,7 @@ footer .container .footer-container p:not(:last-child) {
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header {
   background: var(--subpage-header-bkg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   padding: 0;
   margin-bottom: 3rem;
 }

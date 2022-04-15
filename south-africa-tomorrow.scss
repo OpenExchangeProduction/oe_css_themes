@@ -772,6 +772,14 @@ h5 {
   .showcase-title {
     display: none;
   }
+
+  .featured-category:nth-child(odd):after {
+    transform: unset;
+  }
+
+  .featured-category:nth-child(even):after {
+    transform: rotate(180deg);
+  }
 }
 
 /* styles for header */
@@ -1095,7 +1103,7 @@ footer {
     ~ header {
       background: var(--subpage-header-bkg);
       background-size: cover;
-      background-position: center;
+      background-position: right;
       padding: 0;
       margin-bottom: 3rem;
 
