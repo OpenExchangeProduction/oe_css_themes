@@ -141,6 +141,7 @@ h5 {
   font-size: 1rem;
   padding-top: 0;
   padding-bottom: 0;
+  color: #fff;
 }
 
 #page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group .dropdown-menu li a, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group .dropdown-menu li button {
