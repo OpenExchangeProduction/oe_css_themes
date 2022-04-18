@@ -2664,3 +2664,9 @@ footer .footer-container p {
   margin-top: auto;
   font-weight: 500;
 }
+
+#page-top .column-view-item .post .thumb-wrapper .thumb-link .thumb,
+#page-top .column-view-item .post .thumb-wrapper .thumb-link {
+  max-height: unset;
+  max-width: unset;
+}
