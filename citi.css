@@ -1398,6 +1398,7 @@ html {
   align-items: center;
   height: 100%;
   min-height: 150px;
+  position: relative;
 }
 
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-wrapper .thumb-link:before {
