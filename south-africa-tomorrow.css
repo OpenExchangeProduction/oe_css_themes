@@ -127,7 +127,7 @@ h5 {
   }
 }
 
-#page-top #main_navigation_collapse .nav:nth-of-type(2) li > a {
+#page-top #main_navigation_collapse .nav:nth-of-type(2) li > a, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > button {
   padding-top: 0.375rem;
 }
 
@@ -136,7 +136,7 @@ h5 {
   align-items: center;
 }
 
-#page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group a, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group button, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > a {
+#page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group a, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group button, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > a, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > button {
   font-family: "Roboto-File", "Roboto", Arial, sans-serif;
   font-size: 1rem;
   padding-top: 0;
