@@ -143,7 +143,7 @@ h5 {
   padding-bottom: 0;
 }
 
-#page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group .dropdown-menu li a {
+#page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group .dropdown-menu li a, #page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group .dropdown-menu li button {
   padding: .5rem;
 }
 
