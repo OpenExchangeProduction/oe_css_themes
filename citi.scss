@@ -217,7 +217,7 @@ html {
     .container-fluid {
       padding: 0 $gutter;
 
-      a.navbar-brand.text-brand {
+      .navbar-brand.text-brand {
         height: unset;
         padding: 0;
         margin: 0;
@@ -256,7 +256,7 @@ html {
         margin: 0 auto;
       }
 
-      a.navbar-brand.text-brand {
+      .navbar-brand.text-brand {
         height: unset;
         padding: 0;
         margin: 0;
@@ -283,7 +283,7 @@ html {
           top: -65px;
 
           #user-options-dropdown {
-            a.dropdown-toggle {
+            .dropdown-toggle {
               span.user-options-icon {
                 color: $link-color !important;
                 transition: color .25s ease;
@@ -291,7 +291,7 @@ html {
             }
 
             &.open {
-              a.dropdown-toggle {
+              .dropdown-toggle {
                 span.user-options-icon {
                   color: $white !important;
                 }
@@ -330,7 +330,7 @@ html {
             transition: background-color .25s ease;
             background-color: $link-color;
 
-            a {
+            a, button {
               font-family: $primary-font;
               font-weight: 400;
               color: $white !important;
@@ -384,7 +384,7 @@ html {
           margin-right: 0;
         }
 
-        a.navbar-brand.text-brand {
+        .navbar-brand.text-brand {
 
           img.showcase-logo {
             margin-top: .25rem;
@@ -428,7 +428,7 @@ html {
             li {
               background-color: transparent !important;
 
-              a {
+              a, button {
                 font-family: $primary-font;
                 font-weight: 500;
                 font-size: 2rem;
@@ -564,7 +564,7 @@ html {
             }
           }
 
-          a {
+          a, button {
             text-decoration: none;
             margin-top: 1rem;
             display: inline-block;
@@ -993,7 +993,7 @@ html {
                   }
                 }
 
-                a {
+                a, button {
                   display: flex;
                   flex-direction: column;
                   flex-wrap: wrap;
@@ -1375,7 +1375,7 @@ html {
                 grid-column: auto / span 1;
               }
 
-              a.thumb-link {
+              .thumb-link {
                 width: 100%;
                 background-color: $white;
                 display: flex;
