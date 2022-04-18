@@ -1280,3 +1280,9 @@ footer .footer-container p {
     border: none;
   }
 }
+
+#page-top .column-view-item .post .thumb-wrapper .thumb-link .thumb,
+#page-top .column-view-item .post .thumb-wrapper .thumb-link {
+  max-height: unset;
+  max-width: unset;
+}
