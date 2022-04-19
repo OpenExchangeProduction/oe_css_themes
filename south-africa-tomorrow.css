@@ -215,7 +215,7 @@ h5 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(0deg, #111111 270px, #0e0e0e 100%);
+  background: var(--header-gradient);
   padding: 0;
   position: relative;
 }
