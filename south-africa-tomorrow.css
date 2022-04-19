@@ -39,6 +39,7 @@
   --primary-color: #ffffff;
   --header-button-color: #ffffff;
   --header-gradient: linear-gradient(90deg, #000000 0, rgba(87, 78, 0, 0) 75%);
+  --featured-kv-graident: linear-gradient(0deg, #363636 270px, #323232 100%);
   --clr-carousel-label: #000000;
   --clr-tile-hover: #000000;
   --clr-tile-txt-hover: #ffffff;
@@ -215,7 +216,7 @@ h5 {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background: var(--header-gradient);
+  background: var(--featured-kv-graident);
   padding: 0;
   position: relative;
 }
