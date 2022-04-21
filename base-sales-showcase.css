@@ -1173,3 +1173,7 @@ footer .container .footer-container p:not(:last-child) {
   height: 100%;
   width: 100%;
 }
+
+li.nav-category-link {
+  padding: 0;
+}
