@@ -1174,6 +1174,6 @@ footer .container .footer-container p:not(:last-child) {
   width: 100%;
 }
 
-li.nav-category-link {
+#page-top li .nav-category-link {
   padding: 0;
 }
