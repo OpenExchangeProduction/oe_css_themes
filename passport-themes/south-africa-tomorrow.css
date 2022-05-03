@@ -1314,3 +1314,7 @@ form input[type="checkbox"] {
 .custom-select__options {
   background-color: #ffffff !important;
 }
+
+.react-spinner-material {
+  border: 2px solid black !important;
+}
