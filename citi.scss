@@ -11,6 +11,7 @@
   --login-image-anchor: bottom left;
   --banner-image-anchor: top right;
   --clip-image: url('https://openexc.s3-us-west-2.amazonaws.com/vector-shape.svg');
+  --top-padding: 124px; /* change this to 66px if there is no navigation */
 }
 
 ///////////////////////////////////////
@@ -203,7 +204,7 @@ html {
 // navigation stlyes //
 ///////////////////////////////////////
 #page-top {
-  padding-top: 124px; // offset to put logo & user icon above nav menu
+  padding-top: var(--top-padding); // offset to put logo & user icon above nav menu
 
   @include breakpoint(sm) {
     padding-top: 59px;

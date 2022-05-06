@@ -7,6 +7,8 @@
   --login-image-anchor: bottom left;
   --banner-image-anchor: top right;
   --clip-image: url('https://openexc.s3-us-west-2.amazonaws.com/vector-shape.svg');
+  --top-padding: 124px;
+  /* change this to 66px if there is no navigation */
 }
 
 html {
@@ -51,7 +53,7 @@ html {
 }
 
 #page-top {
-  padding-top: 124px;
+  padding-top: var(--top-padding);
 }
 
 @media (max-width: 767px) {
