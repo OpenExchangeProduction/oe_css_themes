@@ -19,6 +19,19 @@ body#page-top {
   padding-bottom: 0;
 }
 
+#page-top #main_navigation {
+  border: none !important;
+}
+
+#page-top #main_navigation .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#page-top #main_navigation .container-fluid > div {
+  float: none;
+}
+
 /* HP header */
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) {
   padding: 0;
@@ -1352,10 +1365,6 @@ footer .footer-container p {
 
 .modal .post-details-caret {
   display: none;
-}
-
-#page-top #main_navigation {
-  border: none !important;
 }
 
 #page-top:not(.single-post) > #kv-track-parameters + #main_navigation + header .showcase-title {
