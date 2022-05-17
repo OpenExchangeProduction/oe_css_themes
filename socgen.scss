@@ -9,7 +9,6 @@
 
 :root {
   --primary-color: #002856;
-  --secondary-color: #00447c;
   --primary-font: 'Montserrat', sans-serif;
   --gradient: linear-gradient(to bottom, #00aeef, #002856);
 }
@@ -152,7 +151,7 @@ body#page-top {
 
         a {
           display: inline-block;
-          background-color: #ffffff;
+          background-color: #e60028;
           color: var(--primary-color) !important;
           padding: .5rem 1rem;
           margin-right: .75rem;
