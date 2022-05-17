@@ -88,10 +88,13 @@ body#page-top {
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description {
   display: block;
-  margin-bottom: 0;
-  padding-top: 0 !important;
-  text-align: center;
   position: relative;
+  max-width: 45%;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 3rem;
+  position: relative;
+  text-align: center;
   z-index: 2;
 }
 
@@ -99,7 +102,7 @@ body#page-top {
   #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description {
     margin: 0 auto;
     margin-bottom: 0;
-    max-width: 95%;
+    max-width: 65%;
   }
 }
 
@@ -115,45 +118,50 @@ body#page-top {
   font-family: var(--primary-font);
   text-shadow: 1px 1px 8px #585858;
   font-weight: 400;
-}
-
-#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:first-child {
-  font-size: 3rem;
-  line-height: 1.25;
-  max-width: 60%;
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:first-child {
-    max-width: 95%;
-  }
+#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:first-child {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25;
 }
 
-@media (min-width: 1920px) {
-  #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:first-child {
-    max-width: 50%;
-  }
+#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: .5rem;
 }
 
-#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:last-child {
-  margin-bottom: 0;
+#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(3) {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(4) {
+  font-weight: 500;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(6) {
+  text-decoration: underline;
+  font-size: 1.2rem;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p a {
   display: inline-block;
   background-color: #e60028;
   color: #ffffff !important;
-  padding: .5rem 1rem;
-  margin-right: .75rem;
-  transition: filter .2s ease-in-out;
-  text-decoration: none;
+  padding: .75rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+  transition: filter .2s ease-in-out;
+  text-decoration: none;
   animation: btn-pulse 2s infinite;
   box-shadow: 0 0 0 0 rgba(230, 0, 40, 0.7);
-  border-radius: 6px;
+  border-radius: 50px;
   -webkit-animation: pulsing 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
   -moz-animation: pulsing 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
   -ms-animation: pulsing 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
