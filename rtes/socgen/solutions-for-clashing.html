@@ -1,0 +1,42 @@
+<p class="selector-2">selector</p>
+<p>Providing senior investors and decision makers from across the globe with exclusive access to:</p>
+<ul>
+  <li>Behind the scenes keynote interviews on market shaping political, economic and ESG topics</li>
+  <li>Strategies from world class investors, their insights on macro matters and investment solutions to boost returns and reduce risk</li>
+  <li>Online platform powered by green energy</li>
+  <li>Supporting global initiatives. Societe Generale is donating €20 for each attending delegate to the conference charity partner CARE International</li>
+</ul>
+<a href="/agenda" class="agenda-button">View Full Agenda</a>
+
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.selector-2');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("solutions");
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  .featured-category.solutions .container.posts,
+  .selector-2 {
+    display: none;
+  }
+</style>

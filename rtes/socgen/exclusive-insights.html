@@ -1,0 +1,56 @@
+<p class="selector-3">selector</p>
+<div class="insights-group">
+  <div class="insights-group__single">
+    <h6>Ceo's Fireside Chat:</h6>
+    <p>The Big Think</p>
+    <p>PIMCO, Blackrock, Aviva Investors</p>
+  </div>
+  <div class="insights-group__single">
+    <h6>ASSET MANAGEMENT LEADER’S INSIGHT:</h6>
+    <p>When Inflation Meets Geo-Political Tensions</p>
+    <p>Invesco, Newton, Blackrock, Global Core Asset Allocation Fund</p>
+  </div>
+  <div class="insights-group__single">
+    <h6>HEDGE FUNDS LEADER’S INSIGHTS:</h6>
+    <p>Derivatives & Quant Solutions to Beat Stagflation</p>
+    <p>Capstone, Millennium, Tudor, Man AHL, Systematica, Caxton</p>
+  </div>
+  <div class="insights-group__single">
+    <h6>MACRO, DERIVATIVES & QUANT DEBATE:</h6>
+    <p>STAGFLATION.GREENFLATION. REFLATION</p>
+  </div>
+</div>
+<a href="/agenda" class="agenda-button">View Full Agenda</a>
+
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.selector-3');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("insights");
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  .featured-category.insights .container.posts,
+  .selector-3 {
+    display: none;
+  }
+</style>
