@@ -1,0 +1,35 @@
+<p class="selector">selector</p>
+
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+    var url = selector.closest('.thumb-link').attr('src');
+    $('.showcase-description').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  .featured-category.hide {
+    display: none;
+  }
+</style>

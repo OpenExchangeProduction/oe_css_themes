@@ -1,0 +1,89 @@
+<p class="selector">selector</p>
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+  }
+
+  defer(callback);
+</script>
+<style type="text/css">
+.featured-category.hide,
+#page-top:not(.single-post) .featured-category .container:not(.posts) > .row,
+#page-top:not(.single-post) .featured-category .carousel-control {
+  display: none;
+}
+
+#page-top:not(.single-post) .featured-category .carousel-inner {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+
+#page-top:not(.single-post) .featured-category .carousel-inner .item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 976px) {
+  #page-top:not(.single-post) .featured-category .carousel-inner .item {
+    display: -ms-grid;
+    display: grid !important;
+    -ms-grid-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #page-top:not(.single-post) .featured-category .carousel-inner .item {
+    -ms-grid-columns: minmax(0, 1fr) [3];
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #page-top:not(.single-post) .featured-category .carousel-inner .item {
+    -ms-grid-columns: minmax(0, 1fr) [4];
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media all and (min-width: 1500px) {
+  #page-top:not(.single-post) .featured-category .carousel-inner .item {
+    -ms-grid-columns: minmax(0, 1fr) [5];
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media all and (min-width: 1800px) {
+  #page-top:not(.single-post) .featured-category .carousel-inner .item {
+    -ms-grid-columns: minmax(0, 1fr) [6];
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+</style>
