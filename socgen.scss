@@ -144,20 +144,20 @@ body#page-top {
           font-size: 1.5rem;
           font-weight: 600;
           line-height: 1.25;
-          margin-bottom: .5rem;
+          margin-bottom: .75rem;
         }
 
         &:nth-child(3) {
           font-size: 2.5rem;
           font-weight: 600;
-          line-height: 1.5;
+          line-height: 1.2;
         }
 
         &:nth-child(4) {
           font-weight: 500;
         }
 
-        &:nth-child(6) {
+        &:nth-child(5) {
           text-decoration: underline;
           font-size: 1.2rem;
         }
@@ -169,7 +169,7 @@ body#page-top {
           padding: .75rem;
           margin-top: 2rem;
           margin-bottom: 1rem;
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           transition: filter .2s ease-in-out;
           text-decoration: none;
           box-shadow: 0 0 0 0 rgba(230, 0, 40, 0.7);
@@ -180,6 +180,7 @@ body#page-top {
           animation: pulsing 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
           transition: all .2s ease-in-out;
           text-shadow: none;
+          text-transform: uppercase;
 
           &:hover {
             filter: brightness(.85);
