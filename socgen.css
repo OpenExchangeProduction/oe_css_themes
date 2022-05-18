@@ -514,7 +514,7 @@ body#page-top {
   margin-bottom: 1rem;
 }
 
-#page-top .featured-category.solutions .view-all-button {
+#page-top .featured-category.solutions .agenda-button {
   display: block;
   max-width: max-content;
   margin: 2rem auto;
@@ -531,7 +531,7 @@ body#page-top {
   filter: brightness(1);
 }
 
-#page-top .featured-category.solutions .view-all-button:hover {
+#page-top .featured-category.solutions .agenda-button:hover {
   filter: brightness(0.7);
 }
 
@@ -559,7 +559,7 @@ body#page-top {
   font-size: 1.25rem;
 }
 
-#page-top .featured-category.insights .view-all-button {
+#page-top .featured-category.insights .agenda-button {
   display: block;
   max-width: max-content;
   margin: 2rem auto;
@@ -576,7 +576,7 @@ body#page-top {
   filter: brightness(1);
 }
 
-#page-top .featured-category.insights .view-all-button:hover {
+#page-top .featured-category.insights .agenda-button:hover {
   filter: brightness(0.7);
 }
 
