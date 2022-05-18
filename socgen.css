@@ -535,6 +535,30 @@ body#page-top {
   filter: brightness(0.7);
 }
 
+#page-top .featured-category.insights {
+  background-color: #0d2060;
+}
+
+#page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 {
+  margin: 0 auto;
+}
+
+#page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 button {
+  padding-left: 0;
+}
+
+#page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 button h3 {
+  text-align: center;
+}
+
+#page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 p, #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 ul, #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 li {
+  text-align: center;
+}
+
+#page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 ul li {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   #page-top:not(.single-post) .featured-category .carousel-inner .item.active,
   #page-top:not(.single-post) .featured-category .carousel-inner .item.next,

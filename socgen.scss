@@ -559,6 +559,34 @@ body#page-top {
       }
     }
   }
+
+  &.insights {
+    background-color: #0d2060;
+
+    .container:not(.posts) > .row {
+      .col-xs-9 {
+        margin: 0 auto;
+        button {
+          padding-left: 0;
+
+          h3 {
+            text-align: center;
+          }
+        }
+
+        p, ul, li {
+          text-align: center;
+        }
+
+        ul {
+
+          li {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
