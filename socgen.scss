@@ -1456,6 +1456,7 @@ body#page-top {
         margin: 0 auto;
       }
 
+      .list-view-item:last-child,
       .list-view-item:nth-last-child(4) {
         grid-column: 2 / span 2;
       }
@@ -1475,6 +1476,7 @@ body#page-top {
         margin: 0 auto;
       }
 
+      .list-view-item:last-child,
       .list-view-item:nth-last-child(4) {
         grid-column: 3 / span 1;
       }

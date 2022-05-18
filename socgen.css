@@ -1443,6 +1443,7 @@ body#page-top {
     max-width: 50%;
     margin: 0 auto;
   }
+  #page-top #showcase_category .row .list-view-item:last-child,
   #page-top #showcase_category .row .list-view-item:nth-last-child(4) {
     grid-column: 2 / span 2;
   }
@@ -1460,6 +1461,7 @@ body#page-top {
     max-width: 50%;
     margin: 0 auto;
   }
+  #page-top #showcase_category .row .list-view-item:last-child,
   #page-top #showcase_category .row .list-view-item:nth-last-child(4) {
     grid-column: 3 / span 1;
   }
