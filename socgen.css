@@ -399,6 +399,74 @@ body#page-top {
   display: none;
 }
 
+#page-top .featured-category.speakers .container.posts .carousel-inner {
+  max-width: 850px;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item {
+  background: transparent;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-wrapper {
+  max-height: none;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-wrapper .thumb-link {
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #ff0c25;
+  max-width: unset;
+  max-height: unset;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-wrapper .thumb-link .thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-meta-wrapper {
+  height: max-content;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-meta-wrapper .tile-text-area {
+  max-height: max-content;
+  height: max-content !important;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate {
+  min-height: unset;
+  line-height: 1.1;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
+  color: var(--primary-color) !important;
+  text-align: center;
+  filter: brightness(1);
+  transition: filter .2s ease-in-out;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  word-break: break-word;
+  height: max-content !important;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
+  filter: brightness(0.7);
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
+  display: none !important;
+}
+
 #page-top .featured-category.speakers .view-all-button {
   display: block;
   max-width: max-content;
@@ -418,54 +486,6 @@ body#page-top {
 
 #page-top .featured-category.speakers .view-all-button:hover {
   filter: brightness(0.7);
-}
-
-#page-top .featured-category.speakers .column-view-item {
-  background: transparent;
-}
-
-#page-top .featured-category.speakers .column-view-item .thumb-wrapper {
-  max-height: none;
-}
-
-#page-top .featured-category.speakers .column-view-item .thumb-wrapper .thumb-link {
-  padding-bottom: 100%;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  position: relative;
-  border-radius: 50%;
-  border: 1px solid #ff0c25;
-  max-width: unset;
-  max-height: unset;
-}
-
-#page-top .featured-category.speakers .column-view-item .thumb-wrapper .thumb-link .thumb {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  object-fit: cover;
-  object-position: center;
-}
-
-#page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
-  color: var(--primary-color) !important;
-  text-align: center;
-  filter: brightness(1);
-  transition: filter .2s ease-in-out;
-  padding: 0;
-  width: 100%;
-  word-break: break-word;
-}
-
-#page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
-  filter: brightness(0.7);
-}
-
-#page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
-  display: none !important;
 }
 
 @media screen and (min-width: 768px) {
