@@ -1400,7 +1400,6 @@ body#page-top {
 
           .thumb-wrapper {
             border-radius: unset;
-            padding-bottom: 25%;
 
             .thumb-link {
               border-radius: unset;
@@ -1423,7 +1422,7 @@ body#page-top {
         grid-column: auto / span 1;
       }
     }
-    
+
     @media screen and (min-width: 768px) {
       .list-view-item:last-child,
       .list-view-item:nth-last-child(2),
