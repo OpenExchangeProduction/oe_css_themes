@@ -43,6 +43,7 @@ body#page-top {
   border-radius: 18px;
   background-color: #E6E6E6;
   transition: background-color .25s ease;
+  color: #002856;
 }
 
 #page-top #main_navigation .container-fluid > div .nav-category-link:hover {
