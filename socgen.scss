@@ -1397,7 +1397,17 @@ body#page-top {
           .thumb-wrapper {
             border-radius: unset;
             padding-bottom: 25%;
-            background: #ffffff;
+
+            .thumb-link {
+              border-radius: unset;
+              padding-bottom: 25%;
+              background: #ffffff;
+              border: unset;
+
+              .thumb {
+                object-fit: contain;
+              }
+            }
           }
         }
       }

@@ -1392,7 +1392,17 @@ body#page-top {
 #page-top #showcase_category .row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper {
   border-radius: unset;
   padding-bottom: 25%;
+}
+
+#page-top #showcase_category .row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper .thumb-link {
+  border-radius: unset;
+  padding-bottom: 25%;
   background: #ffffff;
+  border: unset;
+}
+
+#page-top #showcase_category .row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper .thumb-link .thumb {
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
