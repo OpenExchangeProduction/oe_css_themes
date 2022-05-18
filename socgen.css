@@ -3,7 +3,7 @@
 :root {
   --primary-color: #002856;
   --primary-font: 'Montserrat', sans-serif;
-  --gradient: linear-gradient(to bottom, #00aeef, #002856);
+  --gradient: linear-gradient(to bottom, #333333, #0e0e0e);
 }
 
 html {
@@ -388,7 +388,7 @@ body#page-top {
   text-align: center;
   font-weight: 600;
   line-height: 1.25;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 #page-top .featured-category.speakers .container:not(.posts) > .row .col-xs-9 .showcase-description p:first-child {
@@ -434,7 +434,7 @@ body#page-top {
   height: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 50px;
+  border-radius: 50%;
   border: 1px solid #ff0c25;
   max-width: unset;
   max-height: unset;
@@ -455,6 +455,8 @@ body#page-top {
   text-align: center;
   filter: brightness(1);
   transition: filter .2s ease-in-out;
+  padding: 0;
+  width: 100%;
 }
 
 #page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
@@ -645,7 +647,7 @@ body#page-top {
 }
 
 #page-top:not(.single-post) .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
-  color: #fff;
+  color: var(--primary-color);
   font-size: 1.75rem;
   font-weight: 400;
   font-family: var(--primary-font);
@@ -713,15 +715,6 @@ body#page-top {
   }
 }
 
-#page-top:not(.single-post) .column-view-item > .post:hover .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title {
-  color: #fff !important;
-}
-
-#page-top:not(.single-post) .column-view-item > .post:hover .thumb-meta-wrapper .tile-text-area .post-details-activate .post-details-icon {
-  display: block;
-  color: #fff !important;
-}
-
 #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper {
   position: relative;
   float: none;
@@ -729,7 +722,6 @@ body#page-top {
   height: 100%;
   border: none;
   background: unset;
-  max-height: 148px;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-wrapper .thumb-link {
