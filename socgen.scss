@@ -68,7 +68,7 @@ body#page-top {
         display: flex;
         padding: .5rem 1rem;
         border-radius: 18px;
-        background-color: #E6E6E6;
+        background-color: #ff0c25;
         transition: background-color .25s ease;
         color: #002856 !important;
         font-family: var(--primary-font);
@@ -96,6 +96,7 @@ body#page-top {
       padding: 0;
       margin: 0;
       max-width: unset;
+      border-bottom: 1rem solid #ff0c25;
 
       .row {
         margin: 0;
