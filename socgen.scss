@@ -1166,10 +1166,12 @@ body#page-top {
 
             .tile-title a {
               height: unset !important;
-              color: var(--primary-color) !important;;
+              color: #333333 !important;
               font-family: var(--primary-font);
               font-weight: 400;
-              margin-bottom: 1rem;
+              pointer-events: none;
+              letter-spacing: 2px;
+              font-size: 1rem;
             }
           }
         }
@@ -1371,6 +1373,32 @@ body#page-top {
         }
         @media screen and (min-width: 1800px) {
           grid-column: auto / span 6;
+        }
+      }
+
+      &.about {
+        > .post {
+          .thumb-wrapper {
+            display: none !important;
+          }
+
+          .thumb-meta-wrapper .link-header.tile-header-ellipsis .tile-title a {
+            text-align: center;
+          }
+        }
+      }
+
+      &.about ~ .list-view-item {
+        > .post {
+          .thumb-meta-wrapper {
+            display: none !important;
+          }
+
+          .thumb-wrapper {
+            border-radius: unset;
+            padding-bottom: 25%;
+            background: #ffffff;
+          }
         }
       }
     }
