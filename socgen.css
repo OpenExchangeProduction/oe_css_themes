@@ -548,7 +548,7 @@ body#page-top {
 }
 
 #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 .insights-group__single {
-  margin-bottom: 1rem;
+  margin-bottom: 2.25rem;
 }
 
 #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 .insights-group__single h6, #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 .insights-group__single p {
