@@ -403,6 +403,7 @@ body#page-top {
             text-align: center;
             font-weight: 600;
             line-height: 1.25;
+            font-size: 1.25rem;
 
             &:first-child {
               margin-bottom: 0;
@@ -434,6 +435,53 @@ body#page-top {
 
       &:hover {
         filter: brightness(.7);
+      }
+    }
+
+    .column-view-item {
+      background: transparent;
+
+      .thumb-wrapper {
+        .thumb-link {
+          padding-bottom: 100%;
+          width: 100%;
+          height: 0;
+          overflow: hidden;
+          position: relative;
+          border-radius: 50px;
+          border: 1px solid #ff0c25;
+
+          .thumb {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            object-fit: cover;
+            object-position: center;
+          }
+
+          .play-hover-button {
+
+          }
+        }
+      }
+
+      .thumb-meta-wrapper {
+        .tile-text-area .tile-header-ellipsis.post-details-activate {
+          .tile-title {
+            color: var(--primary-color);
+            text-align: center;
+
+            &:hover {
+              color: var(--primary-color);
+            }
+          }
+
+          .post-details-icon {
+            display: none !important;
+          }
+        }
       }
     }
   }

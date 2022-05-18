@@ -25,7 +25,7 @@
     var speakers = $('.featured-category-title-link[data-url="/speakers"]');
     var speakers_cat = speakers.closest('.featured-category');
     $(speakers_cat).addClass('speakers');
-    $(speakers_cat).append('<a class="view-all-button">View All Speakers</a>');
+    $(speakers_cat).append('<a class="view-all-button" href="/speakers">View All Speakers</a>');
 
     var url = $('.thumb-link[href*="tiny"]').attr('href');
     $('.container.header-container .row > .col-xs-12').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
