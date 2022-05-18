@@ -1111,7 +1111,7 @@ body#page-top {
           height: unset !important;
           margin-left: 2rem;
           width: 100%;
-          flex: 3;
+          flex: 5;
 
           .tile-header-ellipsis.post-details-activate {
             display: flex;
@@ -1119,11 +1119,12 @@ body#page-top {
 
             .tile-title {
               height: unset !important;
-              color: var(--primary-color) !important;;
+              color: #333333 !important;
               font-family: var(--primary-font);
               font-weight: 400;
-              margin-bottom: 1rem;
-              cursor: pointer;
+              pointer-events: none;
+              letter-spacing: 2px;
+              font-size: 1rem;
             }
 
             .page-description {
@@ -1133,6 +1134,21 @@ body#page-top {
               p {
                 color: #333333;
                 font-family: var(--primary-font);
+
+                &:first-child {
+                  margin-bottom: 1rem;
+                }
+
+                &:first-child,
+                &:nth-child(2) {
+                  color: var(--primary-color) !important;
+                  font-size: 1.25rem;
+                  font-weight: 600;
+                }
+
+                &:nth-child(3) {
+                  font-weight: 500;
+                }
               }
             }
           }
