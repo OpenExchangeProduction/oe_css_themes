@@ -509,6 +509,27 @@ body#page-top {
       }
     }
   }
+
+  &.solutions {
+    background-color: #0d2060;
+    padding: 3rem 0;
+
+    .container:not(.posts) > .row {
+      .col-xs-9 {
+        button {
+          padding-left: 0;
+
+          h3 {
+            color: #ffffff;
+          }
+        }
+
+        p, ul, li {
+          color: #ffffff;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
