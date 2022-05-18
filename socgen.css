@@ -32,6 +32,10 @@ body#page-top {
   float: none;
 }
 
+#page-top #main_navigation .container-fluid > div ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+
 #page-top #main_navigation .container-fluid > div:first-of-type {
   width: 100%;
 }
@@ -55,10 +59,6 @@ body#page-top {
 
 #page-top #main_navigation .container-fluid > div .nav-category-link:hover {
   background-color: #B3B3B3;
-}
-
-#page-top #main_navigation .container-fluid > div .nav-category-link:not(:last-child) {
-  margin-right: 1rem;
 }
 
 /* HP header */

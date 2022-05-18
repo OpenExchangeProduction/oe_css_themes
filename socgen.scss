@@ -50,6 +50,10 @@ body#page-top {
     > div {
       float: none;
 
+      ul li:not(:last-child) {
+        margin-right: 1rem;
+      }
+
       &:first-of-type {
         width: 100%;
       }
@@ -72,10 +76,6 @@ body#page-top {
 
         &:hover {
           background-color: #B3B3B3;
-        }
-
-        &:not(:last-child) {
-          margin-right: 1rem;
         }
       }
     }
