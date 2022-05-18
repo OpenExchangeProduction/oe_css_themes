@@ -559,6 +559,27 @@ body#page-top {
   font-size: 1.25rem;
 }
 
+#page-top .featured-category.insights .view-all-button {
+  display: block;
+  max-width: max-content;
+  margin: 2rem auto;
+  padding: .5rem 1rem;
+  border-radius: 18px;
+  color: #fafafa;
+  background-color: #004C97;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: filter 0.25s ease;
+  filter: brightness(1);
+}
+
+#page-top .featured-category.insights .view-all-button:hover {
+  filter: brightness(0.7);
+}
+
 @media screen and (min-width: 768px) {
   #page-top:not(.single-post) .featured-category .carousel-inner .item.active,
   #page-top:not(.single-post) .featured-category .carousel-inner .item.next,
