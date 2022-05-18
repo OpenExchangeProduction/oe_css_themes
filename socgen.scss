@@ -49,6 +49,19 @@ body#page-top {
 
     > div {
       float: none;
+
+      .nav-category-link {
+        list-style-type: none;
+        display: flex;
+        padding: .75rem .5rem;
+        border-radius: 18px;
+        background-color: #E6E6E6;
+        transition: background-color .25s ease;
+
+        &:hover {
+          background-color: #B3B3B3;
+        }
+      }
     }
   }
 }
