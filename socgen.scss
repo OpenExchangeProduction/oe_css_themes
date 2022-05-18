@@ -919,7 +919,7 @@ body#page-top {
   }
 
   .row {
-    @include grid(6, 1fr, 1rem);
+    @include grid(3, 1fr, 1rem);
 
     @media (max-width: 768px) {
       padding: 0 2rem;
