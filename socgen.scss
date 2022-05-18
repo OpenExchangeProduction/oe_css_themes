@@ -561,7 +561,6 @@ body#page-top {
   }
 
   &.insights {
-    background-color: #0d2060;
 
     .container:not(.posts) > .row {
       .col-xs-9 {
@@ -574,14 +573,17 @@ body#page-top {
           }
         }
 
-        p, ul, li {
-          text-align: center;
-        }
+        .insights-group {
+          &__single {
+            margin-bottom: 1rem;
 
-        ul {
+            h6, p {
+              text-align: center;
+            }
 
-          li {
-            text-align: center;
+            h6 {
+              font-size: 1.25rem;
+            }
           }
         }
       }
