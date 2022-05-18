@@ -32,6 +32,10 @@ body#page-top {
   float: none;
 }
 
+#page-top #main_navigation .container-fluid > div:first-child {
+  width: 100%;
+}
+
 #page-top #main_navigation .container-fluid > div .nav-category-link {
   list-style-type: none;
   display: flex;

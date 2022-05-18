@@ -50,6 +50,10 @@ body#page-top {
     > div {
       float: none;
 
+      &:first-child {
+        width: 100%;
+      }
+
       .nav-category-link {
         list-style-type: none;
         display: flex;
