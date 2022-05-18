@@ -555,7 +555,7 @@ body#page-top {
   #page-top:not(.single-post) .featured-category .carousel-inner .item,
   #page-top #showcase_category div.row {
     -ms-grid-columns: (minmax(0, 1fr))[6];
-        grid-template-columns: repeat(6, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
