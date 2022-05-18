@@ -499,11 +499,40 @@ body#page-top {
 }
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 button h3 {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 p, #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul, #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 li {
   color: #ffffff;
+}
+
+#page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul {
+  margin-bottom: 1rem;
+}
+
+#page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li {
+  margin-bottom: 1rem;
+}
+
+#page-top .featured-category.solutions .view-all-button {
+  display: block;
+  max-width: max-content;
+  margin: 2rem auto;
+  padding: .5rem 1rem;
+  border-radius: 18px;
+  color: #fafafa;
+  background-color: #004C97;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: filter 0.25s ease;
+  filter: brightness(1);
+}
+
+#page-top .featured-category.solutions .view-all-button:hover {
+  filter: brightness(0.7);
 }
 
 @media screen and (min-width: 768px) {
