@@ -424,6 +424,10 @@ body#page-top {
   background: transparent;
 }
 
+#page-top .featured-category.speakers .column-view-item .thumb-wrapper {
+  max-height: none;
+}
+
 #page-top .featured-category.speakers .column-view-item .thumb-wrapper .thumb-link {
   padding-bottom: 100%;
   width: 100%;
@@ -432,6 +436,8 @@ body#page-top {
   position: relative;
   border-radius: 50px;
   border: 1px solid #ff0c25;
+  max-width: unset;
+  max-height: unset;
 }
 
 #page-top .featured-category.speakers .column-view-item .thumb-wrapper .thumb-link .thumb {
@@ -445,12 +451,14 @@ body#page-top {
 }
 
 #page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   text-align: center;
+  filter: brightness(1);
+  transition: filter .2s ease-in-out;
 }
 
 #page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
-  color: var(--primary-color);
+  filter: brightness(0.7);
 }
 
 #page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
