@@ -401,6 +401,7 @@ body#page-top {
 
 #page-top .featured-category.speakers .container.posts .carousel-inner {
   max-width: 850px;
+  margin: 0 auto;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item {
