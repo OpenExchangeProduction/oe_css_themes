@@ -339,6 +339,10 @@ body#page-top {
         color: var(--primary-color) !important;
         margin-bottom: 0;
       }
+
+      .featured-category-title-link[data-url="/speakers"] {
+        display: none;
+      }
     }
 
     .col-xs-2.pull-right {
@@ -385,6 +389,24 @@ body#page-top {
             grid-template-columns: minmax(0, 1fr);
         gap: 2rem;
         padding: 1rem 0 !important;
+      }
+    }
+  }
+
+  &.speakers {
+    .container:not(.posts) > .row .col-xs-9 {
+      margin: 0 auto;
+
+      .showcase-description {
+        p {
+          text-align: center;
+          font-weight: 600;
+          line-height: 1.25;
+
+          &:first-child {
+            margin-bottom: 0;
+          }
+        }
       }
     }
   }

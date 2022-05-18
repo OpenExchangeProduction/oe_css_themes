@@ -21,6 +21,10 @@
     var selector = document.querySelector('.selector');
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
+    // also add the speakers class to the speakers category
+    var speakers = $('.featured-category-title-link[data-url="/speakers"]');
+    var speakers_cat = speakers.closest('.featured-category');
+    $(speakers_cat).addClass('speakers');
 
     var url = $('.thumb-link[href*="tiny"]').attr('href');
     $('.container.header-container .row > .col-xs-12').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
