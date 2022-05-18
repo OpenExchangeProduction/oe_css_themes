@@ -1045,8 +1045,7 @@ body#page-top {
     .list-view-item {
       grid-column: 1 / -1;
       margin-bottom: 1rem;
-      background: var(--gradient);
-      color: var(--primary-color);
+      background: transparent;
       padding: 0 !important;
 
       > .post {
@@ -1072,6 +1071,7 @@ body#page-top {
             border: 1px solid #ff0c25;
             max-width: unset;
             max-height: unset;
+            overflow: hidden;
 
             &:before {
               display: block;
@@ -1109,7 +1109,7 @@ body#page-top {
           grid-column: auto / span 4;
           padding: 2rem 0;
           height: unset !important;
-          margin-left: 0;
+          margin-left: 2rem;
           width: 100%;
           flex: 3;
 
@@ -1119,7 +1119,7 @@ body#page-top {
 
             .tile-title {
               height: unset !important;
-              color: #333333;
+              color: var(--primary-color) !important;;
               font-family: var(--primary-font);
               font-weight: 400;
               margin-bottom: 1rem;
@@ -1150,7 +1150,7 @@ body#page-top {
 
             .tile-title a {
               height: unset !important;
-              color: $white;
+              color: var(--primary-color) !important;;
               font-family: var(--primary-font);
               font-weight: 400;
               margin-bottom: 1rem;
