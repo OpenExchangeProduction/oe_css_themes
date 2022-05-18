@@ -457,6 +457,7 @@ body#page-top {
   transition: filter .2s ease-in-out;
   padding: 0;
   width: 100%;
+  word-break: break-word;
 }
 
 #page-top .featured-category.speakers .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {

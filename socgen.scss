@@ -476,6 +476,7 @@ body#page-top {
             transition: filter .2s ease-in-out;
             padding: 0;
             width: 100%;
+            word-break: break-word;
 
             &:hover {
               filter: brightness(.7);
