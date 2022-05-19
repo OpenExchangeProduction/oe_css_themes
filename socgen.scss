@@ -513,6 +513,7 @@ body#page-top {
   &.solutions {
     background-color: #0d2060;
     padding: 3rem 0;
+    margin-bottom: 0 !important;
 
     .container:not(.posts) > .row {
       .col-xs-9 {
@@ -564,6 +565,20 @@ body#page-top {
 
   &.workshop {
     position: relative;
+    margin-top: 0 !important;
+
+    #workshop_video {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      max-height: unset !important;
+      object-fit: cover;
+      object-position: center;
+      z-index: 0;
+      filter: brightness(.6);
+    }
 
     > .container:not(.posts) {
       z-index: 1;
@@ -584,19 +599,6 @@ body#page-top {
           .showcase-description {
             position: relative;
             margin: 0;
-
-            #workshop_video {
-              position: absolute;
-              top: 0;
-              right: 0;
-              width: 100%;
-              height: 100%;
-              max-height: unset !important;
-              object-fit: cover;
-              object-position: center;
-              z-index: 0;
-              filter: brightness(.6);
-            }
 
             .workshop-section {
               display: block;

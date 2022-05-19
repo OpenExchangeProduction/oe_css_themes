@@ -492,6 +492,7 @@ body#page-top {
 #page-top .featured-category.solutions {
   background-color: #0d2060;
   padding: 3rem 0;
+  margin-bottom: 0 !important;
 }
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 {
@@ -541,6 +542,20 @@ body#page-top {
 
 #page-top .featured-category.workshop {
   position: relative;
+  margin-top: 0 !important;
+}
+
+#page-top .featured-category.workshop #workshop_video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  max-height: unset !important;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  filter: brightness(0.6);
 }
 
 #page-top .featured-category.workshop > .container:not(.posts) {
@@ -565,19 +580,6 @@ body#page-top {
 #page-top .featured-category.workshop > .container:not(.posts) > .row .col-xs-9 .showcase-description {
   position: relative;
   margin: 0;
-}
-
-#page-top .featured-category.workshop > .container:not(.posts) > .row .col-xs-9 .showcase-description #workshop_video {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  max-height: unset !important;
-  object-fit: cover;
-  object-position: center;
-  z-index: 0;
-  filter: brightness(0.6);
 }
 
 #page-top .featured-category.workshop > .container:not(.posts) > .row .col-xs-9 .showcase-description .workshop-section {
