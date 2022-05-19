@@ -1034,6 +1034,7 @@ body#page-top {
 #page-top #showcase_category .row .list-view-item > .post {
   display: flex;
   flex: 1 3;
+  pointer-events: none;
 }
 
 #page-top #showcase_category .row .list-view-item > .post .thumb-wrapper {
