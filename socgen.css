@@ -1393,6 +1393,10 @@ body#page-top {
   }
 }
 
+#page-top #showcase_category .row .list-view-item.about > .post {
+  pointer-events: all;
+}
+
 #page-top #showcase_category .row .list-view-item.about > .post .thumb-wrapper {
   display: none !important;
 }
@@ -1403,6 +1407,10 @@ body#page-top {
   text-transform: uppercase;
   color: var(--primary-color);
   font-weight: 600;
+}
+
+#page-top #showcase_category .row .list-view-item.about ~ .list-view-item > .post {
+  pointer-events: all;
 }
 
 #page-top #showcase_category .row .list-view-item.about ~ .list-view-item > .post .thumb-meta-wrapper {

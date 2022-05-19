@@ -1393,6 +1393,8 @@ body#page-top {
 
       &.about {
         > .post {
+          pointer-events: all;
+
           .thumb-wrapper {
             display: none !important;
           }
@@ -1409,6 +1411,8 @@ body#page-top {
 
       &.about ~ .list-view-item {
         > .post {
+          pointer-events: all;
+          
           .thumb-meta-wrapper {
             display: none !important;
           }
