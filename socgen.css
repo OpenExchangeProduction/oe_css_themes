@@ -1104,6 +1104,19 @@ body#page-top {
 }
 
 #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .tile-title {
+  display: none;
+}
+
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .list-page-description {
+  display: none;
+}
+
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .type {
   height: unset !important;
   color: #333333 !important;
   font-family: var(--primary-font);
@@ -1113,28 +1126,24 @@ body#page-top {
   font-size: 1rem;
 }
 
-#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description {
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p {
-  color: #333333;
-  font-family: var(--primary-font);
-}
-
-#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p:first-child {
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title {
   margin-bottom: 1rem;
 }
 
-#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p:first-child, #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p:nth-child(2) {
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title,
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .speaker-name {
   color: var(--primary-color) !important;
   font-size: 1.25rem;
   font-weight: 600;
 }
 
-#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p:nth-child(3) {
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .company {
   font-weight: 500;
+}
+
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p {
+  color: #333333;
+  font-family: var(--primary-font);
 }
 
 #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .link-header.tile-header-ellipsis {
