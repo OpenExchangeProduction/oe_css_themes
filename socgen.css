@@ -1088,13 +1088,12 @@ body#page-top {
 
 #page-top #showcase_category .row {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
 }
 
 @media (max-width: 768px) {
   #page-top #showcase_category .row {
-    padding: 0 2rem;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
@@ -1104,10 +1103,10 @@ body#page-top {
 }
 
 #page-top #showcase_category .row .list-view-item {
-  grid-column: 1 / -1;
-  margin-bottom: 1rem;
-  background: transparent;
-  padding: 0 !important;
+  grid-column: auto / span 1;
+  background-color: #e3e3e3;
+  padding: 1rem !important;
+  border-radius: 6px;
 }
 
 #page-top #showcase_category .row .list-view-item > .post {

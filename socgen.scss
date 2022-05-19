@@ -1107,10 +1107,9 @@ body#page-top {
   }
 
   .row {
-    @include grid(3, 1fr, 1rem);
+    @include grid(2, 1fr, 2rem);
 
     @media (max-width: 768px) {
-      padding: 0 2rem;
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
@@ -1120,10 +1119,10 @@ body#page-top {
     }
 
     .list-view-item {
-      grid-column: 1 / -1;
-      margin-bottom: 1rem;
-      background: transparent;
-      padding: 0 !important;
+      grid-column: auto / span 1;
+      background-color: #e3e3e3;
+      padding: 1rem !important;
+      border-radius: 6px;
 
       > .post {
         display: flex;
