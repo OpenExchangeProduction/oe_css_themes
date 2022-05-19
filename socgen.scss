@@ -563,54 +563,73 @@ body#page-top {
   }
 
   &.workshop {
-    .col-xs-9 {
-      width: 100%;
+    position: relative;
 
-      button {
-        display: none;
-      }
+    > .container:not(.posts) {
+      z-index: 1;
+      position: relative;
 
-      .showcase-description {
-        .video-container {
-          padding: 0;
-          max-height: max-content;
-          height: max-content;
-          position: relative;
+      > .row {
+        margin: 0;
+        padding: 6rem;
 
-          video {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: bottom;
-            z-index: 0;
-            max-height: unset !important;
+        .col-xs-9 {
+          width: 100%;
+          float: none;
+
+          button {
+            display: none;
           }
-        }
 
-        .workshop-section {
-          display: block;
+          .showcase-description {
+            position: relative;
+            margin: 0;
 
-          &__titles {
-            @include grid(4, 1fr, 0);
-
-            &__single {
-              grid-column: auto / span 1;
-              color: #ffffff;
-              text-transform: uppercase;
-              font-weight: 500;
-              padding: .5rem .75rem;
-              background-color: var(--primary-color);
-              text-align: center;
+            #workshop_video {
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 100%;
+              height: 100%;
+              max-height: unset !important;
+              object-fit: cover;
+              object-position: center;
+              z-index: 0;
+              filter: brightness(.6);
             }
 
-            h5 {
-              grid-column: auto / span 2;
-              background-color: rgba(0,0,0,.3);
-              font-weight: 600;
-              font-size: 2.5rem;
+            .workshop-section {
+              display: block;
+
+              &__titles {
+                @include grid(4, 1fr, 0);
+
+                &:nth-child(2) {
+                  margin: 8rem;
+                }
+
+                &__single {
+                  grid-column: auto / span 1;
+                  color: #ffffff;
+                  text-transform: uppercase;
+                  font-weight: 600;
+                  padding: .5rem .75rem;
+                  background-color: var(--primary-color);
+                  text-align: center;
+                  max-width: max-content;
+                  max-height: max-content;
+                  margin: auto;
+                  font-size: 1.25rem;
+                }
+
+                h5 {
+                  grid-column: auto / span 2;
+                  background-color: rgba(0,0,0,.3);
+                  font-weight: 600;
+                  font-size: 2.5rem;
+                  color: #ffffff;
+                }
+              }
             }
           }
         }

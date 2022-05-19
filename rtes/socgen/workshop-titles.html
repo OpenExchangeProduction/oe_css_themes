@@ -1,8 +1,6 @@
 <p class="selector-4">selector</p>
 
-<div class="video-container">
-  <video src="https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_background/tech_mp4_1652983197982/tech_447d1e40-3f99-4113-aef6-71ec163363e5.mp4?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3asANOgAbom9fnU%2BnbSzKKZZi3E%3D" autoplay="" loop="" playsinline="" muted=""></video>
-</div>
+<video id="workshop_video" src="https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_background/tech_mp4_1652983197982/tech_447d1e40-3f99-4113-aef6-71ec163363e5.mp4?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3asANOgAbom9fnU%2BnbSzKKZZi3E%3D" autoplay="" loop="" playsinline="" muted=""></video>
 <div class="workshop-section">
   <div class="workshop-section__titles">
     <p class="workshop-section__titles__single">Workshop Title</p>
@@ -12,8 +10,8 @@
   </div>
   <div class="workshop-section__titles">
     <p class="workshop-section__titles__single">Workshop Title</p>
-    <h5>Derivatives and Quant Solutions Workshops<h5>
-    <p class="workshop-section__titles__group__single">Workshop Title</p>
+    <h5 class="workshop-section__titles__single">Derivatives and Quant Solutions Workshops</h5>
+    <p class="workshop-section__titles__single">Workshop Title</p>
   </div>
   <div class="workshop-section__titles">
     <p class="workshop-section__titles__single">Workshop Title</p>
@@ -43,7 +41,9 @@
   var callback = function () {
     var selector = document.querySelector('.selector-4');
     var rte = selector.closest('.featured-category');
+    var vid = $('#workshop_video');
     rte.classList.add("workshop");
+    $(rte).append(vid);
   }
 
   defer(callback);
