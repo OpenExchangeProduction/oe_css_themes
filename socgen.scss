@@ -1137,17 +1137,23 @@ body#page-top {
                 pointer-events: none;
                 letter-spacing: 2px;
                 font-size: 1rem;
+                text-transform: uppercase;
               }
 
               .keynote-title {
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
               }
 
               .keynote-title,
               .speaker-name {
                 color: var(--primary-color) !important;
-                font-size: 1.25rem;
+                font-size: 1.5rem;
                 font-weight: 600;
+              }
+
+              .speaker-name,
+              .company {
+                margin-bottom: 0;
               }
 
               .company {

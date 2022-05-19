@@ -1124,17 +1124,23 @@ body#page-top {
   pointer-events: none;
   letter-spacing: 2px;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title,
 #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .speaker-name {
   color: var(--primary-color) !important;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
+}
+
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .speaker-name,
+#page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .company {
+  margin-bottom: 0;
 }
 
 #page-top #showcase_category .row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .company {
