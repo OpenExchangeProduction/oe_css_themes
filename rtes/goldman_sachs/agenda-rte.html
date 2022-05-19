@@ -1,0 +1,68 @@
+<div id="agenda_row_rte">DO NOT CLICK "DONE" IN THIS DIALOG</div>
+<style type="text/css">
+#showcase_category {
+  display: none;
+}
+</style>
+<script>
+function defer(callback) {
+    if (window.jQuery) {
+        callback();
+    } else {
+        setTimeout(() => defer(callback), 50);
+    }
+}
+
+function createGroup(arr, $target) {
+    var $outer = $("<div />", {
+        class: "group-outer",
+    }).appendTo($target);
+    var $inner = $("<div />", {
+        class: "group-inner",
+    }).appendTo($outer);
+
+    $inner.append(arr);
+}
+
+const callback = function () {
+    $rteID = $("#agenda_row_rte");
+    $rteCate = $rteID.closest(".featured-category");
+    $rteCate.addClass("hidden");
+
+    var $parent = $("#showcase_category .container.posts > .row");
+    var $list_items = $parent.children('.list-view-item');
+    $parent.children('script').remove();
+
+    var current = new Array();
+
+    $list_items.each(function (i, j) {
+        var $list_item = $(j);
+        var $post = $list_item.find("> .post");
+        var $thumb = $post.find(".thumb");
+
+        if ($post.attr("data-verifier") == 0 && $thumb.attr("src").includes('default')) {
+            $list_item.addClass("group-header");
+
+            if (current.length == 0) {
+                current.push($list_item);
+            } else {
+                createGroup(current, $parent);
+
+                current = new Array();
+                current.push($list_item);
+            }
+        } else {
+            current.push($list_item);
+        }
+    });
+
+    if (current.length > 0) {
+        createGroup(current, $parent);
+        $parent.parent().addClass("groups");
+    }
+
+    $("#showcase_category").css("display", "block");
+}
+
+defer(callback);
+</script>

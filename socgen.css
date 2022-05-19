@@ -539,6 +539,60 @@ body#page-top {
   filter: brightness(0.7);
 }
 
+#page-top .featured-category.workshops .col-xs-9 {
+  width: 100%;
+}
+
+#page-top .featured-category.workshops .col-xs-9 button {
+  display: none;
+}
+
+#page-top .featured-category.workshops .col-xs-9 .showcase-description .video-container {
+  padding: 0;
+  max-height: max-content;
+  height: max-content;
+  position: relative;
+}
+
+#page-top .featured-category.workshops .col-xs-9 .showcase-description .video-container video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  z-index: 0;
+  max-height: unset !important;
+}
+
+#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section {
+  display: block;
+}
+
+#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section__titles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+}
+
+#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section__titles__single {
+  grid-column: auto / span 1;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: .5rem .75rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section__titles h5 {
+  grid-column: auto / span 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
 #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 {
   margin: 0 auto;
 }
