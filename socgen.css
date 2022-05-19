@@ -539,22 +539,22 @@ body#page-top {
   filter: brightness(0.7);
 }
 
-#page-top .featured-category.workshops .col-xs-9 {
+#page-top .featured-category.workshop .col-xs-9 {
   width: 100%;
 }
 
-#page-top .featured-category.workshops .col-xs-9 button {
+#page-top .featured-category.workshop .col-xs-9 button {
   display: none;
 }
 
-#page-top .featured-category.workshops .col-xs-9 .showcase-description .video-container {
+#page-top .featured-category.workshop .col-xs-9 .showcase-description .video-container {
   padding: 0;
   max-height: max-content;
   height: max-content;
   position: relative;
 }
 
-#page-top .featured-category.workshops .col-xs-9 .showcase-description .video-container video {
+#page-top .featured-category.workshop .col-xs-9 .showcase-description .video-container video {
   position: absolute;
   top: 0;
   right: 0;
@@ -566,17 +566,17 @@ body#page-top {
   max-height: unset !important;
 }
 
-#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section {
+#page-top .featured-category.workshop .col-xs-9 .showcase-description .workshop-section {
   display: block;
 }
 
-#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section__titles {
+#page-top .featured-category.workshop .col-xs-9 .showcase-description .workshop-section__titles {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0;
 }
 
-#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section__titles__single {
+#page-top .featured-category.workshop .col-xs-9 .showcase-description .workshop-section__titles__single {
   grid-column: auto / span 1;
   color: #ffffff;
   text-transform: uppercase;
@@ -586,7 +586,7 @@ body#page-top {
   text-align: center;
 }
 
-#page-top .featured-category.workshops .col-xs-9 .showcase-description .workshop-section__titles h5 {
+#page-top .featured-category.workshop .col-xs-9 .showcase-description .workshop-section__titles h5 {
   grid-column: auto / span 2;
   background-color: rgba(0, 0, 0, 0.3);
   font-weight: 600;
