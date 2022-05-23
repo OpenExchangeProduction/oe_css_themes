@@ -1640,8 +1640,8 @@ footer:before {
 
 footer .footer-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding: 1rem 0;
 }
 
@@ -1649,10 +1649,11 @@ footer .footer-container:before {
   grid-column: 1 / -1;
   display: block;
   content: url(socgen.css);
-  max-height: 25px;
+  width: 200px;
   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_source/risk_net_sg_low_quality_logo_1_png_1652819963707/risk_net_sg_low_quality_logo_1_74ef1889-9c66-44a0-b835-ca2afeabc275.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Re93LJcpNUrDqsMPGUvtY1vVGmA%3D");
   background-size: contain;
-  margin-bottom: 1rem;
+  margin: 0;
+  margin-right: 1rem;
   background-repeat: no-repeat;
 }
 
@@ -1660,10 +1661,11 @@ footer .footer-container > * {
   margin-bottom: 0.5rem;
   color: #fefefe !important;
   font-family: var(--primary-font);
-  font-size: 2rem;
+  font-size: 1rem;
   grid-column: 1 / -1;
   line-height: 1.5;
   text-align: center;
+  margin: 0;
 }
 
 #page-top .post-details-description-button,
