@@ -614,7 +614,7 @@ body#page-top {
   grid-column: auto / span 2;
   background-color: rgba(0, 0, 0, 0.3);
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #ffffff;
 }
 
@@ -1629,66 +1629,31 @@ footer {
   flex-wrap: wrap;
 }
 
-@media (min-width: 850px) {
-  footer .container {
-    max-width: unset;
-    width: 91%;
-  }
+footer:before {
+  display: block;
+  content: '';
+  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_background/OE_1653321266510/OE_27d72f37-9ac5-4d40-a31e-81eb657732ca.jpeg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=1BPFfNwki66mm87sEEn8wtMcDf4%3D");
+  background-size: cover;
+  min-height: 150px;
+  width: 100%;
 }
 
 footer .footer-container {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 1rem;
-  padding: 6rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
-@media (max-width: 768px) {
-  footer .footer-container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  footer .footer-container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-  }
-}
-
-footer .footer-container p:first-child {
-  margin-bottom: .75rem;
-}
-
-footer .footer-container p:first-child:before {
+footer .footer-container:before {
   grid-column: 1 / -1;
   display: block;
-  content: url("");
-  max-height: 35px;
+  content: url(socgen.css);
+  max-height: 25px;
   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_source/risk_net_sg_low_quality_logo_1_png_1652819963707/risk_net_sg_low_quality_logo_1_74ef1889-9c66-44a0-b835-ca2afeabc275.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Re93LJcpNUrDqsMPGUvtY1vVGmA%3D");
   background-size: contain;
-  background-repeat: no-repeat;
   margin-bottom: 1rem;
-}
-
-footer .footer-container p:first-child a {
-  display: block;
-  color: transparent !important;
-  content: '';
-  max-width: 400px;
-  height: 3rem;
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_source/factset_logo_tagline_white_png_1637075795188/factset_logo_tagline_white_f02ef78c-af95-447d-a36f-5a16902454cc.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=bSuO5iFYeBTjXvw9spN07s2PMGQ%3D");
-  background-size: contain;
   background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-  footer .footer-container p:first-child a {
-    width: 325px;
-  }
 }
 
 footer .footer-container > * {
@@ -1696,61 +1661,9 @@ footer .footer-container > * {
   color: #fefefe !important;
   font-family: var(--primary-font);
   font-size: 2rem;
-}
-
-footer .footer-container ul {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-footer .footer-container ul li {
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-footer .footer-container ul li a:not(.navigation-link-title):not(.disabled) {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  color: transparent !important;
-  font-size: 0;
-}
-
-footer .footer-container ul li:first-child {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_source/t_1637076832027/t_36a3e7cd-64a3-47fb-bedf-fd83c9b6eeb9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=j8ZSNrnIine1W922X6SSqgBEow8%3D");
-}
-
-footer .footer-container ul li:nth-child(2) {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_source/f_1637076831717/f_84aa9e93-a7ae-4fa0-992e-d3b19570a823.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=k7WoYEpE9Hmb3vgQMHfyOKvrMyk%3D");
-}
-
-footer .footer-container ul li:nth-child(3) {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_source/i_1637076831720/i_4073f1f7-7b95-413d-ae0c-cf4992b2af5f.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=ikdUrPwa6qA4scSh0jo79T5e7eY%3D");
-}
-
-footer .footer-container ul li:nth-child(4) {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_source/l_1637076832026/l_3ac61fd5-533d-4aad-b9f5-0425b415bba6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=uLKXLt8tuRSLQIw3zeG0YJyUqXs%3D");
-}
-
-footer .footer-container ul li:nth-child(5) {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/a2350326-65ed-433e-8f31-62181dd6956f/content/assets/templates/template_source/facset_png_1637082456104/facset_3275929e-3154-4056-a9fa-a94d094634a9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=D5rJDR3i3Gq0jMW1xMx1V93j7jo%3D");
-}
-
-footer .footer-container ul li:nth-child(6) {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsectest/content/assets/templates/template_background/one_tree_png_png_1637190375094/one_tree_png_09295120-1382-44a2-8c3d-8992b3ff8d22.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=I5IRT77d8HMz0%2BqlSiJGoC7uWXc%3D");
-}
-
-footer .footer-container ul li:not(:last-child) {
-  margin-right: 1rem;
-}
-
-footer .footer-container p {
   grid-column: 1 / -1;
   line-height: 1.5;
+  text-align: center;
 }
 
 #page-top .post-details-description-button,
