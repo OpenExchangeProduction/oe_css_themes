@@ -1657,6 +1657,16 @@ footer {
     p:first-child {
       margin-bottom: .75rem;
 
+      &:before {
+        grid-column: 1 / -1;
+        display: block;
+        content: url('');
+        max-height: 35px;
+        background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_source/risk_net_sg_low_quality_logo_1_png_1652819963707/risk_net_sg_low_quality_logo_1_74ef1889-9c66-44a0-b835-ca2afeabc275.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Re93LJcpNUrDqsMPGUvtY1vVGmA%3D');
+        background-size: contain;
+        margin-bottom: 1rem;
+      }
+
       a {
         display: block;
         color: transparent !important;
@@ -1731,16 +1741,8 @@ footer {
     }
 
     p {
-      grid-column: auto / span 6;
+      grid-column: 1 / -1;
       line-height: 1.5;
-
-      @media (max-width: 768px) {
-        grid-column: auto / span 3;
-      }
-
-      @media (max-width: 500px) {
-        grid-column: auto / span 2;
-      }
     }
   }
 }
