@@ -78,6 +78,39 @@ body#page-top {
   background-color: #B3B3B3;
 }
 
+/* button re-colors for active state */
+#page-top.home #main_navigation .container-fluid > div .nav:nth-child(2) li:first-child .nav-category-link {
+  background-color: #e60028;
+}
+
+#page-top.agenda #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(2) .nav-category-link {
+  background-color: #e60028;
+}
+
+#page-top.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
+  background-color: #e60028;
+}
+
+#page-top.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
+  background-color: #e60028;
+}
+
+#page-top.content-hub #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(5) .nav-category-link {
+  background-color: #e60028;
+}
+
+#page-top.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
+  background-color: #e60028;
+}
+
+#page-top.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
+  background-color: #e60028;
+}
+
+#main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(8) .nav-category-link {
+  background-color: #004C97;
+}
+
 /* HP header */
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) {
   padding: 0;
