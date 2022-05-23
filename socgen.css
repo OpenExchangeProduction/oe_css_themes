@@ -28,7 +28,7 @@ body#page-top {
   #page-top #main_navigation::before {
     display: block;
     content: '';
-    background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_background/sponsor_lockup_png_1652835006597/sponsor_lockup_2761912e-2850-4ed1-a429-eccc9253a3f0.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=y0v212Gn4nOMhmTv2dEeU31OHaM%3D");
+    background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_background/sponsor_lockup_1653314141589/sponsor_lockup_33d59ae2-d8ec-4d93-a815-dae1b90b4683.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=aQbxgHQ1rK7rJLSG%2B6NHq5mw5kI%3D");
     object-fit: contain;
     background-size: contain;
     position: absolute;
