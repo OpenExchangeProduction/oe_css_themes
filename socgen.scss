@@ -90,9 +90,11 @@ body#page-top {
         font-family: var(--primary-font);
         font-weight: 600;
         text-transform: uppercase;
+        transition: filter .2s ease-in-out;
+        filter: brightness(1);
 
         &:hover {
-          background-color: #B3B3B3;
+          filter: brightness(.7);
         }
       }
     }
@@ -109,22 +111,28 @@ body#page-top {
   }
   &.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
     background-color: #e60028;
+    color: #ffffff;
   }
   &.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
     background-color: #e60028;
+    color: #ffffff;
   }
   &.content-hub #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(5) .nav-category-link {
     background-color: #e60028;
+    color: #ffffff;
   }
   &.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
     background-color: #e60028;
+    color: #ffffff;
   }
   &.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
     background-color: #e60028;
+    color: #ffffff;
   }
 }
-#main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(8) .nav-category-link {
+#page-top #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(8) .nav-category-link {
   background-color: #004C97;
+  color: #ffffff;
 }
 
 /* HP header */
