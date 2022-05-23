@@ -1544,6 +1544,12 @@ body#page-top {
   object-fit: contain;
 }
 
+#page-top #showcase_category div.row .list-view-item:nth-last-child(4) > .post .thumb-wrapper,
+#page-top #showcase_category div.row .list-view-item:nth-last-child(5) > .post .thumb-wrapper {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
   #page-top #showcase_category div.row .list-view-item:nth-last-child(4) {
     grid-column: auto / span 1;

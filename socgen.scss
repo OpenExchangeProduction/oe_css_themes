@@ -1542,6 +1542,12 @@ body#page-top {
       }
     }
 
+    .list-view-item:nth-last-child(4) > .post .thumb-wrapper,
+    .list-view-item:nth-last-child(5) > .post .thumb-wrapper {
+      max-width: 75%;
+      margin: 0 auto
+    }
+
     // grid adjustments for about section
     @media screen and (max-width: 768px) {
       .list-view-item:nth-last-child(4) {
