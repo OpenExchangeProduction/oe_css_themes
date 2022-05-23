@@ -1,0 +1,37 @@
+<p class="selector-5">selector</p>
+
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.selector-5');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+
+    var navbar = $('.navbar-right:nth-of-type(2)');
+    $(navbar).prepend('<li><a href="https://derivatives-quant-societegenerale.videoshowcase.net/" class="nav-category-link rbs" target="_parent">Home</a></li>');
+    $(navbar).append('<li><a href="https://derivatives-quant-societegenerale.videoshowcase.net/" class="nav-category-link rbs register" target="_parent">Register Now</a></li>');
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  .featured-category.hide {
+    display: none;
+  }
+</style>

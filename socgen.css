@@ -497,6 +497,10 @@ body#page-top {
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 button {

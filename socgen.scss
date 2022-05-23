@@ -518,6 +518,10 @@ body#page-top {
     .container:not(.posts) > .row {
       .col-xs-9 {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         button {
           padding-left: 0;
