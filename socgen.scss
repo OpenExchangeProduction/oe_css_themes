@@ -105,34 +105,36 @@ body#page-top {
 #page-top {
   &.home #main_navigation .container-fluid > div .nav:nth-child(2) li:first-child .nav-category-link {
     background-color: #e60028;
+    color: #ffffff !important;
   }
   &.agenda #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(2) .nav-category-link {
     background-color: #e60028;
+    color: #ffffff !important;
   }
   &.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
     background-color: #e60028;
-    color: #ffffff;
+    color: #ffffff !important;
   }
   &.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
     background-color: #e60028;
-    color: #ffffff;
+    color: #ffffff !important;
   }
   &.content-hub #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(5) .nav-category-link {
     background-color: #e60028;
-    color: #ffffff;
+    color: #ffffff !important;
   }
   &.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
     background-color: #e60028;
-    color: #ffffff;
+    color: #ffffff !important;
   }
   &.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
     background-color: #e60028;
-    color: #ffffff;
+    color: #ffffff !important;
   }
 }
 #page-top #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(8) .nav-category-link {
   background-color: #004C97;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 /* HP header */
