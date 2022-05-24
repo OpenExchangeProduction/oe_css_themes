@@ -2036,6 +2036,7 @@ footer {
         display: block;
         max-height: unset;
         overflow: hidden;
+        margin: 0;
 
         .featured-knovio-post {
           grid-column: unset;
@@ -2053,6 +2054,11 @@ footer {
   }
 
   &.contact {
+
+    #custom-fields-data + #main_navigation ~ header h1.showcase-title {
+      margin-bottom: 3rem;
+    }
+    
     .showcase-description {
       @include grid(2, 1fr, 0 1rem);
       grid-auto-flow: column;

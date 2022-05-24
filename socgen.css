@@ -2011,6 +2011,7 @@ footer .footer-container > * {
   display: block;
   max-height: unset;
   overflow: hidden;
+  margin: 0;
 }
 
 #page-top.charity > .container .featured-knovio .featured-knovio-post {
@@ -2023,6 +2024,10 @@ footer .footer-container > * {
 
 #page-top.charity > .container .featured-knovio .featured-knovio-info {
   display: none;
+}
+
+#page-top.contact #custom-fields-data + #main_navigation ~ header h1.showcase-title {
+  margin-bottom: 3rem;
 }
 
 #page-top.contact .showcase-description {
