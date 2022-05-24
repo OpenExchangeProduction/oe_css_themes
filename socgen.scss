@@ -1882,6 +1882,17 @@ footer {
   }
 }
 
+#page-top #custom-fields-data + #main_navigation {
+  ~ header {
+    h1.showcase-title {
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+  }
+}
+
 // @media (min-resolution:.001dpcm) {
 //     #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .container.header-container .row > .col-xs-12 .video-container video {
 //       transform: translateY(-25%);
