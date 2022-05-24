@@ -1878,6 +1878,20 @@ footer .footer-container > * {
 #page-top #custom-fields-data + #main_navigation ~ header h1.showcase-title {
   text-align: center;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   font-weight: 600;
+}
+
+#page-top.contact .showcase-description {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+#page-top.contact .showcase-description p:first-child, #page-top.contact .showcase-description p:nth-child(2), #page-top.contact .showcase-description p:nth-child(3), #page-top.contact .showcase-description p:nth-child(4) {
+  grid-column: 1 / span 1;
+}
+
+#page-top.contact .showcase-description p:nth-child(5), #page-top.contact .showcase-description p:nth-child(6), #page-top.contact .showcase-description p:nth-child(7), #page-top.contact .showcase-description p:nth-child(8) {
+  grid-column: 2 / span 1;
 }

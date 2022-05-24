@@ -1887,8 +1887,32 @@ footer {
     h1.showcase-title {
       text-align: center;
       text-transform: uppercase;
-      color: var(--primary-color);
+      color: var(--primary-color) !important;
       font-weight: 600;
+    }
+  }
+}
+
+#page-top {
+  &.contact {
+    .showcase-description {
+      @include grid(2, 1fr, 1rem);
+
+      p {
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          grid-column: 1 / span 1;
+        }
+
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          grid-column: 2 / span 1;
+        }
+      }
     }
   }
 }
