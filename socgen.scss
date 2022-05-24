@@ -1939,10 +1939,13 @@ footer {
               position: absolute;
 
               .tile-text-area {
+                margin: 0;
+
                 .link-header.tile-header-ellipsis {
                   .tile-title {
                     height: 100% !important;
                     width: 100%;
+                    padding: 0;
 
                     a {
                       margin: 0;
@@ -1954,8 +1957,9 @@ footer {
                       background-color: rgba(0, 0, 0, 0.3);
                       font-weight: 600;
                       font-size: 3rem;
-                      color: #ffffff;
+                      color: #ffffff !important;
                       text-decoration: underline;
+                      text-align: center;
 
                       &:before,
                       &:after {
