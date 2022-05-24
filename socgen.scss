@@ -1911,12 +1911,11 @@ footer {
             position: relative;
 
             .thumb-wrapper {
-              position: absolute;
               z-index: 0;
 
               .thumb-link {
                 position: relative;
-                padding-bottom: 75%;
+                padding-bottom: 52.25%;
                 width: 100%;
                 height: 0;
                 max-width: unset;
@@ -1936,22 +1935,32 @@ footer {
               }
             }
 
-            .tile-text-area {
-              .link-header.tile-header-ellipsis {
-                .tile-title {
-                  height: 100% !important;
-                  width: 100%;
+            .thumb-meta-wrapper {
+              position: absolute;
 
-                  a {
-                    margin: 0;
+              .tile-text-area {
+                .link-header.tile-header-ellipsis {
+                  .tile-title {
+                    height: 100% !important;
                     width: 100%;
-                    height: 100%;
-                    justify-content: center;
-                    align-items: center;
 
-                    &:before,
-                    &:after {
-                      display: none;
+                    a {
+                      margin: 0;
+                      width: 100%;
+                      height: 100%;
+                      justify-content: center;
+                      align-items: center;
+                      grid-column: auto / span 2;
+                      background-color: rgba(0, 0, 0, 0.3);
+                      font-weight: 600;
+                      font-size: 3rem;
+                      color: #ffffff;
+                      text-decoration: underline;
+
+                      &:before,
+                      &:after {
+                        display: none;
+                      }
                     }
                   }
                 }
