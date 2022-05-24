@@ -1987,6 +1987,47 @@ footer {
     }
   }
 
+  &.videos {
+    #showcase_category .container.posts div.row .column-view-item .post {
+      padding: 1rem;
+      transition: background-color .2s ease-in-out;
+      background-color: transparent;
+
+      .thumb-wrapper {
+        order: 1;
+      }
+
+      .thumb-meta-wrapper {
+        position: relative;
+
+        .tile-text-area .tile-header-ellipsis.post-details-activate {
+          margin: 0;
+          justify-content: center;
+          align-items: center;
+
+          .tile-title {
+            margin: 0;
+            text-transform: uppercase;
+            transition: all .2s ease-in-out;
+          }
+
+          .post-details-icon {
+            display: none;
+          }
+        }
+      }
+
+      /* hover for .post */
+      &:hover {
+        background-color: var(--primary-color);
+
+        .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
   &.contact {
     .showcase-description {
       @include grid(2, 1fr, 0 1rem);
