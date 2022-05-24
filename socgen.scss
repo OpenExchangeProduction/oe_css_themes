@@ -1659,6 +1659,13 @@ body#page-top {
 }
 
 #page-top #url-auth-suffix ~ #showcase_category {
+
+  @media (min-width: 769px) {
+    .container.posts {
+      max-width: 75%;
+    }
+  }
+
   @media (max-width: 768px) {
     margin: 0 2rem;
     display: block;
