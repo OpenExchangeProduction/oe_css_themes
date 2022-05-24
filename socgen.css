@@ -1880,7 +1880,7 @@ footer .footer-container > * {
   text-transform: uppercase;
   color: var(--primary-color) !important;
   font-weight: 600;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
 }
 
 /* specific sub page styles */
@@ -2001,6 +2001,28 @@ footer .footer-container > * {
 
 #page-top.videos #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
   color: #ffffff;
+}
+
+#page-top.charity > .container {
+  max-height: unset;
+}
+
+#page-top.charity > .container .featured-knovio {
+  display: block;
+  max-height: unset;
+  overflow: hidden;
+}
+
+#page-top.charity > .container .featured-knovio .featured-knovio-post {
+  grid-column: unset;
+  grid-row: unset;
+  height: unset;
+  max-height: unset;
+  display: block;
+}
+
+#page-top.charity > .container .featured-knovio .featured-knovio-info {
+  display: none;
 }
 
 #page-top.contact .showcase-description {
