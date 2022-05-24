@@ -565,7 +565,7 @@ body#page-top {
         .showcase-description {
           margin: 0;
 
-          > p:first-child {
+          > p:nth-child(2) {
             margin-bottom: 1.75rem;
           }
 
@@ -594,7 +594,7 @@ body#page-top {
 
           li {
             margin-bottom: 1.75rem;
-            list-style-position: center;
+            list-style-position: inside;
             list-style-type: disclosure-closed;
 
             span {

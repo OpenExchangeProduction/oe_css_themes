@@ -553,7 +553,7 @@ body#page-top {
   margin: 0;
 }
 
-#page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 .showcase-description > p:first-child {
+#page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 .showcase-description > p:nth-child(2) {
   margin-bottom: 1.75rem;
 }
 
@@ -582,7 +582,7 @@ body#page-top {
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li {
   margin-bottom: 1.75rem;
-  list-style-position: center;
+  list-style-position: inside;
   list-style-type: disclosure-closed;
 }
 
