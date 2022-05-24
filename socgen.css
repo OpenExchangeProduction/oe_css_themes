@@ -1883,6 +1883,63 @@ footer .footer-container > * {
   margin-bottom: 3rem;
 }
 
+/* specific sub page styles */
+#page-top.content-hub #showcase_category .container.posts div.row {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item {
+  margin-bottom: 0;
+  background: transparent;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post {
+  position: relative;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper {
+  position: absolute;
+  z-index: 0;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper .thumb-link {
+  position: relative;
+  padding-bottom: 75%;
+  width: 100%;
+  height: 0;
+  max-width: unset;
+  max-height: unset;
+  overflow: hidden;
+  position: relative;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper .thumb-link .thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .tile-text-area .link-header.tile-header-ellipsis .tile-title {
+  height: 100% !important;
+  width: 100%;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .tile-text-area .link-header.tile-header-ellipsis .tile-title a:before, #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .tile-text-area .link-header.tile-header-ellipsis .tile-title a:after {
+  display: none;
+}
+
 #page-top.contact .showcase-description {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1895,6 +1952,7 @@ footer .footer-container > * {
 #page-top.contact .showcase-description p {
   text-align: center;
   font-size: 1.25rem;
+  margin-bottom: .25rem;
 }
 
 #page-top.contact .showcase-description p:first-child, #page-top.contact .showcase-description p:nth-child(2), #page-top.contact .showcase-description p:nth-child(3), #page-top.contact .showcase-description p:nth-child(4) {
