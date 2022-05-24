@@ -1885,7 +1885,14 @@ footer .footer-container > * {
 #page-top.contact .showcase-description {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 0 1rem;
+  grid-auto-flow: column;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+#page-top.contact .showcase-description p {
+  text-align: center;
 }
 
 #page-top.contact .showcase-description p:first-child, #page-top.contact .showcase-description p:nth-child(2), #page-top.contact .showcase-description p:nth-child(3), #page-top.contact .showcase-description p:nth-child(4) {
@@ -1894,4 +1901,12 @@ footer .footer-container > * {
 
 #page-top.contact .showcase-description p:nth-child(5), #page-top.contact .showcase-description p:nth-child(6), #page-top.contact .showcase-description p:nth-child(7), #page-top.contact .showcase-description p:nth-child(8) {
   grid-column: 2 / span 1;
+}
+
+#page-top.contact .showcase-description p:first-child, #page-top.contact .showcase-description p:nth-child(5) {
+  font-weight: 600;
+}
+
+#page-top.contact .showcase-description p a {
+  color: var(--primary-color) !important;
 }

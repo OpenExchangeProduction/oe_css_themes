@@ -1896,9 +1896,14 @@ footer {
 #page-top {
   &.contact {
     .showcase-description {
-      @include grid(2, 1fr, 1rem);
+      @include grid(2, 1fr, 0 1rem);
+      grid-auto-flow: column;
+      max-width: 50%;
+      margin: 0 auto;
 
       p {
+        text-align: center;
+
         &:first-child,
         &:nth-child(2),
         &:nth-child(3),
@@ -1911,6 +1916,15 @@ footer {
         &:nth-child(7),
         &:nth-child(8) {
           grid-column: 2 / span 1;
+        }
+
+        &:first-child,
+        &:nth-child(5) {
+          font-weight: 600;
+        }
+
+        a {
+          color: var(--primary-color) !important;
         }
       }
     }
