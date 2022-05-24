@@ -152,7 +152,7 @@ body#page-top {
       margin: 0;
       max-width: unset;
       border-bottom: 1rem solid #ff0c25;
-      background: #ff0c25;
+      background: var(--primary-color);
 
       .row {
         margin: 0;
