@@ -1897,15 +1897,15 @@ footer {
 /* specific sub page styles */
 #page-top {
 
-  &.content-hub {
+  &.content-hub,
+  &.videos {
     #showcase_category .container.posts {
       div.row {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         max-width: 85%;
         margin: 0 auto;
 
-        .column-view-item,
-        .list-view-item {
+        .column-view-item {
           margin-bottom: 0;
           background: transparent;
 
