@@ -553,6 +553,8 @@ body#page-top {
     margin-bottom: 0 !important;
 
     .container:not(.posts) > .row {
+      margin: 0;
+
       .col-xs-9 {
         width: 100%;
         display: flex;
@@ -560,23 +562,44 @@ body#page-top {
         justify-content: center;
         align-items: center;
 
+        .showcase-description {
+          margin: 0;
+
+          > p:first-child {
+            margin-bottom: 1.75rem;
+          }
+
+          > p:last-child {
+            margin: 0;
+          }
+        }
+
         button {
           padding-left: 0;
 
           h3 {
             color: #ffffff !important;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
           }
         }
 
         p, ul, li {
           color: #ffffff;
+          text-align: center;
         }
 
         ul {
           margin-bottom: 1rem;
 
           li {
-            margin-bottom: 1rem;
+            margin-bottom: 1.75rem;
+            list-style-position: center;
+            list-style-type: disclosure-closed;
+
+            span {
+              color: #e7721e;
+            }
           }
         }
       }
@@ -585,7 +608,7 @@ body#page-top {
     .agenda-button {
       display: block;
       max-width: max-content;
-      margin: 2rem auto;
+      margin: 2rem auto 0 auto;
       padding: .5rem 1rem;
       border-radius: 18px;
       color: #fafafa;
