@@ -1894,6 +1894,7 @@ footer .footer-container > * {
 
 #page-top.contact .showcase-description p {
   text-align: center;
+  font-size: 1.25rem;
 }
 
 #page-top.contact .showcase-description p:first-child, #page-top.contact .showcase-description p:nth-child(2), #page-top.contact .showcase-description p:nth-child(3), #page-top.contact .showcase-description p:nth-child(4) {
@@ -1910,4 +1911,5 @@ footer .footer-container > * {
 
 #page-top.contact .showcase-description p a {
   color: var(--primary-color) !important;
+  font-size: 1.25rem;
 }

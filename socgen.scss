@@ -1904,6 +1904,7 @@ footer {
 
       p {
         text-align: center;
+        font-size: 1.25rem;
 
         &:first-child,
         &:nth-child(2),
@@ -1926,6 +1927,7 @@ footer {
 
         a {
           color: var(--primary-color) !important;
+          font-size: 1.25rem;
         }
       }
     }
