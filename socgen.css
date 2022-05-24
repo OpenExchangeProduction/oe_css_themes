@@ -99,12 +99,12 @@ body#page-top {
   color: #ffffff !important;
 }
 
-#page-top.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
+#page-top.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
   background-color: #e60028;
   color: #ffffff !important;
 }
 
-#page-top.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
+#page-top.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
   background-color: #e60028;
   color: #ffffff !important;
 }
@@ -114,12 +114,12 @@ body#page-top {
   color: #ffffff !important;
 }
 
-#page-top.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
+#page-top.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
   background-color: #e60028;
   color: #ffffff !important;
 }
 
-#page-top.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
+#page-top.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
   background-color: #e60028;
   color: #ffffff !important;
 }
@@ -712,7 +712,7 @@ body#page-top {
 
 #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 button h3 {
   text-align: center;
-  margin-bottom: .75rem;
+  margin-bottom: 2rem;
 }
 
 #page-top .featured-category.insights .container:not(.posts) > .row .col-xs-9 .insights-group__single {

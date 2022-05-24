@@ -112,11 +112,11 @@ body#page-top {
     background-color: #e60028;
     color: #ffffff !important;
   }
-  &.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
+  &.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(3) .nav-category-link {
     background-color: #e60028;
     color: #ffffff !important;
   }
-  &.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
+  &.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(4) .nav-category-link {
     background-color: #e60028;
     color: #ffffff !important;
   }
@@ -124,11 +124,11 @@ body#page-top {
     background-color: #e60028;
     color: #ffffff !important;
   }
-  &.speakers #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
+  &.charity #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(6) .nav-category-link {
     background-color: #e60028;
     color: #ffffff !important;
   }
-  &.videos #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
+  &.contact #main_navigation .container-fluid > div .nav:nth-child(2) li:nth-child(7) .nav-category-link {
     background-color: #e60028;
     color: #ffffff !important;
   }
@@ -718,12 +718,13 @@ body#page-top {
     .container:not(.posts) > .row {
       .col-xs-9 {
         margin: 0 auto;
+
         button {
           padding-left: 0;
 
           h3 {
             text-align: center;
-            margin-bottom: .75rem;
+            margin-bottom: 2rem;
           }
         }
 
