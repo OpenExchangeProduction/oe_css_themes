@@ -254,6 +254,10 @@ body#page-top {
           line-height: 1.2;
         }
 
+        &:nth-child(5) {
+          margin-bottom: .5rem;
+        }
+
         &:nth-child(6),
         &:nth-child(7),
         &:nth-child(8)  {

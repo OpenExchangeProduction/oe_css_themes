@@ -244,6 +244,10 @@ body#page-top {
   line-height: 1.2;
 }
 
+#page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(5) {
+  margin-bottom: .5rem;
+}
+
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(6), #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(7), #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(8) {
   font-weight: 500;
 }
