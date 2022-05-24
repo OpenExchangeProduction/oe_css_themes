@@ -1937,6 +1937,7 @@ footer {
 
             .thumb-meta-wrapper {
               position: absolute;
+              padding: 0;
 
               .tile-text-area {
                 margin: 0;
@@ -1960,6 +1961,7 @@ footer {
                       color: #ffffff !important;
                       text-decoration: underline;
                       text-align: center;
+                      transition: background-color .2s ease-in-out;
 
                       &:before,
                       &:after {
@@ -1968,6 +1970,12 @@ footer {
                     }
                   }
                 }
+              }
+            }
+
+            &:hover {
+              .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
+                background-color: rgba(0, 0, 0, 0.5);
               }
             }
           }
