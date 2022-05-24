@@ -1886,6 +1886,8 @@ footer .footer-container > * {
 /* specific sub page styles */
 #page-top.content-hub #showcase_category .container.posts div.row {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item,
@@ -1959,6 +1961,7 @@ footer .footer-container > * {
   color: #ffffff !important;
   text-decoration: underline;
   text-align: center;
+  padding: 0 4rem;
   transition: background-color .2s ease-in-out;
 }
 

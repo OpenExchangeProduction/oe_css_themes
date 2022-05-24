@@ -1901,6 +1901,8 @@ footer {
     #showcase_category .container.posts {
       div.row {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 85%;
+        margin: 0 auto;
 
         .column-view-item,
         .list-view-item {
@@ -1961,6 +1963,7 @@ footer {
                       color: #ffffff !important;
                       text-decoration: underline;
                       text-align: center;
+                      padding: 0 4rem;
                       transition: background-color .2s ease-in-out;
 
                       &:before,
