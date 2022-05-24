@@ -1902,7 +1902,8 @@ footer {
       div.row {
         grid-template-columns: repeat(2, minmax(0, 1fr));
 
-        .column-view-item {
+        .column-view-item,
+        .list-view-item {
           margin-bottom: 0;
           background: transparent;
 
