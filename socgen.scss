@@ -1925,10 +1925,12 @@ footer {
     header span.showcase-description {
       display: none;
     }
-    
+
     #showcase_category {
       .container.posts {
         div.row {
+          grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+
           .column-view-item {
             background: transparent;
 

@@ -1907,6 +1907,10 @@ footer .footer-container > * {
   display: none;
 }
 
+#page-top.speakers #showcase_category .container.posts div.row {
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+
 #page-top.speakers #showcase_category .container.posts div.row .column-view-item {
   background: transparent;
 }
