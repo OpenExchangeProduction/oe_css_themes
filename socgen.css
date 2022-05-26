@@ -523,6 +523,25 @@ body#page-top {
   display: none !important;
 }
 
+#page-top .featured-category.speakers .container.posts .carousel-inner .item .column-view-item {
+  grid-column: auto / span 1;
+}
+
+@media screen and (min-width: 768px) {
+  #page-top .featured-category.speakers .container.posts .carousel-inner .item {
+    grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
+  }
+  #page-top .featured-category.speakers .container.posts .carousel-inner .item .column-view-item {
+    grid-column: auto / span 4;
+  }
+  #page-top .featured-category.speakers .container.posts .carousel-inner .item:first-child .column-view-item:first-child {
+    grid-column: 2 / span 5;
+  }
+  #page-top .featured-category.speakers .container.posts .carousel-inner .item:first-child .column-view-item:nth-child(2) {
+    grid-column: auto / span 5;
+  }
+}
+
 #page-top .featured-category.speakers .view-all-button {
   display: block;
   max-width: max-content;

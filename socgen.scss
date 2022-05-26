@@ -532,6 +532,30 @@ body#page-top {
             }
           }
         }
+
+        .item {
+          .column-view-item {
+            grid-column: auto / span 1;
+          }
+
+          @media screen and (min-width: 768px) {
+            grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
+
+            .column-view-item {
+              grid-column: auto / span 4;
+            }
+
+            &:first-child {
+              .column-view-item:first-child {
+                grid-column: 2 / span 5;
+              }
+
+              .column-view-item:nth-child(2) {
+                grid-column: auto / span 5;
+              }
+            }
+          }
+        }
       }
     }
 
@@ -2058,7 +2082,7 @@ footer {
     #custom-fields-data + #main_navigation ~ header h1.showcase-title {
       margin-bottom: 3rem;
     }
-    
+
     .showcase-description {
       @include grid(2, 1fr, 0 1rem);
       grid-auto-flow: column;
