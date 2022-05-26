@@ -747,7 +747,6 @@ html {
 }
 
 #page-top .featured-category .featured-category-title-link {
-  max-width: max-content;
   pointer-events: bounding-box;
   display: block;
 }
