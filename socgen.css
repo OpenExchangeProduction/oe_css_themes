@@ -1903,6 +1903,73 @@ footer .footer-container > * {
 }
 
 /* specific sub page styles */
+#page-top.speakers header span.showcase-description {
+  display: none;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item {
+  background: transparent;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-wrapper {
+  max-height: none;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-wrapper .thumb-link {
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #0e0e0e;
+  max-width: unset;
+  max-height: unset;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-wrapper .thumb-link .thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-meta-wrapper {
+  height: max-content;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-meta-wrapper .tile-text-area {
+  max-height: max-content;
+  height: max-content !important;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate {
+  min-height: unset;
+  line-height: 1.1;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
+  color: var(--primary-color) !important;
+  text-align: center;
+  filter: brightness(1);
+  transition: filter .2s ease-in-out;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  word-break: break-word;
+  height: max-content !important;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
+  filter: brightness(0.7);
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .column-view-item .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
+  display: none !important;
+}
+
 #page-top.content-hub #showcase_category .container.posts div.row, #page-top.videos #showcase_category .container.posts div.row {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 85%;
