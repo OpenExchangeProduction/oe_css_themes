@@ -1695,6 +1695,9 @@ body#page-top {
 #page-top #showcase_category div.row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper .thumb-link .thumb {
   object-fit: contain;
   max-height: 100px;
+  margin: auto;
+  display: block;
+  object-position: center center;
 }
 
 #page-top #showcase_category div.row .list-view-item.about ~ .list-view-item:hover > .post > .thumb-meta-wrapper {

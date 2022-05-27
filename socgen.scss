@@ -1684,6 +1684,9 @@ body#page-top {
               .thumb {
                 object-fit: contain;
                 max-height: 100px;
+                margin: auto;
+                display: block;
+                object-position: center center;
               }
             }
           }
