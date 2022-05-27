@@ -1934,15 +1934,19 @@ footer {
           .list-view-item {
             grid-column: auto / span 1;
             background: transparent;
-            padding: 0;
+            padding: 0 !important;
+            max-width: 100%;
 
             .post {
               display: block;
               pointer-events: all;
               flex: unset;
+              position: relative;
 
               .thumb-wrapper {
                 max-height: none;
+                max-width: 100%;
+                position: relative;
 
                 .thumb-link {
                   padding-bottom: 100%;
@@ -1969,14 +1973,24 @@ footer {
               .thumb-meta-wrapper {
                 grid-column: unset;
                 flex: unset;
+                margin: 0;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+                width: 100%;
+                height: 100% !important;
 
                 .tile-text-area {
                   max-height: max-content;
-                  height: max-content !important;
+                  height: 100%;
+                  padding: 0;
 
                   .tile-header-ellipsis.post-details-activate {
                     min-height: unset;
                     line-height: 1.1;
+                    height: 100%;
+                    align-content: flex-end;
 
                     .tile-title {
                       color: var(--primary-color) !important;
@@ -1988,6 +2002,10 @@ footer {
                       width: 100%;
                       word-break: break-word;
                       height: max-content !important;
+                      display: block;
+                      font-weight: 500;
+                      font-size: 1.75rem;
+                      margin-bottom: .5rem;
 
                       &:hover {
                         filter: brightness(.7);
@@ -1996,6 +2014,31 @@ footer {
 
                     .post-details-icon {
                       display: none !important;
+                    }
+
+                    .page-description {
+                      .list-page-description {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+
+                        span {
+                          display: block;
+                          width: 100%;
+                          text-align: center;
+                          color: #000000;
+                          line-height: 1.1;
+
+                          &:first-child {
+                            margin-bottom: .5rem;
+                          }
+
+                          &:last-child {
+                            font-weight: 500;
+                          }
+                        }
+                      }
                     }
                   }
                 }
