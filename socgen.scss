@@ -2103,7 +2103,7 @@ footer {
       }
 
       #postDetailsBody {
-        margin-top: 2.5rem;
+        margin-top: 2rem;
 
         #contentMetadataSPEAKER {
           .content-metadata-details-button {
@@ -2112,11 +2112,11 @@ footer {
 
           .details-speaker-container {
             height: auto;
-            @include grid(5, 1fr, .5rem);
+            @include grid(5, 1fr, 1rem);
 
             .details-speaker-image-wrapper {
-              grid-column: auto / span 2;
-              padding-bottom: unquote( ( 4 / 3 ) * 100 + '%' );
+              grid-column: auto / span 1;
+              padding-bottom: 100%;
               width: 100%;
               height: 0;
               overflow: hidden;
@@ -2136,7 +2136,7 @@ footer {
             }
 
             .details-speaker-metadata {
-              grid-column: auto / span 3;
+              grid-column: auto / span 4;
               margin-left: 0;
 
               span {
@@ -2145,7 +2145,11 @@ footer {
 
               .details-speaker-name {
                 color: var(--primary-color);
-                font-size: 1.5rem;
+                font-size: 1.75rem;
+              }
+
+              .details-speaker-organization {
+                font-weight: 500;
               }
             }
 
