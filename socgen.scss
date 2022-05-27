@@ -1931,63 +1931,66 @@ footer {
         div.row {
           grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
 
-          .column-view-item {
+          .list-view-item {
+            grid-column: auto / span 1;
             background: transparent;
 
-            .thumb-wrapper {
-              max-height: none;
+            .post {
+              .thumb-wrapper {
+                max-height: none;
 
-              .thumb-link {
-                padding-bottom: 100%;
-                width: 100%;
-                height: 0;
-                overflow: hidden;
-                position: relative;
-                border: 1px solid #0e0e0e;
-                max-width: unset;
-                max-height: unset;
-
-                .thumb {
-                  position: absolute;
+                .thumb-link {
+                  padding-bottom: 100%;
                   width: 100%;
-                  height: 100%;
-                  left: 0;
-                  top: 0;
-                  object-fit: cover;
-                  object-position: center;
+                  height: 0;
+                  overflow: hidden;
+                  position: relative;
+                  border: 1px solid #0e0e0e;
+                  max-width: unset;
+                  max-height: unset;
+
+                  .thumb {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    object-fit: cover;
+                    object-position: center;
+                  }
                 }
               }
-            }
 
-            .thumb-meta-wrapper {
-              height: max-content;
+              .thumb-meta-wrapper {
+                height: max-content;
 
-              .tile-text-area {
-                max-height: max-content;
-                height: max-content !important;
+                .tile-text-area {
+                  max-height: max-content;
+                  height: max-content !important;
 
-                .tile-header-ellipsis.post-details-activate {
-                  min-height: unset;
-                  line-height: 1.1;
+                  .tile-header-ellipsis.post-details-activate {
+                    min-height: unset;
+                    line-height: 1.1;
 
-                  .tile-title {
-                    color: var(--primary-color) !important;
-                    text-align: center;
-                    filter: brightness(1);
-                    transition: filter .2s ease-in-out;
-                    padding: 0;
-                    margin: 0;
-                    width: 100%;
-                    word-break: break-word;
-                    height: max-content !important;
+                    .tile-title {
+                      color: var(--primary-color) !important;
+                      text-align: center;
+                      filter: brightness(1);
+                      transition: filter .2s ease-in-out;
+                      padding: 0;
+                      margin: 0;
+                      width: 100%;
+                      word-break: break-word;
+                      height: max-content !important;
 
-                    &:hover {
-                      filter: brightness(.7);
+                      &:hover {
+                        filter: brightness(.7);
+                      }
                     }
-                  }
 
-                  .post-details-icon {
-                    display: none !important;
+                    .post-details-icon {
+                      display: none !important;
+                    }
                   }
                 }
               }
