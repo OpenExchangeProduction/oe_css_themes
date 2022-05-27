@@ -1646,13 +1646,13 @@ body#page-top {
           pointer-events: all;
 
           > .thumb-meta-wrapper {
-            display: none !important;
             position: absolute;
             z-index: 2;
             top: 0;
             bottom: 0;
             width: 100%;
             height: 100%;
+            margin: 0;
 
             > .tile-text-area {
               width: 100%;
@@ -1662,6 +1662,11 @@ body#page-top {
               .tile-header-ellipsis.post-details-activate {
                 width: 100%;
                 height: 100%;
+                overflow: hidden;
+
+                .post-details-icon {
+                  display: none !important;
+                }
               }
             }
           }
@@ -1672,7 +1677,7 @@ body#page-top {
 
             .thumb-link {
               border-radius: unset;
-              padding-bottom: 25%;
+              padding-bottom: 20%;
               background: #ffffff;
               border: unset;
 
@@ -1681,6 +1686,12 @@ body#page-top {
                 max-height: 100px;
               }
             }
+          }
+        }
+
+        &:hover {
+          > .post > .thumb-meta-wrapper {
+            background: rgba(0,0,0,.5);
           }
         }
       }
