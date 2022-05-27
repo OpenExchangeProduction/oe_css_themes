@@ -2225,7 +2225,7 @@ footer .footer-container > * {
 }
 
 #page-top.charity .charity-content__single {
-  margin-bottom: 12em;
+  margin-bottom: 2em;
 }
 
 #page-top.charity .charity-content__single__title {
@@ -2236,7 +2236,7 @@ footer .footer-container > * {
 }
 
 #page-top.charity .charity-content__single__copyright {
-  font-size: 2rem;
+  font-size: .9rem;
 }
 
 #page-top.charity .charity-content__single img {
@@ -2261,6 +2261,15 @@ footer .footer-container > * {
 
 #page-top.charity .charity-content__single:nth-child(2) img {
   max-width: 350px;
+}
+
+#page-top.charity .charity-content__cta {
+  margin-top: 1.5rem;
+}
+
+#page-top.charity .charity-content__cta a {
+  color: var(--primary-color) !important;
+  text-decoration: underline;
 }
 
 #page-top.contact #custom-fields-data + #main_navigation ~ header h1.showcase-title {

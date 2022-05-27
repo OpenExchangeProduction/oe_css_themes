@@ -2272,7 +2272,7 @@ footer {
       }
 
       &__single {
-        margin-bottom: 12em;
+        margin-bottom: 2em;
 
         &__title {
           text-transform: uppercase;
@@ -2282,7 +2282,7 @@ footer {
         }
 
         &__copyright {
-          font-size: 2rem;
+          font-size: .9rem;
         }
 
         img {
@@ -2309,6 +2309,15 @@ footer {
           img {
             max-width: 350px;
           }
+        }
+      }
+
+      &__cta {
+        margin-top: 1.5rem;
+
+        a {
+          color: var(--primary-color) !important;
+          text-decoration: underline;
         }
       }
     }
