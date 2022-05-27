@@ -2069,100 +2069,6 @@ footer .footer-container > * {
   font-weight: 500;
 }
 
-#page-top.speakers .modal .details-image-container,
-#page-top.speakers .modal #postMetadataTitle,
-#page-top.speakers .modal #postDetailsDescription,
-#page-top.speakers .modal .content-metadata-details-button {
-  display: none;
-}
-
-#page-top.speakers .modal #postDetailsHeader {
-  position: absolute;
-  top: .25rem;
-  right: .25rem;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  z-index: 3;
-}
-
-#page-top.speakers .modal #postDetailsHeader .post-metadata-component {
-  width: 100%;
-  padding: 0;
-}
-
-#page-top.speakers .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button {
-  width: 100%;
-  height: 100%;
-  color: #ffffff !important;
-  background: #e60028;
-}
-
-#page-top.speakers .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button span {
-  display: block;
-  width: 100%;
-}
-
-#page-top.speakers .modal #postDetailsBody {
-  margin-top: 2rem;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .content-metadata-details-button {
-  display: none;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container {
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper {
-  grid-column: auto / span 1;
-  padding-bottom: 100%;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  position: relative;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper img {
-  max-width: unset;
-  max-height: unset;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  object-fit: cover;
-  object-position: center;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata {
-  grid-column: auto / span 4;
-  margin-left: 0;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata span {
-  display: block;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-name {
-  color: var(--primary-color);
-  font-size: 1.75rem;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-organization {
-  font-weight: 500;
-}
-
-#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
-  grid-column: 1 / -1;
-  margin: 0;
-  max-height: unset;
-}
-
 #page-top.content-hub #showcase_category .container.posts div.row, #page-top.videos #showcase_category .container.posts div.row {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 85%;
@@ -2339,4 +2245,101 @@ footer .footer-container > * {
 #page-top.contact .showcase-description p a {
   color: var(--primary-color) !important;
   font-size: 1.25rem;
+}
+
+#page-top.home .modal .details-image-container,
+#page-top.home .modal #postMetadataTitle,
+#page-top.home .modal #postDetailsDescription,
+#page-top.home .modal .content-metadata-details-button, #page-top.speakers .modal .details-image-container,
+#page-top.speakers .modal #postMetadataTitle,
+#page-top.speakers .modal #postDetailsDescription,
+#page-top.speakers .modal .content-metadata-details-button {
+  display: none;
+}
+
+#page-top.home .modal #postDetailsHeader, #page-top.speakers .modal #postDetailsHeader {
+  position: absolute;
+  top: .25rem;
+  right: .25rem;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#page-top.home .modal #postDetailsHeader .post-metadata-component, #page-top.speakers .modal #postDetailsHeader .post-metadata-component {
+  width: 100%;
+  padding: 0;
+}
+
+#page-top.home .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button, #page-top.speakers .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button {
+  width: 100%;
+  height: 100%;
+  color: #ffffff !important;
+  background: #e60028;
+}
+
+#page-top.home .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button span, #page-top.speakers .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button span {
+  display: block;
+  width: 100%;
+}
+
+#page-top.home .modal #postDetailsBody, #page-top.speakers .modal #postDetailsBody {
+  margin-top: 2rem;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .content-metadata-details-button, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .content-metadata-details-button {
+  display: none;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper {
+  grid-column: auto / span 1;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper img, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper img {
+  max-width: unset;
+  max-height: unset;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata {
+  grid-column: auto / span 4;
+  margin-left: 0;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata span, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata span {
+  display: block;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-name, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-name {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-organization, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-organization {
+  font-weight: 500;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
+  grid-column: 1 / -1;
+  margin: 0;
+  max-height: unset;
 }
