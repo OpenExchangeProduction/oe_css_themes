@@ -1934,8 +1934,13 @@ footer {
           .list-view-item {
             grid-column: auto / span 1;
             background: transparent;
+            padding: 0;
 
             .post {
+              display: block;
+              pointer-events: all;
+              flex: unset;
+
               .thumb-wrapper {
                 max-height: none;
 
@@ -1962,7 +1967,8 @@ footer {
               }
 
               .thumb-meta-wrapper {
-                height: max-content;
+                grid-column: unset;
+                flex: unset;
 
                 .tile-text-area {
                   max-height: max-content;

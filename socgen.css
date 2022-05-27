@@ -1914,6 +1914,13 @@ footer .footer-container > * {
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item {
   grid-column: auto / span 1;
   background: transparent;
+  padding: 0;
+}
+
+#page-top.speakers #showcase_category .container.posts div.row .list-view-item .post {
+  display: block;
+  pointer-events: all;
+  flex: unset;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper {
@@ -1942,7 +1949,8 @@ footer .footer-container > * {
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper {
-  height: max-content;
+  grid-column: unset;
+  flex: unset;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area {
