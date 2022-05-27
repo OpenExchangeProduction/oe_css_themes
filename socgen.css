@@ -2434,6 +2434,57 @@ footer .footer-container > * {
   max-height: unset;
 }
 
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .content-metadata-details-button, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .content-metadata-details-button {
+  display: none;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container {
+  height: auto;
+  display: block;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper {
+  padding-bottom: 25%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper img, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper img {
+  max-width: unset;
+  max-height: unset;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata {
+  margin-left: 0;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata span, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata span {
+  display: block;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata .details-speaker-name, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata .details-speaker-name {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata .details-speaker-organization, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata .details-speaker-organization {
+  font-weight: 500;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description {
+  margin: 0;
+  max-height: unset;
+}
+
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
   filter: brightness(1) !important;
 }
