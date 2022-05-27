@@ -1931,17 +1931,35 @@ footer {
         div.row {
           grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
 
+          @media (max-width: 1400px) {
+            grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+          }
+
+          @media (max-width: 1024px) {
+            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+          }
+
+          @media (max-width: 768px) {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+          }
+
+          @media (max-width: 640px) {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+          }
+
           .list-view-item {
             grid-column: auto / span 1;
             background: transparent;
             padding: 0 !important;
             max-width: 100%;
+            margin-bottom: 2rem;
 
             .post {
               display: block;
               pointer-events: all;
               flex: unset;
               position: relative;
+              padding-bottom: 7rem;
 
               .thumb-wrapper {
                 max-height: none;

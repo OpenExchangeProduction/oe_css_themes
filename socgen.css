@@ -1916,6 +1916,7 @@ footer .footer-container > * {
   background: transparent;
   padding: 0 !important;
   max-width: 100%;
+  margin-bottom: 2rem;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post {
@@ -1923,6 +1924,7 @@ footer .footer-container > * {
   pointer-events: all;
   flex: unset;
   position: relative;
+  padding-bottom: 7rem;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper {
