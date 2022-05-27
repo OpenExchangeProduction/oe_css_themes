@@ -2211,6 +2211,53 @@ footer .footer-container > * {
   display: none;
 }
 
+#page-top.charity .charity-content {
+  max-width: 850px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #page-top.charity .charity-content {
+    max-width: 100%;
+  }
+}
+
+#page-top.charity .charity-content__title {
+  display: block;
+  width: 100%;
+}
+
+#page-top.charity .charity-content__single__title {
+  text-transform: uppercase;
+  color: #e7721e;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+#page-top.charity .charity-content__single__copyirght {
+  font-size: .75rem;
+}
+
+#page-top.charity .charity-content__single img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#page-top.charity .charity-content__single__subtitle {
+  font-weight: 500;
+}
+
+#page-top.charity .charity-content__single p {
+  margin-bottom: .75rem;
+}
+
+#page-top.charity .charity-content__single:first-child p {
+  text-align: center;
+}
+
 #page-top.contact #custom-fields-data + #main_navigation ~ header h1.showcase-title {
   margin-bottom: 3rem;
 }

@@ -2241,6 +2241,56 @@ footer {
         }
       }
     }
+
+    .charity-content {
+      max-width: 850px;
+      margin: 0 auto;
+      display: block;
+
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+
+      &__title {
+        display: block;
+        width: 100%;
+      }
+
+      &__single {
+
+        &__title {
+          text-transform: uppercase;
+          color: #e7721e;
+          font-weight: 600;
+          font-size: .9rem;
+        }
+
+        &__copyirght {
+          font-size: .75rem;
+        }
+
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+        }
+
+        &__subtitle {
+          font-weight: 500;
+        }
+
+        p {
+          margin-bottom: .75rem;
+        }
+
+        &:first-child {
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 
   &.contact {
