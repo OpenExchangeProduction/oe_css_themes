@@ -1,5 +1,3 @@
-<p id="charity-selector">selector</p>
-
 <div class="charity-content">
   <h3 class="charity-content__title">CONFERENCE CHARITY PARTNER</h3>
   <div class="charity-content__single">
@@ -34,38 +32,3 @@
   </div>
   <p class="charity-content__cta">For futher details on CARE International, please click here</p>
 </div>
-
-<script>
-  var counter = 0;
-
-  function defer(callback) {
-      if (window.jQuery) {
-          callback();
-      } else {
-          if (counter < 200) {
-              setTimeout(() => { defer(callback) }, 50);
-              counter++;
-          } else {
-              throw new Error("RTE - JQuery Timeout");
-              return;
-          }
-      }
-  }
-
-  var callback = function () {
-    var selector = document.querySelector('.selector-4');
-    var rte = selector.closest('.featured-category');
-    var vid = $('#workshop_video');
-    rte.classList.add("workshop");
-    $(rte).append(vid);
-  }
-
-  defer(callback);
-</script>
-
-<style>
-  .featured-category.workshop .container.posts,
-  #charity-selector {
-    display: none;
-  }
-</style>
