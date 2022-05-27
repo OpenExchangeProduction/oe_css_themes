@@ -2222,24 +2222,32 @@ footer {
     > .container {
       max-height: unset;
 
-      .featured-knovio {
-        display: block;
-        max-height: unset;
-        overflow: hidden;
-        margin: 0;
-
-        .featured-knovio-post {
-          grid-column: unset;
-          grid-row: unset;
-          height: unset;
-          max-height: unset;
-          display: block;
-        }
-
-        .featured-knovio-info {
-          display: none;
-        }
+      .featured-category-title-link {
+        display: none;
       }
+
+      // .featured-knovio {
+      //   display: block;
+      //   max-height: unset;
+      //   overflow: hidden;
+      //   margin: 0;
+      //
+      //   .featured-knovio-post {
+      //     grid-column: unset;
+      //     grid-row: unset;
+      //     height: unset;
+      //     max-height: unset;
+      //     display: block;
+      //   }
+      //
+      //   .featured-knovio-info {
+      //     display: none;
+      //   }
+      // }
+    }
+
+    .container.posts {
+      display: none;
     }
 
     .charity-content {
@@ -2257,16 +2265,17 @@ footer {
       }
 
       &__single {
+        margin-bottom: 1rem;
 
         &__title {
           text-transform: uppercase;
           color: #e7721e;
           font-weight: 600;
-          font-size: .9rem;
+          font-size: 1.25rem;
         }
 
-        &__copyirght {
-          font-size: .75rem;
+        &__copyright {
+          font-size: .9rem;
         }
 
         img {
@@ -2274,6 +2283,7 @@ footer {
           width: 100%;
           height: auto;
           margin: 0 auto;
+          margin-bottom: 1rem;
         }
 
         &__subtitle {
@@ -2281,12 +2291,16 @@ footer {
         }
 
         p {
-          margin-bottom: .75rem;
+          margin-bottom: .1rem;
         }
 
-        &:first-child {
+        &:nth-child(2) {
           p {
             text-align: center;
+          }
+
+          img {
+            max-width: 350px;
           }
         }
       }
