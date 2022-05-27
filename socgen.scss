@@ -2467,6 +2467,10 @@ footer {
   }
 }
 
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
+  filter: brightness(1) !important; // unset hover on content hub tile titles
+}
+
 // @media (min-resolution:.001dpcm) {
 //     #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .container.header-container .row > .col-xs-12 .video-container video {
 //       transform: translateY(-25%);
