@@ -2050,6 +2050,78 @@ footer .footer-container > * {
   font-weight: 500;
 }
 
+#page-top.speakers .modal .details-image-container,
+#page-top.speakers .modal #postMetadataTitle,
+#page-top.speakers .modal #postDetailsDescription,
+#page-top.speakers .modal .content-metadata-details-button {
+  display: none;
+}
+
+#page-top.speakers .modal #postDetailsHeader {
+  position: absolute;
+  top: .25rem;
+  right: .25rem;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#page-top.speakers .modal #postDetailsHeader .post-metadata-component {
+  width: 100%;
+  padding: 0;
+}
+
+#page-top.speakers .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button {
+  width: 100%;
+  height: 100%;
+  color: #ffffff !important;
+  background: #e60028;
+}
+
+#page-top.speakers .modal #postDetailsHeader .post-metadata-component .post-metadata-modal-close button span {
+  display: block;
+  width: 100%;
+}
+
+#page-top.speakers .modal #postDetailsBody {
+  margin-top: 2.5rem;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .content-metadata-details-button {
+  display: none;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-image-wrapper {
+  grid-column: auto / span 2;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata {
+  grid-column: auto / span 3;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata span {
+  display: block;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata .details-speaker-name {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+#page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
+  grid-column: 1 / -1;
+  margin: 0;
+  max-height: unset;
+}
+
 #page-top.content-hub #showcase_category .container.posts div.row, #page-top.videos #showcase_category .container.posts div.row {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 85%;
