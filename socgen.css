@@ -2192,12 +2192,12 @@ footer .footer-container > * {
   margin: 0 auto;
 }
 
-#page-top.charity > .container {
-  max-height: unset;
+#page-top.charity .featured-category .featured-category-title-link {
+  display: none;
 }
 
-#page-top.charity > .container .featured-category-title-link {
-  display: none;
+#page-top.charity > .container {
+  max-height: unset;
 }
 
 #page-top.charity .container.posts {
@@ -2219,10 +2219,13 @@ footer .footer-container > * {
 #page-top.charity .charity-content__title {
   display: block;
   width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
 
 #page-top.charity .charity-content__single {
-  margin-bottom: 1rem;
+  margin-bottom: 12em;
 }
 
 #page-top.charity .charity-content__single__title {
@@ -2233,7 +2236,7 @@ footer .footer-container > * {
 }
 
 #page-top.charity .charity-content__single__copyright {
-  font-size: .9rem;
+  font-size: 2rem;
 }
 
 #page-top.charity .charity-content__single img {
@@ -2241,7 +2244,7 @@ footer .footer-container > * {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #page-top.charity .charity-content__single__subtitle {
@@ -2249,7 +2252,7 @@ footer .footer-container > * {
 }
 
 #page-top.charity .charity-content__single p {
-  margin-bottom: .1rem;
+  margin-bottom: 1rem;
 }
 
 #page-top.charity .charity-content__single:nth-child(2) p {
