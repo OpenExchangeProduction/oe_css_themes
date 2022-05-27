@@ -507,12 +507,15 @@ body#page-top {
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area {
   max-height: max-content;
-  height: max-content !important;
+  height: 100%;
+  margin: 0;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate {
   min-height: unset;
   line-height: 1.1;
+  height: 100%;
+  align-content: flex-end;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
@@ -525,6 +528,10 @@ body#page-top {
   width: 100%;
   word-break: break-word;
   height: max-content !important;
+  display: block;
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin-bottom: .5rem;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
