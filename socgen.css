@@ -2441,6 +2441,10 @@ footer .footer-container > * {
   display: none;
 }
 
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .post-details-description-output, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .post-details-description-output {
+  display: block;
+}
+
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container {
   height: auto;
   display: block;
@@ -2452,18 +2456,23 @@ footer .footer-container > * {
   height: 0;
   overflow: hidden;
   position: relative;
+  box-shadow: none;
+  margin-bottom: 1rem;
 }
 
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper img, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper img {
-  max-width: unset;
+  max-width: 500px;
   max-height: unset;
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 0;
   top: 0;
-  object-fit: cover;
-  object-position: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center center;
 }
 
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata {
@@ -2472,6 +2481,7 @@ footer .footer-container > * {
 
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata span, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata span {
   display: block;
+  text-align: center;
 }
 
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata .details-speaker-name, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-metadata .details-speaker-name {
@@ -2486,6 +2496,10 @@ footer .footer-container > * {
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description {
   margin: 0;
   max-height: unset;
+}
+
+#page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description p, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description p {
+  color: #000;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
