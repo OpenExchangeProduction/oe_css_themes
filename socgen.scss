@@ -760,6 +760,10 @@ body#page-top {
                   margin: auto;
                   font-size: 1.25rem;
                   border: 1px solid #00f0fc;
+
+                  @media (min-width: 769px) {
+                    max-width: 85%;
+                  }
                 }
 
                 h5 {
