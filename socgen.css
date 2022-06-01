@@ -2041,7 +2041,7 @@ footer .footer-container > * {
   pointer-events: all;
   flex: unset;
   position: relative;
-  padding-bottom: 7rem;
+  padding-bottom: 5.5rem;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper {
@@ -2056,7 +2056,7 @@ footer .footer-container > * {
   height: 0;
   overflow: hidden;
   position: relative;
-  border: 3px solid #00c2dc;
+  border: 3px solid var(--primary-color);
   max-width: unset;
   max-height: unset;
 }
