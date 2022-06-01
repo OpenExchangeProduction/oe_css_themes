@@ -1291,7 +1291,7 @@ body#page-top {
   height: 0;
   padding-bottom: 105%;
   cursor: pointer;
-  border: 1px solid #0e0e0e;
+  border: 3px solid var(--primary-color);
   max-width: unset;
   max-height: unset;
   overflow: hidden;
@@ -1364,6 +1364,7 @@ body#page-top {
   letter-spacing: 2px;
   font-size: 1rem;
   text-transform: uppercase;
+  margin: 0;
 }
 
 #page-top #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title {
