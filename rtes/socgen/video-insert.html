@@ -32,6 +32,16 @@
 
     var url = $('.thumb-link[href*="tiny"]').attr('href');
     $('.container.header-container .row > .col-xs-12').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
+
+    $('.speakers .tile-title').each(function(i, obj) {
+        var speaker_title = $(this).text();
+        var split = speaker_title.split('~');
+        var name = split[0];
+        var job = split[1];
+        var company = split[2];
+        $(this).html('<p>' + name + '</p><p>' + job + '</p><p>' + company + '</p>');
+        console.log(split);
+    });
   }
 
   defer(callback);

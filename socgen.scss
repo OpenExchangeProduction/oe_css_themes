@@ -539,10 +539,24 @@ body#page-top {
                     word-break: break-word;
                     height: max-content !important;
                     display: block;
-                    font-weight: 500;
                     font-size: 1.75rem;
-                    margin-bottom: .5rem;
-                    text-transform: uppercase;
+                    background: #000000;
+                    padding-top: 1rem;
+                    margin: 0 1.5rem;
+
+                    p {
+                      color: #000;
+                      margin-bottom: .5rem;
+
+                      &:first-child {
+                        font-weight: 500;
+                        text-transform: uppercase;
+                      }
+
+                      &:nth-child(3) {
+                        font-weight: 500;
+                      }
+                    }
 
                     &:hover {
                       filter: brightness(.7);

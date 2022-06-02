@@ -536,10 +536,24 @@ body#page-top {
   word-break: break-word;
   height: max-content !important;
   display: block;
-  font-weight: 500;
   font-size: 1.75rem;
+  background: #000000;
+  padding-top: 1rem;
+  margin: 0 1.5rem;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title p {
+  color: #000;
   margin-bottom: .5rem;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title p:first-child {
+  font-weight: 500;
   text-transform: uppercase;
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title p:nth-child(3) {
+  font-weight: 500;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title:hover {
