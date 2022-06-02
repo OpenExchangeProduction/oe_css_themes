@@ -439,7 +439,7 @@ body#page-top {
 #page-top .featured-category.speakers {
   margin: 0 !important;
   padding: 3rem 0 6rem 0;
-  background: linear-gradient(306deg, #e3e3e3, #c5c5c5);
+  background: src("https://s3.amazonaws.com/present.knowledgevision.com/account/47b51dfe-6059-4ca9-862d-16157c3f746c/content/assets/templates/template_background/shutterstock_1654198059633/shutterstock_664d350a-e8d2-4fb5-a421-c383a8cd7a94.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=2YRHWLsAztQTvZcTwlrHdJw9ImU%3D");
 }
 
 #page-top .featured-category.speakers .container:not(.posts) > .row .col-xs-9 {
@@ -553,6 +553,11 @@ body#page-top {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-family: var(--secondary-font);
+}
+
+#page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title p:nth-child(2) {
+  font-size: 1rem;
+  line-height: 1.3;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title p:nth-child(3) {
