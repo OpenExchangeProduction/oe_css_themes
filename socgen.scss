@@ -480,6 +480,7 @@ body#page-top {
           .post {
             position: relative;
             padding-bottom: 4.25rem;
+            border: 1px solid #0e0e0e;
 
             .thumb-wrapper {
               max-height: none;
@@ -491,7 +492,6 @@ body#page-top {
                 height: 0;
                 overflow: hidden;
                 position: relative;
-                border: 1px solid #0e0e0e;
                 max-width: unset;
                 max-height: unset;
 
@@ -547,14 +547,18 @@ body#page-top {
                     p {
                       color: #000;
                       margin-bottom: .5rem;
+                      line-height: 1.1;
 
                       &:first-child {
-                        font-weight: 500;
+                        font-weight: 600;
                         text-transform: uppercase;
+                        font-size: 1.5rem;
+                        font-family: var(--secondary-font);
                       }
 
                       &:nth-child(3) {
                         font-weight: 500;
+                        font-size: 1.25rem;
                       }
                     }
 
