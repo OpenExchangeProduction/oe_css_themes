@@ -2528,6 +2528,10 @@ footer {
               grid-column: 1 / -1;
               margin: 0;
               max-height: unset;
+
+              p {
+                color: #000;
+              }
             }
           }
         }

@@ -2478,6 +2478,10 @@ footer .footer-container > * {
   max-height: unset;
 }
 
+#page-top.home .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description p, #page-top.speakers .modal #postDetailsBody #contentMetadataSPEAKER .details-speaker-container .details-speaker-description p {
+  color: #000;
+}
+
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .content-metadata-details-button, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .content-metadata-details-button {
   display: none;
 }
