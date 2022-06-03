@@ -444,7 +444,7 @@ body#page-top {
   &.speakers {
     margin: 0 !important;
     padding: 3rem 0 6rem 0;
-    background: src('https://s3.amazonaws.com/present.knowledgevision.com/account/47b51dfe-6059-4ca9-862d-16157c3f746c/content/assets/templates/template_background/shutterstock_1654198059633/shutterstock_664d350a-e8d2-4fb5-a421-c383a8cd7a94.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=2YRHWLsAztQTvZcTwlrHdJw9ImU%3D');
+    background: linear-gradient(306deg, #e3e3e3, #c5c5c5);
 
     .container:not(.posts) > .row {
       .col-xs-9 {
@@ -479,8 +479,9 @@ body#page-top {
 
           .post {
             position: relative;
-            padding-bottom: 4.25rem;
+            padding-bottom: 6.75rem;
             border: 1px solid #0e0e0e;
+            background: #ffffff;
 
             .thumb-wrapper {
               max-height: none;
