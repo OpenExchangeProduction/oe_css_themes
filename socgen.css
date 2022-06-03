@@ -531,15 +531,13 @@ body#page-top {
   text-align: center;
   filter: brightness(1);
   transition: filter .2s ease-in-out;
-  padding: 0;
-  margin: 0;
   width: 100%;
   word-break: break-word;
   height: max-content !important;
   display: block;
   font-size: 1.75rem;
   background: #000000;
-  padding-top: 1rem;
+  padding: 1rem 0 .1rem 0;
   margin: 0 1.5rem;
 }
 
