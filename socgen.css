@@ -469,7 +469,7 @@ body#page-top {
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 1rem 2rem;
+  gap: 2rem;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker {
@@ -536,7 +536,9 @@ body#page-top {
   min-height: unset;
   line-height: 1.1;
   height: 100%;
-  align-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 1.5rem;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
@@ -551,7 +553,7 @@ body#page-top {
   font-size: 1.75rem;
   background: #000000;
   padding: 1rem .1rem 0;
-  margin: 0 1.5rem;
+  margin: 0;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title p {

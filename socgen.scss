@@ -475,7 +475,7 @@ body#page-top {
         margin: 0 auto;
 
         .speakers-hp-grid {
-          @include grid(6, 1fr, 1rem 2rem);
+          @include grid(6, 1fr, 2rem);
 
           .single-speaker {
             background: transparent;
@@ -538,7 +538,9 @@ body#page-top {
                     min-height: unset;
                     line-height: 1.1;
                     height: 100%;
-                    align-content: flex-end;
+                    display: flex;
+                    align-items: flex-end;
+                    margin: 0 1.5rem;
 
                     .tile-title {
                       color: var(--primary-color) !important;
@@ -552,7 +554,7 @@ body#page-top {
                       font-size: 1.75rem;
                       background: #000000;
                       padding: 1rem .1rem 0;
-                      margin: 0 1.5rem;
+                      margin: 0;
 
                       p {
                         color: #ffffff;
