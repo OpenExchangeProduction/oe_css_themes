@@ -262,7 +262,7 @@ body#page-top {
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(9) {
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p a {
@@ -272,7 +272,7 @@ body#page-top {
   padding: .5rem 1rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
   transition: filter .2s ease-in-out;
   text-decoration: none;
   box-shadow: 0 0 0 0 rgba(230, 0, 40, 0.7);
@@ -695,6 +695,7 @@ body#page-top {
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li:last-child {
   grid-column: 1 / -1;
+  font-size: 1.25rem;
 }
 
 #page-top .featured-category.solutions .agenda-button {
@@ -1696,6 +1697,7 @@ body#page-top {
 
 #page-top #showcase_category div.row .list-view-item.about > .post .thumb-wrapper {
   display: none !important;
+  pointer-events: none;
 }
 
 #page-top #showcase_category div.row .list-view-item.about > .post .thumb-meta-wrapper .link-header.tile-header-ellipsis {
