@@ -2090,6 +2090,8 @@ footer {
               flex: unset;
               position: relative;
               padding-bottom: 5.5rem;
+              border: 1px solid #0e0e0e;
+              background: #ffffff;
 
               .thumb-wrapper {
                 max-height: none;
@@ -2114,6 +2116,7 @@ footer {
                     top: 0;
                     object-fit: cover;
                     object-position: center;
+                    padding: 0 1.5rem;
                   }
                 }
               }

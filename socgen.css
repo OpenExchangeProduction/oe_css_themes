@@ -2080,6 +2080,8 @@ footer .footer-container > * {
   flex: unset;
   position: relative;
   padding-bottom: 5.5rem;
+  border: 1px solid #0e0e0e;
+  background: #ffffff;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper {
@@ -2107,6 +2109,7 @@ footer .footer-container > * {
   top: 0;
   object-fit: cover;
   object-position: center;
+  padding: 0 1.5rem;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper {
