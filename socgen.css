@@ -578,11 +578,11 @@ body#page-top {
   grid-column: auto / span 1;
 }
 
-#page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(2) .column-view-item:nth-child(n+4) {
+#page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(2) .column-view-item:nth-child(n+6) {
   display: none;
 }
 
-#page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(3), #page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(4) {
+#page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(3), #page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(4), #page-top .featured-category.speakers .container.posts .carousel-inner .item:nth-child(5) {
   display: none;
 }
 
