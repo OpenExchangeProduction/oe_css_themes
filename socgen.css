@@ -2572,7 +2572,7 @@ footer .footer-container > * {
 }
 
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-image-wrapper {
-  padding-bottom: 25%;
+  padding-bottom: 15%;
   width: 100%;
   height: 0;
   overflow: hidden;
