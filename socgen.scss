@@ -470,7 +470,7 @@ body#page-top {
     }
 
     .container.posts {
-      .carousel-inner {
+      .carousel > .row {
         max-width: 850px;
         margin: 0 auto;
 
@@ -591,10 +591,10 @@ body#page-top {
             }
           }
         }
-
-        .item {
-          display: none !important;
-        }
+      }
+      
+      .carousel-inner {
+        display: none !important;
       }
     }
 

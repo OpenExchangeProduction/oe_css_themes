@@ -22,7 +22,7 @@
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
 
-    $('.speakers .carousel-inner').prepend('<div class="speakers-hp-grid"></div>');
+    $('.speakers .container.posts .carousel > .row').prepend('<div class="speakers-hp-grid"></div>');
     $('.speakers .item .column-view-item').each(function(i, obj) {
       var tile = $(this);
       var grid = $('.speakers-hp-grid');
