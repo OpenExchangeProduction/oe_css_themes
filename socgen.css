@@ -472,6 +472,12 @@ body#page-top {
   gap: 2rem;
 }
 
+@media (max-width: 1200px) {
+  #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker {
   background: transparent;
   grid-column: auto / span 2;
@@ -479,6 +485,12 @@ body#page-top {
 
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker:nth-child(1), #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker:nth-child(2) {
   grid-column: auto / span 3;
+}
+
+@media (max-width: 1200px) {
+  #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker:nth-child(1), #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker:nth-child(2) {
+    grid-column: auto / span 2;
+  }
 }
 
 #page-top .featured-category.speakers .container.posts .carousel > .row .speakers-hp-grid .single-speaker .post {

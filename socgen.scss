@@ -477,6 +477,10 @@ body#page-top {
         .speakers-hp-grid {
           @include grid(6, 1fr, 2rem);
 
+          @media (max-width: 1200px) {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+          }
+
           .single-speaker {
             background: transparent;
             grid-column: auto / span 2;
@@ -484,6 +488,10 @@ body#page-top {
             &:nth-child(1),
             &:nth-child(2) {
               grid-column: auto / span 3;
+
+              @media (max-width: 1200px) {
+                grid-column: auto / span 2;
+              }
             }
 
             .post {
