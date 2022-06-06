@@ -537,7 +537,7 @@ body#page-top {
   display: block;
   font-size: 1.75rem;
   background: #000000;
-  padding: 1rem 0 .1rem 0;
+  padding: 1rem .1rem 0;
   margin: 0 1.5rem;
 }
 
@@ -1762,10 +1762,6 @@ body#page-top {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-#page-top #showcase_category div.row .list-view-item.about ~ .list-view-item:hover > .post > .thumb-meta-wrapper {
-  background: rgba(0, 0, 0, 0.5);
 }
 
 #page-top #showcase_category div.row .list-view-item:nth-last-child(4) > .post .thumb-wrapper,
