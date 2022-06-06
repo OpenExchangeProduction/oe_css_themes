@@ -1266,3 +1266,17 @@ form input[type="checkbox"] {
     display: none !important;
   }
 }
+
+.react-spinner-material {
+  border: 2px solid black !important;
+}
+
+.custom-select__options div {
+ background: white !important;
+}
+
+form > .mt-3:not(:first-of-type) {
+  margin-top: 0.25rem !important;
+  display: block;
+  margin-right: 0;
+}
