@@ -477,7 +477,7 @@ body#page-top {
         .speakers-hp-grid {
           @include grid(6, 1fr, 1rem 2rem);
 
-          .column-view-item {
+          .single-speaker {
             background: transparent;
             grid-column: auto / span 2;
 
@@ -592,7 +592,7 @@ body#page-top {
           }
         }
       }
-      
+
       .carousel-inner {
         display: none !important;
       }
