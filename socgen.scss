@@ -475,7 +475,7 @@ body#page-top {
         margin: 0 auto;
 
         .speakers-hp-grid {
-          @include grid(6, 1fr, 0);
+          @include grid(6, 1fr, 1rem 2rem);
 
           .column-view-item {
             background: transparent;
@@ -590,10 +590,10 @@ body#page-top {
               }
             }
           }
+        }
 
-          .item {
-            display: none !important;
-          }
+        .item {
+          display: none !important;
         }
       }
     }

@@ -469,7 +469,7 @@ body#page-top {
 #page-top .featured-category.speakers .container.posts .carousel-inner .speakers-hp-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 0;
+  gap: 1rem 2rem;
 }
 
 #page-top .featured-category.speakers .container.posts .carousel-inner .speakers-hp-grid .column-view-item {
@@ -585,7 +585,7 @@ body#page-top {
   display: none !important;
 }
 
-#page-top .featured-category.speakers .container.posts .carousel-inner .speakers-hp-grid .item {
+#page-top .featured-category.speakers .container.posts .carousel-inner .item {
   display: none !important;
 }
 

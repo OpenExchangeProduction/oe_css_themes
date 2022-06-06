@@ -27,9 +27,10 @@
       var tile = $(this);
       var grid = $('.speakers-hp-grid');
       $(grid).append(tile);
-      if (i > 11) {
+      if (i >= 10) {
        return false;
       }
+      console.log(i);
     });
   }
 
