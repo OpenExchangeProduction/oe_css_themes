@@ -1728,6 +1728,10 @@ body#page-top {
   pointer-events: all;
 }
 
+#page-top #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-wrapper {
+  pointer-events: none;
+}
+
 #page-top #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper {
   position: absolute;
   z-index: 2;

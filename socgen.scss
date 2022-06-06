@@ -1718,6 +1718,10 @@ body#page-top {
         > .post {
           pointer-events: all;
 
+          > .thumb-wrapper {
+            pointer-events: none;
+          }
+
           > .thumb-meta-wrapper {
             position: absolute;
             z-index: 2;
