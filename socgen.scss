@@ -2104,7 +2104,7 @@ footer {
                   height: 0;
                   overflow: hidden;
                   position: relative;
-                  border: 3px solid var(--primary-color);
+                  border: none;
                   max-width: unset;
                   max-height: unset;
 
@@ -2117,6 +2117,7 @@ footer {
                     object-fit: cover;
                     object-position: center;
                     padding: 0 1.5rem;
+                    background: white;
                   }
                 }
               }
@@ -2190,6 +2191,8 @@ footer {
                     }
 
                     .page-description {
+                      display: none;
+                      
                       .list-page-description {
                         display: flex;
                         flex-wrap: wrap;
