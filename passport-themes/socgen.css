@@ -71,7 +71,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #root .App header img {
-  display: none !important;
+  object-fit: contain !important;
 }
 
 #root .App header .editable-header a.header-button {
