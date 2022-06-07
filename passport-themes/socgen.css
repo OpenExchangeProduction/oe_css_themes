@@ -1311,6 +1311,11 @@ form > .mt-3:not(:first-of-type) {
   display: none;
 }
 
+#registration-page form input[type="checkbox"] + span {
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
 #registration-page form input[type="checkbox"] + span p {
   font-size: .75rem;
   line-height: 1.6;
