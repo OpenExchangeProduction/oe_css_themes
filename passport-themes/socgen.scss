@@ -1281,14 +1281,14 @@ form > .mt-3:not(:first-of-type) {
   margin-right: 0;
 }
 
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mr-2:nth-last-child(1) {
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .mr-2:nth-last-child(2) {
   order: 1;
+}
 
-  input {
-    display: none;
-  }
+#registration-page form input[type="checkbox"] {
+  display: none;
 
-  span p {
+  & + span p {
     font-size: .75rem;
     line-height: 1.6;
   }
