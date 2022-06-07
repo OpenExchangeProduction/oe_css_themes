@@ -2474,6 +2474,7 @@ footer .footer-container > * {
 @media (max-width: 1024px) {
   #page-top.contact .showcase-description {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    max-width: 95%;
   }
 }
 
@@ -2487,8 +2488,18 @@ footer .footer-container > * {
   grid-column: 1 / span 1;
 }
 
+#page-top.contact .showcase-description p:nth-child(4) {
+  margin-top: 2rem;
+}
+
 #page-top.contact .showcase-description p:nth-child(5), #page-top.contact .showcase-description p:nth-child(6), #page-top.contact .showcase-description p:nth-child(7), #page-top.contact .showcase-description p:nth-child(8) {
   grid-column: 2 / span 1;
+}
+
+@media (max-width: 1024px) {
+  #page-top.contact .showcase-description p:nth-child(5), #page-top.contact .showcase-description p:nth-child(6), #page-top.contact .showcase-description p:nth-child(7), #page-top.contact .showcase-description p:nth-child(8) {
+    grid-column: 1 / -1;
+  }
 }
 
 #page-top.contact .showcase-description p:first-child, #page-top.contact .showcase-description p:nth-child(5) {

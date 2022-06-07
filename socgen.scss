@@ -2495,6 +2495,7 @@ footer {
 
       @media (max-width: 1024px) {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+        max-width: 95%;
       }
 
       p {
@@ -2509,11 +2510,19 @@ footer {
           grid-column: 1 / span 1;
         }
 
+        &:nth-child(4) {
+          margin-top: 2rem;
+        }
+
         &:nth-child(5),
         &:nth-child(6),
         &:nth-child(7),
         &:nth-child(8) {
           grid-column: 2 / span 1;
+
+          @media (max-width: 1024px) {
+            grid-column: 1 / -1;
+          }
         }
 
         &:first-child,
