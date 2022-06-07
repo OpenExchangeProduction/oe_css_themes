@@ -1254,16 +1254,10 @@ form input[type="checkbox"] {
 
 
 .editable-welcome-event-details .items-start {
-  display: block !important;
+  display: flex !important;
 
   img {
-    width: 100%;
-    max-width: unset !important;
     max-height: unset !important;
-  }
-
-  .editable-welcome-event-details--wrapper {
-    display: none !important;
   }
 }
 
@@ -1294,6 +1288,7 @@ form > .mt-3:not(:first-of-type) {
       padding: .25rem 0;
     }
   }
+
   form input[type="checkbox"] {
     display: none;
 

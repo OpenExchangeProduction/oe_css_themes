@@ -1276,17 +1276,11 @@ form input[type="checkbox"] {
 }
 
 .editable-welcome-event-details .items-start {
-  display: block !important;
+  display: flex !important;
 }
 
 .editable-welcome-event-details .items-start img {
-  width: 100%;
-  max-width: unset !important;
   max-height: unset !important;
-}
-
-.editable-welcome-event-details .items-start .editable-welcome-event-details--wrapper {
-  display: none !important;
 }
 
 .react-spinner-material {
