@@ -575,12 +575,15 @@ div[class*='event-details'] > .items-start {
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start, .rich-text-content-wrapper > div[class*="event-details"] .items-start {
-  display: grid;
-  grid-template-columns: 80% 20%;
+  display: flex;
   padding: 1rem;
   background: #ffffff;
   border-radius: 6px;
   background-clip: padding-box;
+}
+
+.main-content-wrapper > div[class*="event-details"] .items-start img, .rich-text-content-wrapper > div[class*="event-details"] .items-start img {
+  max-height: unset !important;
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
@@ -589,10 +592,6 @@ div[class*='event-details'] > .items-start {
   order: 2;
   margin-left: auto;
   margin-right: 1.5rem;
-}
-
-.main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"], .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] {
-  grid-column: 1 / span 1;
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] *, .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] * {
@@ -1273,14 +1272,6 @@ form input[type="checkbox"] {
 /* Fix dev's broken color update */
 #page-top .post-details-description-button {
   color: #000000;
-}
-
-.editable-welcome-event-details .items-start {
-  display: flex !important;
-}
-
-.editable-welcome-event-details .items-start img {
-  max-height: unset !important;
 }
 
 .react-spinner-material {
