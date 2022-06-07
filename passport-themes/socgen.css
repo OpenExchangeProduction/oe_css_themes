@@ -1307,6 +1307,15 @@ form > .mt-3:not(:first-of-type) {
   order: 1;
 }
 
+#registration-page .custom-select__options.outline {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#registration-page .custom-select__options.outline > div {
+  padding: .25rem 0;
+}
+
 #registration-page form input[type="checkbox"] {
   display: none;
 }
