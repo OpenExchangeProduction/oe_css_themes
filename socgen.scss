@@ -1307,7 +1307,7 @@ body#page-top {
   }
 }
 
-#page-top #showcase_category {
+#page-top:not(.videos) #showcase_category {
   .container {
     @media (min-width: 850px) {
       max-width: unset;
@@ -2345,7 +2345,14 @@ footer {
       max-width: 85%;
       margin: 0 auto;
 
+      @media (max-width: 768px) {
+        display: block;
+      }
+
       .list-view-item {
+        grid-column: auto / span 1 !important;
+        display: block;
+
         .post {
           padding: 1rem;
           transition: background-color .2s ease-in-out;
