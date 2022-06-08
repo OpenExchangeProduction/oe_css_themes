@@ -2341,12 +2341,17 @@ footer {
 
   &.videos {
     #showcase_category .container.posts div.row {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      @include grid(2, 1fr, 0);
       max-width: 85%;
       margin: 0 auto;
 
       @media (max-width: 768px) {
         display: block;
+      }
+
+      &:before,
+      &:after {
+        display: none;
       }
 
       .list-view-item {
@@ -2361,35 +2366,13 @@ footer {
           position: relative;
 
           .thumb-wrapper {
-            order: 1;
-            height: max-content;
-            z-index: 0;
-
-            .thumb-link {
-              position: relative;
-              padding-bottom: 52.25%;
-              width: 100%;
-              height: 0;
-              max-width: unset;
-              max-height: unset;
-              overflow: hidden;
-              position: relative;
-
-              .thumb {
-                position: absolute;
-                width: 100%;
-                height: 100% !important;
-                left: 0;
-                top: 0;
-                object-fit: cover;
-                object-position: center;
-              }
-            }
+            display: none;
           }
 
           .thumb-meta-wrapper {
             position: relative;
             height: max-content;
+            margin: 0;
 
             .tile-text-area .tile-header-ellipsis.post-details-activate {
               margin: 0;
@@ -2406,16 +2389,34 @@ footer {
                 padding: 0;
                 justify-content: center;
                 align-items: center;
-                background-color: rgba(0, 0, 0, 0.3);
                 font-weight: 600;
-                font-size: 3rem;
-                color: #002856 !important;
+                font-size: 2rem;
+                color: #002856;
                 text-align: center;
                 padding: 0 4rem;
-                transition: background-color .2s ease-in-out;
+                transition: color .2s ease-in-out;
 
                 &:before,
                 &:after {
+                  display: none;
+                }
+              }
+
+              .page-description {
+                position: relative;
+                height: 0;
+                padding-bottom: 58%;
+
+                .KnowledgeVisionEmbeddedContent {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  height: 100% !important;
+                  width: 100% !important;
+                }
+                .list-page-description {
                   display: none;
                 }
               }
