@@ -2419,12 +2419,12 @@ footer .footer-container > * {
   margin-bottom: 2em;
 }
 
-#page-top.charity .charity-content__single:first-child .charity-content__single__subtitle {
+#page-top.charity .charity-content__single:nth-child(2) .charity-content__single__subtitle {
   color: #e7721e;
 }
 
-#page-top.charity .charity-content__single:first-child .charity-content__single__subtitle span {
-  word-break: keep-all;
+#page-top.charity .charity-content__single:nth-child(2) .charity-content__single__subtitle span {
+  display: inline-block;
 }
 
 #page-top.charity .charity-content__single__title {

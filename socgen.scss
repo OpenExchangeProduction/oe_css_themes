@@ -2418,12 +2418,12 @@ footer {
       &__single {
         margin-bottom: 2em;
 
-        &:first-child {
+        &:nth-child(2) {
           .charity-content__single__subtitle {
             color: #e7721e;
 
             span {
-              word-break: keep-all;
+              display: inline-block;
             }
           }
         }
