@@ -30,6 +30,7 @@ body#page-top {
 
 #page-top #main_navigation {
   border: none !important;
+  padding: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -39,9 +40,11 @@ body#page-top {
     background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/9dc0b952-1010-4206-805c-7e1a61f9a960/content/assets/templates/template_background/sponsor_lockup_1653314141589/sponsor_lockup_33d59ae2-d8ec-4d93-a815-dae1b90b4683.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=aQbxgHQ1rK7rJLSG%2B6NHq5mw5kI%3D");
     object-fit: contain;
     background-size: contain;
+    background-position: center;
     position: absolute;
     background-repeat: no-repeat;
     top: 0;
+    bottom: 0;
     right: 0;
     min-height: 100%;
     min-width: 303px;
@@ -2011,7 +2014,7 @@ footer .footer-container > * {
 }
 
 #page-top .navbar-default .showcase-logo {
-  max-height: 25px;
+  max-height: 30px;
 }
 
 #page-top #showcase_category .row .list-view-item.description .link-header.tile-header-ellipsis .page-description {
