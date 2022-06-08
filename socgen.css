@@ -2393,6 +2393,7 @@ footer .footer-container > * {
   margin: 0;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 
 #page-top.videos #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
@@ -2431,6 +2432,7 @@ footer .footer-container > * {
   bottom: 0;
   height: 100% !important;
   width: 100% !important;
+  pointer-events: all;
 }
 
 #page-top.videos #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .list-page-description {
