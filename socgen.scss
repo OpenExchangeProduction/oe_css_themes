@@ -2392,25 +2392,6 @@ footer {
 
     > .container {
       max-height: unset;
-
-      // .featured-knovio {
-      //   display: block;
-      //   max-height: unset;
-      //   overflow: hidden;
-      //   margin: 0;
-      //
-      //   .featured-knovio-post {
-      //     grid-column: unset;
-      //     grid-row: unset;
-      //     height: unset;
-      //     max-height: unset;
-      //     display: block;
-      //   }
-      //
-      //   .featured-knovio-info {
-      //     display: none;
-      //   }
-      // }
     }
 
     .container.posts {
@@ -2436,6 +2417,16 @@ footer {
 
       &__single {
         margin-bottom: 2em;
+
+        &:first-child {
+          .charity-content__single__subtitle {
+            color: #e7721e;
+
+            span {
+              word-break: keep-all;
+            }
+          }
+        }
 
         &__title {
           text-transform: uppercase;
@@ -2467,6 +2458,7 @@ footer {
         &:nth-child(2) {
           p {
             text-align: center;
+
           }
 
           img {
