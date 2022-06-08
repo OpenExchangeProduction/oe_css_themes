@@ -2340,11 +2340,16 @@ footer .footer-container > * {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#page-top.videos header .showcase-description {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 #page-top.videos #showcase_category .container.posts div.row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
-  max-width: 85%;
   margin: 0 auto;
 }
 
@@ -2380,6 +2385,7 @@ footer .footer-container > * {
   position: relative;
   height: max-content;
   margin: 0;
+  width: 100%;
 }
 
 #page-top.videos #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate {

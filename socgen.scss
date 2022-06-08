@@ -2340,9 +2340,15 @@ footer {
   }
 
   &.videos {
+    header {
+      .showcase-description {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+    }
     #showcase_category .container.posts div.row {
       @include grid(2, 1fr, 0);
-      max-width: 85%;
       margin: 0 auto;
 
       @media (max-width: 768px) {
@@ -2373,6 +2379,7 @@ footer {
             position: relative;
             height: max-content;
             margin: 0;
+            width: 100%;
 
             .tile-text-area .tile-header-ellipsis.post-details-activate {
               margin: 0;
@@ -2416,6 +2423,7 @@ footer {
                   height: 100% !important;
                   width: 100% !important;
                 }
+
                 .list-page-description {
                   display: none;
                 }
