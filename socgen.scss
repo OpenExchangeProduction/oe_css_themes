@@ -254,6 +254,7 @@ body#page-top {
           font-size: 2.75rem;
           font-weight: 600;
           line-height: 1.2;
+          color: #00f0fc;
         }
 
         &:nth-child(5) {
@@ -269,6 +270,7 @@ body#page-top {
         &:nth-child(9) {
           text-decoration: underline;
           font-size: 1.75rem;
+          color: #00f0fc;
         }
 
         a {
@@ -690,10 +692,6 @@ body#page-top {
             margin-bottom: 1.75rem;
             list-style-type: none;
 
-            span {
-              color: #e7721e;
-            }
-
             &:not(:last-child) {
               padding: 3rem;
               margin: 3rem;
@@ -710,7 +708,13 @@ body#page-top {
 
             &:last-child {
               grid-column: 1 / -1;
-              font-size: 1.25rem;
+              font-size: 1.5rem;
+              color: #e7721e;
+
+              span {
+                display: block;
+                text-align: center;
+              }
 
               @media (max-width: 1024px) {
                 margin-top: 3rem;

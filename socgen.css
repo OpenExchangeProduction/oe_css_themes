@@ -251,6 +251,7 @@ body#page-top {
   font-size: 2.75rem;
   font-weight: 600;
   line-height: 1.2;
+  color: #00f0fc;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(5) {
@@ -264,6 +265,7 @@ body#page-top {
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p:nth-child(9) {
   text-decoration: underline;
   font-size: 1.75rem;
+  color: #00f0fc;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .showcase-description p a {
@@ -695,10 +697,6 @@ body#page-top {
   list-style-type: none;
 }
 
-#page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li span {
-  color: #e7721e;
-}
-
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li:not(:last-child) {
   padding: 3rem;
   margin: 3rem;
@@ -717,7 +715,13 @@ body#page-top {
 
 #page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li:last-child {
   grid-column: 1 / -1;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  color: #e7721e;
+}
+
+#page-top .featured-category.solutions .container:not(.posts) > .row .col-xs-9 ul li:last-child span {
+  display: block;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
