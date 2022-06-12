@@ -1778,17 +1778,14 @@ body#page-top {
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-wrapper {
-  pointer-events: none;
+  display: none;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
   margin: 0;
+  cursor: pointer;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper > .tile-text-area {
@@ -1805,6 +1802,17 @@ body#page-top {
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: none !important;
+}
+
+#page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .list-page-description {
+  display: block;
+}
+
+#page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .list-page-description img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper {
