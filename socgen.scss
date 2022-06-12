@@ -1742,10 +1742,6 @@ body#page-top {
         > .post {
           pointer-events: all;
 
-          > .thumb-wrapper {
-            display: none;
-          }
-
           > .thumb-meta-wrapper {
             width: 100%;
             height: 100%;
@@ -1783,29 +1779,7 @@ body#page-top {
           }
 
           .thumb-wrapper {
-            border-radius: unset;
-            position: relative;
-            display: block;
-            max-height: 100px;
-
-            .thumb-link {
-              border-radius: unset;
-              padding-bottom: 20%;
-              background: #ffffff;
-              border: unset;
-
-              .thumb {
-                object-fit: contain;
-                max-height: 100px;
-                margin: auto;
-                display: block;
-                object-position: center center;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-              }
-            }
+            display: none;
           }
         }
       }

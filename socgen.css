@@ -1777,10 +1777,6 @@ body#page-top {
   pointer-events: all;
 }
 
-#page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-wrapper {
-  display: none;
-}
-
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post > .thumb-meta-wrapper {
   width: 100%;
   height: 100%;
@@ -1816,29 +1812,7 @@ body#page-top {
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper {
-  border-radius: unset;
-  position: relative;
-  display: block;
-  max-height: 100px;
-}
-
-#page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper .thumb-link {
-  border-radius: unset;
-  padding-bottom: 20%;
-  background: #ffffff;
-  border: unset;
-}
-
-#page-top:not(.videos) #showcase_category div.row .list-view-item.about ~ .list-view-item > .post .thumb-wrapper .thumb-link .thumb {
-  object-fit: contain;
-  max-height: 100px;
-  margin: auto;
-  display: block;
-  object-position: center center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  display: none;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item:nth-last-child(4) > .post .thumb-wrapper,
