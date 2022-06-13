@@ -1341,16 +1341,17 @@ body#page-top {
         > .post .thumb-wrapper .thumb-link {
           padding-bottom: 193%;
 
-          &:before {
+          &:after {
             display: block;
             width: 103%;
-            height: 7px;
+            height: 8px;
             position: absolute;
             background: #e3e3e3;
             content: '';
             top: 50%;
             right: 50%;
-            transform: translate(50%,-50%);
+            transform: translate(50%,-100%);
+            z-index: 3;
           }
         }
       }
@@ -1369,7 +1370,6 @@ body#page-top {
           height: 100%;
           box-shadow: none;
           flex: 1;
-          border: 3px solid var(--primary-color);
 
           .thumb-link {
             position: relative;
@@ -1380,6 +1380,7 @@ body#page-top {
             max-width: unset;
             max-height: unset;
             overflow: hidden;
+            border: 3px solid var(--primary-color);
 
             &:before {
               display: block;

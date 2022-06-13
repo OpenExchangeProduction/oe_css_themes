@@ -1360,16 +1360,17 @@ body#page-top {
   padding-bottom: 193%;
 }
 
-#page-top:not(.videos) #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link:before {
+#page-top:not(.videos) #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link:after {
   display: block;
   width: 103%;
-  height: 7px;
+  height: 8px;
   position: absolute;
   background: #e3e3e3;
   content: '';
   top: 50%;
   right: 50%;
-  transform: translate(50%, -50%);
+  transform: translate(50%, -100%);
+  z-index: 3;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post {
@@ -1387,7 +1388,6 @@ body#page-top {
   height: 100%;
   box-shadow: none;
   flex: 1;
-  border: 3px solid var(--primary-color);
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-wrapper .thumb-link {
@@ -1399,6 +1399,7 @@ body#page-top {
   max-width: unset;
   max-height: unset;
   overflow: hidden;
+  border: 3px solid var(--primary-color);
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-wrapper .thumb-link:before {
