@@ -1340,6 +1340,18 @@ body#page-top {
       &:nth-child(3) {
         > .post .thumb-wrapper .thumb-link {
           padding-bottom: 193%;
+
+          &:before {
+            display: block;
+            width: 103%;
+            height: 7px;
+            position: absolute;
+            background: #e3e3e3;
+            content: '';
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+          }
         }
       }
 
@@ -1357,7 +1369,7 @@ body#page-top {
           height: 100%;
           box-shadow: none;
           flex: 1;
-          border: 1px solid var(--primary-color);
+          border: 3px solid var(--primary-color);
 
           .thumb-link {
             position: relative;

@@ -22,7 +22,7 @@
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
 
-    $(window).bind("load", function () {
+    $(window).on("load", function () {
       $('.speakers .tile-title').each(function(i, obj) {
           var speaker_title = $(this).text();
           var split = speaker_title.split('~');
