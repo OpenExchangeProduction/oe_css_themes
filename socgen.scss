@@ -2141,6 +2141,10 @@ footer {
                   max-width: unset;
                   max-height: unset;
 
+                  &:after {
+                    display: none !important;
+                  }
+
                   .thumb {
                     position: absolute;
                     width: 100%;

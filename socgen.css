@@ -2155,6 +2155,10 @@ footer .footer-container > * {
   max-height: unset;
 }
 
+#page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper .thumb-link:after {
+  display: none !important;
+}
+
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper .thumb-link .thumb {
   position: absolute;
   width: 100%;
