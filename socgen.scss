@@ -303,6 +303,12 @@ body#page-top {
       }
     }
   }
+
+  ~ #showcase_category {
+    div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link {
+      overflow: visible;
+    }
+  }
 }
 
 /* featured category */
@@ -1343,15 +1349,18 @@ body#page-top {
 
           &:after {
             display: block;
-            width: 103%;
-            height: 8px;
+            width: 105%;
+            height: 2px;
             position: absolute;
             background: #e3e3e3;
             content: '';
             top: 50%;
             right: 50%;
-            transform: translate(50%,-100%);
+            transform: translate(50%, -100%);
             z-index: 3;
+            border-top: 3px solid var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+            box-sizing: content-box;
           }
         }
       }

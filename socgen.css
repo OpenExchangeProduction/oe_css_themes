@@ -296,6 +296,10 @@ body#page-top {
   filter: brightness(0.85);
 }
 
+#page-top:not(.single-post) ~ #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link {
+  overflow: visible;
+}
+
 /* featured category */
 #page-top .featured-category {
   border: none;
@@ -1362,8 +1366,8 @@ body#page-top {
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link:after {
   display: block;
-  width: 103%;
-  height: 8px;
+  width: 105%;
+  height: 2px;
   position: absolute;
   background: #e3e3e3;
   content: '';
@@ -1371,6 +1375,9 @@ body#page-top {
   right: 50%;
   transform: translate(50%, -100%);
   z-index: 3;
+  border-top: 3px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  box-sizing: content-box;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post {
