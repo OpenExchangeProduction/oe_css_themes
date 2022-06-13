@@ -1357,7 +1357,7 @@ body#page-top {
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link {
-  padding-bottom: 175%;
+  padding-bottom: 193%;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post {
@@ -1375,6 +1375,7 @@ body#page-top {
   height: 100%;
   box-shadow: none;
   flex: 1;
+  border: 1px solid var(--primary-color);
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-wrapper .thumb-link {

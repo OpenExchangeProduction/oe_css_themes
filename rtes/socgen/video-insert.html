@@ -27,7 +27,7 @@
     var speakers_cat = speakers.closest('.featured-category');
     $(speakers_cat).addClass('speakers');
     isInit = true;
-    console.log(isInit);
+    window.postMessage('isInit', '*');
     $(speakers_cat).append('<a class="view-all-button" href="/speakers">View All Speakers</a>');
     var about = $('.tile-title[title="About"]');
     var about_item = about.closest('.list-view-item');

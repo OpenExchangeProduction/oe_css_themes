@@ -1339,7 +1339,7 @@ body#page-top {
 
       &:nth-child(3) {
         > .post .thumb-wrapper .thumb-link {
-          padding-bottom: 175%;
+          padding-bottom: 193%;
         }
       }
 
@@ -1357,6 +1357,7 @@ body#page-top {
           height: 100%;
           box-shadow: none;
           flex: 1;
+          border: 1px solid var(--primary-color);
 
           .thumb-link {
             position: relative;
