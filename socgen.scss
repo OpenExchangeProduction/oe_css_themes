@@ -1346,10 +1346,11 @@ body#page-top {
       &:nth-child(3) {
         > .post .thumb-wrapper .thumb-link {
           padding-bottom: 193%;
+          overflow: visible;
 
           &:after {
             display: block;
-            width: 105%;
+            width: 106%;
             height: 2px;
             position: absolute;
             background: #e3e3e3;

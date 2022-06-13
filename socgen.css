@@ -1362,11 +1362,12 @@ body#page-top {
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link {
   padding-bottom: 193%;
+  overflow: visible;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item:nth-child(3) > .post .thumb-wrapper .thumb-link:after {
   display: block;
-  width: 105%;
+  width: 106%;
   height: 2px;
   position: absolute;
   background: #e3e3e3;

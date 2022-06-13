@@ -7,7 +7,7 @@
       if (window.jQuery) {
           callback();
       } else {
-          if (counter < 200) {
+          if (counter < 10000) {
               setTimeout(() => { defer(callback) }, 50);
               counter++;
           } else {
