@@ -22,21 +22,29 @@
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
 
-    $('.speakers .container.posts .carousel > .row').prepend('<div class="speakers-hp-grid"></div>');
-    $('.speakers .item .column-view-item').each(function(i, obj) {
-      if (i >= 11) {
-       return false;
-      }
-      var tile = $(this);
-      var grid = $('.speakers-hp-grid');
-      $(grid).append(tile);
-      $(this).removeClass().addClass('single-speaker');
+    $(window).bind("load", function () {
+      $('.speakers .item .column-view-item').each(function(i, obj) {
+        if (i >= 11) {
+         return false;
+        }
+        var tile = $(this);
+        var grid = $('.speakers-hp-grid');
+        $(grid).append(tile);
+        $(this).removeClass().addClass('single-speaker');
+      });
+
+      $('.speakers .tile-title').each(function(i, obj) {
+        var speaker_title = $(this).text();
+        var split = speaker_title.split('~');
+        var name = split[0];
+        var job = split[1];
+        var company = split[2];
+        $(this).html('<p>' + name + '</p><p>' + job + '</p><p>' + company + '</p>');
+      });
     });
   }
 
-  window.addEventListener('DOMContentLoaded', function() {
-    defer(callback2);
-  });
+  defer(callback2);
 </script>
 
 <style>

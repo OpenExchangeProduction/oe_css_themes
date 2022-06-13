@@ -1,14 +1,14 @@
-<p class="selector">selector</p>
+<p class="selector2">selector</p>
 
 <script>
   var counter = 0;
 
-  function defer(callback) {
+  function defer(callback2) {
       if (window.jQuery) {
-          callback();
+          callback2();
       } else {
           if (counter < 200) {
-              setTimeout(() => { defer(callback) }, 50);
+              setTimeout(() => { defer(callback2) }, 50);
               counter++;
           } else {
               throw new Error("RTE - JQuery Timeout");
@@ -17,23 +17,25 @@
       }
   }
 
-  var callback = function () {
-    var selector = document.querySelector('.selector');
+  var callback2 = function () {
+    var selector = document.querySelector('.selector2');
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
 
-    $('.speakers .tile-title').each(function(i, obj) {
-        var speaker_title = $(this).text();
-        var split = speaker_title.split('~');
-        var name = split[0];
-        var job = split[1];
-        var company = split[2];
-        $(this).html('<p>' + name + '</p><p>' + job + '</p><p>' + company + '</p>');
-        console.log(split);
+    $(window).bind("load", function () {
+      $('.speakers .tile-title').each(function(i, obj) {
+          var speaker_title = $(this).text();
+          var split = speaker_title.split('~');
+          var name = split[0];
+          var job = split[1];
+          var company = split[2];
+          $(this).html('<p>' + name + '</p><p>' + job + '</p><p>' + company + '</p>');
+          console.log(split);
+      });
     });
   }
 
-  defer(callback);
+  defer(callback2);
 </script>
 
 <style>

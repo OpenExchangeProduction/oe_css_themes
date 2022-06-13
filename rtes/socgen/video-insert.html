@@ -17,7 +17,6 @@
       }
   }
 
-  var isInit = false;
   var callback = function () {
     var selector = document.querySelector('.selector');
     var rte = selector.closest('.featured-category');
@@ -26,7 +25,6 @@
     var speakers = $('.featured-category-title-link[data-url="/speakers"]');
     var speakers_cat = speakers.closest('.featured-category');
     $(speakers_cat).addClass('speakers');
-    isInit = true;
     window.postMessage('isInit', '*');
     $(speakers_cat).append('<a class="view-all-button" href="/speakers">View All Speakers</a>');
     var about = $('.tile-title[title="About"]');
@@ -36,14 +34,7 @@
     var url = $('.thumb-link[href*="tiny"]').attr('href');
     $('.container.header-container .row > .col-xs-12').prepend('<div class="video-container"><video src="' + url + '" autoplay="" loop="" playsinline="" muted=""></video></div>');
 
-    $('.speakers .tile-title').each(function(i, obj) {
-        var speaker_title = $(this).text();
-        var split = speaker_title.split('~');
-        var name = split[0];
-        var job = split[1];
-        var company = split[2];
-        $(this).html('<p>' + name + '</p><p>' + job + '</p><p>' + company + '</p>');
-    });
+    $('.speakers .container.posts .carousel > .row').prepend('<div id="speakers-grid" class="speakers-hp-grid"></div>');
   }
 
   defer(callback);

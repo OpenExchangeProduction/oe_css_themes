@@ -146,7 +146,7 @@ body#page-top {
   margin: 0;
   max-width: unset;
   border-bottom: 1rem solid #ff0c25;
-  background: var(--primary-color);
+  background: #000021;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .container.header-container .row {
