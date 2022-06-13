@@ -2121,6 +2121,7 @@ footer .footer-container > * {
   max-height: none;
   max-width: 100%;
   position: relative;
+  border: none;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper .thumb-link {
