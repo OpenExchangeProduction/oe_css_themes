@@ -1232,7 +1232,6 @@ body#page-top {
   padding: 0;
   max-height: unset;
   position: relative;
-  background: var(--gradient);
 }
 
 @media (max-width: 1050px) {
@@ -1248,7 +1247,6 @@ body#page-top {
   width: unset;
   height: 100%;
   box-shadow: none;
-  background-color: var(--primary-color);
 }
 
 @media (max-width: 1050px) {

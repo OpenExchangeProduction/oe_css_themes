@@ -1226,7 +1226,6 @@ body#page-top {
     padding: 0;
     max-height: unset;
     position: relative;
-    background: var(--gradient);
 
     @media (max-width: 1050px) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1239,7 +1238,6 @@ body#page-top {
       width: unset;
       height: 100%;
       box-shadow: none;
-      background-color: var(--primary-color);
 
       @media (max-width: 1050px) {
         grid-column: auto / span 1;
