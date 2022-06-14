@@ -1479,6 +1479,7 @@ body#page-top {
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title {
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .keynote-title,
@@ -1497,8 +1498,9 @@ body#page-top {
   text-transform: uppercase;
 }
 
-#page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .company {
-  font-weight: 500;
+#page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .company,
+#page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description .job {
+  font-weight: 600;
 }
 
 #page-top:not(.videos) #showcase_category div.row .list-view-item > .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .page-description p {

@@ -1460,6 +1460,7 @@ body#page-top {
 
               .keynote-title {
                 margin-bottom: 2rem;
+                text-transform: uppercase;
               }
 
               .keynote-title,
@@ -1478,8 +1479,9 @@ body#page-top {
                 text-transform: uppercase;
               }
 
-              .company {
-                font-weight: 500;
+              .company,
+              .job {
+                font-weight: 600;
               }
 
               p {
