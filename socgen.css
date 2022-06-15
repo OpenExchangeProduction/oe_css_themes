@@ -37,7 +37,7 @@ body#page-top {
   #page-top #main_navigation::before {
     display: block;
     content: '';
-    background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/47b51dfe-6059-4ca9-862d-16157c3f746c/content/assets/templates/template_background/sponsor_lockup_1655072053510/sponsor_lockup_7b4fcbf2-a831-4de9-b424-b6e5ef5964c9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=LWsIIotTPqBiIxY7rOMVNEifSCI%3D");
+    background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/47b51dfe-6059-4ca9-862d-16157c3f746c/content/assets/templates/template_background/sponsor_lockup_1655299381759/sponsor_lockup_92807f61-7ac3-4054-9431-9058652567e1.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=2%2BKRpY8YQIErmlgYVH4YNy%2Bzct0%3D");
     object-fit: contain;
     background-size: contain;
     background-position: center;
