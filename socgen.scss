@@ -2795,6 +2795,14 @@ footer {
   filter: brightness(1) !important; // unset hover on content hub tile titles
 }
 
+#page-top:not(.single-post) {
+  #url-auth-suffix ~ .speakers {
+    span.showcase-description {
+      color: #0d2060;
+    }
+  }
+}
+
 // @media (min-resolution:.001dpcm) {
 //     #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .container.header-container .row > .col-xs-12 .video-container video {
 //       transform: translateY(-25%);

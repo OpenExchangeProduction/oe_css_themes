@@ -2775,3 +2775,7 @@ footer .footer-container > * {
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
   filter: brightness(1) !important;
 }
+
+#page-top:not(.single-post) #url-auth-suffix ~ .speakers span.showcase-description {
+  color: #0d2060;
+}
