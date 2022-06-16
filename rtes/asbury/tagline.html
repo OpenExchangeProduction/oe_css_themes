@@ -1,0 +1,36 @@
+<p class="tagline-selector">selector</p>
+
+<script>
+  var counter2 = 0;
+
+  function defer(callback2) {
+      if (window.jQuery) {
+          callback2();
+      } else {
+          if (counter2 < 10000) {
+              setTimeout(() => { defer(callback2) }, 50);
+              counter2++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback2 = function () {
+    var selector = document.querySelector('.tagline-selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+    // also add the speakers class to the speakers category
+    var description = $('.header-container .row > .col-xs-12');
+    $(description).prepend('<div class="tagline"><p class="series"><span>SHARE</span> Series</p><p class="name">Democratizing Shareholder Access</p></div>');
+  }
+
+  defer(callback2);
+</script>
+
+<style>
+  .featured-category.hide {
+    display: none;
+  }
+</style>
