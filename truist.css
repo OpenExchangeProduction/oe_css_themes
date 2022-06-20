@@ -1502,7 +1502,6 @@ footer .footer-container p:last-child {
   max-height: none !important;
 }
 
-/* Unset the color stuff from dev */
 #postDetailsDescriptionButton:hover, #postContentMetadataCaretSPEAKER:hover {
   background: transparent !important;
 }
