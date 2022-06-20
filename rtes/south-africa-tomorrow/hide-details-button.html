@@ -1,0 +1,39 @@
+<p class="selector">selector</p>
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 200) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  .featured-category.hide,
+  #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
+    display: none;
+  }
+  #page-top .column-view-item .post .thumb-meta-wrapper {
+    pointer-events: none;
+  }
+  #page-top .column-view-item .post .thumb-wrapper .thumb-link {
+    padding-bottom: 99.25%;
+  }
+</style>
