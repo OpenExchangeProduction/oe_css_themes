@@ -802,15 +802,15 @@ body#page-top {
                   grid-template-columns: repeat(6, minmax(0, 1fr));
                 }
 
-                @media (max-width: 1024px) {
-                  grid-template-columns: repeat(1, minmax(0, 1fr));
+                @media (max-width: 1400px) {
+                  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
                   gap: 2rem;
                 }
 
                 &:nth-child(2) {
                   margin: 8rem;
 
-                  @media (max-width: 1024px) {
+                  @media (max-width: 1400px) {
                     margin: 2rem 0;
                   }
                 }
@@ -829,8 +829,12 @@ body#page-top {
                   font-size: 1.25rem;
                   border: 1px solid #00f0fc;
 
-                  @media (min-width: 769px) {
+                  @media (min-width: 1401px) {
                     max-width: 85%;
+                  }
+
+                  @media (max-width: 1400px) {
+                    grid-column: 1 / -1;
                   }
                 }
 
