@@ -809,6 +809,10 @@ body#page-top {
   gap: 0;
 }
 
+#page-top .featured-category.workshop > .container:not(.posts) > .row .col-xs-9 .showcase-description .workshop-section__titles:nth-child(2) {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 @media (max-width: 1024px) {
   #page-top .featured-category.workshop > .container:not(.posts) > .row .col-xs-9 .showcase-description .workshop-section__titles {
     grid-template-columns: repeat(1, minmax(0, 1fr));
