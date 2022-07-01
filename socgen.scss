@@ -2811,6 +2811,67 @@ footer {
   }
 }
 
+#page-top:not(.single-post) {
+  #url-auth-suffix ~ #showcase_category {
+    div.row .list-view-item:nth-child(5) {
+      grid-column: 1 / -1;
+      padding: 0 !important;
+      background: transparent;
+
+      > .post {
+        pointer-events: all;
+
+        .thumb-wrapper {
+          display: none !important;
+        }
+
+        .thumb-meta-wrapper {
+          > .tile-text-area {
+            padding: 0;
+
+            .tile-header-ellipsis.post-details-activate {
+              .tile-title {
+                display: block;
+                margin-bottom: 1rem;
+                text-align: center;
+                font-size: 2.5rem;
+                text-transform: uppercase;
+                color: var(--primary-color) !important;
+                font-weight: 600;
+              }
+              .page-description {
+                margin: 0;
+
+                .KnowledgeVisionEmbeddedContent {
+                  display: block;
+                  width: 100%;
+                  padding-bottom: 56.25%;
+                  height: 0 !important;
+                  overflow: hidden;
+                  position: relative;
+
+                  // min-height: 500px;
+                  // max-width: 850px;
+
+                  iframe {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    object-fit: contain;
+                    object-position: center;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // @media (min-resolution:.001dpcm) {
 //     #page-top:not(.single-post) #url-auth-suffix ~ header:not(:nth-child(3)) .container.header-container .row > .col-xs-12 .video-container video {
 //       transform: translateY(-25%);

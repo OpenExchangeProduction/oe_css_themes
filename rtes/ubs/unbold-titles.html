@@ -1,4 +1,4 @@
-<p class="selector hide">selector</p>
+<p class="selector">selector</p>
 <script>
   var counter = 0;
 
@@ -20,37 +20,22 @@
     var selector = document.querySelector('.selector');
     var rte = selector.closest('.featured-category');
     rte.classList.add("hide");
-
-    var calendar_selector = $('.showcase-title:contains(Calendar)');
-    var calendar_cat = calendar_selector.closest('.featured-category');
-    $(calendar_cat).addClass("calendar");
   }
 
   defer(callback);
 </script>
 
 <style>
-  #page-top {
-    display: grid;
-  }
-  #showcase_category {
-    order: 1;
-  }
-  .featured-category {
-    order: 2;
-  }
-  footer {
-    order: 3;
-  }
-  .hide {
+  .featured-category.hide {
     display: none;
   }
-  .col-xs-9 {
-    width: 100% !important;
+  #page-top #showcase_category.groups .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title {
+    font-weight: 300 !important;
   }
-  @media screen and (max-width: 768px) {
-    .hide-it {
-      display: none;
+  @media screen and (min-width: 992px) {
+    #page-top #showcase_category.groups .container.posts > .row .group-outer .group-inner {
+      -ms-grid-columns: (minmax(1rem, 1fr)) [3];
+      grid-template-columns: repeat(3, minmax(1rem, 1fr));
     }
   }
 </style>
