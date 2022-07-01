@@ -2819,7 +2819,6 @@ footer {
       background: transparent;
 
       > .post {
-        pointer-events: all;
 
         .thumb-wrapper {
           display: none !important;
@@ -2845,6 +2844,7 @@ footer {
                 font-weight: 600;
                 margin: 2rem auto;
               }
+
               .page-description {
                 margin: 0;
 
@@ -2857,9 +2857,12 @@ footer {
                   height: 0 !important;
                   overflow: hidden;
                   position: relative;
+                  pointer-events: all;
 
-                  // min-height: 500px;
-                  // max-width: 850px;
+                  @media (max-width: 640px) {
+                    max-width: 100%;
+                    padding-bottom: 65.25%;
+                  }
 
                   iframe {
                     position: absolute;

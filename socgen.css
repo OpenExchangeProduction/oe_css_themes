@@ -2796,10 +2796,6 @@ footer .footer-container > * {
   background: transparent;
 }
 
-#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post {
-  pointer-events: all;
-}
-
 #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-wrapper {
   display: none !important;
 }
@@ -2841,6 +2837,14 @@ footer .footer-container > * {
   height: 0 !important;
   overflow: hidden;
   position: relative;
+  pointer-events: all;
+}
+
+@media (max-width: 640px) {
+  #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .KnowledgeVisionEmbeddedContent {
+    max-width: 100%;
+    padding-bottom: 65.25%;
+  }
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .KnowledgeVisionEmbeddedContent iframe {
