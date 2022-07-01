@@ -2826,10 +2826,15 @@ footer {
         }
 
         .thumb-meta-wrapper {
+          margin: 0 !important;
+          overflow: hidden;
+
           > .tile-text-area {
             padding: 0;
 
             .tile-header-ellipsis.post-details-activate {
+              justify-content: center;
+
               .tile-title {
                 display: block;
                 margin-bottom: 1rem;
@@ -2838,6 +2843,7 @@ footer {
                 text-transform: uppercase;
                 color: var(--primary-color) !important;
                 font-weight: 600;
+                margin: 2rem auto;
               }
               .page-description {
                 margin: 0;
@@ -2845,6 +2851,8 @@ footer {
                 .KnowledgeVisionEmbeddedContent {
                   display: block;
                   width: 100%;
+                  max-width: 75%;
+                  margin: 0 auto;
                   padding-bottom: 56.25%;
                   height: 0 !important;
                   overflow: hidden;

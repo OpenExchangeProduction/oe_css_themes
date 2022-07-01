@@ -2804,8 +2804,17 @@ footer .footer-container > * {
   display: none !important;
 }
 
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper {
+  margin: 0 !important;
+  overflow: hidden;
+}
+
 #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area {
   padding: 0;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate {
+  justify-content: center;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
@@ -2816,6 +2825,7 @@ footer .footer-container > * {
   text-transform: uppercase;
   color: var(--primary-color) !important;
   font-weight: 600;
+  margin: 2rem auto;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description {
@@ -2825,6 +2835,8 @@ footer .footer-container > * {
 #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .KnowledgeVisionEmbeddedContent {
   display: block;
   width: 100%;
+  max-width: 75%;
+  margin: 0 auto;
   padding-bottom: 56.25%;
   height: 0 !important;
   overflow: hidden;
