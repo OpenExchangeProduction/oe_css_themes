@@ -2789,3 +2789,54 @@ footer .footer-container > * {
 #page-top:not(.single-post) #url-auth-suffix ~ .speakers span.showcase-description {
   color: #0d2060;
 }
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) {
+  grid-column: 1 / -1;
+  padding: 0 !important;
+  background: transparent;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post {
+  pointer-events: all;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-wrapper {
+  display: none !important;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area {
+  padding: 0;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
+  display: block;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description {
+  margin: 0;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .KnowledgeVisionEmbeddedContent {
+  display: block;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0 !important;
+  overflow: hidden;
+  position: relative;
+}
+
+#page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .KnowledgeVisionEmbeddedContent iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  object-position: center;
+}
