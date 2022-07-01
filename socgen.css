@@ -2833,7 +2833,7 @@ footer .footer-container > * {
   width: 100%;
   max-width: 75%;
   margin: 0 auto;
-  padding-bottom: 56.25%;
+  padding-bottom: 42%;
   height: 0 !important;
   overflow: hidden;
   position: relative;
@@ -2843,7 +2843,7 @@ footer .footer-container > * {
 @media (max-width: 640px) {
   #page-top:not(.single-post) #url-auth-suffix ~ #showcase_category div.row .list-view-item:nth-child(5) > .post .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis.post-details-activate .page-description .KnowledgeVisionEmbeddedContent {
     max-width: 100%;
-    padding-bottom: 65.25%;
+    padding-bottom: 56.25%;
   }
 }
 
