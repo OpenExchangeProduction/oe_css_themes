@@ -2152,6 +2152,7 @@ footer .footer-container > * {
   max-width: 100%;
   position: relative;
   border: none;
+  display: block;
 }
 
 #page-top.speakers #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper .thumb-link {
