@@ -942,7 +942,7 @@ span.showcase-description p {
 }
 
 footer {
-  background-color: #001B2B;
+  background-color: #002942;
   margin-top: auto;
 }
 
@@ -959,6 +959,10 @@ footer .container .footer-container p {
 
 footer .container .footer-container p:not(:last-child) {
   margin-bottom: .5rem;
+}
+
+footer .container .footer-container a {
+  text-decoration: underline;
 }
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header {
@@ -1203,6 +1207,10 @@ footer .container .footer-container p:not(:last-child) {
   padding: 0;
   height: 100%;
   width: 100%;
+}
+
+#page-top:not(.single-post) {
+  background: #fbfbfb;
 }
 
 #page-top:not(.single-post) header:after {
