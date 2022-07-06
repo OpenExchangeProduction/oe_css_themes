@@ -966,15 +966,16 @@ footer .container .footer-container p:not(:last-child) {
 }
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header {
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/img_home_herobg_esg1_1647008620456/img_home_herobg_esg1_3a6f2525-2daf-470f-ad20-2e229a1785fd.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=HOOTiT6jtFLsMkaXc7u6pko7M%2Fg%3D");
+  background: var(--login-bkg);
   background-size: cover;
   background-position: center;
   padding: 0;
   margin-bottom: 3rem;
+  position: relative;
 }
 
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header::before {
-  background: linear-gradient(90deg, #003657 0, rgba(0, 54, 87, 0.2) 75%);
+  background: var(--header-gradient);
   display: block;
   width: 100%;
   height: 100%;
@@ -988,6 +989,11 @@ footer .container .footer-container p:not(:last-child) {
 #page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .header-container {
   position: relative;
   z-index: 5;
+}
+
+#page-top:not(.single-post) #custom-fields-data + #main_navigation ~ header .header-container h1.showcase-title {
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #00000080;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title {
@@ -1216,4 +1222,5 @@ footer .container .footer-container p:not(:last-child) {
   -webkit-mask-image: var(--svg);
   mask-image: var(--svg);
   background: #fbfbfb;
+  z-index: 3;
 }
