@@ -549,7 +549,7 @@ h5 {
           width: 100%;
           transform: rotate(-35deg) translateX(0);
           filter: contrast(1) brightness(1);
-          -webkit-filter: contrast(0) brightness(1);
+          -webkit-filter: contrast(1) brightness(1);
           transition: all .2s ease-in-out;
 
           @media (max-width: 640px) {
