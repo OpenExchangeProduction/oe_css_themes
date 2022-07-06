@@ -541,7 +541,7 @@ h5 {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description {
-  padding: 3rem 0 !important;
+  padding: 3rem 0 3.5rem 0 !important;
   margin-bottom: 20px;
   position: relative;
   max-width: 104rem;
@@ -966,7 +966,6 @@ footer .container .footer-container p:not(:last-child) {
   background-size: cover;
   background-position: center;
   padding: 0;
-  margin-bottom: 3rem;
   position: relative;
 }
 
