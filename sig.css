@@ -393,11 +393,30 @@ h5 {
   font-family: "Avenir", Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  color: #003657 !important;
+  color: #002942 !important;
 }
 
-#page-top .featured-category > .container:not(.posts) .row .col-xs-2 {
-  display: none;
+#page-top .featured-category > .container:not(.posts) .row .col-xs-2 button {
+  color: var(--header-button-color);
+  border: 1px solid var(--header-button-bkg);
+  background-color: var(--header-button-bkg);
+  font-size: 1.15rem;
+  text-decoration: none !important;
+  padding: .75rem 1.25rem;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  white-space: normal;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  font-weight: 300;
+  line-height: 12px;
+  display: inline-block;
+}
+
+#page-top .featured-category > .container:not(.posts) .row .col-xs-2 button:hover {
+  background-color: var(--header-button-color);
+  border: 1px solid var(--header-button-color);
+  color: var(--header-button-bkg) !important;
 }
 
 #page-top .featured-category .container.posts .row {
@@ -410,7 +429,13 @@ h5 {
 }
 
 #page-top .featured-category .container.posts .row .carousel-control {
-  color: #003657 !important;
+  color: #002942 !important;
+}
+
+@media (max-width: 640px) {
+  #page-top .featured-category .container.posts .row .carousel-control {
+    display: none !important;
+  }
 }
 
 #page-top .featured-category .container.posts .item.active, #page-top .featured-category .container.posts .item.prev, #page-top .featured-category .container.posts .item.next {
@@ -425,6 +450,14 @@ h5 {
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
+  }
+}
+
+@media (max-width: 640px) {
+  #page-top .featured-category .container.posts .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -505,6 +538,13 @@ h5 {
   filter: contrast(1) brightness(1);
   -webkit-filter: contrast(0) brightness(1);
   transition: all .2s ease-in-out;
+}
+
+@media (max-width: 640px) {
+  #page-top .column-view-item .post .thumb-meta-wrapper:after {
+    bottom: -7.75rem;
+    right: -4rem;
+  }
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area {

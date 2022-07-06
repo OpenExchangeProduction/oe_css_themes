@@ -424,13 +424,34 @@ h5 {
               font-family: "Avenir", Arial, sans-serif;
               font-size: 1.5rem;
               font-weight: 400;
-              color: rgba(0,54,87,1) !important;
+              color: #002942 !important;
             }
           }
         }
 
         .col-xs-2 {
-          display: none;
+          button {
+            color: var(--header-button-color);
+            border: 1px solid var(--header-button-bkg);
+            background-color: var(--header-button-bkg);
+            font-size: 1.15rem;
+            text-decoration: none !important;
+            padding: .75rem 1.25rem;
+            -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            white-space: normal;
+            letter-spacing: 1px;
+            border-radius: 2px;
+            font-weight: 300;
+            line-height: 12px;
+            display: inline-block;
+
+            &:hover {
+              background-color: var(--header-button-color);
+              border: 1px solid var(--header-button-color);
+              color: var(--header-button-bkg) !important;
+            }
+          }
         }
       }
     }
@@ -445,7 +466,11 @@ h5 {
         margin: 0;
 
         .carousel-control {
-          color: rgba(0,54,87,1) !important;
+          color: #002942 !important;
+
+          @media (max-width: 640px) {
+            display: none !important;
+          }
         }
       }
 
@@ -459,6 +484,14 @@ h5 {
           -webkit-box-direction: normal;
               -ms-flex-flow: column;
                   flex-flow: column;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
         }
       }
     }
@@ -518,6 +551,11 @@ h5 {
           filter: contrast(1) brightness(1);
           -webkit-filter: contrast(0) brightness(1);
           transition: all .2s ease-in-out;
+
+          @media (max-width: 640px) {
+            bottom: -7.75rem;
+            right: -4rem;
+          }
         }
 
         .tile-text-area {
