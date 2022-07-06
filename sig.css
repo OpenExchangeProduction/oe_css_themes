@@ -641,7 +641,7 @@ h5 {
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover {
-  background-color: var(----header-button-hover-color);
+  background-color: var(--header-button-hover-color);
   color: #00578E !important;
 }
 
