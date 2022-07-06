@@ -1210,7 +1210,7 @@ footer .container .footer-container p:not(:last-child) {
   width: 100%;
 }
 
-#page-top header:after {
+#page-top:not(.single-post) header:after {
   display: block;
   content: '';
   position: absolute;
