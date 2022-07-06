@@ -501,7 +501,7 @@ h5 {
   bottom: -2rem;
   right: -3rem;
   width: 100%;
-  transform: rotate(-35deg);
+  transform: rotate(-35deg) translateX(0);
   filter: contrast(0) brightness(1);
   -webkit-filter: contrast(0) brightness(1);
   transition: all .2s ease-in-out;
@@ -543,6 +543,7 @@ h5 {
 #page-top .column-view-item:hover .post .thumb-meta-wrapper:after {
   filter: contrast(0) brightness(3);
   -webkit-filter: contrast(0) brightness(3);
+  transform: rotate(-35deg) translateX(50px);
 }
 
 #page-top .newLabel {
