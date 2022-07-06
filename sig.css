@@ -541,8 +541,8 @@ h5 {
 }
 
 #page-top .column-view-item:hover .post .thumb-meta-wrapper:after {
-  filter: brightness(2) saturate(0);
-  -webkit-filter: brightness(2) saturate(0);
+  filter: brightness(3) saturate(0);
+  -webkit-filter: brightness(3) saturate(0);
 }
 
 #page-top .newLabel {
