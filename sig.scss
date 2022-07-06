@@ -842,7 +842,7 @@ span.showcase-description p {
     width: 100%;
     text-transform: uppercase;
     font-family: "Avenir", sans-serif;
-    color: rgba(0,54,87,1) !important;
+    color: #002942 !important;
 
     &:hover {
       filter: brightness(.75);
@@ -875,7 +875,7 @@ span.showcase-description p {
 
     > div {
       margin: 0;
-      background: rgba(0,54,87,1);
+      background: #002942;
       overflow-y: auto;
       width: 100%;
       display: flex;
