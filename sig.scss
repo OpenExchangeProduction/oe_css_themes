@@ -397,7 +397,7 @@ h5 {
   #showcase_category {
     height: auto;
     display: block;
-    padding-bottom: 0;
+    padding: 0;
   }
 
   .featured-category {
@@ -1203,6 +1203,7 @@ footer {
 #page-top:not(.single-post) {
   #custom-fields-data + #main_navigation {
     ~ #showcase_category {
+      padding-top: 1.25rem;
       padding-bottom: 3rem;
 
       .container.posts {
