@@ -384,7 +384,6 @@ h5 {
 #page-top .featured-category > .container:not(.posts) .row .col-xs-9 {
   padding: 0;
   text-align: left;
-  width: 100%;
 }
 
 #page-top .featured-category > .container:not(.posts) .row .col-xs-9 .featured-category-title-link .showcase-title {
@@ -415,7 +414,6 @@ h5 {
 
 #page-top .featured-category > .container:not(.posts) .row .col-xs-2 button:hover {
   background-color: var(--header-button-color);
-  border: 1px solid var(--header-button-color);
   color: var(--header-button-bkg) !important;
 }
 

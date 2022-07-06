@@ -414,7 +414,6 @@ h5 {
         .col-xs-9 {
           padding: 0;
           text-align: left;
-          width: 100%;
 
           .featured-category-title-link {
 
@@ -448,7 +447,6 @@ h5 {
 
             &:hover {
               background-color: var(--header-button-color);
-              border: 1px solid var(--header-button-color);
               color: var(--header-button-bkg) !important;
             }
           }
