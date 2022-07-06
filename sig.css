@@ -80,12 +80,14 @@ h5 {
 
 #page-top #main_navigation .navbar-brand {
   position: static;
-  height: 6rem;
-  padding: 1rem;
+  height: unset;
+  width: unset;
+  padding: unset;
+  padding-left: 1rem;
 }
 
 #page-top #main_navigation .navbar-brand .showcase-logo {
-  max-height: 45px;
+  max-height: 100px;
 }
 
 #page-top #main_navigation_collapse {

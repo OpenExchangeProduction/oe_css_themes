@@ -124,27 +124,13 @@ h5 {
 
     .navbar-brand {
       position: static;
-      height: 6rem;
-      padding: 1rem;
-
-      // &::after {
-      //   content: "";
-      //   position: absolute;
-      //   top: calc(50% - 18px);
-      //   right: 15px;
-      //   width: 36px;
-      //   height: 36px;
-      //   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/36cdf10e15ec4f3f9f7873eba25d1892_png_1626267367991/36cdf10e15ec4f3f9f7873eba25d1892_d424f3a8-595f-4f3c-b613-f61b981376f3.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=XGzAPE5Gf2H8%2BEcODx%2FY3eVy1N0%3D") no-repeat;
-      //   background-size: contain;
-      //   z-index: 1;
-      //
-      //   @media screen and (max-width: 767px) {
-      //     content: none;
-      //   }
-      // }
+      height: unset;
+      width: unset;
+      padding: unset;
+      padding-left: 1rem;
 
       .showcase-logo {
-        max-height: 45px;
+        max-height: 100px;
       }
     }
   }
