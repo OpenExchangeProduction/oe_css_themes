@@ -139,10 +139,6 @@ h5 {
   align-items: center;
 }
 
-#page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group button .glyphicon {
-  color: #ffffff !important;
-}
-
 #page-top #main_navigation_collapse .nav #search-btn {
   width: 1.625rem;
   height: 1.625rem;
