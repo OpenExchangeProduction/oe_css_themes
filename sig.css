@@ -32,9 +32,10 @@
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/1800_trading_quantitativetrading_jpeg_1657135104740/1800_trading_quantitativetrading_c5c7c83c-0d2b-4889-93b6-0bae13c1e714.jpeg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=5owcPD3bEkZAofKX05w8OU7V4HU%3D");
   --primary-color: #ffffff;
-  --header-button-color: #ffffff;
+  --header-button-color: #0096db;
+  --header-button-hover-color: #ffffff;
   --header-gradient: linear-gradient(90deg, #08359c 0, rgba(0, 54, 87, 0.2) 100%);
-  --banner-position: left;
+  --banner-position: center;
 }
 
 html {
@@ -626,21 +627,21 @@ h5 {
   color: var(--header-button-color);
   border: 1px solid var(--header-button-color);
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.15rem;
   text-decoration: none !important;
-  padding: 1rem 1.5rem;
+  padding: .75rem 1.25rem;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   white-space: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border-radius: 2px;
-  font-weight: 400;
-  line-height: 14px;
+  font-weight: 300;
+  line-height: 12px;
   display: inline-block;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:last-child a:hover {
-  background-color: #fff;
+  background-color: var(----header-button-hover-color);
   color: #00578E !important;
 }
 
