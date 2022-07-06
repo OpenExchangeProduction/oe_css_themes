@@ -66,10 +66,6 @@ h5 {
   padding-bottom: 0;
 }
 
-#page-top #main_navigation {
-  border-bottom: none;
-}
-
 #page-top #main_navigation > .container-fluid {
   padding-right: 66px;
 }
@@ -835,7 +831,7 @@ span.showcase-description p {
   width: 100%;
   text-transform: uppercase;
   font-family: "Avenir", sans-serif;
-  color: #003657 !important;
+  color: #002942 !important;
 }
 
 #page-top .login-container .btn-primary:hover {
@@ -873,7 +869,7 @@ span.showcase-description p {
 
 #page-top .login-container > .row > div {
   margin: 0;
-  background: #003657;
+  background: #002942;
   overflow-y: auto;
   width: 100%;
   display: flex;
