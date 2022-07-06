@@ -131,13 +131,14 @@ h5 {
       padding-left: 1rem;
 
       .showcase-logo {
-        max-height: 100px;
+        max-height: 75px;
+        padding: .5rem;
       }
     }
   }
 
   #main_navigation_collapse {
-    margin-top: 2.1875rem;
+    margin-top: 1.1875rem;
 
     @media screen and (min-width: 768px) {
       display: -webkit-box;
@@ -147,6 +148,10 @@ h5 {
       -webkit-box-direction: reverse;
           -ms-flex-flow: row-reverse;
               flex-flow: row-reverse;
+    }
+
+    .nav:nth-of-type(2) {
+      margin-top: .25rem;
     }
 
     .nav:nth-of-type(2) li > a {
@@ -610,12 +615,12 @@ h5 {
           p:first-child {
             font-size: 1rem;
             margin-bottom: 0;
-            text-shadow: 1px 1px 3px #00000080;
+            text-shadow: 1px 1px 2px #00000080;
           }
 
           p:nth-child(2) {
             font-size: 4rem;
-            font-weight: 300;
+            font-weight: 400;
             text-shadow: 1px 2px 3px #00000080;
           }
 
