@@ -33,7 +33,8 @@
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/1800_trading_quantitativetrading_jpeg_1657135104740/1800_trading_quantitativetrading_c5c7c83c-0d2b-4889-93b6-0bae13c1e714.jpeg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=5owcPD3bEkZAofKX05w8OU7V4HU%3D");
   --primary-color: #ffffff;
   --header-button-color: #ffffff;
-  --header-gradient: linear-gradient(90deg, #003657 0, rgba(0, 54, 87, 0.2) 75%);
+  --header-gradient: linear-gradient(90deg, #08359c 0, rgba(0, 54, 87, 0.2) 100%);
+  --banner-position: left;
 }
 
 ///////////////////////////////////////
@@ -596,6 +597,7 @@ h5 {
 
           p {
             font-size: 1.5rem;
+            font-family: "Avenir", sans-serif;
 
             span {
               font-family: "Avenir", sans-serif;
@@ -606,23 +608,20 @@ h5 {
           }
 
           p:first-child {
-            font-family: "AvenirLTPro", sans-serif !important;
             font-size: 1rem;
             margin-bottom: 0;
+            text-shadow: 1px 1px 3px #00000080;
           }
 
           p:nth-child(2) {
             font-size: 4rem;
             font-weight: 300;
+            text-shadow: 1px 2px 3px #00000080;
           }
 
           p:nth-child(3) {
             margin-bottom: 1.5rem;
-          }
-
-          p:nth-child(4) {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
+            text-shadow: 1px 1px 3px #00000080;
           }
 
           p:last-child a {
@@ -659,7 +658,7 @@ h5 {
   position: absolute;
   z-index: -1;
   object-fit: cover;
-  object-position: left;
+  object-position: var(--banner-position);
   width: 100%;
   height: 100%;
   left: 0;
