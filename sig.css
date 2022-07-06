@@ -489,6 +489,22 @@ h5 {
   float: none;
   background-color: #ffffff;
   transition: all .2s ease-in-out;
+  position: relative;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper:after {
+  display: block;
+  content: '';
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/blue_1657135071775/blue_77093c69-e829-4435-9918-82ddd5cf9cf8.svg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=CKIEubrEZLArPbeETybaifkeJQw%3D");
+  height: 50px;
+  position: absolute;
+  bottom: -2rem;
+  right: -3rem;
+  width: 100%;
+  transform: rotate(-35deg);
+  filter: brightness(1) saturate(1);
+  -webkit-filter: brightness(1) saturate(1);
+  transition: all .2s ease-in-out;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area {
@@ -516,12 +532,17 @@ h5 {
 }
 
 #page-top .column-view-item:hover .post .thumb-meta-wrapper {
-  background-color: #003657;
+  background-color: #002492;
 }
 
 #page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-title,
 #page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-title a {
   color: #ffffff !important;
+}
+
+#page-top .column-view-item:hover .post .thumb-meta-wrapper:after {
+  filter: brightness(2) saturate(0);
+  -webkit-filter: brightness(2) saturate(0);
 }
 
 #page-top .newLabel {
