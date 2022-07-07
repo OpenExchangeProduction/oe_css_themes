@@ -2283,6 +2283,7 @@ footer {
         .list-view-item {
           margin-bottom: 0;
           background: transparent;
+          grid-column: auto / span 1 !important;
 
           .post {
             position: relative;

@@ -2290,6 +2290,7 @@ footer .footer-container > * {
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item {
   margin-bottom: 0;
   background: transparent;
+  grid-column: auto / span 1 !important;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post,
