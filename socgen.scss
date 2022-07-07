@@ -2331,7 +2331,7 @@ footer {
               left: 0;
               flex: none;
               padding: 0;
-              background-color: rgba(0, 0, 0, 0.3);
+              background-color: rgba(0, 0, 0, 0.4);
               transition: background-color .2s ease-in-out;
               pointer-events: none;
               margin: 0 !important;
@@ -2346,6 +2346,7 @@ footer {
                   display: flex;
                   flex-direction: column;
                   justify-content: center;
+                  align-items: center;
                   height: 100%;
                   margin: 0;
 
@@ -2361,6 +2362,7 @@ footer {
                       text-align: center;
                       padding: 0 4rem;
                       pointer-events: none;
+                      text-shadow: 1px 1px 3px #0000004f;
 
                       &:before,
                       &:after {
@@ -2372,6 +2374,7 @@ footer {
                   .page-description {
                     p {
                       color: #ffffff !important;
+                      text-shadow: 1px 1px 3px #0000004f;
                     }
                   }
                 }
@@ -2827,10 +2830,6 @@ footer {
       }
     }
   }
-}
-
-#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
-  filter: brightness(1) !important; // unset hover on content hub tile titles
 }
 
 #page-top:not(.single-post) {

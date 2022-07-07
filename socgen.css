@@ -2346,7 +2346,7 @@ footer .footer-container > * {
   left: 0;
   flex: none;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   transition: background-color .2s ease-in-out;
   pointer-events: none;
   margin: 0 !important;
@@ -2365,6 +2365,7 @@ footer .footer-container > * {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100%;
   margin: 0;
 }
@@ -2384,6 +2385,7 @@ footer .footer-container > * {
   text-align: center;
   padding: 0 4rem;
   pointer-events: none;
+  text-shadow: 1px 1px 3px #0000004f;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before, #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:after,
@@ -2395,6 +2397,7 @@ footer .footer-container > * {
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .page-description p,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .page-description p {
   color: #ffffff !important;
+  text-shadow: 1px 1px 3px #0000004f;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper,
@@ -2824,10 +2827,6 @@ footer .footer-container > * {
 
 #page-top.home .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description p, #page-top.speakers .modal #postDetailsBody #contentMetadataCOMPANY .details-speaker-container .details-speaker-description p {
   color: #000;
-}
-
-#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a {
-  filter: brightness(1) !important;
 }
 
 #page-top:not(.single-post) #url-auth-suffix ~ .speakers span.showcase-description {
