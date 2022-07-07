@@ -2291,11 +2291,14 @@ footer .footer-container > * {
   margin-bottom: 0;
   background: transparent;
   grid-column: auto / span 1 !important;
+  padding: 0 !important;
+  max-width: 100%;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post {
   position: relative;
+  pointer-events: all;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper,
@@ -2303,6 +2306,7 @@ footer .footer-container > * {
   z-index: 0;
   flex: none;
   width: 100%;
+  max-width: 100%;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper .thumb-link,
@@ -2316,6 +2320,7 @@ footer .footer-container > * {
   overflow: hidden;
   position: relative;
   border: none;
+  pointer-events: all;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper .thumb-link .thumb,
@@ -2338,6 +2343,7 @@ footer .footer-container > * {
   padding: 0;
   background-color: rgba(0, 0, 0, 0.3);
   transition: background-color .2s ease-in-out;
+  pointer-events: none;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area,
@@ -2352,11 +2358,12 @@ footer .footer-container > * {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
+  margin: 0;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title {
-  height: 100% !important;
   width: 100%;
   padding: 0;
 }
@@ -2364,22 +2371,23 @@ footer .footer-container > * {
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
   margin: 0;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  grid-column: auto / span 2;
   font-weight: 600;
   font-size: 3rem;
   color: #ffffff !important;
   text-align: center;
   padding: 0 4rem;
+  pointer-events: none;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before, #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:after,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:after {
   display: none;
+}
+
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .page-description p,
+#page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .page-description p {
+  color: #ffffff !important;
 }
 
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post:hover .thumb-meta-wrapper,
