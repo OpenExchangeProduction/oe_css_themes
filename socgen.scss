@@ -2309,6 +2309,10 @@ footer {
                 border: none;
                 pointer-events: all;
 
+                &:after {
+                  display: none !important;
+                }
+
                 .thumb {
                   position: absolute;
                   width: 100%;

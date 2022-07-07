@@ -2323,6 +2323,11 @@ footer .footer-container > * {
   pointer-events: all;
 }
 
+#page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper .thumb-link:after,
+#page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper .thumb-link:after {
+  display: none !important;
+}
+
 #page-top.content-hub #showcase_category .container.posts div.row .column-view-item .post .thumb-wrapper .thumb-link .thumb,
 #page-top.content-hub #showcase_category .container.posts div.row .list-view-item .post .thumb-wrapper .thumb-link .thumb {
   position: absolute;
