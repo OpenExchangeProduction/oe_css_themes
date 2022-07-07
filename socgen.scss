@@ -2279,7 +2279,8 @@ footer {
         max-width: 85%;
         margin: 0 auto;
 
-        .column-view-item {
+        .column-view-item,
+        .list-view-item {
           margin-bottom: 0;
           background: transparent;
 
