@@ -2330,6 +2330,8 @@ footer {
               background-color: rgba(0, 0, 0, 0.3);
               transition: background-color .2s ease-in-out;
               pointer-events: none;
+              margin: 0 !important;
+              height: 100% !important;
 
               .tile-text-area {
                 margin: 0;

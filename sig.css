@@ -135,6 +135,10 @@ h5 {
   align-items: center;
 }
 
+#page-top #main_navigation_collapse .nav .nav > li > button {
+  padding: 0;
+}
+
 #page-top #main_navigation_collapse .nav #search-btn {
   width: 1.625rem;
   height: 1.625rem;
