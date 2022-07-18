@@ -1,0 +1,557 @@
+@font-face {
+  font-family: "Garamond Pro Regular";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/4ce9c884-7788-4b4e-a10a-a3a828f4cfff/content/assets/templates/template_background/Adobe_Garamond_Pro_Regular_ttf_1634075055262/Adobe_Garamond_Pro_Regular_56e94249-a0a4-4a1d-b48f-2ce5dd90bef0.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=dc1yEcUBDsghHGvhoiP6kVlZgEI%3D") format("truetype");
+  font-weight: normal;
+}
+
+:root {
+  --primary-color: #254D81;
+  --neutral-1-color: #5f5d5d;
+  --neutral-2-color: #b9b8b7;
+  --neutral-3-color: #f1f0ef;
+  --neutral-4-color: #d5d3d3;
+  --white: #ffffff;
+  --black: black;
+}
+
+#root {
+  font-family: "Garamond Pro Regular", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#root h1,
+#root h2,
+#root h3,
+#root h4,
+#root h5 {
+  font-family: "Garamond Pro Regular", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#root .App {
+  font-family: "Garamond Pro Regular", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#root .main-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start, #root .rich-text-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#root .main-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > img.max-w-xs, #root .rich-text-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > img.max-w-xs {
+  width: 100%;
+  height: auto;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+#root .main-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6, #root .rich-text-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 {
+  margin-left: 0px;
+  margin-top: 1rem;
+  padding-top: 0px;
+  text-align: left;
+}
+
+#root .main-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 h1, #root .rich-text-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 h1 {
+  text-align: left;
+}
+
+#root .main-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 div, #root .rich-text-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 div {
+  display: none;
+}
+
+#root .main-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 > p, #root .rich-text-content-wrapper .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start > div.pt-2.ml-0.md\:ml-6 > p {
+  display: none;
+}
+
+#root .main-content-wrapper > div.shadow-gray.bg-white.mx-auto, #root .rich-text-content-wrapper > div.shadow-gray.bg-white.mx-auto {
+  margin-top: 1rem;
+}
+
+#root #agenda-page .editable-agenda--footer .agenda-footer-btn::before {
+  content: "register here";
+}
+
+#root #agenda-page .editable-agenda--footer .agenda-footer-btn span.truncate.m-auto.max-w-full {
+  visibility: hidden;
+}
+
+#root #agenda-page .editable-agenda--footer .agenda-footer-btn span.truncate.m-auto.max-w-full::after {
+  content: "register here";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  visibility: visible;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 button.editable-session--table-cell-btn-join {
+  display: none;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .text-primary.fill-primary.bg-white.on-hover-shadow.editable-session--table-cell-btn-add {
+  min-width: 150px !important;
+  width: 150px !important;
+  border-radius: 0px;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .text-primary.fill-primary.bg-white.on-hover-shadow.editable-session--table-cell-btn-add > div {
+  visibility: hidden;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .text-primary.fill-primary.bg-white.on-hover-shadow.editable-session--table-cell-btn-add > div > svg {
+  visibility: initial;
+  position: relative;
+  left: 16px;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .text-primary.fill-primary.bg-white.on-hover-shadow.editable-session--table-cell-btn-add > div::after {
+  content: 'Register';
+  display: inline-block;
+  visibility: initial;
+  color: var(--primary-color);
+  left: 67px;
+  position: absolute;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add {
+  min-width: 150px !important;
+  width: 150px !important;
+  border-radius: 0px;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add > span:nth-child(1) {
+  visibility: hidden;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add > span:nth-child(1) svg {
+  visibility: visible;
+  position: relative;
+  left: 16px;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add > span:nth-child(1)::after {
+  content: 'Registered';
+  display: inline-block;
+  visibility: initial;
+  color: var(--primary-color);
+  left: 67px;
+  position: absolute;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add > span:nth-child(2) {
+  visibility: hidden;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add > span:nth-child(2) svg {
+  visibility: visible;
+  position: relative;
+  left: 16px;
+}
+
+#root #session-page .flex.flex-col.justify-between.md\:p-4.p-8.w-2\/3.sm\:w-full .editable-session--table-cell-buttons.flex.flex-row.items-center.h-10 .hover-label-btn.w-112px.editable-session--table-cell-btn-add > span:nth-child(2)::after {
+  content: 'Unregistered';
+  display: inline-block;
+  visibility: initial;
+  color: var(--primary-color);
+  left: 67px;
+  position: absolute;
+}
+
+#root #session-page .w-100.overflow-hidden.flex.flex-col.md\:flex-row.justify-start.md\:justify-between.mt-6.px-4.md\:px-0.items-start .editable-session-event-details--date {
+  display: none;
+}
+
+#root #session-page .editable-session--wrapper .editable-session--header {
+  padding-bottom: 0px;
+}
+
+#root #session-page .editable-session--wrapper .editable-session--header > div.w-full.flex.justify-between.items-center {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+#root #session-page .editable-session--wrapper .editable-session--header > div.w-full.flex.justify-between.items-center::after {
+  white-space: pre-wrap;
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  border-radius: 0px;
+  min-height: 325px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper {
+    margin-bottom: 1rem;
+    min-height: 280px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper {
+    min-height: 325px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n + 1) {
+    width: 55%;
+    padding-right: 1rem;
+  }
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n + 1) > div:nth-child(2) img {
+  -o-object-position: 45%;
+  object-position: 45%;
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n + 2) {
+    width: 45%;
+  }
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n + 2) > div:nth-child(2) img {
+  -o-object-position: 65%;
+  object-position: 65%;
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n + 3) {
+    width: 45%;
+    padding-right: 1rem;
+  }
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n + 3) > div:nth-child(2) img {
+  -o-object-position: 65%;
+  object-position: 65%;
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n) {
+    width: 55%;
+  }
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper:nth-of-type(4n) > div:nth-child(2) img {
+  -o-object-position: 45%;
+  object-position: 45%;
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) {
+  z-index: 10;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(95%, black));
+  background: linear-gradient(to bottom, transparent, black 95%);
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1):hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, black));
+  background: linear-gradient(to bottom, transparent, black 80%);
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) div, #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) p {
+  color: var(--white);
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) div span, #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) p span {
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) > p.text-xl.text-black.mb-2\.5.font-semibold {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) > p.text-xl.text-black.mb-2\.5.font-semibold {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) .editable-session-event-details--date {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) .editable-session-event-details--date {
+    font-size: 14px;
+  }
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(1) > div.font-size-12px {
+  display: none;
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(1) > div:nth-child(2) {
+  display: none;
+}
+
+#root #session-page .editable-session--wrapper .px-8.pl-5 > div.item.card-wrapper > div:nth-child(2) {
+  width: 100%;
+  position: absolute;
+}
+
+#root #session-page .editable-session--wrapper div.w-full .alice-carousel .alice-carousel__stage .item.card-wrapper.flex-col-reverse .p-3.flex.flex-col-reverse > div.py-1 > p.text-dark-red.italic.font-size-11px.pt-1 {
+  visibility: hidden;
+  position: relative;
+}
+
+#root #session-page .editable-session--wrapper div.w-full .alice-carousel .alice-carousel__stage .item.card-wrapper.flex-col-reverse .p-3.flex.flex-col-reverse > div.py-1 > p.text-dark-red.italic.font-size-11px.pt-1::after {
+  content: "This is a replay";
+  visibility: initial;
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #root #session-page .editable-session--wrapper div.w-full .alice-carousel .alice-carousel__prev-btn {
+    left: -20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #root #session-page .editable-session--wrapper div.w-full .alice-carousel .alice-carousel__next-btn {
+    right: -27px;
+  }
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper {
+  position: relative;
+  border-radius: 0px;
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100 {
+  height: 100% !important;
+  z-index: 1;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(120%, black));
+  background: linear-gradient(to bottom, transparent, black 120%);
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, black));
+  background: linear-gradient(to bottom, transparent, black 80%);
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100 .editable-session--table-cell-buttons hr {
+  visibility: hidden;
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100 > div p {
+  color: var(--white);
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100 > div p span {
+  color: var(--white);
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100 > div .text-dark-red {
+  color: #d00;
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.flex.flex-col.justify-between.w-full.hover\:bg-gray-100 > div:nth-child(2) {
+  display: none;
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.bg-gray-100.w-full {
+  position: absolute;
+  height: 100% !important;
+}
+
+#root #session-page .alice-carousel .alice-carousel__stage .item.card-wrapper > div.bg-gray-100.w-full img {
+  -o-object-position: 70%;
+  object-position: 70%;
+}
+
+@media screen and (max-width: 991px) {
+  #root #sign-in-page .main-content-wrapper input, #root #sign-in-page .main-content-wrapper select, #root #sign-in-page .main-content-wrapper textarea {
+    font-size: 16px;
+  }
+}
+
+#root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row .editable-sign-in--left-content {
+  width: 100%;
+  padding: 0px 1rem;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  #root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row .editable-sign-in--left-content {
+    padding: 0px;
+  }
+}
+
+#root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row .editable-sign-in--left-content > div img {
+  width: 100%;
+  height: auto;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+#root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row .editable-sign-in--left-content .editable-sign-in--left-content-date {
+  display: none;
+}
+
+#root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row > div.shadow-gray .editable-sign-in--wrapper {
+  width: 100%;
+  padding-bottom: 45px;
+}
+
+#root #sign-in-page .main-content-wrapper .editable-sign-in.flex.justify-between.flex-col.md\:flex-row > div.shadow-gray .editable-sign-in--wrapper .negative-margin > div {
+  background: transparent;
+}
+
+#root #sign-in-page button.on-hover-shadow.flex.text-primary.bg-white.rounded-5px.justify-center.mt-8.py-1.px-4.cursor-pointer.font-size-13px.m-x-auto.font-medium.word-break {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  #root #registration-page .main-content-wrapper input, #root #registration-page .main-content-wrapper select, #root #registration-page .main-content-wrapper textarea {
+    font-size: 16px;
+  }
+}
+
+#root #registration-page .main-content-wrapper > div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#root #registration-page .main-content-wrapper > div .editable-registration--left-content {
+  width: 100%;
+  padding: 0px 1rem;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  #root #registration-page .main-content-wrapper > div .editable-registration--left-content {
+    padding: 0px;
+  }
+}
+
+#root #registration-page .main-content-wrapper > div .editable-registration--left-content > div img {
+  width: 100%;
+  height: auto;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+#root #registration-page .main-content-wrapper > div .editable-registration--left-content .editable-registration--left-content-date {
+  display: none;
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  #root #registration-page .main-content-wrapper > div > div.shadow-gray {
+    margin-top: 0px;
+  }
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray .registration-wrapper > form > div.flex.justify-between.input-group > div.mt-3.word-break {
+  width: 100%;
+}
+
+#root #agenda-page .editable-agenda--block-date > div.w-5\/12 p.text-dark-red.italic.font-size-11px.pt-1 {
+  visibility: hidden;
+  position: relative;
+}
+
+#root #agenda-page .editable-agenda--block-date > div.w-5\/12 p.text-dark-red.italic.font-size-11px.pt-1::after {
+  content: "This is a replay";
+  visibility: initial;
+  position: absolute;
+  left: 0;
+}
+
+#root #meeting-details-page .flex-equal.sm\:flex-1.px-6.md\:px-0.py-6.sm\:pb-0.overflow-visible .pt-2.xs\:pt-8.pb-5.sm\:pl-8.sm\:pr-12 > p.text-dark-red.italic.font-size-11px.pt-1 {
+  visibility: hidden;
+  position: relative;
+}
+
+#root #meeting-details-page .flex-equal.sm\:flex-1.px-6.md\:px-0.py-6.sm\:pb-0.overflow-visible .pt-2.xs\:pt-8.pb-5.sm\:pl-8.sm\:pr-12 > p.text-dark-red.italic.font-size-11px.pt-1::after {
+  content: "This is a replay";
+  visibility: initial;
+  position: absolute;
+  left: 0;
+}
+
+.organization-list-with-details {
+  display: none;
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray, #root #sign-in-page .main-content-wrapper > div > div.shadow-gray {
+  display: flex;
+  flex-direction: column;
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray .registration-wrapper, #root #sign-in-page .main-content-wrapper > div > div.shadow-gray .editable-sign-in--wrapper {
+  order: 1;
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray > div:not(.registration-wrapper), #root #sign-in-page .main-content-wrapper > div > div.shadow-gray > div:not(.registration-wrapper) {
+  padding-bottom: 0;
+  justify-content: flex-start;
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray > div:not(.registration-wrapper) span, #root #sign-in-page .main-content-wrapper > div > div.shadow-gray > div:not(.registration-wrapper) span {
+  margin-right: .75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#root #registration-page .main-content-wrapper > div > div.shadow-gray > div:not(.registration-wrapper) button, #root #sign-in-page .main-content-wrapper > div > div.shadow-gray > div:not(.registration-wrapper) button {
+  color: #ffffff !important;
+  background: var(--primary-color) !important;
+  font-weight: 500;
+}
+
+#registration-page ul.editable-header-wrapper li a, #sign-in-page:not(.custom-page-2022-replays) ul.editable-header-wrapper li a {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=passport.css.map */
