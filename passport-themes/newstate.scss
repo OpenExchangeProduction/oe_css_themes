@@ -2,9 +2,10 @@
   width: 100% !important;
 }
 
-#sign-in-page .main-content-wrapper > .flex-col,
-#registration-page .main-content-wrapper > .flex-col {
-  margin-top: 2rem !important;
+#sign-in-page .main-content-wrapper,
+#registration-page .main-content-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in,
@@ -407,3 +408,7 @@
 .react-spinner-material {
   border: 2px solid black !important;
 }
+
+#registration-page .registration-wrapper form .editable-sign-in--title + .mt-3 {
+  grid-column: 1 / -1;
+ }
