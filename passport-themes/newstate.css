@@ -440,3 +440,11 @@
 #sign-in-page .registration-wrapper form .editable-sign-in--title {
   line-height: 1.5;
 }
+
+#registration-page .background-img,
+#sign-in-page .background-img {
+  height: 100%;
+  max-height: none;
+  top: 0;
+  left: 0;
+}
