@@ -142,41 +142,6 @@
   grid-column: auto / span 2;
 }
 
-#sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .editable-sign-in--title,
-#sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .editable-registration--title,
-#sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .break-words,
-#sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form > small,
-#sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form .editable-sign-in--title,
-#sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form .editable-registration--title,
-#sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form .break-words,
-#sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form > small,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .editable-sign-in--title,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .editable-registration--title,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .break-words,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form > small,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .editable-sign-in--title,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .editable-registration--title,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .break-words,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > small,
-#registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .editable-sign-in--title,
-#registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .editable-registration--title,
-#registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .break-words,
-#registration-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form > small,
-#registration-page .main-content-wrapper .editable-sign-in .shadow-gray form .editable-sign-in--title,
-#registration-page .main-content-wrapper .editable-sign-in .shadow-gray form .editable-registration--title,
-#registration-page .main-content-wrapper .editable-sign-in .shadow-gray form .break-words,
-#registration-page .main-content-wrapper .editable-sign-in .shadow-gray form > small,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .editable-sign-in--title,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .editable-registration--title,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .break-words,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form > small,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .editable-sign-in--title,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .editable-registration--title,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form .break-words,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > small {
-  font-weight: 500;
-}
-
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form > small,
 #sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form > small,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form > small,
@@ -333,7 +298,6 @@
 #registration-page .main-content-wrapper .editable-sign-in .shadow-gray .editable-sign-in--back-to-sign-in,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper .editable-sign-in--back-to-sign-in,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray .editable-sign-in--back-to-sign-in {
-  font-weight: 500;
   margin-bottom: 1rem;
 }
 
@@ -355,7 +319,6 @@
   background-color: transparent;
   border: none;
   color: #000000;
-  font-weight: 600;
   text-transform: none;
 }
 
@@ -384,10 +347,6 @@
 
 #sign-in-page .main-content-wrapper .editable-sign-in--left-content-title,
 #registration-page .main-content-wrapper .editable-registration--left-content-title {
-  font-weight: 600;
-}
-
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form label {
   font-weight: 600;
 }
 
