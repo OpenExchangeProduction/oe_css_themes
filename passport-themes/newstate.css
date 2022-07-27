@@ -448,3 +448,7 @@
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .custom-select__options > div:hover {
   background: #d9d9d9;
 }
+
+#registration-page .editable-registration--left-content-description {
+  -webkit-line-clamp: unset;
+}
