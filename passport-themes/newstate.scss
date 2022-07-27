@@ -391,18 +391,7 @@
 
 #sign-in-page .main-content-wrapper .editable-sign-in--left-content-title,
 #registration-page .main-content-wrapper .editable-registration--left-content-title {
-  text-align: center;
   font-weight: 600;
-}
-
-#sign-in-page .main-content-wrapper .editable-sign-in--left-content-date .flex {
-  justify-content: center;
-}
-
-#sign-in-page .main-content-wrapper .editable-registration--left-content-date .flex,
-#registration-page .main-content-wrapper .editable-registration--left-content-date .flex {
-  justify-content: center;
-  flex-direction: row;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form label {
