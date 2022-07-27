@@ -449,6 +449,16 @@
   left: 0;
 }
 
-.custom-select__options div {
-  background: white !important;
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .custom-select__options > div {
+  background: white;
+  padding: .25rem;
+  transition: background .2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out;
+  -o-transition: background .2s ease-in-out;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .custom-select__options > div:hover {
+  background: #d9d9d9;
 }
