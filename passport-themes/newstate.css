@@ -382,13 +382,6 @@
   text-transform: none;
 }
 
-#sign-in-page .main-content-wrapper .editable-sign-in div > div img,
-#sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div img,
-#registration-page .main-content-wrapper .editable-sign-in div > div img,
-#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div img {
-  margin: 0 auto;
-}
-
 #sign-in-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > .editable-sign-in--wrapper ~ div,
 #registration-page .main-content-wrapper .editable-sign-in div > .editable-sign-in--wrapper ~ div,
