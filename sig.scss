@@ -181,7 +181,8 @@ h5 {
     }
 
     .nav {
-       .nav-category-link {
+       .nav-category-link,
+       .ellipsis {
          padding: 0
        }
 
@@ -580,9 +581,14 @@ h5 {
           font-weight: 300;
           color: #222222 !important;
           height: max-content !important;
+          word-break: keep-all;
 
           &:hover {
             color: #012169 !important;
+          }
+
+          @media (max-width: 1500px) and (min-width: 768px) {
+            font-size: 1rem;
           }
         }
       }

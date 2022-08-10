@@ -135,7 +135,8 @@ h5 {
   align-items: center;
 }
 
-#page-top #main_navigation_collapse .nav .nav-category-link {
+#page-top #main_navigation_collapse .nav .nav-category-link,
+#page-top #main_navigation_collapse .nav .ellipsis {
   padding: 0;
 }
 
@@ -568,11 +569,19 @@ h5 {
   font-weight: 300;
   color: #222222 !important;
   height: max-content !important;
+  word-break: keep-all;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title:hover,
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title a:hover {
   color: #012169 !important;
+}
+
+@media (max-width: 1500px) and (min-width: 768px) {
+  #page-top .column-view-item .post .thumb-meta-wrapper .tile-title,
+  #page-top .column-view-item .post .thumb-meta-wrapper .tile-title a {
+    font-size: 1rem;
+  }
 }
 
 #page-top .column-view-item:hover .post .thumb-meta-wrapper {
