@@ -530,6 +530,13 @@ h5 {
   position: relative;
 }
 
+@media (max-width: 640px) {
+  #page-top .column-view-item .post .thumb-meta-wrapper {
+    height: unset;
+    border-top: 1px solid #000;
+  }
+}
+
 #page-top .column-view-item .post .thumb-meta-wrapper:after {
   display: block;
   content: '';
