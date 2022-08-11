@@ -1294,3 +1294,7 @@ footer {
     max-height: unset;
     max-width: unset;
 }
+
+#page-top .navbar-default .nav .dropdown-menu>li .btn-group>[role=link] {
+  text-align: left;
+}
