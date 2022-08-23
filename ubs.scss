@@ -668,11 +668,6 @@ html {
   }
 }
 
-/*@media screen and (min-width: 992px) {*/
-/*  #page-top .column-view-item {*/
-/*    width: 50%;*/
-/*  }*/
-/*}*/
 @media screen and (min-width: 768px) {
   #page-top .column-view-item {
     width: 25%;
@@ -1203,11 +1198,6 @@ footer .footer-container a {
   }
 }
 
-/*@media (min-width: 1200px) {*/
-/*    #page-top #url-auth-suffix ~ section.featured-category:nth-of-type(1) .column-view-item {*/
-/*        width: 20%;*/
-/*    }*/
-/*}*/
 .login-container .btn-primary {
   background: #e60000 !important;
   border-color: #e60000 !important;
@@ -1589,12 +1579,6 @@ h2#page-title[title="Agenda"] {
     padding: 0;
   }
 }
-
-/*@media screen and (min-width: 768px) {*/
-/*  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group {*/
-/*    padding-bottom: 0.5rem;*/
-/*  }*/
-/*}*/
 
 #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group a,
 #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button {
@@ -1994,10 +1978,6 @@ h2#page-title[title="Agenda"] {
     overflow: visible !important;
 }
 
-#page-top .featured-knovio .featured-knovio-info {
-    display: none;
-}
-
 #page-top .featured-knovio .featured-knovio-post {
     width: 100%;
 }
@@ -2325,4 +2305,10 @@ font-weight:300 !important;
 
 .single-post .post .tile-area .tile-text .tile-navigation-link {
     padding: 0;
+}
+
+@media (min-width: 769px) {
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type > li:nth-last-child(2) {
+    margin-left: auto;
+  }
 }
