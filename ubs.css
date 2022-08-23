@@ -2318,3 +2318,7 @@ h4.tile-header .tile-title {
   display: flex;
   max-height: none;
 }
+
+#page-top header + .container {
+  display: none;
+}

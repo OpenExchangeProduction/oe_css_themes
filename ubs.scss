@@ -2325,3 +2325,7 @@ font-weight:300 !important;
     max-height: none;
   }
 }
+
+#page-top header + .container {
+  display: none;
+}
