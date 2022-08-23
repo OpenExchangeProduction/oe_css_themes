@@ -2312,3 +2312,21 @@ font-weight:300 !important;
     margin-left: auto;
   }
 }
+
+#page-top #showcase_category .container .row .featured-knovio {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #efefef;
+
+  .featured-knovio-post {
+    background: #efefef;
+  }
+
+  .featured-knovio-info {
+    background: #efefef;
+    height: 100%;
+    display: flex;
+    max-height: none;
+  }
+}
