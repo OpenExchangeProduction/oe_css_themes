@@ -2162,3 +2162,21 @@ font-weight:300 !important;
     -webkit-filter: brightness(.75);
   }
 }
+
+#page-top .video-wrap  {
+  position: relative;
+  width: 100%;
+  height: 0 !important;
+  padding: 56.25% 0 0;
+  pointer-events: none;
+}
+
+#page-top .video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+  border: none;
+}
