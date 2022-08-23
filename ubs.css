@@ -2123,3 +2123,28 @@ h4.tile-header .tile-title {
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label::after {
   background: transparent;
 }
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .page-description .list-page-description .description-btn {
+  display: block;
+  max-width: max-content;
+  max-height: max-content;
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-color: #e60000;
+  background: #e60000;
+  color: #fff;
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+  transition: filter 0.25s ease-in;
+  -webkit-transition: filter 0.25s ease-in;
+  -moz-transition: filter 0.25s ease-in;
+  -ms-transition: filter 0.25s ease-in;
+  -o-transition: filter 0.25s ease-in;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .page-description .list-page-description .description-btn:hover {
+  filter: brightness(0.75);
+  -webkit-filter: brightness(0.75);
+}

@@ -23,6 +23,15 @@
 
     $(".featured-knovio").insertAfter(".list-view-item:nth-child(5)");
     $('.thumb[src*="label"]').closest('.list-view-item').addClass('label');
+
+    $('.list-page-description:contains(</a>)').each (function(i, j) {
+      var $item = $(j);
+      var oldText = $($item).text();
+      var anchor = oldText.split(/(?=<a)/g)[1];
+      var newText = oldText.replace(anchor, "");
+      $($item).text(newText);
+      $($item).append(anchor);
+    });
   }
 
   defer(callback);
