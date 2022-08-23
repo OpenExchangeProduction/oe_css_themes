@@ -2098,14 +2098,38 @@ font-weight:300 !important;
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label {
   pointer-events: none;
   display: block;
+  padding: 0;
 
-  .thumb-wrapper {
-    display: none;
-  }
+  .post {
+    .thumb-wrapper {
+      display: none;
+    }
+  
+    .thumb-meta-wrapper {
+      margin: 1rem 0;
+      border-bottom: 1px solid #0e0e0e;
+      width: 100%;
+      padding: 0;
 
-  .thumb-meta-wrapper {
-    margin: 1rem 0;
-    border-bottom: 1px solid #0e0e0e;
+      .tile-text-area {
+        h3 {
+          margin: 0;
+
+          .tile-title {
+            margin: 0;
+
+            a {
+              text-align: left;
+              margin-bottom: .5rem
+            }
+          }
+
+          i, .page-description {
+            display: none;
+          }
+        }
+      }
+    }
   }
 
   &::after {
