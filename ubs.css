@@ -2085,3 +2085,21 @@ h4.tile-header .tile-title {
 #page-top header + .container {
   display: none;
 }
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label {
+  pointer-events: none;
+  display: block;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label .thumb-wrapper {
+  display: none;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label .thumb-meta-wrapper {
+  margin: 1rem 0;
+  border-bottom: 1px solid #0e0e0e;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label::after {
+  background: transparent;
+}

@@ -22,6 +22,7 @@
     rte.classList.add("hide");
 
     $(".featured-knovio").insertAfter(".list-view-item:nth-child(5)");
+    $('.thumb[src*="label"]').closest('.list-view-item').addClass('label');
   }
 
   defer(callback);

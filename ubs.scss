@@ -2094,3 +2094,21 @@ font-weight:300 !important;
     display: none;
   }
 }
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label {
+  pointer-events: none;
+  display: block;
+
+  .thumb-wrapper {
+    display: none;
+  }
+
+  .thumb-meta-wrapper {
+    margin: 1rem 0;
+    border-bottom: 1px solid #0e0e0e;
+  }
+
+  &::after {
+    background: transparent;
+  }
+}
