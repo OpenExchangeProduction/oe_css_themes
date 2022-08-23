@@ -1,40 +1,35 @@
 <p class="selector">selector</p>
 <script>
-  var counter = 0;
-
-  function defer(callback) {
-      if (window.jQuery) {
-          callback();
-      } else {
-          if (counter < 200) {
-              setTimeout(() => { defer(callback) }, 50);
-              counter++;
-          } else {
-              throw new Error("RTE - JQuery Timeout");
-              return;
-          }
-      }
+function defer(callback) {
+  if (window.jQuery) {
+      callback();
+  } else {
+      setTimeout(() => defer(callback), 50);
+      console.log('$ undefined');
   }
+}
 
-  var callback = function () {
-    var selector = document.querySelector('.selector');
-    var rte = selector.closest('.featured-category');
-    rte.classList.add("hide");
+const callback = function () {
+  var selector = document.querySelector('.selector');
+  var rte = selector.closest('.featured-category');
+  rte.classList.add("hide");
 
-    $(".featured-knovio").insertAfter(".list-view-item:nth-child(5)");
-    $('.thumb[src*="label"]').closest('.list-view-item').addClass('label');
+  $(".featured-knovio").insertAfter(".list-view-item:nth-child(5)");
+  $('.thumb[src*="label"]').closest('.list-view-item').addClass('label');
 
-    $('.list-page-description:contains(</a>)').each (function(i, j) {
-      var $item = $(j);
-      var oldText = $($item).text();
-      var anchor = oldText.split(/(?=<a)/g)[1];
-      var newText = oldText.replace(anchor, "");
-      $($item).text(newText);
-      $($item).append(anchor);
+  $(window).on("load", function () {
+    $('.list-page-description:contains(</a>)').each(function(i, obj) {
+      var oldText = $(this).text();
+      var split = oldText.split('~');
+      console.log(split);
+      var newText = split[0];
+      var anchor = split[1];
+      $(this).html('<p>' + newText + '</p>' + anchor );
     });
-  }
+  });
+}
 
-  defer(callback);
+defer(callback);
 </script>
 
 <style>

@@ -2139,6 +2139,7 @@ font-weight:300 !important;
 
 #page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .page-description .list-page-description .description-btn {
   display: block;
+  height: max-content;
   max-width: max-content;
   max-height: max-content;
   padding: 0.5rem 2rem;
@@ -2147,7 +2148,7 @@ font-weight:300 !important;
   line-height: 1.5rem;
   border-color: #e60000;
   background: #e60000;
-  color: #fff;
+  color: #fff !important;
   filter: brightness(1);
   -webkit-filter: brightness(1);
   transition: filter 0.25s ease-in;
@@ -2155,10 +2156,9 @@ font-weight:300 !important;
   -moz-transition: filter 0.25s ease-in;
   -ms-transition: filter 0.25s ease-in;
   -o-transition: filter 0.25s ease-in;
-  
-  &:hover
-    {
-        filter: brightness(.75);
-        -webkit-filter: brightness(.75);
-    }
+
+  &:hover {
+    filter: brightness(.75);
+    -webkit-filter: brightness(.75);
+  }
 }
