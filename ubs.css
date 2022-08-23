@@ -1968,16 +1968,8 @@ button
   overflow: visible !important;
 }
 
-#page-top .featured-knovio .featured-knovio-post {
-  width: 100%;
-}
-
 #page-top #url-auth-suffix ~ .container .featured-knovio .featured-knovio-info {
   display: block;
-}
-
-#page-top #url-auth-suffix ~ .container .featured-knovio .featured-knovio-post {
-  width: 50%;
 }
 
 #page-top #main_navigation #main_navigation_collapse .navbar-right > li > .btn-group > .rbs:hover,
@@ -2310,7 +2302,9 @@ h4.tile-header .tile-title {
   grid-column: 1 / -1;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
+  background: transparent;
 }
 
 #page-top #showcase_category .container .row .featured-knovio .featured-knovio-post {
