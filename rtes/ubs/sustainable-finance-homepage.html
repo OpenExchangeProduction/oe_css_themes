@@ -26,12 +26,11 @@ const callback = function () {
     $(this).html('<p>' + newText + '</p>' + anchor );
   });
 
-  var thumbnail = $('.thumb[src*="video"]');
-  $(thumbnail).addClass('hide');
-  var videoWrap = $(thumbnail).closest('.thumb-link');
-  $(videoWrap).addClass('video-wrap').attr('href', '#');
-  var iframe = '<video controls="" autoplay="" name="media"><source src="https://www.openexc.com/wp-content/uploads/2022/08/OpenExc_Generic_video.mp4" type="video/mp4"></video>';
-  $(videoWrap).append(iframe);
+  var thumbnail = $('.thumb[src*="mp4"]');
+  thumbnail.closest('.thumb-wrapper').addClass('hide');
+  var videoWrap = thumbnail.closest('.post-identifier');
+  var iframe = '<div class="thumb-wrapper"><div class="video-wrap"><video controls="" autoplay="false" name="media"><source src="https://www.openexc.com/wp-content/uploads/2022/08/OpenExc_Generic_video.mp4" type="video/mp4"></video></div></div>';
+  videoWrap.prepend(iframe);
 }
 
 defer(callback);
