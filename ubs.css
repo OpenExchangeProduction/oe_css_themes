@@ -2151,7 +2151,7 @@ h4.tile-header .tile-title {
 }
 
 #page-top .video-wrap {
-  position: relative;
+  position: relative !important;
   width: 100%;
   height: 0 !important;
   padding: 56.25% 0 0;
