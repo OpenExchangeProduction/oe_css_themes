@@ -1299,7 +1299,7 @@ h2#page-title[title="Agenda"] {
 }
 
 @media screen and (min-width: 768px) {
-  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type > li:not(:last-child) {
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type > li {
     margin-right: 2rem;
   }
 }
