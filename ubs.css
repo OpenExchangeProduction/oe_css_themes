@@ -2087,6 +2087,15 @@ h4.tile-header .tile-title {
   display: none;
 }
 
+#page-top header + .container .featured-knovio .featured-knovio-post {
+  width: 100%;
+  height: unset;
+}
+
+#page-top header + .container .featured-knovio .featured-knovio-info {
+  display: none;
+}
+
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label {
   pointer-events: none;
   display: block;
