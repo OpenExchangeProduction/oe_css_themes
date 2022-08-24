@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://openexchangeproduction.github.io/oe_css_themes/ubs.css");
 @font-face {
   font-family: "Frutiger";
   src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/Fruitger_Light_woff2_1617200867350/Fruitger_Light_c2d93e65-528c-4915-9a18-2b6bd495cc92.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=AbmdAFya6YJ2tQTxPP84IOdM500%3D");
@@ -2077,12 +2078,12 @@ h4.tile-header .tile-title {
   max-height: none;
 }
 
-#page-top header:after {
+#page-top #url-auth-suffix ~ header:after {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-#page-top header + .container {
+#page-top #url-auth-suffix ~ header + .container {
   display: none;
 }
 
@@ -2167,3 +2168,260 @@ h4.tile-header .tile-title {
   pointer-events: all;
   border: none;
 }
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) {
+  grid-column: auto / span 1;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) {
+  height: 100%;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5)::after {
+  content: none;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) .post {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: unset;
+  grid-template-rows: unset;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-wrapper {
+  display: none;
+}
+
+/* I don't think this is needed */
+/* #page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-wrapper::after {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMC41OSA4bC02LjMgNi4yOUw1IDE1bDctNy03LTctLjcxLjcxeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0;
+  pointer-events: none;
+} */
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-wrapper:hover::after {
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-wrapper
+.thumb-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-wrapper
+.thumb-link
+> * {
+  display: none;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper {
+  float: none !important;
+  position: static !important;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+  overflow-y: hidden;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area {
+  height: 100%;
+  padding: 1rem 2rem;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area
+.link-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area
+.link-header
+.tile-title {
+  color: #1c1c1c !important;
+  margin: auto;
+  padding-bottom: 0.25rem;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area
+.link-header
+.tile-title
+a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 16px / 1 "Frutiger" !important;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area
+.link-header
+.tile-title
+a::after {
+  content: ">";
+  padding-left: 1rem;
+  color: #E60000;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area
+.link-header
+.page-description {
+  display: none;
+}
+
+#page-top
+#url-auth-suffix
+~ #showcase_category
+.container.posts
+> .row
+.list-view-item:nth-of-type(-n + 5)
+.post
+.thumb-meta-wrapper
+.tile-text-area
+.link-header
+.page-description
+.list-page-description {
+  font: 400 0.875rem/1.25rem "Frutiger" !important;
+}
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
+  font-weight: lighter !important;
+}
+
+/*#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(2n + 2)::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 50%;*/
+/*    width: calc(100vw - 2rem);*/
+/*    height: 100%;*/
+/*    -webkit-transform: translateX(-50%);*/
+/*    transform: translateX(-50%);*/
+/*    background: #efefef;*/
+/*    z-index: -1;*/
+/*}*/
+/*#page-top .list-view-item:nth-of-type(even) .post .thumb-meta-wrapper {*/
+/*    padding-left: 0;*/
+/*}*/
+/*#page-top .list-view-item:nth-of-type(odd) .post .thumb-meta-wrapper {*/
+/*    padding-left: 1rem;*/
+/*}*/
