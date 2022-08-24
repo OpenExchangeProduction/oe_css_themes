@@ -30,7 +30,7 @@ const callback = function () {
   $(thumbnail).addClass('hide');
   var videoWrap = $(thumbnail).closest('.thumb-link');
   $(videoWrap).addClass('video-wrap').attr('href', '#');
-  var iframe = '<iframe src="https://www.openexc.com/wp-content/uploads/2022/08/OpenExc_Generic_video.mp4"></iframe>';
+  var iframe = '<video controls="" autoplay="" name="media"><source src="https://www.openexc.com/wp-content/uploads/2022/08/OpenExc_Generic_video.mp4" type="video/mp4"></video>';
   $(videoWrap).append(iframe);
 }
 
