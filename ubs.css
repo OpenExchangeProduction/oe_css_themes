@@ -2196,3 +2196,34 @@ h4.tile-header .tile-title {
   opacity: 0;
   pointer-events: none;
 } */
+#page-top #custom-fields-data + #main_navigation + header + #showcase_category .list-view-item .post .thumb-wrapper .thumb-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-top #custom-fields-data + #main_navigation + header + #showcase_category .list-view-item .post .thumb-wrapper .thumb-link:before {
+  content: 'Join Session';
+  position: absolute;
+  z-index: 2;
+  display: block;
+  height: max-content;
+  max-width: max-content;
+  max-height: max-content;
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-color: #e60000;
+  background: #e60000;
+  color: #fff !important;
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+  transition: filter 0.25s ease-in;
+  -webkit-transition: filter 0.25s ease-in;
+}
+
+#page-top #custom-fields-data + #main_navigation + header + #showcase_category .list-view-item .post .thumb-wrapper .thumb-link:hover:before {
+  filter: brightness(0.75);
+  -webkit-filter: brightness(0.75);
+}
