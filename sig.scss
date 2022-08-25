@@ -1328,6 +1328,20 @@ footer {
   }
 }
 
-.test {
-  background: red;
+.modal {
+  .post-details-container {
+    .post-details-description-button {
+      color: black !important;
+    }
+  }
+
+  #contentMetadataSPEAKER {
+    .content-metadata-details-button {
+      pointer-events: none;
+    }
+    .content-metadata-details-list {
+      height: auto !important;
+      display: block;
+    }
+  }
 }
