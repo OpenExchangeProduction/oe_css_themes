@@ -1315,6 +1315,10 @@ footer .container .footer-container a {
   color: black !important;
 }
 
+.modal .post-details-container .details-speaker-preview {
+  display: none !important;
+}
+
 .modal #contentMetadataSPEAKER .content-metadata-details-button {
   pointer-events: none;
 }
