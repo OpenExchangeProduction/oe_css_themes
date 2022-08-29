@@ -84,12 +84,12 @@ div[class*='event-details'] > .items-start {
 }
 
 #root .App header .editable-header a:hover span {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff8a;
 }
 
 #root .App header .editable-header a.navbar-item-label-active > div,
 #root .App header .editable-header a.navbar-item-label-active > span {
-  border-bottom: 2px solid #031937;
+  border-bottom: 2px solid #ffffff8a;
 }
 
 #root .App header .editable-header button[name="signOut"] {
