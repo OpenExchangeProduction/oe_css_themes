@@ -79,12 +79,12 @@ div[class*='event-details'] > .items-start {
   display: none !important;
 }
 
-#root .App header .editable-header a {
+#root .App header .editable-header a span {
   color: var(--clr-nav-text) !important;
 }
 
 #root .App header .editable-header a:hover span {
-  border-bottom: 1px solid #031937;
+  border-bottom: 1px solid #ffffff;
 }
 
 #root .App header .editable-header a.navbar-item-label-active > div,
