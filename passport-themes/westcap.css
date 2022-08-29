@@ -28,15 +28,10 @@ strong {
 }
 
 :root {
-  --img-logo: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/logo_white_png_1661800628974/logo_white_895ec695-e2f8-411a-b744-2980156208ab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=D3hwZaqFiw5fMpjKVA6Hrpa6M%2FE%3D");
   --clr-nav-bg: transparent;
   --clr-nav-text: #ffffff;
 }
 
-/**
-  * OE BRANDING SWAP
-  * REACH OUT TO zachary.rosfjord@openexc.com WITH QUESTIONS
-*/
 .main-content-wrapper .background-img, .rich-text-content-wrapper .background-img {
   object-position: top right;
   object-fit: cover;
@@ -57,26 +52,17 @@ div[class*='event-details'] > .items-start {
   align-items: center;
 }
 
-/* end of safekeeping theme */
-/* Zack's nav fix for logo */
 #root .App header {
   background-color: var(--clr-nav-bg) !important;
   border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
 }
 
-#root .App header::before {
-  content: "";
-  display: block;
-  height: 1.25rem;
-  width: 20rem;
-  background-image: var(--img-logo);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0% 0%;
-}
-
 #root .App header img {
-  display: none !important;
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 1.25rem;
 }
 
 #root .App header .editable-header a span {
