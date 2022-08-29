@@ -29,7 +29,7 @@ strong {
 
 :root {
   --img-logo: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/logo_white_png_1661800628974/logo_white_895ec695-e2f8-411a-b744-2980156208ab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=D3hwZaqFiw5fMpjKVA6Hrpa6M%2FE%3D");
-  --clr-nav-bg: #0b2142;
+  --clr-nav-bg: #031937;
   --clr-nav-text: #ffffff;
 }
 
@@ -84,12 +84,12 @@ div[class*='event-details'] > .items-start {
 }
 
 #root .App header .editable-header a.header-button:hover span {
-  border-bottom: 1px solid #0b2142;
+  border-bottom: 1px solid #031937;
 }
 
 #root .App header .editable-header a.header-button.navbar-item-label-active > div,
 #root .App header .editable-header a.header-button.navbar-item-label-active > span {
-  border-bottom: 2px solid #0b2142;
+  border-bottom: 2px solid #031937;
 }
 
 #root .App header .editable-header button[name="signOut"] {
@@ -578,7 +578,7 @@ div[class*='event-details'] > .items-start {
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] *, .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] * {
-  color: #0b2142;
+  color: #031937;
   text-align: left;
   justify-content: flex-start;
 }
@@ -612,7 +612,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .common-btn.add-to-calendar-btn {
-  color: #0b2142;
+  color: #031937;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray .common-btn svg {
@@ -620,11 +620,11 @@ div[class*='event-details'] > .items-start {
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray button[name="backToList"] {
-  color: #0b2142;
+  color: #031937;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray button[name="backToList"] svg {
-  fill: #0b2142;
+  fill: #031937;
 }
 
 #meeting-details-page .main-content-wrapper .shadow-gray p {
@@ -700,7 +700,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title {
-  color: #0b2142;
+  color: #031937;
   font-weight: 500;
 }
 
@@ -751,7 +751,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #welcome-page .editable-welcome--wrapper .editable-welcome-footer .editable-welcome-footer--wrapper.bg-primary-lighter-hover .editable-welcome-footer--title {
-  color: #0b2142;
+  color: #031937;
   font-weight: 600;
   transition: color .2s ease-in-out;
 }
@@ -775,7 +775,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper h1 {
-  color: #0b2142;
+  color: #031937;
   padding: 0;
   font-weight: 500;
 }
@@ -800,7 +800,7 @@ div[class*='event-details'] > .items-start {
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .break-words,
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .editable-session--table-row-left-date,
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm {
-  color: #0b2142;
+  color: #031937;
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm > span:first-child {
@@ -813,7 +813,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .select-box--container svg {
-  fill: #0b2142;
+  fill: #031937;
   opacity: 1;
 }
 
@@ -966,7 +966,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-right > .sm-shadow-gray > .flex-col .items-start .word-break span {
-  color: #0b2142;
+  color: #031937;
   font-weight: 500;
 }
 
@@ -1073,13 +1073,13 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 .main-content-wrapper .editable-agenda--wrapper > h1, .main-content-wrapper .editable-agenda--wrapper > h2, .main-content-wrapper .editable-session--header > h1, .main-content-wrapper .editable-session--header > h2, .rich-text-content-wrapper .editable-agenda--wrapper > h1, .rich-text-content-wrapper .editable-agenda--wrapper > h2, .rich-text-content-wrapper .editable-session--header > h1, .rich-text-content-wrapper .editable-session--header > h2 {
-  color: #0b2142;
+  color: #031937;
   padding: 0;
   font-weight: 500;
 }
 
 .main-content-wrapper .editable-support--wrapper h1, .main-content-wrapper .editable-rich-text--wrapper h1, .rich-text-content-wrapper .editable-support--wrapper h1, .rich-text-content-wrapper .editable-rich-text--wrapper h1 {
-  color: #0b2142;
+  color: #031937;
   padding: 0;
   font-weight: 500;
   margin: 0;
@@ -1093,7 +1093,7 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray h1.speaker-title {
-  color: #0b2142;
+  color: #031937;
   padding: 0;
   margin: 0;
   font-weight: 500;
@@ -1109,7 +1109,7 @@ footer a.text-primary:nth-of-type(3):before {
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization h2 {
   font-weight: 500;
-  color: #0b2142;
+  color: #031937;
   padding-bottom: 1rem;
   border-bottom: 1px solid #eeeeee;
 }
@@ -1122,7 +1122,7 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__title {
-  color: #0b2142;
+  color: #031937;
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button {
@@ -1162,7 +1162,7 @@ footer a.text-primary:nth-of-type(3):before {
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio_expanded button span:first-child {
-  background: #0b2142;
+  background: #031937;
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio_expanded button span:first-child:before {
@@ -1190,7 +1190,7 @@ footer a.text-primary:nth-of-type(3):before {
   object-fit: cover;
   object-position: center;
   border-radius: 100%;
-  border: 2px solid #0b2142;
+  border: 2px solid #031937;
 }
 
 .bg-primary-light:after, .bg-primary-lighter-hover:hover:after, .bg-primary-lighter:after {
