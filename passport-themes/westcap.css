@@ -29,7 +29,7 @@ strong {
 
 :root {
   --img-logo: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/logo_white_png_1661800628974/logo_white_895ec695-e2f8-411a-b744-2980156208ab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=D3hwZaqFiw5fMpjKVA6Hrpa6M%2FE%3D");
-  --clr-nav-bg: #031937;
+  --clr-nav-bg: transparent;
   --clr-nav-text: #ffffff;
 }
 
@@ -61,7 +61,7 @@ div[class*='event-details'] > .items-start {
 /* Zack's nav fix for logo */
 #root .App header {
   background-color: var(--clr-nav-bg) !important;
-  border-bottom: 1px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
 }
 
 #root .App header::before {
