@@ -116,22 +116,18 @@ div[class*='event-details'] > .items-start {
   padding-bottom: 1rem;
 }
 
-#sign-in-page .main-content-wrapper > .flex-col,
-#registration-page .main-content-wrapper > .flex-col {
-  margin-top: 2rem !important;
-}
-
 #sign-in-page .main-content-wrapper .editable-sign-in,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray),
 #registration-page .main-content-wrapper .editable-sign-in,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) {
   /* :not psudos due to sign-in-page id being on speakers page */
   display: block;
-  margin: auto;
+  margin: 4rem auto;
   width: 100%;
   max-width: 50%;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
