@@ -84,7 +84,6 @@ div[class*='event-details'] > .items-start {
 }
 
 #root .App header .editable-header a:hover span {
-  border-bottom: 1px solid #ffffff8a;
   color: #f7941d !important;
 
   &:before {
@@ -103,7 +102,6 @@ div[class*='event-details'] > .items-start {
 
 #root .App header .editable-header a.navbar-item-label-active > div,
 #root .App header .editable-header a.navbar-item-label-active > span {
-  border-bottom: 2px solid #ffffff8a;
   color: rgb(12, 182, 203) !important
 }
 
