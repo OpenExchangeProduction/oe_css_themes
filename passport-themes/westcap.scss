@@ -131,6 +131,7 @@ div[class*='event-details'] > .items-start {
   width: 100%;
   max-width: 50%;
   border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.4);
 
   @media (max-width: 768px) {
     max-width: 75%;
