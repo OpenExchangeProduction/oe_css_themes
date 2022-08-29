@@ -20,7 +20,6 @@ const callback = function () {
   $('.list-page-description:contains(</a>)').each(function(i, obj) {
     var oldText = $(this).text();
     var split = oldText.split('~');
-    console.log(split);
     var newText = split[0];
     var anchor = split[1];
     $(this).html('<p>' + newText + '</p>' + anchor );
