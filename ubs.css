@@ -2103,7 +2103,7 @@ h4.tile-header .tile-title {
 
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label .post .thumb-meta-wrapper {
   margin: 1rem 0;
-  border-bottom: 1px solid #0e0e0e;
+  border-bottom: 1px solid #bebebe;
   width: 100%;
   padding: 0;
 }
@@ -2119,6 +2119,7 @@ h4.tile-header .tile-title {
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label .post .thumb-meta-wrapper .tile-text-area h3 .tile-title a {
   text-align: left;
   margin-bottom: .5rem;
+  font-weight: 500;
 }
 
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label .post .thumb-meta-wrapper .tile-text-area h3 i, #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item.label .post .thumb-meta-wrapper .tile-text-area h3 .page-description {
