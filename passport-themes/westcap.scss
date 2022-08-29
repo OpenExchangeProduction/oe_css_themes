@@ -79,16 +79,16 @@ div[class*='event-details'] > .items-start {
   display: none !important;
 }
 
-#root .App header .editable-header a.header-button {
+#root .App header .editable-header a {
   color: var(--clr-nav-text) !important;
 }
 
-#root .App header .editable-header a.header-button:hover span {
+#root .App header .editable-header a:hover span {
   border-bottom: 1px solid #031937;
 }
 
-#root .App header .editable-header a.header-button.navbar-item-label-active > div,
-#root .App header .editable-header a.header-button.navbar-item-label-active > span {
+#root .App header .editable-header a.navbar-item-label-active > div,
+#root .App header .editable-header a.navbar-item-label-active > span {
   border-bottom: 2px solid #031937;
 }
 
