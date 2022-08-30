@@ -1294,3 +1294,24 @@ form .custom-select {
 form .custom-select__arrow:after {
   color: #ffffff;
 }
+
+form .custom-select__options {
+  background: #071529;
+}
+
+form .custom-select__options > div {
+  background: transparent;
+  transition: background .2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out;
+  -o-transition: background .2s ease-in-out;
+}
+
+form .custom-select__options > div:not(:last-child) {
+  border-bottom: rgba(255, 255, 255, 0.2);
+}
+
+form .custom-select__options > div:hover {
+  background: #040b15;
+}

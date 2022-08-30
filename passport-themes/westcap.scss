@@ -1268,8 +1268,32 @@ form .editable-sign-in--submit-button:disabled:after,  {
 form {
   .custom-select {
     background: #071529;
-  }
-  .custom-select__arrow:after {
-    color: #ffffff;
+
+    &__arrow {
+      &:after {
+        color: #ffffff;
+      }
+    }
+
+    &__options {
+      background: #071529;
+
+      > div {
+        background: transparent;
+        transition: background .2s ease-in-out;
+        -webkit-transition: background .2s ease-in-out;
+        -moz-transition: background .2s ease-in-out;
+        -ms-transition: background .2s ease-in-out;
+        -o-transition: background .2s ease-in-out;
+
+        &:not(:last-child) {
+          border-bottom: rgba(255,255,255,.2);
+        }
+
+        &:hover {
+          background: #040b15;
+        }
+      }
+    }
   }
 }
