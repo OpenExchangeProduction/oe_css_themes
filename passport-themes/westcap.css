@@ -1288,7 +1288,7 @@ form .input-group:nth-child(3) {
 }
 
 form .custom-select {
-  background: #071529 !important;
+  background-color: #071529 !important;
 }
 
 form .custom-select__arrow:after {
@@ -1296,11 +1296,11 @@ form .custom-select__arrow:after {
 }
 
 form .custom-select__options {
-  background: #071529 !important;
+  background-color: #071529 !important;
 }
 
 form .custom-select__options > div {
-  background: transparent;
+  background-color: transparent;
   transition: background .2s ease-in-out;
   -webkit-transition: background .2s ease-in-out;
   -moz-transition: background .2s ease-in-out;
@@ -1313,7 +1313,7 @@ form .custom-select__options > div:not(:last-child) {
 }
 
 form .custom-select__options > div:hover {
-  background: #040b15;
+  background-color: #040b15 !important;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div:not(:last-child) {

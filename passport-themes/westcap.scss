@@ -1267,7 +1267,7 @@ form {
   }
 
   .custom-select {
-    background: #071529 !important;
+    background-color: #071529 !important;
 
     &__arrow {
       &:after {
@@ -1276,10 +1276,10 @@ form {
     }
 
     &__options {
-      background: #071529 !important;
+      background-color: #071529 !important;
 
       > div {
-        background: transparent;
+        background-color: transparent;
         transition: background .2s ease-in-out;
         -webkit-transition: background .2s ease-in-out;
         -moz-transition: background .2s ease-in-out;
@@ -1291,7 +1291,7 @@ form {
         }
 
         &:hover {
-          background: #040b15;
+          background-color: #040b15 !important;
         }
       }
     }
