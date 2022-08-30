@@ -1282,6 +1282,10 @@ form .editable-sign-in--submit-button button:disabled:after {
   background-color: #000000 !important;
 }
 
+form .editable-sign-in--access-submit-button button:disabled:after {
+  background-color: #000000 !important;
+}
+
 form .input-group:nth-child(3) {
   justify-content: flex-start;
   gap: 1.25rem;

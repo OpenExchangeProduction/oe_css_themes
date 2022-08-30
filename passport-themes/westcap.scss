@@ -1256,8 +1256,13 @@ form input[type="checkbox"] {
   }
 }
 
-form .editable-sign-in--submit-button button:disabled:after {
-  background-color: #000000 !important;
+form {
+  .editable-sign-in--submit-button button:disabled:after {
+    background-color: #000000 !important;
+  }
+  .editable-sign-in--access-submit-button button:disabled:after {
+    background-color: #000000 !important;
+  }
 }
 
 form {
