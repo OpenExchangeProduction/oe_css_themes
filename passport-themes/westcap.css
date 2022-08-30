@@ -1279,7 +1279,7 @@ form input[type="checkbox"] {
   display: none !important;
 }
 
-form .editable-sign-in--submit-button:disabled:after {
+form .editable-sign-in--submit-button button:disabled:after {
   background-color: #000000;
 }
 
