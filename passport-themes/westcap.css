@@ -85,7 +85,7 @@ div[class*='event-details'] > .items-start {
   width: .75rem;
   height: .75rem;
   position: absolute;
-  bottom: .5rem;
+  bottom: .35rem;
   right: -.75rem;
 }
 
