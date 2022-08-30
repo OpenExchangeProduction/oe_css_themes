@@ -412,7 +412,9 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper .editable-sign-in .shadow-gray form input,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form input,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form input {
-  color: #000000;
+  color: #ffffff;
+  background: #071529;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .mr-2,
