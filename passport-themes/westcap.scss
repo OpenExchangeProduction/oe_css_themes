@@ -69,7 +69,8 @@ div[class*='event-details'] > .items-start {
   color: var(--clr-nav-text) !important;
 }
 
-#root .App header .editable-header a:hover span {
+#root .App header .editable-header a:hover span,
+#root .App header .editable-header button:hover span {
   color: #f7941d !important;
   position: relative;
 

@@ -69,12 +69,14 @@ div[class*='event-details'] > .items-start {
   color: var(--clr-nav-text) !important;
 }
 
-#root .App header .editable-header a:hover span {
+#root .App header .editable-header a:hover span,
+#root .App header .editable-header button:hover span {
   color: #f7941d !important;
   position: relative;
 }
 
-#root .App header .editable-header a:hover span:before {
+#root .App header .editable-header a:hover span:before,
+#root .App header .editable-header button:hover span:before {
   display: block;
   content: '';
   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/logo_white_2_png_1661814088871/logo_white_2_b5f6273c-16e7-4042-a28f-e6540ad77e31.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=vM%2F0k5pTZPFg2b2%2FuT4hW3mM6OM%3D");
