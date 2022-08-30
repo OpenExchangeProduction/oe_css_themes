@@ -1257,7 +1257,7 @@ form input[type="checkbox"] {
 }
 
 form .editable-sign-in--submit-button button:disabled:after {
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 
 form {
