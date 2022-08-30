@@ -127,6 +127,7 @@ div[class*='event-details'] > .items-start {
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   background: rgba(3, 25, 55, 0.69);
+  backdrop-filter: blur(3px);
 }
 
 @media (max-width: 768px) {
