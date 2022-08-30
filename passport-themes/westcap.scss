@@ -1268,6 +1268,7 @@ form {
 
   .custom-select {
     background-color: #071529 !important;
+    border: 1px solid rgba(255,255,255,.2) !important;
 
     &__arrow {
       &:after {
@@ -1277,7 +1278,6 @@ form {
 
     &__options {
       background-color: #071529 !important;
-      border: 1px solid rgba(255,255,255,.2) !important;
 
       > div {
         background-color: transparent;
