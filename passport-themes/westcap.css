@@ -1289,7 +1289,8 @@ form .input-group:nth-child(3) {
 }
 
 form .custom-select {
-  background: #071529;
+  background: #071529 !important;
+  border: rgba(255, 255, 255, 0.2);
 }
 
 form .custom-select__arrow:after {
@@ -1297,7 +1298,7 @@ form .custom-select__arrow:after {
 }
 
 form .custom-select__options {
-  background: #071529;
+  background: #071529 !important;
 }
 
 form .custom-select__options > div {
