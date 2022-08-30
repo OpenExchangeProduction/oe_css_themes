@@ -1319,3 +1319,7 @@ form .custom-select__options > div:hover {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div {
   border-top: unset !important;
 }
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div[role="listbox"] {
+  display: none;
+}
