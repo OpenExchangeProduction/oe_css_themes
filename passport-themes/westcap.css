@@ -1282,3 +1282,15 @@ form input[type="checkbox"] {
 .editable-welcome-event-details .items-start .editable-welcome-event-details--wrapper {
   display: none !important;
 }
+
+form .editable-sign-in--submit-button:disabled:after {
+  background-color: #000000;
+}
+
+form .custom-select {
+  background: #071529;
+}
+
+form .custom-select__arrow:after {
+  color: #ffffff;
+}

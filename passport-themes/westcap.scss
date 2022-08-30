@@ -1260,3 +1260,16 @@ form input[type="checkbox"] {
     display: none !important;
   }
 }
+
+form .editable-sign-in--submit-button:disabled:after,  {
+  background-color: #000000;
+}
+
+form {
+  .custom-select {
+    background: #071529;
+  }
+  .custom-select__arrow:after {
+    color: #ffffff;
+  }
+}
