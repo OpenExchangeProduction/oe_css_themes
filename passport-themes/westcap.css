@@ -148,7 +148,9 @@ div[class*='event-details'] > .items-start {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-sign-in--left-content,
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .editable-registration--left-content {
   background-color: transparent;
-  padding: 3rem 2rem 1rem;
+  padding: 3rem 0 0;
+  margin: 0 2rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   width: 100%;
   margin-left: 0;
 }
@@ -164,7 +166,7 @@ div[class*='event-details'] > .items-start {
   background-color: transparent;
   width: 100%;
   box-shadow: none;
-  padding: 3rem 2rem 1rem;
+  padding: 1rem 2rem 1rem;
 }
 
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper > .editable-sign-in--wrapper,
