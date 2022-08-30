@@ -1287,6 +1287,11 @@ form .editable-sign-in--submit-button:disabled:after {
   background-color: #000000;
 }
 
+form .input-group:nth-child(3) {
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+
 form .custom-select {
   background: #071529;
 }
