@@ -71,6 +71,7 @@ div[class*='event-details'] > .items-start {
 
 #root .App header .editable-header a:hover span {
   color: #f7941d !important;
+  position: relative;
 
   &:before {
     display: block;
@@ -81,8 +82,8 @@ div[class*='event-details'] > .items-start {
     width: .75rem;
     height: .75rem;
     position: absolute;
-    bottom: 1.25rem;
-    right: .25rem;
+    bottom: .5rem;
+    right: -.75rem;
   }
 }
 
