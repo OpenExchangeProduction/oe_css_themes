@@ -1269,7 +1269,6 @@ form {
 
   .custom-select {
     background: #071529 !important;
-    border: rgba(255,255,255,.2);
 
     &__arrow {
       &:after {
@@ -1298,4 +1297,8 @@ form {
       }
     }
   }
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div:not(:last-child) {
+  border: rgba(255,255,255,.2);
 }
