@@ -1297,6 +1297,7 @@ form .custom-select__arrow:after {
 
 form .custom-select__options {
   background-color: #071529 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 form .custom-select__options > div {
