@@ -357,6 +357,15 @@ div[class*='event-details'] > .items-start {
   }
 }
 
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > div.mt-3:nth-child(2) {
+  grid-column: 1 / -1;
+}
+
+#registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) .shadow-gray form > div.mt-3:nth-child(2) span p {
+  grid-column: 1 / -1;
+  font-size: .875rem;
+}
+
 #sign-in-page .main-content-wrapper .editable-sign-in div .editable-sign-in--wrapper form .input-group,
 #sign-in-page .main-content-wrapper .editable-sign-in .shadow-gray form .input-group,
 #sign-in-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div .editable-sign-in--wrapper form .input-group,
