@@ -1286,10 +1286,6 @@ form {
         -ms-transition: background .2s ease-in-out;
         -o-transition: background .2s ease-in-out;
 
-        &:not(:last-child) {
-          border-bottom: rgba(255,255,255,.2);
-        }
-
         &:hover {
           background-color: #040b15 !important;
         }
@@ -1299,5 +1295,5 @@ form {
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div:not(:last-child) {
-  border: rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,.2) !important;
 }

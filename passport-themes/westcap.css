@@ -1308,14 +1308,10 @@ form .custom-select__options > div {
   -o-transition: background .2s ease-in-out;
 }
 
-form .custom-select__options > div:not(:last-child) {
-  border-bottom: rgba(255, 255, 255, 0.2);
-}
-
 form .custom-select__options > div:hover {
   background-color: #040b15 !important;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div:not(:last-child) {
-  border: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
