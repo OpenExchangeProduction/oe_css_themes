@@ -1304,3 +1304,8 @@ form {
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div[role="listbox"] {
   display: none;
 }
+
+.registration-error-margin.absolute div {
+  color: red !important;
+  text-transform: uppercase !important;
+}
