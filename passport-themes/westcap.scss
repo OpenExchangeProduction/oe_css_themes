@@ -1269,6 +1269,15 @@ form {
   .input-group:nth-child(3) {
     justify-content: flex-start;
     gap: 1.25rem;
+
+    @media (max-width: 1479px) {
+      gap: 1rem;
+    }
+
+    @media (max-width: 1212px) {
+      justify-content: space-between;
+      gap: unset;
+    }
   }
 
   .custom-select {
