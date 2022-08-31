@@ -1332,6 +1332,12 @@ form {
   margin-bottom: 1rem;
 }
 
+#sign-in-page .main-content-wrapper .editable-sign-in--wrapper > form > h1.editable-sign-in--title,
+#registration-page .main-content-wrapper .registration-wrapper > form > h1.editable-sign-in--title {
+  font-size: 52px;
+  letter-spacing: -.5px;
+}
+
 #registration-page .main-content-wrapper:before {
   display: block;
   content: url('https://www.westcap.com/wp-content/themes/westcap/assets/images/compass.svg');
