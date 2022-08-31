@@ -128,7 +128,7 @@ div[class*='event-details'] > .items-start {
   max-width: 50%;
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,.4);
-  background: rgba(3, 25, 55, 0.69);
+  background: rgba(3, 25, 55, 0.85);
   backdrop-filter: blur(3px);
 
   @media (max-width: 768px) {
@@ -1349,8 +1349,16 @@ form {
 @keyframes spin {
   from {
       transform:rotate(0deg);
-  }
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -ms-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+}
   to {
-      transform:rotate(360deg);
-  }
+      transform:rotate(-360deg);
+      -webkit-transform:rotate(-360deg);
+      -moz-transform:rotate(-360deg);
+      -ms-transform:rotate(-360deg);
+      -o-transform:rotate(-360deg);
+}
 }
