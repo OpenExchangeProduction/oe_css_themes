@@ -28,7 +28,7 @@ const callback = function () {
   var thumbnail = $('.thumb[src*="mp4"]');
   thumbnail.closest('.thumb-wrapper').addClass('hide');
   var videoWrap = thumbnail.closest('.post-identifier');
-  var iframe = '<div class="thumb-wrapper"><div class="video-wrap"><video controls="" name="media"><source src="https://www.openexc.com/wp-content/uploads/2022/08/Ubs-Esg-Video-1.mp4"></video></div></div>';
+  var iframe = '<div class="thumb-wrapper"><div class="video-wrap"><video controls="" name="media" poster="https://www.openexc.com/wp-content/uploads/2022/08/Picture1.png"><source src="https://www.openexc.com/ubs-esg-video-1/"></video></div></div>';
   videoWrap.prepend(iframe);
 }
 

@@ -1354,3 +1354,27 @@ form .custom-select__options > div:hover {
 #sign-in-page .main-content-wrapper .editable-sign-in--wrapper > form > h1.editable-sign-in--title {
   margin-bottom: 1rem;
 }
+
+#registration-page .main-content-wrapper:before {
+  display: block;
+  content: url("https://www.westcap.com/wp-content/themes/westcap/assets/images/compass.svg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 650px;
+  width: 650px;
+  opacity: .4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
