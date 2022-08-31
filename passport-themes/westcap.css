@@ -1393,3 +1393,7 @@ form .custom-select__options > div:hover {
     -o-transform: rotate(-360deg);
   }
 }
+
+.main-content-wrapper {
+  overflow-x: hidden;
+}

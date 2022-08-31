@@ -1360,12 +1360,16 @@ form {
       -moz-transform:rotate(0deg);
       -ms-transform:rotate(0deg);
       -o-transform:rotate(0deg);
+  }
+    to {
+        transform:rotate(-360deg);
+        -webkit-transform:rotate(-360deg);
+        -moz-transform:rotate(-360deg);
+        -ms-transform:rotate(-360deg);
+        -o-transform:rotate(-360deg);
+  }
 }
-  to {
-      transform:rotate(-360deg);
-      -webkit-transform:rotate(-360deg);
-      -moz-transform:rotate(-360deg);
-      -ms-transform:rotate(-360deg);
-      -o-transform:rotate(-360deg);
-}
+
+.main-content-wrapper {
+  overflow-x: hidden;
 }
