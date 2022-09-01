@@ -1431,14 +1431,21 @@ form {
   grid-template-columns: 50% 50%;
   margin-bottom: 1rem;
 
+  .editable-welcome--title {
+    grid-row-start: 1;
+    display: block;
+    max-height: max-content;
+    height: max-content;
+  }
+
   hr {
     max-width: 95%;
   }
 
   .editable-welcome--description {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
     padding-right: 1rem;
-    margin: 1rem;
+    margin: 0;
   }
 
   .editable-welcome-footer {

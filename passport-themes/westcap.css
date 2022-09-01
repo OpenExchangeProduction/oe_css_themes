@@ -1454,14 +1454,21 @@ form .editable-sign-in--submit-button button {
   margin-bottom: 1rem;
 }
 
+#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title {
+  grid-row-start: 1;
+  display: block;
+  max-height: max-content;
+  height: max-content;
+}
+
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
   max-width: 95%;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
-  padding-bottom: 0;
+  padding-bottom: 1rem;
   padding-right: 1rem;
-  margin: 1rem;
+  margin: 0;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-footer {
