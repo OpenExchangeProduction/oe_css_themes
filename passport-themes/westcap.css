@@ -1362,8 +1362,8 @@ form input[type="checkbox"] {
   margin-top: 0;
 }
 
-form .editable-registration--submit-button,
-form .editable-sign-in--submit-button {
+form .editable-registration--submit-button button,
+form .editable-sign-in--submit-button button {
   color: var(--primary-color);
   background-color: #ffffff;
 }
