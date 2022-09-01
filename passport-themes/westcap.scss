@@ -543,6 +543,10 @@ div[class*='event-details'] > .items-start {
   border: 1px solid rgba(255,255,255,.4);
   background: rgba(3, 25, 55, 0.85);
   backdrop-filter: blur(3px);
+
+  * {
+    color: #ffffff;
+  }
 }
 
 @media (max-width: 768px) {
@@ -552,7 +556,7 @@ div[class*='event-details'] > .items-start {
 }
 
 .main-content-wrapper > div[class*="event-details"], .rich-text-content-wrapper > div[class*="event-details"] {
-  background-color: #ffffff;
+  background-color: transparent;
   width: 100%;
 }
 
@@ -563,6 +567,18 @@ div[class*='event-details'] > .items-start {
   background: #ffffff;
   border-radius: 6px;
   background-clip: padding-box;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(3, 25, 55, 0.85);
+  backdrop-filter: blur(3px);
+
+  div[class*="event-details--date"] div {
+    text-transform: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0.1rem;
+  }
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start > img, .rich-text-content-wrapper > div[class*="event-details"] .items-start > img {
@@ -578,7 +594,7 @@ div[class*='event-details'] > .items-start {
 }
 
 .main-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] *, .rich-text-content-wrapper > div[class*="event-details"] .items-start > div[class*="-event-details--wrapper"] * {
-  color: #031937;
+  color: #ffffff;
   text-align: left;
   justify-content: flex-start;
 }
