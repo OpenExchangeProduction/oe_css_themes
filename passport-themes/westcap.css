@@ -1354,6 +1354,7 @@ form .mt-3 {
 
 form .mt-3 > .flex {
   align-items: center;
+  flex-wrap: wrap;
 }
 
 form input[type="checkbox"] {
