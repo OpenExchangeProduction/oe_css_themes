@@ -688,10 +688,6 @@ div[class*='event-details'] > .items-start {
   display: none !important;
 }
 
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
-  max-width: 95%;
-}
-
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title,
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
   margin: 0;
@@ -1428,4 +1424,20 @@ form {
 
 .main-content-wrapper {
   overflow-x: hidden;
+}
+
+#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1rem;
+
+  hr {
+    max-width: 95%;
+  }
+
+  .editable-welcome--description {
+    padding-bottom: 0;
+    padding-right: 1rem;
+    margin: 1rem;
+  }
 }
