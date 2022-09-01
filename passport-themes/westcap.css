@@ -1336,7 +1336,7 @@ form .custom-select__options > div:hover {
   background-color: #040b15 !important;
 }
 
-form .mt-3 span p {
+form .mt-3:not(:first-of-type) span p {
   font-weight: 500;
 }
 

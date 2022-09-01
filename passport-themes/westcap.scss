@@ -1313,7 +1313,7 @@ form {
     }
   }
 
-  .mt-3 span p {
+  .mt-3:not(:first-of-type) span p {
     font-weight: 500;
   }
 
