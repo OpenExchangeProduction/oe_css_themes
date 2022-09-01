@@ -730,7 +730,7 @@ div[class*='event-details'] > .items-start {
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title div p a,
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description div p a {
   color: #ffffff !important;
-  border: 1px solid #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   text-decoration: none;
   display: flex;
   align-items: center;
