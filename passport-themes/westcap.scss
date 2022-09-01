@@ -538,9 +538,11 @@ div[class*='event-details'] > .items-start {
 }
 
 .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
-  background: #ffffff;
+  display: block;
   border-radius: 6px;
-  background-clip: padding-box;
+  border: 1px solid rgba(255,255,255,.4);
+  background: rgba(3, 25, 55, 0.85);
+  backdrop-filter: blur(3px);
 }
 
 @media (max-width: 768px) {
