@@ -574,6 +574,19 @@ div[class*='event-details'] > .items-start {
   color: #ffffff;
 }
 
+.main-content-wrapper .editable-welcome-footer--wrapper {
+  transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+  -ms-transition: background-color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out;
+  background-color: transparent;
+}
+
+.main-content-wrapper .editable-welcome-footer--wrapper:hover {
+  background-color: #040b15;
+}
+
 @media (max-width: 768px) {
   .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
     padding: 2rem .5rem;
