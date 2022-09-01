@@ -1463,3 +1463,7 @@ form .editable-sign-in--submit-button button {
   padding-right: 1rem;
   margin: 1rem;
 }
+
+#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-footer {
+  grid-column: 1 / -1;
+}

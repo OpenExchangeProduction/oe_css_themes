@@ -1440,4 +1440,8 @@ form {
     padding-right: 1rem;
     margin: 1rem;
   }
+
+  .editable-welcome-footer {
+    grid-column: 1 / -1;
+  }
 }
