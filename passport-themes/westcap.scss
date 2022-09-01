@@ -1337,6 +1337,12 @@ form {
     margin-right: .5rem;
     margin-top: 0;
   }
+
+  .editable-registration--submit-button,
+  .editable-sign-in--submit-button {
+    color: var(--primary-color);
+    background-color: #ffffff;
+  }
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div:not(:last-child) {
