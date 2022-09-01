@@ -730,6 +730,7 @@ div[class*='event-details'] > .items-start {
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title div p a,
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description div p a {
   color: #ffffff !important;
+  border: 1px solid #ffffff;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -737,20 +738,27 @@ div[class*='event-details'] > .items-start {
   right: unset;
   top: unset;
   order: 3;
-  background-color: #005aa1;
+  background-color: transparent;
   padding: .5rem 1rem;
   filter: brightness(1);
-  transition: filter .2s ease;
+  transition: all .2s ease;
   position: relative;
   margin-top: 1rem;
   margin-right: 2rem;
   font-weight: 500;
   font-size: .85rem;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -webkit-filter: brightness(1);
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title div p a:hover,
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description div p a:hover {
   filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  background-color: #040b15;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title {
