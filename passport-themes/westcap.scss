@@ -1254,19 +1254,6 @@ form input[type="checkbox"] {
 }
 
 
-.editable-welcome-event-details .items-start {
-  display: block !important;
-
-  img {
-    width: 100%;
-    max-width: unset !important;
-    max-height: unset !important;
-  }
-
-  .editable-welcome-event-details--wrapper {
-    display: none !important;
-  }
-}
 
 form {
   .editable-sign-in--submit-button button:disabled:after {

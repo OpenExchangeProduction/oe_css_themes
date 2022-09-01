@@ -1278,20 +1278,6 @@ form input[type="checkbox"] {
   color: #000000;
 }
 
-.editable-welcome-event-details .items-start {
-  display: block !important;
-}
-
-.editable-welcome-event-details .items-start img {
-  width: 100%;
-  max-width: unset !important;
-  max-height: unset !important;
-}
-
-.editable-welcome-event-details .items-start .editable-welcome-event-details--wrapper {
-  display: none !important;
-}
-
 form .editable-sign-in--submit-button button:disabled:after {
   background-color: #000000 !important;
 }
