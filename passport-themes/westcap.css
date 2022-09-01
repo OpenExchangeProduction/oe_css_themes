@@ -1459,16 +1459,23 @@ form .editable-sign-in--submit-button button {
   display: block;
   max-height: max-content;
   height: max-content;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
   max-width: 95%;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin-top: 5rem;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
-  padding-bottom: 1rem;
   padding-right: 1rem;
   margin: 0;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin-top: 7rem;
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-footer {
