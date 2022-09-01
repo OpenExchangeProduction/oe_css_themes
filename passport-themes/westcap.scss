@@ -561,6 +561,10 @@ div[class*='event-details'] > .items-start {
     &:hover {
       background-color: #040b15;
     }
+
+    .editable-welcome-footer--description {
+      font-weight: 300;
+    }
   }
 }
 

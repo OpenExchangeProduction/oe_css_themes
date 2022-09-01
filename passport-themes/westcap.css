@@ -587,6 +587,10 @@ div[class*='event-details'] > .items-start {
   background-color: #040b15;
 }
 
+.main-content-wrapper .editable-welcome-footer--wrapper .editable-welcome-footer--description {
+  font-weight: 300;
+}
+
 @media (max-width: 768px) {
   .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
     padding: 2rem .5rem;
