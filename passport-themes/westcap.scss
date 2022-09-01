@@ -1424,6 +1424,10 @@ form {
 
 .main-content-wrapper {
   overflow-x: hidden;
+
+  > div[class*="--wrapper"] {
+    margin-bottom: 4rem;
+  }
 }
 
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) {

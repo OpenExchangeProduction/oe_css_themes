@@ -1448,6 +1448,10 @@ form .editable-sign-in--submit-button button {
   overflow-x: hidden;
 }
 
+.main-content-wrapper > div[class*="--wrapper"] {
+  margin-bottom: 4rem;
+}
+
 #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) {
   display: grid;
   grid-template-columns: 50% 50%;
