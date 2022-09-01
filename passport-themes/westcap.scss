@@ -529,6 +529,7 @@ div[class*='event-details'] > .items-start {
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form label {
   font-weight: 600;
+  font-size: 16px;
 }
 
 .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
@@ -1310,6 +1311,18 @@ form {
         }
       }
     }
+  }
+
+  .mt-3 span p {
+    font-weight: 500;
+  }
+
+  .mt-3 > .flex {
+    align-items: center;
+  }
+
+  input[type="checkbox"] {
+    margin-right: .5rem;
   }
 }
 

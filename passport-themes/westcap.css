@@ -553,6 +553,7 @@ div[class*='event-details'] > .items-start {
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form label {
   font-weight: 600;
+  font-size: 16px;
 }
 
 .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
@@ -1333,6 +1334,18 @@ form .custom-select__options > div {
 
 form .custom-select__options > div:hover {
   background-color: #040b15 !important;
+}
+
+form .mt-3 span p {
+  font-weight: 500;
+}
+
+form .mt-3 > .flex {
+  align-items: center;
+}
+
+form input[type="checkbox"] {
+  margin-right: .5rem;
 }
 
 #registration-page .main-content-wrapper > div:not(.editable--event-details):not(.shadow-gray) div > div form .custom-select__options > div:not(:last-child) {
