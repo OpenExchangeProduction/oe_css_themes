@@ -1370,6 +1370,10 @@ form .editable-sign-in--submit-button button {
   letter-spacing: -.5px;
 }
 
+#root .App .main-content-wrapper {
+  overflow-x: hidden;
+}
+
 #root .App .main-content-wrapper:before {
   display: block;
   content: url("https://www.westcap.com/wp-content/themes/westcap/assets/images/compass.svg");
