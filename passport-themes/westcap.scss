@@ -937,34 +937,39 @@ div[class*='event-details'] > .items-start {
   filter: brightness(0.7);
 }
 
-#session-page .main-content-wrapper .editable-session--wrapper hr {
-  max-width: 95%;
-}
+#session-page .main-content-wrapper .editable-session--wrapper {
+  .editable-session--header {
+    padding: 0;
+    margin-bottom: 1rem;
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--header {
-  color: #000000;
-  padding: 0;
-  margin-bottom: 1rem;
-}
+    h1 {
+      font-weight: 500;
+    }
+  }
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--header h1 {
-  font-weight: 500;
-}
+  .DateOption__label {
+    color: var(--primary-color);
+  }
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header {
-  margin-bottom: .5rem;
-}
+  hr {
+    color: rgba(255,255,255,.3);
+  }
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header .editable-session--table-header-right .truncate {
-  color: #000000;
-}
+  .editable-session--table-header {
+    margin-bottom: .5rem;
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row > p {
-  padding: 0;
-  max-width: max-content;
-  color: #000000;
-  margin: 1rem 0;
-  font-size: 1.5rem;
+    .editable-session--table-header-right .truncate {
+      color: #000000;
+    }
+
+    > p {
+      padding: 0;
+      max-width: max-content;
+      color: #000000;
+      margin: 1rem 0;
+      font-size: 1.5rem;
+    }
+  }
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover, #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover:hover {
@@ -974,7 +979,7 @@ div[class*='event-details'] > .items-start {
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-left .break-words,
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-left .editable-session--table-row-left-date,
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-left .text-sm {
-  color: #000000;
+  color: #ffffff;
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-right .editable-session--table-row-right-tile > .sm-shadow-gray {
