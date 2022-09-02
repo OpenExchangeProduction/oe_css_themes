@@ -1189,15 +1189,15 @@ footer {
   border-bottom: 1px solid #eeeeee;
 }
 
+#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__title {
+  color: #031937;
+}
+
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__details {
   width: 75%;
   margin-left: 26px;
   margin-right: 0;
   order: 2;
-}
-
-#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__title {
-  color: #031937;
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button {
@@ -1231,11 +1231,11 @@ footer {
   margin-right: .25rem;
 }
 
-#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button span:nth-child(2) {
+#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button span:first-child:nth-child(2) {
   display: none;
 }
 
-#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio p {
+#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization p {
   line-height: 1.5;
   font-size: .9rem;
 }
