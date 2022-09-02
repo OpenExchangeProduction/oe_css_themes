@@ -1172,12 +1172,14 @@ footer {
 /* styles for speakers page, starts with sign-in-page ID currently */
 #speakers-page .main-content-wrapper {
   > .shadow-gray {
-    background: #ffffff;
     border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(3, 25, 55, 0.9);
+    backdrop-filter: blur(3px);
     background-clip: padding-box;
 
     h1.speaker-title {
-      color: #031937;
+      color: #ffffff;
       padding: 0;
       margin: 0;
       font-weight: 500;
@@ -1194,13 +1196,13 @@ footer {
     .organizations-list .organization {
       h2 {
         font-weight: 500;
-        color: #031937;
+        color: #ffffff;
         padding-bottom: 1rem;
-        border-bottom: 1px solid #eeeeee;
+        border-bottom: 1px solid rgba(255,255,255,.3);
       }
 
       .speaker__title {
-        color: #031937;
+        color: #ffffff;
       }
 
       .speaker__details {
@@ -1217,8 +1219,8 @@ footer {
           span:first-child {
             display: flex;
             align-items: center;
-            background: #005aa1;
-            color: #ffffff;
+            background: #ffffff;
+            color: var(--primary-color);
             padding: .25rem .5rem;
             font-weight: 500;
             border-radius: 6px;
