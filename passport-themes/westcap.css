@@ -802,7 +802,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper h1 {
-  color: #031937;
+  color: #ffffff;
   padding: 0;
   font-weight: 500;
 }
@@ -810,7 +810,7 @@ div[class*='event-details'] > .items-start {
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--upcoming-meeting > p {
   padding: 0;
   max-width: max-content;
-  color: #000000;
+  color: #ffffff;
   margin: 1rem 0;
   font-size: 1.5rem;
 }
