@@ -1014,7 +1014,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-right .editable-session--table-row-right-tile > .sm-shadow-gray {
-  transition: box-shadow .2s ease-in-out;
+  border-raidus: 6px;
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .editable-session--table-row-right .editable-session--table-row-right-tile > .sm-shadow-gray:hover {
