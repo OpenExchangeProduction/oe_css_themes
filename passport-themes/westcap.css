@@ -970,10 +970,6 @@ div[class*='event-details'] > .items-start {
   margin-bottom: .5rem;
 }
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header .editable-session--table-header-right .truncate {
-  color: #000000;
-}
-
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header > p {
   padding: 0;
   max-width: max-content;
