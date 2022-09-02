@@ -816,7 +816,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper hr {
-  color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block {
