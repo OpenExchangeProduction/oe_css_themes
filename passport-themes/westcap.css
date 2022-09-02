@@ -1202,6 +1202,14 @@ footer {
   order: 2;
 }
 
+#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__details h3 {
+  color: #ffffff;
+}
+
+#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__details .speaker__organization {
+  color: #ffffff;
+}
+
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button {
   cursor: pointer;
 }
@@ -1240,6 +1248,7 @@ footer {
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization p {
   line-height: 1.5;
   font-size: .9rem;
+  color: #ffffff;
 }
 
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio_expanded button span {

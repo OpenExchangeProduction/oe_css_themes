@@ -1210,6 +1210,14 @@ footer {
         margin-left: 26px;
         margin-right: 0;
         order: 2;
+
+        h3 {
+          color: #ffffff;
+        }
+
+        .speaker__organization {
+          color: #ffffff;
+        }
       }
 
       .speaker__bio {
@@ -1252,6 +1260,7 @@ footer {
       p {
         line-height: 1.5;
         font-size: .9rem;
+        color: #ffffff;
       }
 
       .speaker__bio_expanded button span {
@@ -1260,7 +1269,7 @@ footer {
         -moz-border-radius: 6px;
         -ms-border-radius: 6px;
         -o-border-radius: 6px;
-        
+
         &:first-child {
           background: #ffffff;
   
