@@ -1012,7 +1012,7 @@ div[class*='event-details'] > .items-start {
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile.w-140px .editable-session--table-cell-buttons .add-remove-btn {
-  width: 100%;
+  width: 100% !important;
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover, #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover:hover {

@@ -1016,7 +1016,7 @@ div[class*='event-details'] > .items-start {
         }
         .editable-session--table-cell-buttons {
           .add-remove-btn {
-            width: 100%;
+            width: 100% !important;
           }
         }
       }
