@@ -1184,6 +1184,20 @@ footer {
   font-weight: 500;
 }
 
+#speakers-page .main-content-wrapper > .shadow-gray .organization-navbar nav ul li a {
+  background: transparent;
+  color: #ffffff;
+  transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+}
+
+#speakers-page .main-content-wrapper > .shadow-gray .organization-navbar nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 #speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization h2 {
   font-weight: 500;
   color: #ffffff;

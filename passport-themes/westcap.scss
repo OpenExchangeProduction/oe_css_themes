@@ -1191,6 +1191,20 @@ footer {
 
     .organization-navbar nav ul li {
       font-weight: 500;
+
+      a {
+        background: transparent;
+        color: #ffffff;
+        transition: color .2s ease-in-out;
+        -webkit-transition: color .2s ease-in-out;
+        -moz-transition: color .2s ease-in-out;
+        -ms-transition: color .2s ease-in-out;
+        -o-transition: color .2s ease-in-out;
+
+        &:hover {
+          color: rgba(255,255,255,.7);
+        }
+      }
     }
 
     .organizations-list .organization {
