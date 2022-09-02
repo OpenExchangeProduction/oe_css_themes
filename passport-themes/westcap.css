@@ -1007,6 +1007,14 @@ div[class*='event-details'] > .items-start {
   color: #ffffff;
 }
 
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile.w-140px .session-meeting--table-cell-topic h3 {
+  font-size: 14px;
+}
+
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile.w-140px .editable-session--table-cell-buttons .add-remove-btn {
+  width: 100%;
+}
+
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover, #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover:hover {
   background-color: unset;
 }

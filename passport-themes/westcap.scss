@@ -989,6 +989,7 @@ div[class*='event-details'] > .items-start {
 
   .editable-session--table-row-right {
     .editable-session--table-row-right-tile {
+
       .session-meeting--table-cell-topic {
         h3 {
           color: var(--primary-color);
@@ -1003,6 +1004,19 @@ div[class*='event-details'] > .items-start {
 
           &:hover span {
             color: #ffffff;
+          }
+        }
+      }
+
+      &.w-140px {
+        .session-meeting--table-cell-topic {
+          h3 {
+            font-size: 14px;
+          }
+        }
+        .editable-session--table-cell-buttons {
+          .add-remove-btn {
+            width: 100%;
           }
         }
       }
