@@ -947,10 +947,6 @@ div[class*='event-details'] > .items-start {
     }
   }
 
-  .DateOption__label {
-    color: var(--primary-color);
-  }
-
   hr {
     color: rgba(255,255,255,.3);
   }
@@ -968,6 +964,35 @@ div[class*='event-details'] > .items-start {
       color: #000000;
       margin: 1rem 0;
       font-size: 1.5rem;
+    }
+  }
+
+  .date-filter__option {
+
+    .DateOption__label {
+      color: var(--primary-color) !important;
+    }
+  }
+
+  .editable-session--header-buttons  {
+    .editable-session--header-left-btn {
+      background-color: #ffffff;
+    }
+  }
+
+  .editable-session--table-row-right {
+    .editable-session--table-row-right-tile {
+      .session-meeting--table-cell-topic {
+        h3 {
+          color: var(--primary-color);
+        }
+      }
+
+      .editable-session--table-cell-buttons {
+        > button {
+          color: var(--primary-color);
+        }
+      }
     }
   }
 }

@@ -962,10 +962,6 @@ div[class*='event-details'] > .items-start {
   font-weight: 500;
 }
 
-#session-page .main-content-wrapper .editable-session--wrapper .DateOption__label {
-  color: var(--primary-color);
-}
-
 #session-page .main-content-wrapper .editable-session--wrapper hr {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -984,6 +980,22 @@ div[class*='event-details'] > .items-start {
   color: #000000;
   margin: 1rem 0;
   font-size: 1.5rem;
+}
+
+#session-page .main-content-wrapper .editable-session--wrapper .date-filter__option .DateOption__label {
+  color: var(--primary-color) !important;
+}
+
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--header-buttons .editable-session--header-left-btn {
+  background-color: #ffffff;
+}
+
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile .session-meeting--table-cell-topic h3 {
+  color: var(--primary-color);
+}
+
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile .editable-session--table-cell-buttons > button {
+  color: var(--primary-color);
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover, #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover:hover {
