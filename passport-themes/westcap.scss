@@ -784,6 +784,7 @@ div[class*='event-details'] > .items-start {
     padding: 0;
     font-weight: 500;
   }
+
   .editable-agenda--upcoming-meeting > p {
     padding: 0;
     max-width: max-content;
@@ -791,6 +792,11 @@ div[class*='event-details'] > .items-start {
     margin: 1rem 0;
     font-size: 1.5rem;
   }
+
+  hr {
+    color: rgba(255,255,255,.3);
+  }
+
   .editable-agenda--block {
     background-color: rgba(0, 0, 0, 0);
     transition: background-color .2s ease-in-out;
@@ -814,7 +820,6 @@ div[class*='event-details'] > .items-start {
       > button {
         color: var(--primary-color) !important;
         text-decoration: none;
-        background-color: transparent;
         filter: brightness(1);
         transition: all .2s ease;
         font-size: 16px;
@@ -890,12 +895,12 @@ div[class*='event-details'] > .items-start {
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--footer p {
-  color: #000000;
+  color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--footer button {
-  color: var(--primary-color);
   background: #ffffff;
   filter: brightness(1);
   border: none;
@@ -904,6 +909,10 @@ div[class*='event-details'] > .items-start {
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+
+  span {
+    color: var(--primary-color);
+  }
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--footer button:hover {
