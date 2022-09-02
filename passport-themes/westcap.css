@@ -862,6 +862,7 @@ div[class*='event-details'] > .items-start {
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .button-block .select-box--container button {
   background: #ffffff;
   filter: brightness(1);
+  border-radius: .25rem;
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;

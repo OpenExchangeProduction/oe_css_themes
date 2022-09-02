@@ -841,13 +841,13 @@ div[class*='event-details'] > .items-start {
         button {
           background: #ffffff;
           filter: brightness(1);
+          border-radius: .25rem;
           transition: all .2s ease-in-out;
           -webkit-transition: all .2s ease-in-out;
           -moz-transition: all .2s ease-in-out;
           -ms-transition: all .2s ease-in-out;
           -o-transition: all .2s ease-in-out;
           -webkit-filter: brightness(1);
-
           &:hover {
             filter: brightness(0.8);
             -webkit-filter: brightness(0.8);
@@ -1356,7 +1356,7 @@ form {
 
 #root .App .main-content-wrapper {
   overflow-x: hidden;
-  
+
   &:before {
     display: block;
     content: url('https://www.westcap.com/wp-content/themes/westcap/assets/images/compass.svg');
