@@ -1587,3 +1587,7 @@ form .editable-sign-in--submit-button button {
 .main-content-wrapper hr {
   border-color: rgba(255, 255, 255, 0.3);
 }
+
+.speaker__details .speaker__bio button span:nth-of-type(2) {
+  display: none !important;
+}
