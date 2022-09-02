@@ -998,7 +998,7 @@ div[class*='event-details'] > .items-start {
   color: var(--primary-color);
 }
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile .editable-session--table-cell-buttons > button {
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile .editable-session--table-cell-buttons > button span {
   color: var(--primary-color);
 }
 
