@@ -1235,9 +1235,9 @@ footer {
   
             &:before {
               display: block;
-              content: 'Show';
+              content: 'Show ';
               font-family: 'interstate', arial, sans-serif;
-              color: #ffffff;
+              color: var(--primary-color);
               font-weight: 500;
               margin-right: .25rem;
             }
@@ -1255,11 +1255,18 @@ footer {
       }
 
       .speaker__bio_expanded button span {
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        
         &:first-child {
-          background: #031937;
+          background: #ffffff;
   
           &:before {
-            content: 'Hide';
+            content: 'Hide ';
+            color: var(--primary-color);
           }
         }
 
