@@ -966,6 +966,10 @@ div[class*='event-details'] > .items-start {
   color: rgba(255, 255, 255, 0.3);
 }
 
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row hr {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header {
   margin-bottom: .5rem;
 }
@@ -976,6 +980,10 @@ div[class*='event-details'] > .items-start {
   color: #000000;
   margin: 1rem 0;
   font-size: 1.5rem;
+}
+
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header .editable-session--table-header-right {
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .date-filter__option .DateOption__label {
