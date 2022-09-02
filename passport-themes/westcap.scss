@@ -995,8 +995,14 @@ div[class*='event-details'] > .items-start {
       }
 
       .editable-session--table-cell-buttons {
-        > button span {
-          color: var(--primary-color);
+        > button {
+          span {
+            color: var(--primary-color);
+          }
+
+          &:hover span {
+            color: #ffffff;
+          }
         }
       }
     }

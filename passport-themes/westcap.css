@@ -1002,6 +1002,10 @@ div[class*='event-details'] > .items-start {
   color: var(--primary-color);
 }
 
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row-right .editable-session--table-row-right-tile .editable-session--table-cell-buttons > button:hover span {
+  color: #ffffff;
+}
+
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover, #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-row .bg-primary-lighter-hover:hover {
   background-color: unset;
 }
