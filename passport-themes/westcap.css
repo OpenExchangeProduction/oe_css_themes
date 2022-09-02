@@ -859,6 +859,22 @@ div[class*='event-details'] > .items-start {
   -webkit-filter: brightness(0.8);
 }
 
+#agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .button-block .select-box--container button {
+  background: #ffffff;
+  filter: brightness(1);
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -webkit-filter: brightness(1);
+}
+
+#agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .button-block .select-box--container button:hover {
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
+
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm > span:first-child {
   display: none;
 }
