@@ -1494,3 +1494,11 @@ form {
     }
   }
 }
+
+@media (max-width: 768px) {
+  header .editable-header nav {
+    > .bg-cool-gray {
+      background-color: #031937;
+    }
+  }
+}
