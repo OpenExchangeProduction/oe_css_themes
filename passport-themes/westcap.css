@@ -593,7 +593,7 @@ div[class*='event-details'] > .items-start {
 
 @media (max-width: 768px) {
   .main-content-wrapper > div[class*="-wrapper"].shadow-gray, .rich-text-content-wrapper > div[class*="-wrapper"].shadow-gray {
-    padding: 2rem .5rem;
+    padding: 2rem 1rem;
   }
 }
 
@@ -1495,13 +1495,21 @@ form .editable-sign-in--submit-button button {
 
 @media (max-width: 768px) {
   #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title,
-  #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description,
-  #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
+  #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
     grid-row-start: unset;
+    grid-column: 1 / -1;
+  }
+  #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--description {
+    grid-row-start: unset;
+    grid-column: 1 / -1;
+    margin-top: 1rem;
   }
   #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio {
     grid-row: unset;
     grid-row-start: 2;
     grid-column: 1 / -1;
+  }
+  #welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) hr {
+    display: none;
   }
 }
