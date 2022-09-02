@@ -738,41 +738,6 @@ div[class*='event-details'] > .items-start {
   background-color: #040b15;
 }
 
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome--title {
-  color: #ffffff;
-  font-weight: 500;
-}
-
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio {
-  grid-row: 1 / span 3;
-  grid-column: 2 / span 1;
-  margin: 0;
-  width: 100% !important;
-  transition: box-shadow .2s ease-in-out;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  position: relative;
-  transition: box-shadow .2s ease-in-out;
-}
-
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio:hover {
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-}
-
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio > img,
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio > iframe,
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio > video,
-#welcome-page .editable-welcome--wrapper > div:not(.editable-welcome-footer) .editable-welcome-knovio > span {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  object-fit: contain;
-  object-position: center;
-}
-
 #welcome-page .editable-welcome--wrapper .editable-welcome-footer .editable-welcome-footer--wrapper.bg-primary-lighter-hover {
   background-color: transparent;
   transition: background-color .2s ease-in-out;
@@ -1444,6 +1409,8 @@ form {
   margin-bottom: 1rem;
 
   .editable-welcome--title {
+    color: #ffffff;
+    font-weight: 500;
     grid-row-start: 1;
     display: block;
     max-height: max-content;
@@ -1457,6 +1424,7 @@ form {
     grid-column-start: 1;
     grid-row-start: 1;
     margin-top: 5rem;
+    color: rgba(255,255,255,.3);
   }
 
   .editable-welcome--description {
@@ -1469,5 +1437,50 @@ form {
 
   .editable-welcome-footer {
     grid-column: 1 / -1;
+    border-color: rgba(255,255,255,.3);
+  }
+  
+  .editable-welcome-knovio {
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 1;
+    margin: 0;
+    width: 100% !important;
+    transition: box-shadow .2s ease-in-out;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow .2s ease-in-out;
+
+    > img,
+    > iframe,
+    > video,
+    > span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    &:hover {
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .editable-welcome--title,
+    .editable-welcome--description,
+    hr {
+      grid-row-start: unset;
+    }
+
+    .editable-welcome-knovio {
+      grid-row: unset;
+      grid-row-start: 2;
+      grid-column: 1 / -1;
+    }
   }
 }
