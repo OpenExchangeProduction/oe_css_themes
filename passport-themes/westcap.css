@@ -130,7 +130,7 @@ div[class*='event-details'] > .items-start {
   max-width: 50%;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  background: rgba(3, 25, 55, 0.85);
+  background: rgba(3, 25, 55, 0.9);
   backdrop-filter: blur(3px);
 }
 
@@ -566,7 +566,7 @@ div[class*='event-details'] > .items-start {
   display: block;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  background: rgba(3, 25, 55, 0.85);
+  background: rgba(3, 25, 55, 0.9);
   backdrop-filter: blur(3px);
 }
 
@@ -611,7 +611,7 @@ div[class*='event-details'] > .items-start {
   background-clip: padding-box;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  background: rgba(3, 25, 55, 0.85);
+  background: rgba(3, 25, 55, 0.9);
   backdrop-filter: blur(3px);
 }
 
@@ -827,7 +827,33 @@ div[class*='event-details'] > .items-start {
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .break-words,
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .editable-session--table-row-left-date,
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm {
-  color: #031937;
+  color: #ffffff;
+}
+
+#agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .editable-session--table-row-left-date + div.pt-1 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .button-block > button {
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  background-color: transparent;
+  filter: brightness(1);
+  transition: all .2s ease;
+  font-weight: 500;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -webkit-filter: brightness(1);
+}
+
+#agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .button-block > button:hover {
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  background-color: #040b15;
 }
 
 #agenda-page .main-content-wrapper .editable-agenda--wrapper .editable-agenda--block .text-sm > span:first-child {
@@ -1049,50 +1075,6 @@ footer {
   height: auto !important;
   display: flex !important;
   justify-content: center;
-}
-
-footer a.text-primary {
-  color: #ffffff !important;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  max-width: max-content;
-  right: unset;
-  top: unset;
-  order: 3;
-  background-color: #005aa1;
-  padding: .5rem 2rem;
-  filter: brightness(1);
-  transition: filter .2s ease;
-  position: relative;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 500;
-}
-
-footer a.text-primary:before {
-  display: block;
-  content: '';
-  width: 1rem;
-  height: 1rem;
-  background-size: contain !important;
-  margin-right: .5rem;
-}
-
-footer a.text-primary:hover {
-  filter: brightness(0.8);
-}
-
-footer a.text-primary:first-of-type:before {
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/faf6459d-3aa9-4914-9bde-7a8631398a5e/content/assets/templates/template_background/twitter_icon_png_1633535260815/twitter_icon_27d87cda-6d29-4585-b6f7-6181ba4ad14d.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Z%2Fg%2FtY8OVWBLfSh1nQ3o95ck8DI%3D");
-}
-
-footer a.text-primary:nth-of-type(2):before {
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/faf6459d-3aa9-4914-9bde-7a8631398a5e/content/assets/templates/template_background/linkedin_icon_png_1633535260881/linkedin_icon_c3768187-01f3-4f30-abf6-6dec5a76873f.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=DQ5naFY%2F4mP7MuS6Hxe9gw5U%2BMw%3D");
-}
-
-footer a.text-primary:nth-of-type(3):before {
-  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bfd6ecfb-1f49-426c-9ccf-51b335a49252/subaccount/faf6459d-3aa9-4914-9bde-7a8631398a5e/content/assets/templates/template_background/youtube_icon_png_1633535364679/youtube_icon_737184d8-0c12-4adc-83a3-c7babf4c9223.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=xPJKQIrP1rJaSLWLguhzC3OjEdM%3D");
 }
 
 .main-content-wrapper .editable-agenda--wrapper > h1, .main-content-wrapper .editable-agenda--wrapper > h2, .main-content-wrapper .editable-session--header > h1, .main-content-wrapper .editable-session--header > h2, .rich-text-content-wrapper .editable-agenda--wrapper > h1, .rich-text-content-wrapper .editable-agenda--wrapper > h2, .rich-text-content-wrapper .editable-session--header > h1, .rich-text-content-wrapper .editable-session--header > h2 {
@@ -1385,7 +1367,7 @@ form .editable-sign-in--submit-button button {
   letter-spacing: -.5px;
 }
 
-#registration-page .main-content-wrapper:before {
+#root .App .main-content-wrapper:before {
   display: block;
   content: url("https://www.westcap.com/wp-content/themes/westcap/assets/images/compass.svg");
   position: absolute;
