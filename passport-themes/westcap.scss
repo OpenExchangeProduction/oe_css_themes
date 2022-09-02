@@ -961,6 +961,10 @@ div[class*='event-details'] > .items-start {
     margin-bottom: .5rem;
     border-color: rgba(255,255,255,.3);
 
+    .editable-session--table-header-left {
+      color: var(--primary-color) !important;
+    }
+
     > p {
       padding: 0;
       max-width: max-content;

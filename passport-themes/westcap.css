@@ -975,6 +975,10 @@ div[class*='event-details'] > .items-start {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header .editable-session--table-header-left {
+  color: var(--primary-color) !important;
+}
+
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header > p {
   padding: 0;
   max-width: max-content;
