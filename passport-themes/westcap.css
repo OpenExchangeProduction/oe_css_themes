@@ -1255,7 +1255,7 @@ footer {
   margin-right: .25rem;
 }
 
-#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button span:first-child:nth-child(2) {
+#speakers-page .main-content-wrapper > .shadow-gray .organizations-list .organization .speaker__bio button span:first-child span:nth-child(2) {
   display: none;
 }
 
