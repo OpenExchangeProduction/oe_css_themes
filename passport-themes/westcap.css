@@ -972,6 +972,7 @@ div[class*='event-details'] > .items-start {
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header {
   margin-bottom: .5rem;
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 #session-page .main-content-wrapper .editable-session--wrapper .editable-session--table-header > p {
