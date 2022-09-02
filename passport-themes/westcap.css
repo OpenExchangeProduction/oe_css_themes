@@ -991,7 +991,7 @@ div[class*='event-details'] > .items-start {
   color: var(--primary-color) !important;
 }
 
-#session-page .main-content-wrapper .editable-session--wrapper .editable-session--header-buttons .editable-session--header-left-btn {
+#session-page .main-content-wrapper .editable-session--wrapper .editable-session--header-buttons button {
   background-color: #ffffff;
 }
 
