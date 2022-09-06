@@ -71,7 +71,7 @@ $dark-grey: #707070;
 }
 
 html {
-  font-family: "KievitWeb W05", Arial, sans-serif;
+  font-family: "Boston", Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -82,7 +82,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "KievitWeb W05", Arial, sans-serif;
+  font-family: "Boston", Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -418,7 +418,7 @@ h5 {
             .showcase-title {
               padding: 0;
               margin-bottom: 2rem;
-              font-family: "KievitWeb W05", Arial, sans-serif;
+              font-family: "Boston", Arial, sans-serif;
               font-size: 1.5rem;
               font-weight: 400;
               color: rgba(0,54,87,1) !important;
@@ -514,7 +514,7 @@ h5 {
 
         .tile-title,
         .tile-title a {
-          font-family: "KievitWeb W05", Arial, sans-serif;
+          font-family: "Boston", Arial, sans-serif;
           font-size: 1.25rem;
           font-weight: 300;
           color: #222222 !important;
@@ -598,7 +598,7 @@ h5 {
             font-size: 1.5rem;
 
             span {
-              font-family: "KievitWeb W05", sans-serif;
+              font-family: "Boston", sans-serif;
               font-weight: 300;
               display: block;
               margin-bottom: .5rem;
@@ -778,7 +778,7 @@ span.showcase-description p {
     filter: brightness(1);
     width: 100%;
     text-transform: uppercase;
-    font-family: "KievitWeb W05", sans-serif;
+    font-family: "Boston", sans-serif;
     color: rgba(0,54,87,1) !important;
 
     &:hover {
@@ -819,7 +819,7 @@ span.showcase-description p {
       flex-wrap: wrap;
 
       h3 {
-        font-family: "KievitWeb W05", Arial, sans-serif;
+        font-family: "Boston", Arial, sans-serif;
         text-align: left;
         color: #ffffff;
         font-size: 1.75rem;
@@ -837,7 +837,7 @@ span.showcase-description p {
         font-weight: 300;
         line-height: 1.7;
         color: $white !important;
-        font-family: "KievitWeb W05", Arial, sans-serif;
+        font-family: "Boston", Arial, sans-serif;
 
         br {
           display: none;
@@ -849,7 +849,7 @@ span.showcase-description p {
       }
 
       span, a {
-        font-family: "KievitWeb W05", Arial, sans-serif;
+        font-family: "Boston", Arial, sans-serif;
         color: $black;
       }
 
@@ -883,7 +883,7 @@ span.showcase-description p {
         .form-group {
           grid-column: auto / span 2;
           position: relative;
-          font-family: "KievitWeb W05", Arial, sans-serif;
+          font-family: "Boston", Arial, sans-serif;
           color: #ffffff;
           grid-column: 1 / span 4;
           font-weight: 300;
@@ -908,7 +908,7 @@ span.showcase-description p {
             align-items: center;
             margin-bottom: .25rem;
             color: #ffffff;
-            font-family: "KievitWeb W05", Arial, sans-serif;
+            font-family: "Boston", Arial, sans-serif;
             font-weight: 300;
           }
 
