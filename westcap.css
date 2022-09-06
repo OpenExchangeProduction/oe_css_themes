@@ -114,10 +114,15 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 300;
 }
 
 #page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group button .glyphicon {
   color: #ffffff !important;
+}
+
+#page-top #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group > ul li button {
+  padding: 1.25rem 1rem;
 }
 
 #page-top #main_navigation_collapse .nav #search-btn {
@@ -591,6 +596,7 @@ h5 {
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(2) {
   font-size: 4rem;
   font-weight: 300;
+  padding: .5rem 0;
 }
 
 #page-top #url-auth-suffix ~ header .container.header-container .row span.showcase-description p:nth-child(3) {

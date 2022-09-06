@@ -172,10 +172,15 @@ h5 {
       display: flex;
       justify-content: center;
       align-items: center;
+      font-weight: 300;
 
       .glyphicon {
         color: #ffffff !important;
       }
+    }
+
+    .nav:nth-of-type(2) li > .btn-group > ul li button {
+      padding: 1.25rem 1rem;
     }
 
     .nav {
@@ -614,6 +619,7 @@ h5 {
           p:nth-child(2) {
             font-size: 4rem;
             font-weight: 300;
+            padding: .5rem 0;
           }
 
           p:nth-child(3) {
