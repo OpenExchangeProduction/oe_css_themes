@@ -421,8 +421,7 @@ h5 {
 #page-top .column-view-item .post {
   width: 100%;
   height: 100%;
-  background: #ffffff;
-  border: 1px solid #DDDDDD;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: none !important;
 }
 
