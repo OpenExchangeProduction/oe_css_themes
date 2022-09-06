@@ -407,6 +407,7 @@ h5 {
     padding-top: 4rem;
     padding-bottom: 2rem;
     overflow: visible;
+    border-color: rgba(255, 255, 255, 0.3);
 
     > .container:not(.posts) {
       .row {
@@ -425,7 +426,7 @@ h5 {
               font-family: "Boston", Arial, sans-serif;
               font-size: 1.5rem;
               font-weight: 400;
-              color: rgba(0,54,87,1) !important;
+              color: #ffffff !important;
             }
           }
         }
