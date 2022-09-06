@@ -96,6 +96,7 @@ h5 {
           flex-flow: column;
   padding-top: 6rem;
   padding-bottom: 0;
+  background: #031937;
 
   #main_navigation {
     border-bottom: none;
@@ -240,7 +241,7 @@ h5 {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(0deg, #042047 270px, #031937 100%);
+    background: linear-gradient(180deg, #042047 270px, #031937 100%);
     padding: 0;
     position: relative;
 
@@ -406,7 +407,6 @@ h5 {
     padding-top: 4rem;
     padding-bottom: 2rem;
     overflow: visible;
-    background: #fbfbfb;
 
     > .container:not(.posts) {
       .row {
