@@ -1348,7 +1348,7 @@ footer {
   }
 }
 
-#page-top .single-post .post .tile-area .tile-text h2,
-.single-post .post .tile-area .tile-text .tile-navigation-link .navigation-link-title .title {
+#page-top.single-post .post .tile-area .tile-text h2,
+#page-top.single-post .post .tile-area .tile-text .tile-navigation-link .navigation-link-title .title {
   color: #ffffff !important;
 }
