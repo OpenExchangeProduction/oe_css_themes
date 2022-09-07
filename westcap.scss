@@ -537,7 +537,7 @@ h5 {
               top: unset;
               font-size: 1.3rem;
               order: 3;
-              color: var(--card-text-color) !important;
+              color: var(--primary-color) !important;
               margin-top: 0;
               padding: 0;
               filter: brightness(1);
@@ -559,7 +559,7 @@ h5 {
 
               &:before {
                 content: "More Details";
-                font-family: var(--primary-font);
+                font-family: "Boston", arial, sans-serif;
               }
             }
           }
@@ -605,7 +605,7 @@ h5 {
                   top: unset;
                   font-size: 1.3rem;
                   order: 3;
-                  color: var(--card-text-color) !important;
+                  color: var(--primary-color) !important;
                   padding: 0;
                   filter: brightness(1);
                   transition: filter .2s ease, padding .2s ease;
@@ -613,7 +613,7 @@ h5 {
                   position: relative;
                   align-self: flex-end;
                   content: "Open Now \276F";
-                  font-family: var(--primary-font);
+                  font-family: "Boston", arial, sans-serif;
                 }
 
                 &:hover {
