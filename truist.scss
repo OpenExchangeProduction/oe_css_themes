@@ -141,7 +141,7 @@ html {
 #page-top:not(.single-post) {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(0, 1fr) [4];
+  -ms-grid-columns: repeat(4, minmax(0, 1fr));
   grid-template-columns: repeat(4, minmax(0, 1fr));
   -ms-grid-rows: min-content;
   grid-template-rows: -webkit-min-content;
@@ -159,7 +159,7 @@ html {
     .featured-knovio {
       display: -ms-grid;
       display: grid;
-      -ms-grid-columns: minmax(0, 1fr) [2];
+      -ms-grid-columns: repeat(2, minmax(0, 1fr));
       grid-template-columns: repeat(2, minmax(0, 1fr));
       -webkit-box-align: start;
       -ms-flex-align: start;
@@ -1437,14 +1437,12 @@ span.showcase-description p {
           position: relative;
           font-family: "Graphik", Arial, sans-serif;
           color: #000000;
-          grid-column: 1 / span 4;
+          grid-column: auto / span 4;
 
-          &:first-child {
-            grid-column: 1 / span 2;
-          }
-
-          &:nth-child(2) {
-            grid-column: 3 / span 2;
+          &:nth-child(2),
+          &:nth-child(3) {
+            grid-column: auto / span 2;
+            order: -1;
           }
 
           > span,
