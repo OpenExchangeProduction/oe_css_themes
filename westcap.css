@@ -480,11 +480,116 @@ h5 {
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area {
   padding: 1.5rem 1.25rem;
   padding-bottom: 3rem;
+  /* more details link for non-link tiles */
+  /* open link for link tiles */
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate {
   height: min-content;
   min-height: unset;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header)::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  align-self: flex-end;
+  margin: 1.25rem 0;
+  transform: scaleX(1.25);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon {
+  display: block;
+  padding: 0;
+  width: 100%;
+  right: unset;
+  top: unset;
+  font-size: 1.3rem;
+  order: 3;
+  color: var(--card-text-color) !important;
+  margin-top: 0;
+  padding: 0;
+  filter: brightness(1);
+  transition: filter .2s ease, padding .2s ease;
+  text-decoration: none;
+  position: relative;
+  align-self: flex-end;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon:after {
+  opacity: 1;
+  content: '\276F';
+  position: relative;
+  left: .5rem;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon:hover {
+  filter: brightness(0.8);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon:before {
+  content: "More Details";
+  font-family: var(--primary-font);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header {
+  margin: 0;
+  justify-content: flex-end;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: visible;
+  height: 100% !important;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100% !important;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: transparent;
+  z-index: 1;
+  transform: scaleX(1.25);
+  margin-top: auto;
+  order: 2;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a::after {
+  display: block;
+  padding: 0;
+  width: 100%;
+  right: unset;
+  top: unset;
+  font-size: 1.3rem;
+  order: 3;
+  color: var(--card-text-color) !important;
+  padding: 0;
+  filter: brightness(1);
+  transition: filter .2s ease, padding .2s ease;
+  text-decoration: none;
+  position: relative;
+  align-self: flex-end;
+  content: "Open Now \276F";
+  font-family: var(--primary-font);
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover {
+  filter: brightness(0.8);
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title,

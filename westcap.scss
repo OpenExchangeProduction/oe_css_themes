@@ -515,6 +515,113 @@ h5 {
             height: min-content;
             min-height: unset;
           }
+
+          /* more details link for non-link tiles */
+          .tile-header-ellipsis:not(.link-header) {
+            &::after {
+              display: block;
+              content: '';
+              width: 100%;
+              height: 2px;
+              background: transparent;
+              align-self: flex-end;
+              margin: 1.25rem 0;
+              transform: scaleX(1.25);
+            }
+
+            .post-details-icon {
+              display: block;
+              padding: 0;
+              width: 100%;
+              right: unset;
+              top: unset;
+              font-size: 1.3rem;
+              order: 3;
+              color: var(--card-text-color) !important;
+              margin-top: 0;
+              padding: 0;
+              filter: brightness(1);
+              transition: filter .2s ease, padding .2s ease;
+              text-decoration: none;
+              position: relative;
+              align-self: flex-end;
+
+              &:after {
+                opacity: 1;
+                content: '\276F'; // right chevron
+                position: relative;
+                left: .5rem;
+              }
+
+              &:hover {
+                filter: brightness(0.8);
+              }
+
+              &:before {
+                content: "More Details";
+                font-family: var(--primary-font);
+              }
+            }
+          }
+
+          /* open link for link tiles */
+          .link-header {
+            margin: 0;
+            justify-content: flex-end;
+
+            .tile-title {
+              width: 100%;
+              margin: 0;
+              position: relative;
+              overflow: visible;
+              height: 100% !important;
+
+              a {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                position: relative;
+                height: 100% !important;
+                justify-content: flex-end;
+                gap: 1rem;
+
+                &:before {
+                  display: block;
+                  content: '';
+                  width: 100%;
+                  height: 1px;
+                  background: transparent;
+                  z-index: 1;
+                  transform: scaleX(1.25);
+                  margin-top: auto;
+                  order: 2;
+                }
+
+                &::after {
+                  display: block;
+                  padding: 0;
+                  width: 100%;
+                  right: unset;
+                  top: unset;
+                  font-size: 1.3rem;
+                  order: 3;
+                  color: var(--card-text-color) !important;
+                  padding: 0;
+                  filter: brightness(1);
+                  transition: filter .2s ease, padding .2s ease;
+                  text-decoration: none;
+                  position: relative;
+                  align-self: flex-end;
+                  content: "Open Now \276F";
+                  font-family: var(--primary-font);
+                }
+
+                &:hover {
+                  filter: brightness(0.8);
+                }
+              }
+            }
+          }
         }
 
         .tile-title,
