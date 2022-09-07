@@ -817,7 +817,7 @@ span.showcase-description p {
 
     > div {
       margin: 0;
-      background: rgba(0,54,87,1);
+      background: #031937;
       overflow-y: auto;
       width: 100%;
       display: flex;
@@ -828,10 +828,10 @@ span.showcase-description p {
         text-align: left;
         color: #ffffff;
         font-size: 1.75rem;
-        font-weight: 300;
+        font-weight: 400;
         margin-bottom: 1rem;
         padding-top: 1rem;
-        border-top: 1px solid #fff;
+        border-top: 1px solid rgba(255,255,255,.3);
         width: 100%;
         display: flex;
         align-items: center;
@@ -883,7 +883,7 @@ span.showcase-description p {
         width: 100%;
         padding-top: 1.25rem;
         padding-bottom: 2rem;
-        border-top: 1px solid var(--primary-color);
+        border-top: 1px solid rgba(255,255,255,.3);
 
         .form-group {
           grid-column: auto / span 2;
@@ -920,12 +920,13 @@ span.showcase-description p {
           input, select {
             position: relative;
             z-index: 1;
-            background-color: #ffffff;
-            border: 1px solid #e3e3e3;
+            background-color: #071529;
+            border: 1px solid rgba(255,255,255,.3);
+            color: #ffffff;
             transition: z-index .15s ease-in-out, background-color .15s ease-in-out;
 
             &:focus {
-              background-color: #fff;
+              background-color: #071529;
               box-shadow: none;
               -webkit-box-shadow: none;
             }
