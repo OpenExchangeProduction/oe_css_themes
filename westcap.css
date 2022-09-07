@@ -517,6 +517,7 @@ h5 {
   right: unset;
   top: unset;
   font-size: 1rem;
+  font-weight: 300;
   order: 3;
   color: #000000 !important;
   margin-top: 0;
