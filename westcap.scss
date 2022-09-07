@@ -527,6 +527,10 @@ h5 {
               align-self: flex-end;
               margin: 1.25rem 0;
               transform: scaleX(1.25);
+
+              @media screen and (max-width: 976px) and (min-width: 550px) {
+                margin: .5rem 0;
+              }
             }
 
             .post-details-icon {
@@ -535,9 +539,9 @@ h5 {
               width: 100%;
               right: unset;
               top: unset;
-              font-size: 1.3rem;
+              font-size: 1rem;
               order: 3;
-              color: #031937 !important;
+              color: #071529 !important;
               margin-top: 0;
               padding: 0;
               filter: brightness(1);
@@ -595,6 +599,10 @@ h5 {
                   transform: scaleX(1.25);
                   margin-top: auto;
                   order: 2;
+
+                  @media screen and (max-width: 976px) and (min-width: 550px) {
+                    display: none;
+                  }
                 }
 
                 &::after {
@@ -603,9 +611,9 @@ h5 {
                   width: 100%;
                   right: unset;
                   top: unset;
-                  font-size: 1.3rem;
+                  font-size: 1rem;
                   order: 3;
-                  color: #031937 !important;
+                  color: #071529 !important;
                   padding: 0;
                   filter: brightness(1);
                   transition: filter .2s ease, padding .2s ease;
@@ -614,11 +622,14 @@ h5 {
                   align-self: flex-end;
                   content: "Open Now \276F";
                   font-family: "Boston", arial, sans-serif;
-                  margin-top: 1rem;
                 }
 
                 &:hover {
                   filter: brightness(0.8);
+                }
+
+                @media screen and (max-width: 976px) and (min-width: 550px) {
+                  justify-content: center;
                 }
               }
             }

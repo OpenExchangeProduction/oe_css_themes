@@ -500,15 +500,21 @@ h5 {
   transform: scaleX(1.25);
 }
 
+@media screen and (max-width: 976px) and (min-width: 550px) {
+  #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header)::after {
+    margin: .5rem 0;
+  }
+}
+
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon {
   display: block;
   padding: 0;
   width: 100%;
   right: unset;
   top: unset;
-  font-size: 1.3rem;
+  font-size: 1rem;
   order: 3;
-  color: #031937 !important;
+  color: #071529 !important;
   margin-top: 0;
   padding: 0;
   filter: brightness(1);
@@ -569,15 +575,21 @@ h5 {
   order: 2;
 }
 
+@media screen and (max-width: 976px) and (min-width: 550px) {
+  #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
+    display: none;
+  }
+}
+
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a::after {
   display: block;
   padding: 0;
   width: 100%;
   right: unset;
   top: unset;
-  font-size: 1.3rem;
+  font-size: 1rem;
   order: 3;
-  color: #031937 !important;
+  color: #071529 !important;
   padding: 0;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -586,11 +598,16 @@ h5 {
   align-self: flex-end;
   content: "Open Now \276F";
   font-family: "Boston", arial, sans-serif;
-  margin-top: 1rem;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover {
   filter: brightness(0.8);
+}
+
+@media screen and (max-width: 976px) and (min-width: 550px) {
+  #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
+    justify-content: center;
+  }
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-title,
