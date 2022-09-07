@@ -1188,3 +1188,8 @@ footer .container .footer-container p:not(:last-child) {
   height: 100%;
   width: 100%;
 }
+
+#page-top .single-post .post .tile-area .tile-text h2,
+.single-post .post .tile-area .tile-text .tile-navigation-link .navigation-link-title .title {
+  color: #ffffff !important;
+}
