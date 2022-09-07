@@ -644,6 +644,10 @@ h5 {
   color: #ffffff !important;
 }
 
+#page-top .column-view-item:hover .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header)::after {
+  background: rgba(255, 255, 255, 0.8);
+}
+
 #page-top .newLabel {
   z-index: 3;
 }

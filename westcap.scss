@@ -671,6 +671,10 @@ h5 {
       .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header) .post-details-icon:after {
         color: #ffffff !important;
       }
+
+      .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header)::after {
+        background: rgba(255,255,255,.8);
+      }
     }
   }
 
