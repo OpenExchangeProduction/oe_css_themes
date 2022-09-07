@@ -479,7 +479,7 @@ h5 {
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area {
   padding: 1.5rem 1.25rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   /* more details link for non-link tiles */
   /* open link for link tiles */
 }
@@ -508,7 +508,7 @@ h5 {
   top: unset;
   font-size: 1.3rem;
   order: 3;
-  color: var(--primary-color) !important;
+  color: #031937 !important;
   margin-top: 0;
   padding: 0;
   filter: brightness(1);
@@ -577,7 +577,7 @@ h5 {
   top: unset;
   font-size: 1.3rem;
   order: 3;
-  color: var(--primary-color) !important;
+  color: #031937 !important;
   padding: 0;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -586,6 +586,7 @@ h5 {
   align-self: flex-end;
   content: "Open Now \276F";
   font-family: "Boston", arial, sans-serif;
+  margin-top: 1rem;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover {
