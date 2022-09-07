@@ -485,8 +485,12 @@ h5 {
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate {
-  height: min-content;
   min-height: unset;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  column-gap: 0;
 }
 
 #page-top .column-view-item .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis:not(.link-header)::after {

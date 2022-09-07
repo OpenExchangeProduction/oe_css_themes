@@ -512,8 +512,12 @@ h5 {
           padding-bottom: 1rem;
 
           .post-details-activate {
-            height: min-content;
             min-height: unset;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: flex-end;
+            column-gap: 0;
           }
 
           /* more details link for non-link tiles */
