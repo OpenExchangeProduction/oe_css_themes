@@ -1403,6 +1403,10 @@ form .mt-3 {
   justify-content: center;
 }
 
+form .mt-3 .py-4:empty {
+  display: none;
+}
+
 form .mt-3 > .flex {
   align-items: center;
   flex-wrap: wrap;

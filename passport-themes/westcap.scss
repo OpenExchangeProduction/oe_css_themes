@@ -1417,6 +1417,10 @@ form {
     flex-direction: column;
     justify-content: center;
 
+    .py-4:empty {
+      display: none;
+    }
+
     > .flex {
       align-items: center;
       flex-wrap: wrap;
