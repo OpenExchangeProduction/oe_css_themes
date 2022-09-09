@@ -957,6 +957,12 @@ span.showcase-description p {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
 
       h3 {
         font-family: "Boston", Arial, sans-serif;
