@@ -444,6 +444,7 @@ h5 {
   height: auto;
   float: none;
   background: none;
+  background-color: #ffffff;
 }
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link {
@@ -791,12 +792,6 @@ h5 {
   position: absolute;
   z-index: 0;
   right: 0;
-}
-
-@media screen and (max-width: 640px) {
-  #page-top #url-auth-suffix ~ header .container.header-container .row > .col-xs-12:before {
-    background: rgba(0, 54, 87, 0.75) !important;
-  }
 }
 
 span.showcase-description p {

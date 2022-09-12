@@ -493,6 +493,7 @@ h5 {
         height: auto;
         float: none;
         background: none;
+        background-color: #ffffff;
 
         .thumb-link {
           background-color: #ffffff;
@@ -816,10 +817,6 @@ h5 {
   position: absolute;
   z-index: 0;
   right: 0;
-
-  @media screen and (max-width: 640px) {
-    background: rgba(0,54,87,.75) !important;
-  }
 }
 
 span.showcase-description p {
