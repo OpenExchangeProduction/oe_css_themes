@@ -1,0 +1,56 @@
+<p class="message-selector">selector</p>
+
+<script>
+  var counter = 0;
+
+  function defer(callback) {
+      if (window.jQuery) {
+          callback();
+      } else {
+          if (counter < 10000) {
+              setTimeout(() => { defer(callback) }, 50);
+              counter++;
+          } else {
+              throw new Error("RTE - JQuery Timeout");
+              return;
+          }
+      }
+  }
+
+  var callback = function () {
+    var selector = document.querySelector('.message-selector');
+    var rte = selector.closest('.featured-category');
+    rte.classList.add("hide");
+    // also add the speakers class to the speakers category
+    $('header').prepend('<div id="message-bar"><p>We are deeply saddened by the passing of Queen Elizabeth II and send our condolences to the Royal Family, as we join citizens across the UK, the Commonwealth and world in mourning.</p></div>');
+  }
+
+  defer(callback);
+</script>
+
+<style>
+  .featured-category.hide {
+    display: none;
+  }
+
+  #message-bar {
+    margin-top: 2rem;
+    padding: 1.25rem 2rem;
+    text-align: center;
+    background: #000000;
+  }
+
+  #message-bar p {
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    #message-bar {
+      margin-top: 0;
+    }
+    #page-top {
+      padding-top: 84px !important;
+    }
+  }
+</style>

@@ -2672,3 +2672,8 @@ footer .footer-container p {
   max-height: unset;
   max-width: unset;
 }
+
+#page-top .header-container .row .col-xs-12 img.showcase-banner {
+  width: 100%;
+  max-width: 100%;
+}
