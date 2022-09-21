@@ -377,6 +377,7 @@ p {
   box-shadow: 0.125rem 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.13);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 #page-top .list-view-item .post .thumb-wrapper:hover {
