@@ -492,6 +492,8 @@ p {
 #page-top .column-view-item .post .thumb-wrapper .thumb-link {
   position: relative;
   padding: 56.25% 0 0;
+  max-height: none;
+  max-width: none;
 }
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link .thumb::after {
