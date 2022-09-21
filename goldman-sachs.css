@@ -1,0 +1,831 @@
+@font-face {
+  font-family: "Sabon Roman";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/0c383408-07cc-4a22-8fce-424d5f4e1b71/content/assets/templates/template_background/sabon_1613404024346/sabon_a07ca1f9-6f27-4de1-8f3b-a3e0e1a30f8d.ttf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=x9N0e4kULz5sDOqDKCPxU%2FWcDPI%3D");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GS Univers";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/0c383408-07cc-4a22-8fce-424d5f4e1b71/content/assets/templates/template_background/GS_Univers___Normal_woff2_1613405080630/GS_Univers___Normal_53b656ff-5991-4fe4-b1bf-e7b535644758.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MARKJxiYaPGnb1i%2FOCAd9zGTyag%3D");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GS Univers";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/0c383408-07cc-4a22-8fce-424d5f4e1b71/content/assets/templates/template_background/GS_Univers___300_woff2_1613405102349/GS_Univers___300_f441a50c-93fa-4f25-92a3-2c45c471f798.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=%2BztjMo9ARwxDBPjBgHJMg4mZxHg%3D");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GS Univers";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/0c383408-07cc-4a22-8fce-424d5f4e1b71/content/assets/templates/template_background/GS_Univers___500_woff2_1613405123026/GS_Univers___500_75539f5b-1740-46e0-b4c2-3c33348ca927.woff2?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Pbl4xJKC%2F1n3NRus0Ci%2BitiwNWA%3D");
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px;
+}
+
+body,
+p {
+  font-family: "GS Univers";
+  font-size: 1rem;
+}
+
+#page-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  padding-top: 6rem;
+}
+
+#page-top #main_navigation .navbar-brand {
+  height: 6rem;
+  padding: 1rem;
+}
+
+#page-top #main_navigation .navbar-brand .showcase-logo {
+  max-height: 4rem;
+}
+
+#page-top #main_navigation #main_navigation_collapse {
+  margin-top: 1.1875rem;
+}
+
+@media screen and (min-width: 768px) {
+  #page-top #main_navigation #main_navigation_collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse;
+  }
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav:nth-of-type(2) li > a {
+  padding-top: 0.375rem;
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group a,
+#page-top #main_navigation #main_navigation_collapse .nav:nth-of-type(2) li > .btn-group button {
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  font-family: "GS Univers", sans-serif;
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav #search-btn {
+  width: 1.625rem;
+  height: 1.625rem;
+  margin: 0 0.9375rem;
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav #search-btn .fa-search {
+  font-size: 1.625rem;
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav #user-options-dropdown {
+  margin-top: -0.125rem;
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav #user-options-dropdown .dropdown-toggle {
+  padding: 0 0.9375rem;
+}
+
+#page-top > .container:not(.login-container) {
+  max-width: 100%;
+  width: 100%;
+  padding: 4.5rem 1rem;
+  margin: 0 auto;
+  background: #393B52 !important;
+  -webkit-box-shadow: 0 0.625rem 1.25rem 0.5rem gray;
+  box-shadow: 0 0.625rem 1.25rem 0.5rem gray;
+}
+
+#page-top > .container:not(.login-container) .featured-knovio {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  max-width: 104rem;
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #page-top > .container:not(.login-container) .featured-knovio {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page-top > .container:not(.login-container) .featured-knovio {
+    max-width: 45.875rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #page-top > .container:not(.login-container) .featured-knovio {
+    max-width: 59rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #page-top > .container:not(.login-container) .featured-knovio {
+    max-width: 65.875rem;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  #page-top > .container:not(.login-container) .featured-knovio {
+    max-width: 84.625rem;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  #page-top > .container:not(.login-container) .featured-knovio {
+    max-width: 103.375rem;
+  }
+}
+
+#page-top > .container:not(.login-container) .featured-knovio .featured-knovio-post {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-height: none;
+  height: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#page-top > .container:not(.login-container) .featured-knovio .featured-knovio-post .KnowledgeVisionEmbeddedContent {
+  position: relative;
+  width: 100%;
+  height: 0 !important;
+  padding: 56.25% 0 0;
+}
+
+#page-top > .container:not(.login-container) .featured-knovio .featured-knovio-post .KnowledgeVisionEmbeddedContent iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#page-top > .container:not(.login-container) .featured-knovio .featured-knovio-info {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+@media screen and (min-width: 768px) {
+  #page-top > .container:not(.login-container) .featured-knovio .featured-knovio-info > * {
+    padding-left: 1rem;
+  }
+}
+
+#page-top > .container:not(.login-container) .featured-knovio .featured-knovio-info .featured-knovio-title {
+  color: white;
+}
+
+#page-top > .container:not(.login-container) .featured-knovio .featured-knovio-info .featured-knovio-description {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  #page-top > .container:not(.login-container) .featured-knovio .featured-knovio-info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-bottom: 0;
+  }
+}
+
+#page-top #showcase_category {
+  height: auto;
+  display: block;
+  padding-bottom: 0;
+}
+
+#page-top .featured-category {
+  margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: none;
+  overflow: visible;
+}
+
+#page-top .featured-category > .container:not(.posts) .row {
+  margin: 0;
+}
+
+#page-top .featured-category > .container:not(.posts) .row .col-xs-9 {
+  padding: 0;
+}
+
+#page-top .featured-category > .container:not(.posts) .row .col-xs-9 .featured-category-title-link {
+  pointer-events: none;
+}
+
+#page-top .featured-category > .container:not(.posts) .row .col-xs-9 .featured-category-title-link .showcase-title {
+  padding: 0;
+  margin-bottom: 2rem;
+  font-family: "GS Univers", sans-serif;
+  font-size: 1rem;
+  color: #393B52 !important;
+}
+
+#page-top .featured-category > .container:not(.posts) .row .col-xs-2 {
+  display: none;
+}
+
+#page-top .featured-category .carousel .row {
+  position: relative;
+}
+
+#page-top .featured-category .carousel .row .carousel-inner {
+  overflow: visible;
+}
+
+#page-top .list-view-item .post .thumb-wrapper .thumb-link .thumb, #page-top .column-view-item .post .thumb-wrapper .thumb-link .thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: none;
+  max-width: none;
+  height: auto;
+  width: 100%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#page-top .list-view-item .post .thumb-wrapper .thumb-link .thumb:hover, #page-top .column-view-item:hover .post .thumb-wrapper .thumb-link .thumb {
+  position: absolute;
+  top: calc(-3.125rem * 9 / 16);
+  left: -3.125rem;
+  bottom: calc(-3.125rem * 9 / 16);
+  right: -3.125rem;
+  width: calc(100% + 6.25rem);
+}
+
+#page-top .list-view-item {
+  margin-top: 4rem;
+  padding: 0 0.9375rem;
+}
+
+#page-top .list-view-item:first-of-type {
+  margin-top: 0;
+}
+
+#page-top .list-view-item .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 991px) {
+  #page-top .list-view-item .post {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-flow: column !important;
+    flex-flow: column !important;
+  }
+  #page-top .list-view-item .post .thumb-wrapper {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+  #page-top .list-view-item .post .thumb-meta-wrapper {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+#page-top .list-view-item .post:not([data-verifier="0"]) .post-details-activate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  pointer-events: none;
+}
+
+#page-top .list-view-item .post:not([data-verifier="0"]) .post-details-activate .post-details-icon {
+  position: static;
+  display: block !important;
+  height: 0;
+  width: 11.25rem;
+  margin-top: 1.5rem;
+  padding-bottom: 3rem;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  pointer-events: all;
+}
+
+#page-top .list-view-item .post:not([data-verifier="0"]) .post-details-activate .post-details-icon:hover::before {
+  background: #393B52;
+}
+
+#page-top .list-view-item .post:not([data-verifier="0"]) .post-details-activate .post-details-icon::before {
+  content: "View Session Info";
+  padding: 0.75rem 1.5rem;
+  font-family: "GS Univers", Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white !important;
+  color: black;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+#page-top .list-view-item .post .thumb-wrapper {
+  position: static;
+  display: block;
+  /*width: 25%;*/
+  height: auto;
+  -webkit-box-shadow: 0.125rem 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0.125rem 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.13);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#page-top .list-view-item .post .thumb-wrapper:hover {
+  -webkit-box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
+}
+
+#page-top .list-view-item .post .thumb-wrapper .thumb-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 70% 0 0;
+  overflow: hidden;
+  max-width: unset;
+}
+
+#page-top .list-view-item .post .thumb-wrapper .thumb-link .play-hover-button {
+  pointer-events: none;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper {
+  width: 75%;
+  height: auto;
+  margin: 0;
+  padding-left: 4rem;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area {
+  padding: 0;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title,
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title a {
+  font-family: "GS Univers", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #393B52 !important;
+  pointer-events: none;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title:hover,
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title a:hover {
+  color: #393B52 !important;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .tile-title {
+  height: auto !important;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .page-description {
+  margin-top: 1rem;
+}
+
+#page-top .list-view-item .post .thumb-meta-wrapper .tile-text-area .post-details-activate .page-description .list-page-description {
+  overflow: visible;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+#page-top .column-view-item {
+  padding: 0;
+  margin: 0 1rem 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  #page-top .column-view-item {
+    width: calc(100% - 2rem);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page-top .column-view-item {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #page-top .column-view-item {
+    width: calc(33% - 2rem);
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #page-top .column-view-item {
+    width: calc(25% - 2rem);
+  }
+}
+
+#page-top .column-view-item .post {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0.125rem 0.1875rem 0.4375rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0.125rem 0.1875rem 0.4375rem 0 rgba(0, 0, 0, 0.13);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+#page-top .column-view-item .post:hover {
+  -webkit-box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0.625rem 0.75rem 2.125rem 0 rgba(0, 0, 0, 0.13);
+}
+
+#page-top .column-view-item .post .thumb-wrapper {
+  position: static;
+  width: 100%;
+  height: auto;
+  float: none;
+}
+
+#page-top .column-view-item .post .thumb-wrapper .thumb-link {
+  position: relative;
+  padding: 56.25% 0 0;
+}
+
+#page-top .column-view-item .post .thumb-wrapper .thumb-link .thumb::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://view.knowledgevision.com/thumbnail/1e14e9f8c70a4c9f8702bdda0b6921cb") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper {
+  height: 7.5rem;
+  float: none;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-title,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-title a {
+  height: auto !important;
+  font-family: "GS Univers", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #393B52;
+}
+
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-title:hover,
+#page-top .column-view-item .post .thumb-meta-wrapper .tile-title a:hover {
+  color: #393B52;
+}
+
+#page-top #url-auth-suffix ~ header {
+  padding-top: 0;
+}
+
+#page-top #url-auth-suffix ~ header .header-container {
+  max-width: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#page-top #url-auth-suffix ~ header .header-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row {
+  margin: 0;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 {
+  position: relative;
+  padding: 0;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-banner {
+  max-width: none;
+  width: 100%;
+  max-height: 25rem;
+  height: 25rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767px) {
+  #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+    width: 45.875rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+    width: 59rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+    width: 65.875rem;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+    width: 84.625rem;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description {
+    width: 103.375rem;
+  }
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(1) {
+  margin-bottom: 1.25rem;
+  font-size: 3rem;
+  line-height: 1em;
+  font-weight: 450;
+  color: black;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(2) {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: black;
+  padding-left: 8px;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(3) {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(3) a {
+  padding: 0.5rem 1rem;
+  border: 0.0625rem black solid;
+  color: black !important;
+  background: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: text-decoration 0.3s, border 0.3s;
+  transition: text-decoration 0.3s, border 0.3s;
+}
+
+#page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(3) a:hover {
+  text-decoration: underline !important;
+  border: 0.0625rem solid white !important;
+}
+
+.modal #postDetailsImage {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal #postMetadataTitle {
+  overflow: visible;
+}
+
+.modal #postMetadataTitle .post-details-title {
+  color: #393B52;
+}
+
+.modal .details-speaker-metadata {
+  color: #393B52;
+}
+
+.modal #postDetailsMetadata,
+.modal #postDetailsDescription {
+  display: none;
+}
+
+.login-container {
+  max-width: 100%;
+  width: 100%;
+  font-family: "GS Univers", sans-serif;
+}
+
+.login-container::after {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/0c383408-07cc-4a22-8fce-424d5f4e1b71/subaccount/dad3046c-b316-4711-876a-f99b0a848c15/content/assets/templates/template_background/Website_background_1920x1080_no_1661265062583/Website_background_1920x1080_no_1c1100bc-e538-4eac-918b-d2b3a3a28228.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=bcdUuCTEGl48FwE5RE%2BfscNjT5E%3D") no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.login-container > .row {
+  position: relative;
+  margin-top: 1.5625rem !important;
+  z-index: 1;
+}
+
+.login-container > .row > * {
+  padding: 0.9375rem;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.login-container > .row .col-lg-6 {
+  padding-top: 0;
+}
+
+.login-container > .row img {
+  max-width: 100% !important;
+  width: 100%;
+  max-height: none !important;
+  height: 100%;
+}
+
+.login-container > .row h3 {
+  display: none;
+}
+
+.login-container > .row label {
+  font-weight: normal;
+}
+
+.login-container > .row .form-group:last-of-type::before {
+  content: "Your Personal Data: Goldman Sachs will collect and process information about you in connection with your attendance at the event. Your information may be transferred throughout the Goldman Sachs group worldwide and shared with third parties who will be providing us with services in relation to the event or third parties which are otherwise participating in the event (e.g. co-hosts, other attendees and /or their respective organisations). For more information about how Goldman Sachs uses your personal data, how we protect your information, our legal basis to use your information, your rights and points of contact, please refer to: www.gs.com/privacy-notices.";
+  display: block;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.login-container > .row .btn-primary {
+  padding: 0.75rem 1.5rem;
+  font-family: "GS Univers", Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: #393B52 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.login-container > .row .btn-primary:hover {
+  background: #50444E !important;
+}
+
+.newLabel {
+  z-index: 10;
+}
+
+.modal #postMetadataTitle {
+  max-height: none;
+}
+
+.modal #postDetailsDescription,
+.modal #contentMetadataSPEAKER {
+  pointer-events: none;
+}
+
+/*.modal #postDetailsCaret,*/
+/*.modal #postContentMetadataCaretSPEAKER {*/
+/*    display: none;*/
+/*}*/
+span.post-details-caret.glyphicon.glyphicon-triangle-right {
+  display: none;
+}
+
+.modal #contentMetadataSPEAKER .content-metadata-details-list {
+  display: block;
+  height: auto !important;
+}
+
+.modal .details-speaker-container {
+  height: unset;
+}
+
+.modal .details-speaker-image-wrapper {
+  display: none;
+}
+
+.modal .details-speaker-metadata {
+  margin-left: 0;
+}
+
+.modal #postDetailsDescription #postDetailsDescriptionButton, .modal #contentMetadataSPEAKER .content-metadata-details-button {
+  pointer-events: none;
+}
+
+.modal #contentMetadataSPEAKER .details-speaker-container .details-speaker-metadata {
+  max-height: unset;
+  overflow: visible;
+}
+
+.modal #contentMetadataSPEAKER .details-speaker-container .details-speaker-description {
+  pointer-events: all;
+  margin-left: 0;
+}
+
+.showcase-description p a[target=_blank] {
+  color: #fff !important;
+  font-weight: 400;
+  border: 2px solid #fff;
+  padding: 0.7rem;
+  display: inline-block;
+  border-radius: 4px;
+  background: #0e595c;
+  text-decoration: none;
+}
+
+.post-details-description-button {
+  font-weight: 600 !important;
+}
+
+#detailsSPEAKERPreview {
+  display: none;
+}
+
+#page-top header {
+  display: block !important;
+}
+
+.nav-category-link {
+  padding: 0 !important;
+  margin-right: 10px !important;
+}
+
+#page-top #main_navigation #main_navigation_collapse .nav #search-btn {
+  margin-top: 20px !important;
+}
