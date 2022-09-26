@@ -318,9 +318,10 @@ html {
 }
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link {
-  padding: 1.5rem 0;
+  padding: 0;
   border: 2px solid #6987b9;
   max-width: none;
+  max-height: none;
 }
 
 #page-top .column-view-item .post .thumb-wrapper .thumb-link::after {
