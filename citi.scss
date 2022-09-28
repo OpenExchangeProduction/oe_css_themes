@@ -2652,3 +2652,9 @@ footer {
   width: 100%;
   max-width: 100%;
 }
+
+@media (max-width: 768px) {
+  #main_navigation .dropdown-menu {
+    background-color: white;
+  }
+}
