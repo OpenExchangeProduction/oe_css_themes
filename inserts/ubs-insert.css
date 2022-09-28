@@ -1,18 +1,19 @@
 @import url("https://openexchangeproduction.github.io/oe_css_themes/ubs.css");
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) {
+
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 2) {
   grid-column: auto / span 1;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 2) {
   height: 100%;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5)::after {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 2)::after {
   content: none;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) .post {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 2) .post {
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -31,7 +32,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-wrapper {
     display: none;
@@ -66,7 +67,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-wrapper:hover::after {
   opacity: 1;
@@ -79,7 +80,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-wrapper
 .thumb-link {
@@ -94,7 +95,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-wrapper
 .thumb-link
@@ -107,7 +108,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper {
   float: none !important;
@@ -125,7 +126,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area {
@@ -138,7 +139,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area
@@ -158,7 +159,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area
@@ -174,7 +175,7 @@
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area
@@ -194,7 +195,7 @@ a {
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area
@@ -211,7 +212,7 @@ a::after {
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area
@@ -225,7 +226,7 @@ a::after {
 ~ #showcase_category
 .container.posts
 > .row
-.list-view-item:nth-of-type(-n + 5)
+.list-view-item:nth-of-type(-n + 2)
 .post
 .thumb-meta-wrapper
 .tile-text-area
@@ -235,6 +236,6 @@ a::after {
   font: 400 0.875rem/1.25rem "Frutiger" !important;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 5) .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 2) .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
   font-weight: lighter !important;
 }
