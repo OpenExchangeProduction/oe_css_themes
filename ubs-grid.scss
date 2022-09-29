@@ -533,19 +533,19 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group {
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type {
     padding-bottom: 0.5rem;
   }
+}
+
+#page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button > .glyphicon {
+  margin-left: .25rem;
 }
 
 #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group a,
 #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button {
   font: 300 0.875rem/1.25rem var(--font-sans) !important;
   padding: 0;
-}
-
-#page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group > a {
-  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -569,6 +569,7 @@ html {
   width: 1rem;
   font-size: 0;
   margin: 0;
+  margin-bottom: 0.5rem;
   padding: 0;
 }
 
