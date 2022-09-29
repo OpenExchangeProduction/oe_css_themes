@@ -1411,6 +1411,7 @@ button
 #page-top #showcase_category.groups .list-view-item .post .thumb-meta-wrapper .link-header .tile-title {
   font: 400 1rem/1.5rem var(--font-sans) !important;
   color: #1c1c1c !important;
+  height: auto;
 }
 
 #page-top
@@ -1446,6 +1447,7 @@ button
 
 #page-top #showcase_category.groups .list-view-item.group-header .thumb-meta-wrapper .tile-text-area .tile-title a {
   font: 300 2rem/2.5rem var(--font-sans) !important;
+  height: auto;
 }
 
 #page-top
