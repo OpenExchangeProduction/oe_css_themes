@@ -1,0 +1,79 @@
+<script>
+  function defer(method) {
+      if (window.jQuery) {
+          method();
+      } else {
+          console.log("Deferred");
+          setTimeout(function () { defer(method) }, 50);
+      }
+  }
+
+  function createGroup(arr, $target) {
+      var $outer = $("<div />", {
+          class: "group-outer",
+      }).appendTo($target);
+      var $inner = $("<div />", {
+          class: "group-inner",
+      }).appendTo($outer);
+
+      $inner.append(arr);
+  }
+
+  window.onload = function () {
+      defer(function () {
+          // Feature Categories
+          $(".featured-category").each((i, elem) => {
+              var $elem = $(elem);
+              if ($elem.find(".showcase-description script").length) {
+                  $elem.css("display", "none");
+              } else {
+                  $elem.css("display", "block");
+              }
+          });
+
+          // GROUPS
+          var $parent = $("#showcase_category .container.posts > .row");
+          var $list_items = $parent.children('.list-view-item');
+          $parent.children('script').remove();
+
+          var current = new Array();
+
+          $list_items.each(function (i, j) {
+              var $list_item = $(j);
+              var $post = $list_item.find("> .post");
+              var $image = $list_item.find(".thumb");
+
+              if (($post.attr("data-verifier") == 0) && ($image.attr("src").includes("default-showcase"))) {
+                  $list_item.addClass("group-header");
+
+                  if (current.length == 0) {
+                      current.push($list_item);
+                  } else {
+                      createGroup(current, $parent);
+
+                      current = new Array();
+                      current.push($list_item);
+                  }
+              } else {
+                  current.push($list_item);
+              }
+          });
+
+          if (current.length > 0) {
+              createGroup(current, $parent);
+              $("#showcase_category").addClass("groups");
+          }
+
+          $("#showcase_category").show();
+      });
+  }
+</script>
+<style type="text/css">
+  .featured-category {
+        display: none;
+    }
+
+    #showcase_category {
+        display: none;
+    }
+  </style>
