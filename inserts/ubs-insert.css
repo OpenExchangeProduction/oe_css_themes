@@ -1,6 +1,8 @@
 @import url("https://openexchangeproduction.github.io/oe_css_themes/ubs.css");
 
 
+/* this is for the buttons under the banner */
+
 #page-top #url-auth-suffix ~ #showcase_category .container.posts > .row .list-view-item:nth-of-type(-n + 2) {
   grid-column: auto / span 1;
 }
