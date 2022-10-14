@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * @author          Zachary Rosfjord
  * @last-update     Oct. 29, 2021
@@ -1832,389 +1833,209 @@ button
   }
 }
 
-#page-top .container.login-container::before,
-#page-top #showcase_category.groups .container.posts > .row .group-outer .login-container.group-inner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: -1;
+#page-top .featured-category h3.showcase-title,
+.login-container .col-lg-6 > h3 {
+  font-weight: 300;
+  font-size: 2rem !important;
+  line-height: 2rem !important;
 }
 
-#page-top .container.login-container > .row,
-#page-top #showcase_category.groups .container.posts > .row .group-outer .login-container.group-inner > .row {
-  margin: 0 !important;
-  isolation: isolate;
+.login-container .col-lg-6 > p,
+.login-container .col-lg-6 form .form-group .form-control {
+  font-weight: 300;
+  font-size: 0.85rem !important;
+  line-height: 1.2rem !important;
+  color: black;
 }
 
-#page-top .container.login-container > .row .col-lg-6,
-#page-top #showcase_category.groups .container.posts > .row .group-outer .login-container.group-inner > .row .col-lg-6 {
-  position: relative;
+.login-container .col-lg-6 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr minmax(10rem, 26.25rem) 1fr;
-  grid-template-columns: 1fr minmax(10rem, 26.25rem) 1fr;
-  -ms-grid-rows: min-content;
-  grid-template-rows: -webkit-min-content;
-  grid-template-rows: min-content;
-  gap: 1rem;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row dense;
+  gap: 0.5rem;
   width: 100%;
-  height: 100%;
-  margin: 0 !important;
+  margin-left: 0;
+}
+
+.login-container .col-lg-6 > .row {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.login-container .col-lg-6 > .row img {
+  max-width: 50rem !important;
+  width: 100%;
+  max-height: none !important;
+}
+
+.login-container .col-lg-6 > h3 {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  text-align: left;
+}
+
+.login-container .col-lg-6 > p {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  margin-bottom: 0;
+}
+
+.login-contianer .col-lg-6 h3 {
+  display: none;
+}
+
+.login-container .col-lg-6 > p:empty {
+  display: none;
+}
+
+.login-container .col-lg-6 > p[style*='margin-left'] {
+  max-height: 100px;
+  overflow-y: auto;
+  margin: 0 0 1rem !important;
   padding: 1rem;
+  border: 1px solid #d7d7d7;
+  line-height: 1.2 !important;
+  font-size: 12px !important;
 }
 
-@media screen and (min-width: 992px) {
-  #page-top .container.login-container > .row .col-lg-6,
-  #page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6 {
-    -ms-grid-columns: minmax(10rem, 26.25rem) 1fr;
-    grid-template-columns: minmax(10rem, 26.25rem) 1fr;
-    padding: 0;
-  }
+.login-container .col-lg-6 > p[style*='margin-left'] a {
+  line-height: 1.2 !important;
+  font-size: 12px !important;
 }
 
-#page-top .container.login-container > .row .col-lg-6::after,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  padding-top: 56.25%;
-  background-image: var(--img-login);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -2;
+.login-container .col-lg-6 form {
+  /*-ms-grid-row: 3;*/
+  /*grid-row: 3;*/
 }
 
-@media screen and (min-width: 992px) {
-  #page-top .container.login-container > .row .col-lg-6::after,
-  #page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6::after {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2 / 3;
-  }
-}
-
-#page-top .container.login-container > .row .col-lg-6::before,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6::before {
-  content: "";
-  position: absolute;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2 / 3;
-  top: 1rem;
-  left: 0;
-  width: 100%;
-  height: calc(100% - 2rem);
-  background-color: white;
-  z-index: -1;
-}
-
-@media screen and (min-width: 992px) {
-  #page-top .container.login-container > .row .col-lg-6::before,
-  #page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6::before {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1 / 2;
-    top: 0;
-    height: 100%;
-  }
-}
-
-#page-top .container.login-container > .row .col-lg-6 h3.text-center,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-h3.text-center {
-  display: none;
-}
-
-#page-top .container.login-container > .row .col-lg-6 p,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-p {
-  font: 400 1rem/1.5rem var(--font-sans) !important;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2 / 3;
-  margin: 0;
-  padding: 0 2rem 0;
-}
-
-@media screen and (min-width: 992px) {
-  #page-top .container.login-container > .row .col-lg-6 p,
-  #page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-p {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1 / 2;
-    padding: 0 !important;
-  }
-}
-
-#page-top .container.login-container > .row .col-lg-6 p:empty,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-p:empty {
-  display: none;
-}
-
-#page-top .container.login-container > .row .col-lg-6 p:nth-of-type(2),
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-p:nth-of-type(2) {
-  font: 300 2.375rem/2.75rem var(--font-sans) !important;
-  padding: 2rem 2rem 0;
-}
-
-#page-top .container.login-container > .row .col-lg-6 form,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 1rem;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2 / 3;
-  padding: 0 2rem 2rem;
-}
-
-@media screen and (min-width: 992px) {
-  #page-top .container.login-container > .row .col-lg-6 form,
-  #page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1 / 2;
-    padding: 0;
-  }
-}
-
-#page-top .container.login-container > .row .col-lg-6 form .form-group,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group {
-  font: 400 0.875rem/1.25rem var(--font-sans) !important;
-  margin: 0;
+.login-container .col-lg-6 form .form-group {
   padding: 0.5rem;
+  margin-bottom: 1.6875rem;
+  border: 1px solid #d7d7d7;
 }
 
-#page-top .container.login-container > .row .col-lg-6 form .form-group:nth-last-child(n + 4),
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group:nth-last-child(n + 4) {
-  border: 0.0625rem #d7d7d7 solid;
+.login-container .col-lg-6 form .form-group label {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1rem;
+  color: #444;
 }
 
-#page-top .container.login-container > .row .col-lg-6 form .form-group label,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group
-label {
-  font: 400 0.75rem/1rem var(--font-sans) !important;
-  color: #646464 !important;
-}
-
-#page-top .container.login-container > .row .col-lg-6 form .form-group input,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group
-input {
-  font: 400 1rem/1.5rem var(--font-sans) !important;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+.login-container .col-lg-6 form .form-group .form-control {
+  height: auto;
+  padding: 0;
+  border: none;
+  border-bottom: 1px #d7d7d7 solid;
   -webkit-box-shadow: none;
   box-shadow: none;
+  color: #444;
+}
+
+.login-container .col-lg-6 form .form-group .form-control:focus {
+  border-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: black !important;
+}
+
+.login-container .col-lg-6 form .form-group .btn-primary {
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-color: #444;
+  background: #444;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.login-container .col-lg-6 form .form-group .btn-primary:hover {
+  background: #000;
+  border-color: #000;
+}
+
+.login-container .col-lg-6 form .form-group:nth-last-child(1),
+.login-container .col-lg-6 form .form-group:nth-last-child(2) {
+  padding: 0;
+  margin: 0;
   border: none;
-  border-radius: 0;
-  border-bottom: 0.0625rem #1c1c1c solid;
 }
 
-#page-top .container.login-container > .row .col-lg-6 form .form-group:nth-last-child(2),
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group:nth-last-child(2) {
-  font: 400 0.75rem/1rem var(--font-sans) !important;
-  padding: 0;
+.login-container .col-lg-6 form .form-group:nth-last-child(2) {
+  margin-bottom: 1.6875rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #444;
 }
 
-#page-top .container.login-container > .row .col-lg-6 form .form-group:nth-last-child(1),
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group:nth-last-child(1) {
-  padding: 0;
+@media screen and (max-width: 991px) {
+  .login-container .col-lg-6 form {
+    position: relative;
+  }
 }
 
-#page-top .container.login-container > .row .col-lg-6 form .form-group button,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group
-button {
-  font: 400 1rem/1.5rem var(--font-sans) !important;
-  display: block;
-  width: -webkit-min-content;
-  width: -moz-min-content;
+@media screen and (max-width: 991px) {
+  .login-container .col-lg-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+#page-top .login-container .row .text-center img {
+  max-width: 100% !important;
+}
+
+.login-container .btn-primary {
+  background: #e60000 !important;
+  border-color: #e60000 !important;
+}
+
+#page-top .login-container .col-lg-6 .form-group:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-top .login-container .col-lg-6 .form-group:last-child button {
+  order: 1;
   width: min-content;
-  padding: 0.5rem 1rem;
-  white-space: nowrap;
-  border-radius: 0.125rem;
-  background: hsl(var(--clr-accent-h), var(--clr-accent-s), var(--clr-accent-l));
-  color: #fff !important;
-  text-decoration: none !important;
-  border: none;
+  align-self: center;
 }
 
-#page-top .container.login-container > .row .col-lg-6 form .form-group button:hover,
-#page-top
-#showcase_category.groups
-.container.posts
-> .row
-.group-outer
-.login-container.group-inner
-> .row
-.col-lg-6
-form
-.form-group
-button:hover {
-  background: hsl(var(--clr-accent-h), var(--clr-accent-s), calc(var(--clr-accent-l) - 10%));
+#page-top .login-container .col-lg-6 .form-group:last-child::before {
+  content: "Legal Note:";
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.2;
+  order: 0;
+}
+
+#page-top .login-container .col-lg-6 .form-group:last-child::after {
+  content: "This presentation is prepared by UBS AG and/or any of its subsidiaries and/or any of its affiliates (“UBS”).\a\aThe views and opinions expressed during this presentation are those of the respective speakers and may not be those of UBS. Such views and opinions are subject to change without notice and may differ or be contrary to opinions expressed by other business areas or groups of UBS as a result of using different assumptions and criteria.\a\aThis presentation may be recorded and the recording may be distributed or otherwise made available online on the UBS website or other UBS digital channels or streams as long as UBS determines to serve the overall information and training purposes for intended audiences.\a\aBy logging on and participating in this presentation, participants expressly agree that (1) personally identifiable information of participants may be heard, seen, read, collected, or used by UBS as the organizer and other participants; (2) any communication or information transmitted during the presentation, such as voice and live instant messaging displaying names of those intervening are available to the participants and are also recorded for UBS’s further promotion and information purposes; (3) UBS may further use the information available during this presentation such as invitee lists, attendee logs, the Content and the recording thereof; and (4) UBS may contact participants via telephone and/or e-mail, including for its own marketing purposes\a\aUBS takes your privacy seriously. For general information about how UBS uses and discloses personal data, how long we retain it, how we keep it secure and your data protection rights, please see our Privacy Statemen (found at https://www.ubs.com/global/en/legalinfo2/privacy.html). For EU residents, kindly also refer to the Privacy Notice for your country of residence (found under Additional Legal Information) for specific information and disclosures related to data protection relevant to your country.\a\aThis presentation and related materials and discussions (collectively, the “Content”) have been prepared, and are provided, for general information purposes only. The Content has not been prepared with regard to the specific investment objectives, financial situation or particular needs of any specific audience or participant. The participant should not construe the Content as legal, tax, accounting, regulatory, or other specialist or technical advice or services or investment advice or a personal recommendation. No representation or warranty, either express or implied, and including the warranties of merchantability and fitness for a particular purpose, is provided in relation to the accuracy, completeness or reliability of the Content, nor is it intended to be a complete statement or summary of the events or developments referred to in this presentation. It should not be regarded by participants as a substitute for the exercise of their own judgment. UBS is under no obligation to update or keep the Content current or up-to-date, and past performance is not necessarily indicative of future results.\a\aNeither UBS nor any of its directors, officers, employees or agents accepts any liability for any loss or damage arising out of the use of all or any part of this presentation or the Content or reliance upon all or any part thereof.\a\aUBS is making this presentation electronically available, on condition that participants will not copy, distribute, share or further reproduce any or all of the Content in any way without UBS’s prior consent.\a\a© UBS 2022. The key symbol and UBS are among the registered and unregistered trademarks of UBS. All rights reserved.";
+  white-space: pre-wrap;
+  text-align: left;
+  display: block;
+  margin: 1rem 0;
+  max-height: 100px;
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 0.5rem;
+  overflow-y: auto;
+  border: 1px solid #d7d7d7;
+  order: 0;
+  color: #999999 !important;
 }
