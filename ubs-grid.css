@@ -1280,7 +1280,7 @@ button
 .posts.group-inner
 > .row
 .group-outer:nth-child(odd) {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 #page-top #showcase_category.groups .container.posts > .row .group-outer .group-inner {
