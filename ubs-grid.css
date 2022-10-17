@@ -2039,3 +2039,17 @@ button
   order: 0;
   color: #999999 !important;
 }
+
+#page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button {
+  font: 400 1rem/1.25rem var(--font-sans) !important;
+}
+
+#page-top .column-view-item .post .thumb-wrapper .thumb-link {
+  max-width: unset;
+  max-height: unset;
+}
+
+h1.search-title,
+#page-top.single-post h2#page-title {
+  margin-top: 2rem !important;
+}
