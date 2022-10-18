@@ -1,4 +1,33 @@
 @import url("https://use.typekit.net/ltv5ran.css");
+
+@mixin aspect-ratio-image($x, $y) {
+  padding-bottom: unquote( ( $y / $x ) * 100 + '%' );
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+
+  img:not(.play-hover-button),
+  iframe,
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    left: 0;
+    top: 0;
+    object-fit: contain;
+    object-position: center;
+    max-width: unset;
+    max-height: unset;
+  }
+}
+
+@mixin grid($count, $space, $gap) {
+  display: grid;
+  grid-template-columns: repeat($count, minmax(0, $space));
+  gap: $gap;
+}
+
 html {
   font-size: 16px;
 }
