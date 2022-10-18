@@ -500,6 +500,13 @@ header .header-container .row > .col-xs-12 .showcase-title {
   display: block;
 }
 
+#url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description p {
+  color: white;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: .5rem;
+}
+
 @media (max-width: 1050px) {
   #url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description {
     margin: 0 7.5%;
