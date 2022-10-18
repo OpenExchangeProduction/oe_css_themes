@@ -500,7 +500,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
   display: block;
 }
 
-#url-auth-suffix ~ header .header-container .row > .col-xs-12 .showcase-description p {
+#custom-fields-data + #main_navigation + header .header-container .row > .col-xs-12 .showcase-description p {
   color: white;
   line-height: 1.5;
   display: block;
