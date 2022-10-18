@@ -1070,3 +1070,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
 #page-top #showcase_category {
   display: block;
 }
+
+#page-top #custom-fields-data + #main_navigation + header .header-container .showcase-title {
+  margin: 0;
+}

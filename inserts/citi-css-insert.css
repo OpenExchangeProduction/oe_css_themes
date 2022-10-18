@@ -8,7 +8,6 @@
   --header-button-hover: #002D72;
   --login-image-anchor: bottom left;
   --banner-image-anchor: top right;
-  --clip-image: url('https://openexc.s3-us-west-2.amazonaws.com/vector-shape.svg');
   --top-padding: 124px; /* change this to 66px if there is no navigation */
 }
 
