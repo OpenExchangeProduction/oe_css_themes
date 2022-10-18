@@ -853,6 +853,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
   margin: 0;
   color: #2e2e2e;
   grid-column: auto / span 2;
+  overflow-x: hidden;
 }
 
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-text-area {
