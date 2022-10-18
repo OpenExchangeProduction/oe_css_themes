@@ -433,7 +433,7 @@ html {
   transition: all 0.3s ease-in;
 }
 
-#page-top h1, #page-top h2, #page-top h3, #page-top h4, #page-top h5, #page-top h6, #page-top p, #page-top span, #page-top div, #page-top a {
+#page-top h1, #page-top h2, #page-top h3, #page-top h4, #page-top h5, #page-top h6, #page-top p, #page-top span:not(.glyphicon), #page-top div, #page-top a {
   font-family: raleway, Arial, Helvetica, sans-serif;
 }
 
@@ -945,6 +945,10 @@ header .header-container .row > .col-xs-12 .showcase-title {
     overflow: visible;
     background: #fbfbfb;
 
+    &:first-of-type {
+      padding-top: 0;
+    }
+
     > .container:not(.posts) {
       .row {
         margin: 0;
@@ -1072,6 +1076,10 @@ header .header-container .row > .col-xs-12 .showcase-title {
           }
         }
       }
+    }
+
+    .showcase-title, a:not(.navigation-link-title):not(.disabled), button.btn-link, .share-icon, .favorite-icon, .carousel-control {
+      color: #003a56 !important;
     }
   }
 }
