@@ -641,7 +641,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
 
 @media all and (min-width: 1200px) {
   #page-top .container {
-    max-width: 87.5rem;
+    max-width: 81.5rem;
   }
 }
 
@@ -1082,4 +1082,8 @@ header .header-container .row > .col-xs-12 .showcase-title {
       color: #003a56 !important;
     }
   }
+}
+
+#page-top #showcase_category {
+  display: block;
 }

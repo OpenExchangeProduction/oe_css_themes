@@ -612,7 +612,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
 
 @media all and (min-width: 1200px) {
   #page-top .container {
-    max-width: 87.5rem;
+    max-width: 81.5rem;
   }
 }
 
@@ -1064,4 +1064,8 @@ header .header-container .row > .col-xs-12 .showcase-title {
 
 #page-top .featured-category .showcase-title, #page-top .featured-category a:not(.navigation-link-title):not(.disabled), #page-top .featured-category button.btn-link, #page-top .featured-category .share-icon, #page-top .featured-category .favorite-icon, #page-top .featured-category .carousel-control {
   color: #003a56 !important;
+}
+
+#page-top #showcase_category {
+  display: block;
 }
