@@ -930,9 +930,13 @@ header .header-container .row > .col-xs-12 .showcase-title {
   width: 100%;
 }
 
+#page-top .featured-category > .container:not(.posts) .row .col-xs-9 .featured-category-title-link {
+  padding-left: 0;
+}
+
 #page-top .featured-category > .container:not(.posts) .row .col-xs-9 .featured-category-title-link .showcase-title {
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: .75rem;
   font-family: "Raleway", Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
