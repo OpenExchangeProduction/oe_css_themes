@@ -2073,6 +2073,7 @@ h1.search-title,
   #page-top #main_navigation .nav > li > button,
   #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button {
     margin-bottom: .75rem;
+    padding: 0;
   }
   #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type {
     flex-wrap: wrap;
