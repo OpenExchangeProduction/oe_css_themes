@@ -2488,3 +2488,12 @@ h1.search-title,
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 767px) {
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown {
+    padding: 0.5rem 1rem;
+  }
+  #main_navigation .nav > li > button {
+    padding: 0;
+  }
+}
