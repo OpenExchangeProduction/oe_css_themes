@@ -2068,3 +2068,13 @@ h1.search-title,
     font-size: .85rem !important;
   }
 }
+
+@media (max-width: 1061px) and (min-width: 768px) {
+  #page-top #main_navigation .nav > li > button,
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button {
+    margin-bottom: .75rem;
+  }
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type {
+    flex-wrap: wrap;
+  }
+}
