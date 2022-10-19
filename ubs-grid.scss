@@ -492,10 +492,6 @@ html {
   }
 }
 
-#page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:first-of-type {
-  margin-bottom: 0.5rem;
-}
-
 #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:last-of-type {
   -webkit-box-ordinal-group: 1;
   -ms-flex-order: 0;
@@ -2461,4 +2457,23 @@ html {
 h1.search-title,
 #page-top.single-post h2#page-title {
     margin-top: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right:first-of-type {
+    position: absolute !important;
+    right: 0;
+    top: 3%;
+    right: 15%;
+  }
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button {
+    font: 400 .85rem/1.25rem var(--font-sans) !important;
+  }
+  #page-top #main_navigation > .container-fluid .navbar-collapse .navbar-right > li.dropdown .btn-group button > .glyphicon {
+    height: .85rem;
+    width: .85rem;
+  }
+  #main_navigation .nav > li > button {
+    font-size: .85rem !important;
+  }
 }
