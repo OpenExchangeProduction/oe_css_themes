@@ -924,7 +924,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
 }
 
 #page-top .featured-category:first-of-type {
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 #page-top .featured-category > .container:not(.posts) .row {
