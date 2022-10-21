@@ -1081,3 +1081,7 @@ header .header-container .row > .col-xs-12 .showcase-title {
   margin: 0;
   padding-top: 0;
 }
+
+#page-top .featured-category .column-view-item > .post > .thumb-meta-wrapper > .tile-text-area .tile-header-ellipsis {
+  height: unset !important;
+}
